@@ -418,7 +418,7 @@ export default function HowItWorksPage() {
                 href="/enquiry"
                 className="inline-flex items-center gap-2 bg-primary text-white text-sm font-semibold px-6 py-3 rounded-full shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all"
               >
-                Get Free Consultation
+                Get My Free First Consultation
                 <ArrowRight size={16} />
               </Link>
               <a
@@ -596,7 +596,7 @@ export default function HowItWorksPage() {
               Take the First Step Toward Affordable, World-Class Care
             </h2>
             <p className="text-blue-100 leading-relaxed mb-8">
-              Submit your details and receive a free medical opinion and cost estimate within
+              Submit your details and receive your first medical opinion and cost estimate — complimentary, within
               24–48 hours. No obligation. No pressure.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
@@ -604,7 +604,7 @@ export default function HowItWorksPage() {
                 href="/enquiry"
                 className="inline-flex items-center gap-2 bg-white text-primary text-sm font-bold px-7 py-3.5 rounded-full shadow-xl hover:shadow-2xl hover:scale-[1.02] transition-all"
               >
-                Get Free Consultation
+                Get My Free First Consultation
                 <ArrowRight size={16} />
               </Link>
               <a

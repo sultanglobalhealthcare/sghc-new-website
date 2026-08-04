@@ -122,7 +122,7 @@ const faqSchema = {
       name: 'Can I get a second opinion from an oncologist abroad before committing to treatment?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Absolutely. Sultan GHC facilitates free second medical opinions from our network oncologists. Simply submit your medical reports, scans, and biopsy results, and we will arrange a remote review within 24–48 hours — at no cost and no obligation.',
+        text: 'Absolutely. Sultan GHC facilitates a complimentary first medical opinion from our network oncologists. Simply submit your medical reports, scans, and biopsy results, and we will arrange a remote review within 24–48 hours — your first consultation is at no cost and no obligation.',
       },
     },
     {
@@ -224,7 +224,7 @@ const FAQS = [
   },
   {
     q: 'Can I get a second opinion from an oncologist abroad before committing to treatment?',
-    a: 'Absolutely. Sultan GHC facilitates free second medical opinions from our network oncologists. Simply submit your medical reports, scans, and biopsy results, and we will arrange a remote review within 24–48 hours — at no cost and no obligation.',
+    a: 'Absolutely. Sultan GHC facilitates a complimentary first medical opinion from our network oncologists. Simply submit your medical reports, scans, and biopsy results, and we will arrange a remote review within 24–48 hours — your first consultation is at no cost, no obligation.',
   },
   {
     q: 'What types of cancer are treated at your partner hospitals?',
@@ -299,7 +299,7 @@ export default function OncologyPage() {
 
               {/* Trust chips */}
               <div className="flex flex-wrap gap-2 mb-8">
-                {['JCI-Accredited Hospitals', 'Free Second Opinion', 'Dedicated Oncology Case Manager', 'No Waiting Lists'].map((tag) => (
+                {['JCI-Accredited Hospitals', 'Free First Opinion', 'Dedicated Oncology Case Manager', 'No Waiting Lists'].map((tag) => (
                   <span key={tag} className="inline-flex items-center gap-1.5 text-xs font-medium bg-white border border-blue-100 text-gray-600 px-3 py-1.5 rounded-full shadow-sm">
                     <CheckCircle2 size={12} className="text-primary" />
                     {tag}
@@ -312,7 +312,7 @@ export default function OncologyPage() {
                   href="/enquiry"
                   className="inline-flex items-center gap-2 bg-primary text-white text-sm font-semibold px-6 py-3 rounded-full shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all"
                 >
-                  Get Free Cancer Consultation
+                  Get Your Free First Cancer Consultation
                   <ArrowRight size={16} />
                 </Link>
                 <a
@@ -345,7 +345,7 @@ export default function OncologyPage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { value: '60–80%', label: 'Cost savings vs. U.S. treatment', icon: DollarSign },
-              { value: '24–48hrs', label: 'Free second opinion turnaround', icon: Clock },
+              { value: '24–48hrs', label: 'Free first opinion turnaround', icon: Clock },
               { value: 'JCI', label: 'Accredited oncology hospitals only', icon: Shield },
               { value: '12+', label: 'Cancer types treated at our network', icon: Microscope },
             ].map(({ value, label, icon: Icon }) => (
@@ -744,7 +744,7 @@ export default function OncologyPage() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {[
             { step: '01', title: 'Submit Medical Reports', body: 'Share your pathology reports, imaging scans, and treatment history through our secure portal. No obligation at this stage.' },
-            { step: '02', title: 'Free Oncologist Review', body: 'Our network oncologists review your case within 24–48 hours and provide a second opinion and recommended treatment protocol.' },
+            { step: '02', title: 'Free First Oncologist Review', body: 'Our network oncologists review your case within 24–48 hours and provide a complimentary first opinion and recommended treatment protocol.' },
             { step: '03', title: 'Cost Estimate & Planning', body: 'Receive a transparent, itemised cost estimate with hospital options, doctor profiles, and duration of stay — no hidden fees.' },
             { step: '04', title: 'Visa & Travel Support', body: 'We obtain your medical visa invitation letter and guide you through the full visa application process for India or Turkey.' },
             { step: '05', title: 'Treatment & In-Person Care', body: 'Our on-ground team accompanies you through admission, treatment, and daily hospital visits to ensure your comfort.' },
@@ -818,11 +818,11 @@ export default function OncologyPage() {
               Start Your Journey
             </span>
             <h2 className="text-2xl sm:text-4xl font-semibold text-white mb-4 leading-tight">
-              Get a Free Cancer Treatment Second Opinion Within 48 Hours
+              Get Your Free First Cancer Opinion Within 48 Hours
             </h2>
             <p className="text-blue-100 leading-relaxed mb-8">
               Upload your medical reports and receive a personalised oncology review from
-              an internationally accredited specialist — at no cost, no commitment.
+              an internationally accredited specialist — your first review is at no cost, no commitment.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
               <Link

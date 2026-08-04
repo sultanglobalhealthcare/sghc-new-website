@@ -53,8 +53,8 @@ const Marquee = ({ title }) => {
       >
         {[...Array(15)].map((_, i) => (
           <React.Fragment key={i}>
-            <h1 className='text-lg font-bruno tracking-widest'>{title}</h1>
-            <img className='icon size-6' src='/arrow-up-right-01-sharp.svg' />
+            <span className='text-lg font-bruno tracking-widest'>{title}</span>
+            <img className='icon size-6' src='/arrow-up-right-01-sharp.svg' alt='' aria-hidden='true' />
           </React.Fragment>
         ))}
       </div>

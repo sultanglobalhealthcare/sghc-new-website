@@ -1,5 +1,6 @@
-import React from "react";
-
+import React from 'react'
+import Link from 'next/link'
+import { HugeiconsIcon } from '@hugeicons/react'
 import {
   AiBrain01Icon,
   Bone02Icon,
@@ -10,221 +11,138 @@ import {
   Plant01Icon,
   SpermIcon,
   UserAiIcon,
-} from "@hugeicons/core-free-icons/index";
-import { HugeiconsIcon } from "@hugeicons/react";
-import Badge from "@/components/Badge";
+} from '@hugeicons/core-free-icons/index'
+
+const TREATMENTS = [
+  {
+    title: 'Cardiology',
+    icon: HeartCheckIcon,
+    href: '/treatments/cardiology',
+    procedures: 'Bypass · Angioplasty · Valve Replacement · Robotic Heart Surgery',
+    color: 'blue',
+  },
+  {
+    title: 'Orthopedics',
+    icon: Bone02Icon,
+    href: '/treatments/orthopedics',
+    procedures: 'Hip Replacement · Knee Replacement · ACL · Spine Surgery',
+    color: 'violet',
+  },
+  {
+    title: 'Oncology',
+    icon: MicroscopeIcon,
+    href: '/treatments/oncology',
+    procedures: 'Breast Cancer · Lung Cancer · Cyberknife · Chemotherapy',
+    color: 'rose',
+  },
+  {
+    title: 'Neurology & Neurosurgery',
+    icon: AiBrain01Icon,
+    href: '/treatments/neurosurgery',
+    procedures: 'Brain Tumour · Stroke · Epilepsy · Nerve Injuries',
+    color: 'teal',
+  },
+  {
+    title: 'Transplants',
+    icon: LiverIcon,
+    href: '/treatments/organ-transplants',
+    procedures: 'Liver · Kidney · Heart · Bone Marrow Transplant',
+    color: 'emerald',
+  },
+  {
+    title: 'Cosmetic & Plastic Surgery',
+    icon: UserAiIcon,
+    href: '/treatments/cosmetic-plastic-surgery',
+    procedures: 'Body Contouring · Facial Upliftment · Liposuction',
+    color: 'amber',
+  },
+  {
+    title: 'IVF & Fertility',
+    icon: SpermIcon,
+    href: '/treatments/ivf-fertility',
+    procedures: 'IVF · IUI · ICSI · Egg Freezing · Surrogacy',
+    color: 'pink',
+  },
+  {
+    title: 'Dental Care',
+    icon: DentalCareIcon,
+    href: '/treatments/dental-care',
+    procedures: 'Implants · Smile Makeover · Root Canal · Orthodontics',
+    color: 'cyan',
+  },
+  {
+    title: 'Wellness & Ayurveda',
+    icon: Plant01Icon,
+    href: '/treatments/wellness',
+    procedures: 'Herbal Medicine · Detox · Nasal Therapy · Steam Therapy',
+    color: 'lime',
+  },
+]
+
+const COLOR = {
+  blue:   { bg: 'bg-blue-50',   border: 'border-blue-100',   icon: 'text-blue-500',   arrow: 'group-hover:text-blue-600'   },
+  violet: { bg: 'bg-violet-50', border: 'border-violet-100', icon: 'text-violet-500', arrow: 'group-hover:text-violet-600' },
+  rose:   { bg: 'bg-rose-50',   border: 'border-rose-100',   icon: 'text-rose-500',   arrow: 'group-hover:text-rose-600'   },
+  teal:   { bg: 'bg-teal-50',   border: 'border-teal-100',   icon: 'text-teal-500',   arrow: 'group-hover:text-teal-600'   },
+  emerald:{ bg: 'bg-emerald-50',border: 'border-emerald-100',icon: 'text-emerald-500',arrow: 'group-hover:text-emerald-600'},
+  amber:  { bg: 'bg-amber-50',  border: 'border-amber-100',  icon: 'text-amber-500',  arrow: 'group-hover:text-amber-600'  },
+  pink:   { bg: 'bg-pink-50',   border: 'border-pink-100',   icon: 'text-pink-500',   arrow: 'group-hover:text-pink-600'   },
+  cyan:   { bg: 'bg-cyan-50',   border: 'border-cyan-100',   icon: 'text-cyan-600',   arrow: 'group-hover:text-cyan-600'   },
+  lime:   { bg: 'bg-lime-50',   border: 'border-lime-100',   icon: 'text-lime-600',   arrow: 'group-hover:text-lime-600'   },
+}
 
 const Treatments = () => {
   return (
-    <>
-      <section className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 mt-32">
-        <Badge text="TREATMENTS"/>
-        <h1 className="mt-4 text-2xl font-medium sm:text-3xl font-bruno leading-snug">
-          OUR TREATMENT SPECIALITIES
-        </h1>
+    <section className="py-14 lg:py-20 bg-[#F5F7FA]">
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
 
-        <p className="mt-4 text-sm sm:text-base text-description max-w-lg">
-          We connect patients to advanced, reliable, and accredited medical
-          treatments across the world’s top healthcare destinations. From life
-          saving surgeries to restorative therapies, every treatment is
-          delivered with expertise, safety, and compassionate care.
-        </p>
+        {/* Header */}
+        <div className="flex flex-col lg:flex-row lg:items-end gap-6 mb-14">
+          <div className="flex-1">
+            <div className="inline-flex items-center gap-2 bg-blue-50 text-primary text-xs font-bold tracking-widest uppercase px-4 py-1.5 rounded-full mb-4">
+              Treatments
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
+              Our Treatment Specialities
+            </h2>
+          </div>
+          <div className="lg:max-w-sm">
+            <p className="text-base text-gray-500 leading-relaxed">
+              We connect patients to advanced, accredited medical treatments across the world's top
+              healthcare destinations — with expertise, safety, and compassionate care.
+            </p>
+            <Link href="/treatments" className="inline-flex items-center gap-1.5 text-primary font-semibold text-sm mt-3 hover:gap-3 transition-all">
+              View all treatments →
+            </Link>
+          </div>
+        </div>
 
-        {/* FIXED GRID */}
-<div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {TREATMENTS.map((t) => {
+            const c = COLOR[t.color]
+            return (
+              <Link
+                key={t.title}
+                href={t.href}
+                className={`group flex flex-col gap-4 p-7 rounded-2xl border ${c.border} ${c.bg} hover:shadow-lg hover:-translate-y-1 transition-all duration-300`}
+              >
+                <div className="flex items-start justify-between">
+                  <HugeiconsIcon icon={t.icon} size={28} className={c.icon} />
+                  <span className={`text-gray-300 text-lg transition-colors ${c.arrow}`}>→</span>
+                </div>
+                <div>
+                  <h3 className="font-bold text-gray-900 text-base mb-1.5">{t.title}</h3>
+                  <p className="text-xs text-gray-400 leading-relaxed">{t.procedures}</p>
+                </div>
+              </Link>
+            )
+          })}
+        </div>
 
-  {/* CARDIOLOGY */}
-  <div>
-    <div className="flex flex-col bg-primary/5 p-8 justify-between mt-3">
-      <HugeiconsIcon icon={HeartCheckIcon} className="text-primary" />
-      <h2 className="text-base mt-2 font-medium ">CARDIOLOGY</h2>
+      </div>
+    </section>
+  )
+}
 
-      <p className="text-sm text-description">
-        Cardiac Bypass 
-        <span className="text-black "> | </span>
-        Angioplasty 
-        <span className="text-black "> | </span>
-        Pacemaker Implantation 
-        <span className="text-black "> | </span>
-        Heart Valve Replacement 
-        <span className="text-black "> | </span>
-        Pediatric Heart Surgery 
-        <span className="text-black "> | </span>
-        Robotic Heart Surgery
-      </p>
-    </div>
-  </div>
-
-  {/* ORTHOPEDICS */}
-  <div>
-    <div className="flex flex-col bg-primary/5 p-8 justify-between mt-3">
-      <HugeiconsIcon icon={Bone02Icon} className="text-primary" />
-      <h2 className="text-base mt-2 font-medium">ORTHOPEDICS</h2>
-
-      <p className="text-sm text-description">
-        Shoulder Replacement
-        <span className="text-black "> | </span>
-        Hip Replacement
-        <span className="text-black "> | </span>
-        Knee Replacement
-        <span className="text-black "> | </span>
-        Ankle Replacement
-        <span className="text-black "> | </span>
-        ACL Reconstruction
-        <span className="text-black "> | </span>
-        Spine Surgery
-      </p>
-    </div>
-  </div>
-
-  {/* ONCOLOGY */}
-  <div>
-    <div className="flex flex-col bg-primary/5 p-8 justify-between mt-3">
-      <HugeiconsIcon icon={MicroscopeIcon} className="text-primary" />
-      <h2 className="text-base mt-2 font-medium">ONCOLOGY</h2>
-
-      <p className="text-sm text-description">
-        Brain Tumors
-        <span className="text-black "> | </span>
-        Breast Cancer
-        <span className="text-black "> | </span>
-        Lung Cancer
-        <span className="text-black "> | </span>
-        Liver Cancer
-        <span className="text-black "> | </span>
-        Cyberknife Radiotherapy
-        <span className="text-black "> | </span>
-        Chemotherapy
-      </p>
-    </div>
-  </div>
-
-  {/* NEUROLOGY & NEUROSURGERY */}
-  <div>
-    <div className="flex flex-col bg-primary/5 p-8 justify-between mt-3">
-      <HugeiconsIcon icon={AiBrain01Icon} className="text-primary" />
-      <h2 className="text-base mt-2 font-medium">NEUROLOGY & NEUROSURGERY</h2>
-      <p className="text-sm text-description">
-        Migraine
-        <span className="text-black "> | </span>
-        Stroke
-        <span className="text-black "> | </span>
-        Epilepsy
-        <span className="text-black "> | </span>
-        Seizures
-        <span className="text-black "> | </span>
-        Nerve Injuries
-        <span className="text-black "> | </span>
-        Brain Tumors
-      </p>
-    </div>
-  </div>
-
-  {/* TRANSPLANTS */}
-  <div>
-    <div className="flex flex-col bg-primary/5 p-8 justify-between mt-3">
-      <HugeiconsIcon icon={LiverIcon} className="text-primary" />
-      <h2 className="text-base mt-2 font-medium">TRANSPLANT</h2>
-
-      <p className="text-sm text-description">
-        Heart Transplant
-        <span className="text-black "> | </span>
-        Kidney Transplant
-        <span className="text-black "> | </span>
-        Liver Transplant
-        <span className="text-black "> | </span>
-        Bone Marrow Transplant
-        <span className="text-black "> | </span>
-        Hair Transplant
-      </p>
-    </div>
-  </div>
-
-  {/* COSMETICS & PLASTIC SURGERY */}
-  <div>
-    <div className="flex flex-col bg-primary/5 p-8 justify-between mt-3">
-      <HugeiconsIcon icon={UserAiIcon} className="text-primary" />
-      <h2 className="text-base mt-2 font-medium">COSMETICS & PLASTIC SURGERY</h2>
-
-      <p className="text-sm text-description">
-        Body Contouring
-        <span className="text-black "> | </span>
-        Facial Upliftment
-        <span className="text-black "> | </span>
-        Breast Upliftment
-        <span className="text-black "> | </span>
-        Liposuction
-      </p>
-    </div>
-  </div>
-
-  {/* FERTILITY TREATMENTS */}
-  <div>
-    <div className="flex flex-col bg-primary/5 p-8 justify-between mt-3">
-      <HugeiconsIcon icon={SpermIcon} className="text-primary" />
-      <h2 className="text-base mt-2 font-medium">FERTILITY TREATMENTS</h2>
-
-      <p className="text-sm text-description">
-        IVF
-        <span className="text-black "> | </span>
-        IVF with Donor Eggs
-        <span className="text-black "> | </span>
-        IUI
-        <span className="text-black "> | </span>
-        ICSI
-        <span className="text-black "> | </span>
-        Surrogacy
-        <span className="text-black "> | </span>
-        Egg Freezing
-      </p>
-    </div>
-  </div>
-
-  {/* DENTAL CARE */}
-  <div>
-    <div className="flex flex-col bg-primary/5 p-8 justify-between mt-3">
-      <HugeiconsIcon icon={DentalCareIcon} className="text-primary" />
-      <h2 className="text-base mt-2 font-medium">DENTAL CARE</h2>
-
-      <p className="text-sm text-description">
-        Smile Makeover
-        <span className="text-black "> | </span>
-        Teeth Whitening
-        <span className="text-black "> | </span>
-        Painless Root Canal
-        <span className="text-black "> | </span>
-        Orthodontics
-        <span className="text-black "> | </span>
-        Dental Implants
-        <span className="text-black "> | </span>
-        Cosmetic Dentistry
-      </p>
-    </div>
-  </div>
-
-  {/* WELLNESS & AYURVEDA */}
-  <div>
-    <div className="flex flex-col bg-primary/5 p-8 justify-between mt-3">
-      <HugeiconsIcon icon={Plant01Icon} className="text-primary" />
-      <h2 className="text-base mt-2 font-medium">WELLNESS & AYURVEDA</h2>
-      <p className="text-sm text-description">
-        Herbal Medicine
-        <span className="text-black "> | </span>
-        Nasal Therapy
-        <span className="text-black "> | </span>
-        Detoxifying Clay
-        <span className="text-black "> | </span>
-        Herbal Steam Therapy
-        
-      </p>
-    </div>
-  </div>
-</div>
-
-
-      </section>
-    </>
-  );
-};
-
-export default Treatments;
+export default Treatments
