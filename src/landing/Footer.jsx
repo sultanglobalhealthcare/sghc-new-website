@@ -14,20 +14,16 @@ const COMPANY_LINKS = [
   { name: 'About Sultan GHC',        href: '/about' },
   { name: 'Why Choose Sultan GHC',   href: '/why-sultan-ghc' },
   { name: 'How It Works',            href: '/how-it-works' },
-  { name: 'Patient Success Stories', href: '/patient-success-stories' },
-  { name: 'Testimonials',            href: '/testimonials' },
+  // { name: 'Patient Success Stories', href: '/patient-success-stories' },  // PLANNED — hidden until content is ready
+  // { name: 'Testimonials',            href: '/testimonials' },              // PLANNED — hidden until content is ready
   { name: 'Contact Us',              href: '/contact' },
 ]
 
 const TREATMENT_LINKS = [
-  { name: 'Cardiology',        href: '/treatments/cardiology' },
-  { name: 'Oncology',          href: '/treatments/oncology' },
-  { name: 'Orthopedics',       href: '/treatments/orthopedics' },
-  { name: 'Spine Surgery',     href: '/treatments/spine-surgery' },
-  { name: 'IVF & Fertility',   href: '/treatments/ivf-fertility' },
-  { name: 'Organ Transplants', href: '/treatments/organ-transplants' },
-  { name: 'Cosmetic Surgery',  href: '/treatments/cosmetic-plastic-surgery' },
-  { name: 'Dental Care',       href: '/treatments/dental-care' },
+  { name: 'Cardiology & Cardiac Surgery',        href: '/treatments/cardiology' },
+  { name: 'Oncology & Cancer Care',              href: '/treatments/oncology' },
+  { name: 'Orthopaedics & Joint Replacement',    href: '/treatments/orthopedics' },
+  { name: 'Dental Surgery & Implant Dentistry',  href: '/treatments/dental-surgery-implant-dentistry' },
 ]
 
 const HOSPITAL_LINKS = [
@@ -40,11 +36,18 @@ const DESTINATION_LINKS = [
   { name: 'Turkey', href: '/destinations/turkey' },
 ]
 
+const VISA_LINKS = [
+  { name: 'India Medical Visa Guide',  href: '/visa-guide/india' },
+  { name: 'Turkey Entry Guide',        href: '/visa-guide/turkey' },
+  { name: 'Cost Savings — India',      href: '/cost-savings/india' },
+  { name: 'Cost Savings — Turkey',     href: '/cost-savings/turkey' },
+]
+
 const RESOURCE_LINKS = [
   { name: 'Blog',                      href: '/blog' },
   { name: 'Medical Tourism Guide',     href: '/resources/medical-tourism-guide' },
   { name: 'Treatment Cost Comparison', href: '/resources/cost-comparison' },
-  { name: 'Patient Stories',           href: '/patient-stories' },
+  // { name: 'Patient Stories',        href: '/patient-stories' },  // PLANNED — hidden until content is ready
   { name: 'FAQs',                      href: '/faq' },
 ]
 
@@ -201,7 +204,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Hospitals + Destinations */}
+          {/* Hospitals + Destinations + Visa */}
           <div className="lg:col-span-2 space-y-7">
             <div>
               <FooterHeading>Hospitals</FooterHeading>
@@ -213,6 +216,12 @@ const Footer = () => {
               <FooterHeading>Destinations</FooterHeading>
               <div className="space-y-0.5">
                 {DESTINATION_LINKS.map((l) => <FooterLink key={l.href} href={l.href}>{l.name}</FooterLink>)}
+              </div>
+            </div>
+            <div>
+              <FooterHeading>Visa Guide</FooterHeading>
+              <div className="space-y-0.5">
+                {VISA_LINKS.map((l) => <FooterLink key={l.href} href={l.href}>{l.name}</FooterLink>)}
               </div>
             </div>
           </div>
