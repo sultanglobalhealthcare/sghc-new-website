@@ -40,7 +40,7 @@ export const metadata = {
     url: 'https://www.sultanghc.com/about',
     siteName: 'Sultan Global Health Care',
     type: 'website',
-    images: [{ url: 'https://www.sultanghc.com/og/about.jpg', width: 1200, height: 630, alt: 'About Sultan Global Health Care' }],
+    images: [{ url: 'https://www.sultanghc.com/api/og?title=About+Sultan+GHC&desc=U.S.-based+medical+tourism+concierge+connecting+American+patients+with+JCI-accredited+hospitals+in+India+%26+Turkey&cat=About+Us', width: 1200, height: 630, alt: 'About Sultan Global Health Care' }],
   },
   twitter: {
     card: 'summary_large_image',

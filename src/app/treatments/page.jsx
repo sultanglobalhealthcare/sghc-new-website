@@ -61,7 +61,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://www.sultanghc.com/og/treatments.jpg',
+        url: 'https://www.sultanghc.com/api/og?title=All+Medical+Treatments+Abroad&desc=19+specialties+in+India+%26+Turkey+at+60-90%25+less+than+U.S.+costs.+JCI-accredited+hospitals.&cat=Treatments',
         width: 1200,
         height: 630,
         alt: 'Medical Treatments Abroad — Sultan GHC',

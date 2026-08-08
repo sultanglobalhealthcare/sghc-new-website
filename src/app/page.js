@@ -25,7 +25,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/sghc-new-logo.png',
+        url: 'https://www.sultanghc.com/api/og?title=Trusted+Medical+Tourism+Concierge+for+U.S.+Patients&desc=JCI-accredited+hospitals+in+India+%26+Turkey.+Save+60-80%25+on+world-class+treatment.+Free+medical+opinion.',
         width: 1200,
         height: 630,
         alt: 'Sultan GHC — Medical Tourism Concierge for U.S. Patients',
@@ -37,7 +37,7 @@ export const metadata = {
     title: 'Sultan GHC | Medical Tourism Concierge — India & Turkey',
     description:
       'JCI-accredited hospitals, 60–80% savings, and a dedicated Case Manager. Trusted by U.S. patients seeking treatment in India and Turkey.',
-    images: ['/sghc-new-logo.png'],
+    images: ['https://www.sultanghc.com/api/og?title=Trusted+Medical+Tourism+Concierge+for+U.S.+Patients&desc=JCI-accredited+hospitals+in+India+%26+Turkey.+Save+60-80%25+on+world-class+treatment.'],
   },
   alternates: {
     canonical: 'https://www.sultanghc.com/',

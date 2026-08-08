@@ -28,7 +28,7 @@ export const metadata = {
     url: 'https://www.sultanghc.com/faq',
     siteName: 'Sultan Global Health Care',
     type: 'website',
-    images: [{ url: 'https://www.sultanghc.com/og/faq.jpg', width: 1200, height: 630, alt: 'Sultan GHC FAQ — Medical Tourism Questions Answered' }],
+    images: [{ url: 'https://www.sultanghc.com/api/og?title=Frequently+Asked+Questions&desc=Everything+U.S.+patients+need+to+know+about+medical+tourism+in+India+%26+Turkey.&cat=FAQ', width: 1200, height: 630, alt: 'Sultan GHC FAQ — Medical Tourism Questions Answered' }],
   },
   twitter: {
     card: 'summary_large_image',

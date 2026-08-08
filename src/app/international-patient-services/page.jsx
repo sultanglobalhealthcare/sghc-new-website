@@ -46,7 +46,7 @@ export const metadata = {
     url: 'https://www.sultanghc.com/international-patient-services',
     siteName: 'Sultan Global Health Care',
     type: 'website',
-    images: [{ url: 'https://www.sultanghc.com/og/international-patient-services.jpg', width: 1200, height: 630, alt: 'International Patient Services — Sultan GHC' }],
+    images: [{ url: 'https://www.sultanghc.com/api/og?title=International+Patient+Services&desc=End-to-end+care+coordination+for+U.S.+patients+seeking+treatment+in+India+%26+Turkey.&cat=Services', width: 1200, height: 630, alt: 'International Patient Services — Sultan GHC' }],
   },
   twitter: {
     card: 'summary_large_image',

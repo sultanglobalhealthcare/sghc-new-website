@@ -56,7 +56,7 @@ export const metadata = {
     url: 'https://www.sultanghc.com/destinations/india',
     siteName: 'Sultan Global Health Care',
     type: 'website',
-    images: [{ url: 'https://www.sultanghc.com/og/destinations-india.jpg', width: 1200, height: 630, alt: 'Medical Treatment in India — Sultan GHC' }],
+    images: [{ url: 'https://www.sultanghc.com/api/og?title=Medical+Treatment+in+India&desc=507%2C000+international+patients+chose+India+in+2025.+JCI-accredited+hospitals%2C+60-90%25+savings+vs+U.S.&cat=Destination+Guide', width: 1200, height: 630, alt: 'Medical Treatment in India — Sultan GHC' }],
   },
   twitter: {
     card: 'summary_large_image',

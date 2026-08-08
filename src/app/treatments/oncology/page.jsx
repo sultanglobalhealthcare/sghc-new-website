@@ -45,7 +45,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://www.sultanghc.com/og/oncology.jpg',
+        url: 'https://www.sultanghc.com/api/og?title=Oncology+%26+Cancer+Care+Abroad&desc=Chemotherapy%2C+radiation%2C+robotic+surgery+%26+immunotherapy+in+India+%26+Turkey.+Save+60-80%25.&cat=Oncology',
         width: 1200,
         height: 630,
         alt: 'Oncology Cancer Treatment Abroad — Sultan GHC',

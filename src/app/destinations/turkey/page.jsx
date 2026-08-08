@@ -56,7 +56,7 @@ export const metadata = {
     url: 'https://www.sultanghc.com/destinations/turkey',
     siteName: 'Sultan Global Health Care',
     type: 'website',
-    images: [{ url: 'https://www.sultanghc.com/og/destinations-turkey.jpg', width: 1200, height: 630, alt: 'Medical Treatment in Turkey — Sultan GHC' }],
+    images: [{ url: 'https://www.sultanghc.com/api/og?title=Medical+Treatment+in+Turkey&desc=Istanbul%27s+JCI-accredited+hospitals.+European+standards+at+60-80%25+lower+than+U.S.+costs.&cat=Destination+Guide', width: 1200, height: 630, alt: 'Medical Treatment in Turkey — Sultan GHC' }],
   },
   twitter: {
     card: 'summary_large_image',

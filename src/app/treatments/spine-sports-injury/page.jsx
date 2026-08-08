@@ -46,7 +46,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://www.sultanghc.com/og/spine-sports-injury.jpg',
+        url: 'https://www.sultanghc.com/api/og?title=Spine+%26+Sports+Injury+Surgery+Abroad&desc=Disc+replacement%2C+TLIF%2C+spinal+fusion+in+India+%26+Turkey.+Save+75-85%25+vs+U.S.&cat=Spine+Surgery',
         width: 1200,
         height: 630,
         alt: 'Spine Surgery & Sports Injury Treatment Abroad — Sultan GHC',

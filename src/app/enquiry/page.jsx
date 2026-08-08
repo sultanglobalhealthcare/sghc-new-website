@@ -13,9 +13,26 @@ import {
 // ── Constants ──────────────────────────────────────────────────────────────────
 
 const TREATMENTS = [
-  'Cardiology', 'Oncology', 'Orthopedics', 'Neurology',
-  'IVF & Fertility', 'Spine Surgery', 'Kidney Transplant',
-  'Liver Transplant', 'Bariatric Surgery', 'Other',
+  'Cardiology & Cardiac Surgery',
+  'Oncology & Cancer Care',
+  'Neurology',
+  'Neurosurgery',
+  'Orthopaedics & Joint Replacement',
+  'Spine & Sports Injury Surgery',
+  'Gastroenterology',
+  'Hepatology & Liver Care',
+  'Pulmonology & Respiratory Medicine',
+  'Urology & Urological Surgery',
+  'Obstetrics & Gynaecology',
+  'Fertility, IVF & Reproductive Medicine',
+  'Ophthalmology & Eye Surgery',
+  'ENT & Head-Neck Surgery',
+  'Bariatric & Metabolic Surgery',
+  'Robotic & Minimally Invasive Surgery',
+  'Organ & Bone Marrow Transplantation',
+  'Cosmetic, Hair Transplant & Plastic Surgery',
+  'Dental Surgery & Implant Dentistry',
+  'Other / Not Listed',
 ]
 
 const DESTINATIONS = [

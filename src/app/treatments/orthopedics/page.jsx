@@ -46,7 +46,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://www.sultanghc.com/og/orthopedics.jpg',
+        url: 'https://www.sultanghc.com/api/og?title=Orthopaedics+%26+Joint+Replacement+Abroad&desc=Knee+%26+hip+replacement%2C+spine+surgery+in+India+%26+Turkey.+Save+80-85%25+vs+U.S.&cat=Orthopaedics',
         width: 1200,
         height: 630,
         alt: 'Knee & Hip Replacement Surgery Abroad — Sultan GHC',

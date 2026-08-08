@@ -48,7 +48,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://www.sultanghc.com/og/dental-surgery.jpg',
+        url: 'https://www.sultanghc.com/api/og?title=Dental+Surgery+%26+Implants+Abroad&desc=Dental+implants%2C+full-arch+restoration%2C+veneers+in+India+%26+Turkey.+Save+60-80%25.&cat=Dental+Surgery',
         width: 1200,
         height: 630,
         alt: 'Dental Implants & Smile Makeover Abroad — Sultan GHC',

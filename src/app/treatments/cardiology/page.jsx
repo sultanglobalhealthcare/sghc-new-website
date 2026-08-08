@@ -50,7 +50,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://www.sultanghc.com/og/cardiology.jpg',
+        url: 'https://www.sultanghc.com/api/og?title=Cardiology+%26+Cardiac+Surgery+Abroad&desc=Heart+bypass%2C+valve+replacement%2C+angioplasty+in+India+%26+Turkey.+Save+75-90%25+vs+U.S.&cat=Cardiology',
         width: 1200,
         height: 630,
         alt: 'Heart Surgery & Cardiology Treatment Abroad — Sultan GHC',
