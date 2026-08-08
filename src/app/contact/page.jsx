@@ -1,88 +1,35 @@
+'use client'
+
+import { useState } from 'react'
+import { useForm } from 'react-hook-form'
 import Link from 'next/link'
 import {
   ChevronRight, ArrowRight, Phone, MessageCircle, Mail,
-  Clock, MapPin, Shield, Users, CheckCircle2,
+  Clock, MapPin, Shield, CheckCircle2, Send, Loader2, User, FileText,
 } from 'lucide-react'
 
-export const metadata = {
-  title: 'Contact Sultan GHC | Speak to a Patient Care Coordinator',
-  description:
-    'Contact Sultan Global Health Care — call, WhatsApp, or email our patient coordinators. Free case review, cost estimates, and hospital matching for U.S. patients seeking treatment in India or Turkey.',
-  keywords: [
-    'contact Sultan GHC',
-    'speak to patient coordinator medical tourism',
-    'Sultan GHC phone number',
-    'Sultan GHC WhatsApp',
-    'medical tourism concierge contact USA',
-    'contact medical tourism company India Turkey',
-  ],
-  openGraph: {
-    title: 'Contact Sultan GHC | Patient Care Coordinator',
-    description: 'Call, WhatsApp, or email our patient coordinators. Free case review and hospital matching for U.S. patients seeking treatment in India or Turkey.',
-    url: 'https://www.sultanghc.com/contact',
-    siteName: 'Sultan Global Health Care',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Contact Sultan GHC | Patient Care Coordinator',
-    description: 'Call, WhatsApp, or email our patient coordinators for free case review and hospital matching.',
-  },
-  alternates: { canonical: 'https://www.sultanghc.com/contact' },
-}
-
-const contactSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'ContactPage',
-  name: 'Contact Sultan Global Health Care',
-  description: 'Contact Sultan GHC to speak with a patient coordinator about medical treatment in India or Turkey.',
-  url: 'https://www.sultanghc.com/contact',
-  mainEntity: {
-    '@type': 'Organization',
-    name: 'Sultan Global Health Care',
-    telephone: '+1-610-787-0713',
-    email: 'info@sultanghc.com',
-    url: 'https://www.sultanghc.com',
-    contactPoint: [
-      {
-        '@type': 'ContactPoint',
-        telephone: '+1-610-787-0713',
-        contactType: 'customer service',
-        areaServed: 'US',
-        availableLanguage: 'English',
-        hoursAvailable: {
-          '@type': 'OpeningHoursSpecification',
-          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-          opens: '00:00',
-          closes: '23:59',
-        },
-      },
-    ],
-  },
-}
+// ── Contact methods ────────────────────────────────────────────────────────────
 
 const CONTACT_METHODS = [
   {
     icon: Phone,
-    label: 'Call Us',
+    label: 'Call us',
     value: '+1-610-787-0713',
-    detail: 'Mon–Fri 9 am–6 pm ET · Urgent cases 24/7',
+    detail: 'Mon–Fri · 9 am–6 pm ET',
     href: 'tel:+16107870713',
-    cta: 'Call Now',
-    color: 'bg-blue-50 border-blue-200',
+    color: 'bg-blue-50 border-blue-100',
+    iconBg: 'bg-blue-100',
     iconColor: 'text-blue-600',
-    ctaColor: 'bg-blue-600 hover:bg-blue-700 text-white',
   },
   {
     icon: MessageCircle,
     label: 'WhatsApp',
-    value: '+1-610-787-0713',
-    detail: 'Fastest response — usually within 1 hour',
+    value: 'Chat with us',
+    detail: 'Fastest — usually within 1 hour',
     href: 'https://wa.me/16107870713',
-    cta: 'Open WhatsApp',
-    color: 'bg-green-50 border-green-200',
+    color: 'bg-green-50 border-green-100',
+    iconBg: 'bg-green-100',
     iconColor: 'text-green-600',
-    ctaColor: 'bg-green-600 hover:bg-green-700 text-white',
     external: true,
   },
   {
@@ -91,24 +38,204 @@ const CONTACT_METHODS = [
     value: 'info@sultanghc.com',
     detail: 'Response within 24 hours',
     href: 'mailto:info@sultanghc.com',
-    cta: 'Send Email',
-    color: 'bg-primary/5 border-primary/20',
+    color: 'bg-primary/5 border-primary/15',
+    iconBg: 'bg-primary/10',
     iconColor: 'text-primary',
-    ctaColor: 'bg-primary hover:bg-primary/90 text-white',
   },
 ]
 
-const WHAT_HAPPENS = [
-  { n: '01', title: 'Coordinator reviews your case', desc: 'Within 24–48 hours of your message, a dedicated patient coordinator reviews your condition, reports, and requirements.' },
-  { n: '02', title: 'Hospital & specialist match', desc: 'We match you with the right JCI-accredited hospital and specialist based on your condition, budget, and preferred destination.' },
-  { n: '03', title: 'You receive a complete plan', desc: 'Treatment options, specialist profiles, cost estimates, visa guidance, and travel logistics — all in one document.' },
+const SUBJECTS = [
+  'General Inquiry',
+  'Treatment Inquiry',
+  'Request a Cost Estimate',
+  'Hospital or Doctor Information',
+  'Visa & Travel Assistance',
+  'Book a Consultation',
+  'Partnership or Referral',
+  'Other',
 ]
+
+// ── Form ──────────────────────────────────────────────────────────────────────
+
+function ContactForm() {
+  const [status, setStatus] = useState('idle') // idle | submitting | success | error
+
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm()
+
+  const onSubmit = async (data) => {
+    setStatus('submitting')
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      })
+      const json = await res.json()
+      if (json.success) {
+        setStatus('success')
+        reset()
+      } else {
+        setStatus('error')
+      }
+    } catch {
+      setStatus('error')
+    }
+  }
+
+  if (status === 'success') {
+    return (
+      <div className="flex flex-col items-center justify-center text-center py-14 px-6 bg-green-50 border border-green-200 rounded-3xl h-full min-h-[420px]">
+        <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center mb-5">
+          <CheckCircle2 size={30} className="text-green-600" />
+        </div>
+        <h3 className="text-xl font-semibold text-gray-900 mb-2">Message sent!</h3>
+        <p className="text-sm text-gray-600 leading-relaxed max-w-xs mb-6">
+          Thank you for reaching out. A Patient Care Coordinator will reply within 24 hours. Check your inbox — we have sent you a confirmation.
+        </p>
+        <button
+          onClick={() => setStatus('idle')}
+          className="text-sm font-semibold text-green-700 hover:underline"
+        >
+          Send another message →
+        </button>
+      </div>
+    )
+  }
+
+  return (
+    <form onSubmit={handleSubmit(onSubmit)} noValidate className="flex flex-col gap-5">
+
+      {/* Name + Email */}
+      <div className="grid sm:grid-cols-2 gap-4">
+        <div>
+          <label className="block text-xs font-semibold text-gray-600 mb-1.5" htmlFor="name">
+            Full Name <span className="text-red-500">*</span>
+          </label>
+          <div className="relative">
+            <User size={14} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+            <input
+              id="name"
+              type="text"
+              placeholder="John Smith"
+              className={`w-full pl-9 pr-4 py-2.5 text-sm border rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-colors ${errors.name ? 'border-red-400' : 'border-gray-200'}`}
+              {...register('name', { required: 'Name is required' })}
+            />
+          </div>
+          {errors.name && <p className="text-xs text-red-500 mt-1">{errors.name.message}</p>}
+        </div>
+
+        <div>
+          <label className="block text-xs font-semibold text-gray-600 mb-1.5" htmlFor="email">
+            Email Address <span className="text-red-500">*</span>
+          </label>
+          <div className="relative">
+            <Mail size={14} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+            <input
+              id="email"
+              type="email"
+              placeholder="you@email.com"
+              className={`w-full pl-9 pr-4 py-2.5 text-sm border rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-colors ${errors.email ? 'border-red-400' : 'border-gray-200'}`}
+              {...register('email', {
+                required: 'Email is required',
+                pattern: { value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/, message: 'Enter a valid email' },
+              })}
+            />
+          </div>
+          {errors.email && <p className="text-xs text-red-500 mt-1">{errors.email.message}</p>}
+        </div>
+      </div>
+
+      {/* Phone + Subject */}
+      <div className="grid sm:grid-cols-2 gap-4">
+        <div>
+          <label className="block text-xs font-semibold text-gray-600 mb-1.5" htmlFor="phone">
+            Phone Number <span className="text-gray-400 font-normal">(optional)</span>
+          </label>
+          <div className="relative">
+            <Phone size={14} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+            <input
+              id="phone"
+              type="tel"
+              placeholder="+1 (555) 000-0000"
+              className="w-full pl-9 pr-4 py-2.5 text-sm border border-gray-200 rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-colors"
+              {...register('phone')}
+            />
+          </div>
+        </div>
+
+        <div>
+          <label className="block text-xs font-semibold text-gray-600 mb-1.5" htmlFor="subject">
+            Subject <span className="text-red-500">*</span>
+          </label>
+          <div className="relative">
+            <FileText size={14} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+            <select
+              id="subject"
+              className={`w-full pl-9 pr-4 py-2.5 text-sm border rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-colors appearance-none ${errors.subject ? 'border-red-400' : 'border-gray-200'}`}
+              {...register('subject', { required: 'Please select a subject' })}
+              defaultValue=""
+            >
+              <option value="" disabled>Select a subject…</option>
+              {SUBJECTS.map(s => <option key={s} value={s}>{s}</option>)}
+            </select>
+          </div>
+          {errors.subject && <p className="text-xs text-red-500 mt-1">{errors.subject.message}</p>}
+        </div>
+      </div>
+
+      {/* Message */}
+      <div>
+        <label className="block text-xs font-semibold text-gray-600 mb-1.5" htmlFor="message">
+          Message <span className="text-red-500">*</span>
+        </label>
+        <textarea
+          id="message"
+          rows={5}
+          placeholder="Tell us about your condition, which treatment you are considering, or anything you would like to know…"
+          className={`w-full px-4 py-3 text-sm border rounded-xl bg-white focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-colors resize-none ${errors.message ? 'border-red-400' : 'border-gray-200'}`}
+          {...register('message', { required: 'Please enter your message', minLength: { value: 20, message: 'Message must be at least 20 characters' } })}
+        />
+        {errors.message && <p className="text-xs text-red-500 mt-1">{errors.message.message}</p>}
+      </div>
+
+      {/* Error state */}
+      {status === 'error' && (
+        <p className="text-sm text-red-600 bg-red-50 border border-red-200 rounded-xl px-4 py-3">
+          Something went wrong. Please try again or reach us directly on WhatsApp at +1-610-787-0713.
+        </p>
+      )}
+
+      {/* Submit */}
+      <button
+        type="submit"
+        disabled={status === 'submitting'}
+        className="w-full inline-flex items-center justify-center gap-2 bg-primary text-white px-6 py-3.5 rounded-xl font-semibold text-sm hover:bg-primary/90 transition-colors disabled:opacity-60 disabled:cursor-not-allowed shadow-md"
+      >
+        {status === 'submitting' ? (
+          <><Loader2 size={16} className="animate-spin" /> Sending…</>
+        ) : (
+          <><Send size={15} /> Send Message</>
+        )}
+      </button>
+
+      <p className="text-xs text-gray-400 text-center leading-relaxed">
+        We respond within 24 hours. Your information is handled confidentially per our{' '}
+        <Link href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</Link>.
+      </p>
+    </form>
+  )
+}
+
+// ── Page ──────────────────────────────────────────────────────────────────────
 
 export default function ContactPage() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }} />
-
       {/* Hero */}
       <section className="bg-[#EEF4FF] border-b border-[#d9e6ff]">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-14 sm:py-20">
@@ -125,113 +252,129 @@ export default function ContactPage() {
               Speak to a Patient Care Coordinator
             </h1>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Whether you have a question, need a second opinion, or are ready to start planning — our patient coordinators are available by phone, WhatsApp, or email. There is no cost and no obligation to speak with us.
+              Whether you have a question, need a cost estimate, or are ready to start — reach us by form, phone, WhatsApp, or email. No cost. No obligation.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Contact methods */}
+      {/* Main two-col layout */}
       <section className="bg-white py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
-          <div className="grid sm:grid-cols-3 gap-6 mb-12">
-            {CONTACT_METHODS.map(({ icon: Icon, label, value, detail, href, cta, color, iconColor, ctaColor, external }) => (
-              <div key={label} className={`rounded-3xl border p-8 flex flex-col gap-5 ${color}`}>
-                <div className={`w-12 h-12 rounded-2xl bg-white flex items-center justify-center shadow-sm`}>
-                  <Icon size={22} className={iconColor} />
-                </div>
-                <div>
-                  <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1">{label}</p>
-                  <p className="text-lg font-semibold text-gray-900 mb-1">{value}</p>
-                  <p className="text-sm text-gray-500 leading-snug">{detail}</p>
-                </div>
-                <a href={href} {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
-                  className={`inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl font-semibold text-sm transition-colors ${ctaColor}`}>
-                  {cta} <ArrowRight size={14} />
-                </a>
-              </div>
-            ))}
-          </div>
+          <div className="grid lg:grid-cols-[1fr_480px] gap-12 items-start">
 
-          {/* Availability */}
-          <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 flex flex-wrap items-center gap-6">
-            <div className="flex items-center gap-2.5">
-              <Clock size={18} className="text-primary shrink-0" />
+            {/* Left — contact methods + info */}
+            <div className="flex flex-col gap-8">
+
+              {/* Contact cards */}
+              <div className="grid sm:grid-cols-3 gap-4">
+                {CONTACT_METHODS.map(({ icon: Icon, label, value, detail, href, color, iconBg, iconColor, external }) => (
+                  <a
+                    key={label}
+                    href={href}
+                    {...(external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                    className={`group rounded-2xl border p-5 flex flex-col gap-3 hover:shadow-md transition-all ${color}`}
+                  >
+                    <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${iconBg}`}>
+                      <Icon size={18} className={iconColor} />
+                    </div>
+                    <div>
+                      <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-0.5">{label}</p>
+                      <p className="text-sm font-semibold text-gray-900 leading-snug">{value}</p>
+                      <p className="text-xs text-gray-500 mt-0.5">{detail}</p>
+                    </div>
+                    <span className="text-xs font-semibold text-primary group-hover:underline inline-flex items-center gap-1">
+                      Contact <ArrowRight size={11} />
+                    </span>
+                  </a>
+                ))}
+              </div>
+
+              {/* Hours + address */}
+              <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 flex flex-col gap-4">
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                    <Clock size={15} className="text-primary" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold text-gray-800 mb-0.5">Office hours</p>
+                    <p className="text-sm text-gray-600">Monday – Friday · 9:00 am – 6:00 pm Eastern Time</p>
+                    <p className="text-xs text-gray-400 mt-1">WhatsApp available 7 days for urgent inquiries</p>
+                  </div>
+                </div>
+                <div className="h-px bg-gray-200" />
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                    <MapPin size={15} className="text-primary" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold text-gray-800 mb-0.5">Based in the United States</p>
+                    <p className="text-sm text-gray-600">Serving patients across all 50 states</p>
+                    <p className="text-xs text-gray-400 mt-1">Partner hospitals in India & Turkey</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* What happens next */}
               <div>
-                <p className="text-sm font-semibold text-gray-800">Office Hours</p>
-                <p className="text-xs text-gray-500">Monday–Friday · 9:00 am – 6:00 pm Eastern Time</p>
+                <h2 className="text-base font-semibold text-gray-900 mb-4">What happens after you contact us</h2>
+                <div className="space-y-3">
+                  {[
+                    { n: '01', title: 'We review your case', desc: 'Within 24–48 hours, a dedicated coordinator reviews your condition and requirements.' },
+                    { n: '02', title: 'You are matched with a specialist', desc: 'We identify the right hospital and surgeon for your diagnosis, budget, and destination.' },
+                    { n: '03', title: 'You receive a full plan', desc: 'Treatment options, cost estimates, visa guidance, and travel logistics — in one document.' },
+                  ].map(({ n, title, desc }) => (
+                    <div key={n} className="flex items-start gap-4 bg-gray-50 border border-gray-200 rounded-xl p-4">
+                      <span className="text-xl font-bold text-primary/25 shrink-0 leading-none">{n}</span>
+                      <div>
+                        <p className="text-sm font-semibold text-gray-800 mb-0.5">{title}</p>
+                        <p className="text-xs text-gray-500 leading-relaxed">{desc}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Trust */}
+              <div className="grid grid-cols-3 gap-3">
+                {[
+                  { icon: Shield,        label: 'Free — no obligation' },
+                  { icon: CheckCircle2,  label: 'Confidential & secure' },
+                  { icon: Clock,         label: '24-hour response' },
+                ].map(({ icon: Icon, label }) => (
+                  <div key={label} className="flex flex-col items-center text-center gap-2 bg-gray-50 border border-gray-100 rounded-xl p-3">
+                    <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center">
+                      <Icon size={15} className="text-primary" />
+                    </div>
+                    <p className="text-xs font-medium text-gray-600 leading-snug">{label}</p>
+                  </div>
+                ))}
               </div>
             </div>
-            <div className="flex items-center gap-2.5">
-              <Shield size={18} className="text-green-600 shrink-0" />
-              <div>
-                <p className="text-sm font-semibold text-gray-800">Urgent Cases</p>
-                <p className="text-xs text-gray-500">WhatsApp available 7 days · urgent queries responded to same day</p>
+
+            {/* Right — form */}
+            <div className="bg-gray-50 border border-gray-200 rounded-3xl p-8 shadow-sm">
+              <div className="mb-7">
+                <h2 className="text-xl font-semibold text-gray-900 mb-1.5">Send us a message</h2>
+                <p className="text-sm text-gray-500">We reply within 24 hours. You will also receive a confirmation email.</p>
               </div>
+              <ContactForm />
             </div>
-            <div className="flex items-center gap-2.5">
-              <MapPin size={18} className="text-gray-400 shrink-0" />
-              <div>
-                <p className="text-sm font-semibold text-gray-800">Based in the United States</p>
-                <p className="text-xs text-gray-500">Serving patients across all 50 states</p>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
 
-      {/* What happens next */}
-      <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
-        <div className="max-w-4xl mx-auto px-6 sm:px-10 lg:px-16">
-          <div className="text-center mb-10">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-3">What Happens After You Contact Us</h2>
-            <p className="text-gray-500 text-sm">No pressure, no sales pitch. Here is exactly what to expect.</p>
-          </div>
-          <div className="space-y-4">
-            {WHAT_HAPPENS.map(({ n, title, desc }) => (
-              <div key={n} className="flex items-start gap-5 bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
-                <span className="text-2xl font-bold text-primary/30 shrink-0 leading-none">{n}</span>
-                <div>
-                  <h3 className="text-sm font-semibold text-gray-900 mb-1">{title}</h3>
-                  <p className="text-sm text-gray-600 leading-relaxed">{desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Trust signals */}
-      <section className="bg-white py-12 border-t border-gray-100">
-        <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
-          <div className="grid sm:grid-cols-3 gap-5">
-            {[
-              { icon: Shield, title: 'Free — No Obligation', desc: 'Speaking with us or receiving a cost estimate costs nothing. You decide if and when to proceed.' },
-              { icon: Users,  title: 'Dedicated Coordinator', desc: 'You speak with a real person — not a chatbot or intake form. One coordinator handles your case from start to finish.' },
-              { icon: CheckCircle2, title: 'Confidential', desc: 'All medical information you share is handled with strict confidentiality in line with our Privacy Policy.' },
-            ].map(({ icon: Icon, title, desc }) => (
-              <div key={title} className="bg-gray-50 rounded-2xl border border-gray-200 p-6 text-center">
-                <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
-                  <Icon size={18} className="text-primary" />
-                </div>
-                <h3 className="text-sm font-semibold text-gray-900 mb-2">{title}</h3>
-                <p className="text-xs text-gray-500 leading-relaxed">{desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Prefer a form? */}
+      {/* Enquiry CTA */}
       <section className="bg-primary py-14 sm:py-16">
         <div className="max-w-3xl mx-auto px-6 sm:px-10 lg:px-16 text-center">
-          <h2 className="text-2xl font-semibold text-white mb-3">Prefer to Submit a Request Online?</h2>
+          <h2 className="text-2xl font-semibold text-white mb-3">Need a full medical opinion or cost estimate?</h2>
           <p className="text-white/80 text-sm mb-7 leading-relaxed max-w-lg mx-auto">
-            Use our enquiry form to share your medical reports, describe your condition, and tell us your destination preference. We respond within 24–48 hours with a full treatment plan and cost estimate.
+            Use our detailed enquiry form to upload medical reports and describe your condition. We will provide hospital options, a specialist match, and a full cost comparison.
           </p>
           <Link href="/enquiry"
             className="inline-flex items-center gap-2 bg-white text-primary px-7 py-3.5 rounded-xl font-semibold text-sm hover:bg-gray-50 transition-colors shadow-lg">
-            Submit an Enquiry <ArrowRight size={15} />
+            Submit a Full Enquiry <ArrowRight size={15} />
           </Link>
         </div>
       </section>
