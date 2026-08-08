@@ -139,7 +139,7 @@ const OurNetwork = () => {
         {/* India */}
         <div className="mb-14">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-2xl">🇮🇳</span>
+            <img src="https://flagcdn.com/32x24/in.png" width={32} height={24} alt="India" className="rounded shadow-sm" />
             <div>
               <h3 className="text-base font-bold text-gray-900">India</h3>
               <p className="text-sm text-gray-400">JCI & NABH-accredited hospitals with world-class specialists</p>
@@ -154,7 +154,7 @@ const OurNetwork = () => {
         {/* Turkey */}
         <div>
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-2xl">🇹🇷</span>
+            <img src="https://flagcdn.com/32x24/tr.png" width={32} height={24} alt="Turkey" className="rounded shadow-sm" />
             <div>
               <h3 className="text-base font-bold text-gray-900">Turkey</h3>
               <p className="text-sm text-gray-400">Istanbul's internationally renowned clinics combining quality care with modern facilities</p>

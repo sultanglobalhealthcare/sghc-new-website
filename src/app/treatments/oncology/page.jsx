@@ -20,7 +20,7 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Cancer Treatment Abroad | Oncology Care in India & Turkey | Sultan GHC',
+  title: 'Oncology & Cancer Care Abroad | India & Turkey | Sultan GHC',
   description:
     'Access world-class oncology and cancer care in India and Turkey at 60–80% lower cost than the U.S. Sultan GHC connects American patients with JCI-accredited cancer centers, top oncologists, and advanced treatments including chemotherapy, immunotherapy, and bone marrow transplants.',
   keywords: [
@@ -278,7 +278,7 @@ export default function OncologyPage() {
             <ChevronRight size={12} />
             <Link href="/treatments" className="hover:text-primary transition-colors">Treatments</Link>
             <ChevronRight size={12} />
-            <span className="text-primary font-medium">Oncology (Cancer Care)</span>
+            <span className="text-primary font-medium">Oncology & Cancer Care</span>
           </nav>
 
           <div className="flex flex-col lg:flex-row gap-12 items-center">
@@ -498,7 +498,7 @@ export default function OncologyPage() {
             {/* India */}
             <div className="bg-white/5 border border-white/10 rounded-2xl p-8">
               <div className="flex items-center gap-3 mb-6">
-                <span className="text-3xl">🇮🇳</span>
+                <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-white">Oncology in India</h3>
                   <p className="text-sm text-gray-400">Largest medical tourism destination</p>
@@ -542,7 +542,7 @@ export default function OncologyPage() {
             {/* Turkey */}
             <div className="bg-white/5 border border-white/10 rounded-2xl p-8">
               <div className="flex items-center gap-3 mb-6">
-                <span className="text-3xl">🇹🇷</span>
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-white">Oncology in Turkey</h3>
                   <p className="text-sm text-gray-400">Europe-adjacent, cutting-edge facilities</p>
@@ -606,9 +606,9 @@ export default function OncologyPage() {
             <thead>
               <tr className="bg-gray-950 text-white">
                 <th className="text-left px-6 py-4 font-semibold">Procedure</th>
-                <th className="text-center px-6 py-4 font-semibold">🇺🇸 USA</th>
-                <th className="text-center px-6 py-4 font-semibold text-primary">🇮🇳 India</th>
-                <th className="text-center px-6 py-4 font-semibold text-primary">🇹🇷 Turkey</th>
+                <th className="text-center px-6 py-4 font-semibold"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/us.png" width={20} height={15} alt="USA" className="rounded-sm" />USA</span></th>
+                <th className="text-center px-6 py-4 font-semibold text-primary"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/in.png" width={20} height={15} alt="India" className="rounded-sm" />India</span></th>
+                <th className="text-center px-6 py-4 font-semibold text-primary"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" />Turkey</span></th>
               </tr>
             </thead>
             <tbody>
@@ -652,37 +652,37 @@ export default function OncologyPage() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                country: '🇮🇳 India',
+                country: 'India',
                 name: 'Apollo Cancer Centres',
                 location: 'Chennai, Mumbai, Delhi',
                 spec: 'Bone Marrow Transplant, Surgical Oncology, CAR-T',
               },
               {
-                country: '🇮🇳 India',
+                country: 'India',
                 name: 'Fortis Memorial Research Institute',
                 location: 'Gurugram, Delhi NCR',
                 spec: 'Robotic Surgery, Radiation Oncology, Immunotherapy',
               },
               {
-                country: '🇮🇳 India',
+                country: 'India',
                 name: 'Manipal Hospitals',
                 location: 'Bangalore, Kolkata, Vijayawada',
                 spec: 'Medical Oncology, Targeted Therapy, Hematology',
               },
               {
-                country: '🇹🇷 Turkey',
+                country: 'Turkey',
                 name: 'Memorial Hospital Group',
                 location: 'Istanbul, Ankara',
                 spec: 'Gamma Knife, CyberKnife, Surgical Oncology',
               },
               {
-                country: '🇹🇷 Turkey',
+                country: 'Turkey',
                 name: 'Acibadem Healthcare Group',
                 location: 'Istanbul, Izmir',
                 spec: 'PET-CT, IMRT Radiation, Chemotherapy Suites',
               },
               {
-                country: '🇹🇷 Turkey',
+                country: 'Turkey',
                 name: 'Medipol Mega Hospital',
                 location: 'Istanbul',
                 spec: 'Proton Therapy, Stem Cell, Integrative Oncology',

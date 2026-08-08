@@ -2,50 +2,54 @@
 
 import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
-import { ChevronDown, Search, Menu, X, Phone, MessageCircle, Mail } from 'lucide-react'
+import { ChevronDown, Menu, X, Phone, MessageCircle, Mail } from 'lucide-react'
 
 // ─── Data ───────────────────────────────────────────────────────────────────
 
 const TREATMENTS = [
-  { name: 'Cardiology',                href: '/treatments/cardiology' },
-  { name: 'Oncology (Cancer Care)',    href: '/treatments/oncology' },
-  { name: 'Orthopedics',              href: '/treatments/orthopedics' },
-  { name: 'Spine Surgery',            href: '/treatments/spine-surgery' },
-  { name: 'Neurosurgery',             href: '/treatments/neurosurgery' },
-  { name: 'IVF & Fertility',          href: '/treatments/ivf-fertility' },
-  { name: 'Organ Transplants',        href: '/treatments/organ-transplants' },
-  { name: 'Cosmetic & Plastic Surgery', href: '/treatments/cosmetic-plastic-surgery' },
-  { name: 'Dental Care',              href: '/treatments/dental-care' },
-  { name: 'Ophthalmology',            href: '/treatments/ophthalmology' },
-  { name: 'Urology',                  href: '/treatments/urology' },
-  { name: 'Gastroenterology',         href: '/treatments/gastroenterology' },
-  { name: 'Bariatric Surgery',        href: '/treatments/bariatric-surgery' },
-  { name: 'Gynecology',               href: '/treatments/gynecology' },
-  { name: 'Robotic Surgery',          href: '/treatments/robotic-surgery' },
+  { name: 'Cardiology & Cardiac Surgery',                       href: '/treatments/cardiology' },
+  { name: 'Oncology & Cancer Care',                             href: '/treatments/oncology' },
+  { name: 'Neurology',                                          href: '/treatments/neurology' },
+  { name: 'Neurosurgery',                                       href: '/treatments/neurosurgery' },
+  { name: 'Orthopaedics & Joint Replacement',                   href: '/treatments/orthopedics' },
+  { name: 'Spine & Sports Injury Surgery',                      href: '/treatments/spine-sports-injury' },
+  { name: 'Gastroenterology',                                   href: '/treatments/gastroenterology' },
+  { name: 'Hepatology & Liver Care',                            href: '/treatments/hepatology-liver-care' },
+  { name: 'Pulmonology & Respiratory Medicine',                 href: '/treatments/pulmonology' },
+  { name: 'Urology & Urological Surgery',                       href: '/treatments/urology' },
+  { name: 'Obstetrics & Gynaecology',                           href: '/treatments/obstetrics-gynaecology' },
+  { name: 'Fertility, IVF & Reproductive Medicine',             href: '/treatments/fertility-ivf' },
+  { name: 'Ophthalmology & Eye Surgery',                        href: '/treatments/ophthalmology' },
+  { name: 'ENT & Head–Neck Surgery',                            href: '/treatments/ent-head-neck-surgery' },
+  { name: 'Bariatric & Metabolic Surgery',                      href: '/treatments/bariatric-metabolic-surgery' },
+  { name: 'Robotic & Minimally Invasive Surgery',               href: '/treatments/robotic-minimally-invasive' },
+  { name: 'Organ & Bone Marrow Transplantation',                href: '/treatments/organ-bone-marrow-transplant' },
+  { name: 'Cosmetic, Hair Transplant & Reconstructive Plastic Surgery', href: '/treatments/cosmetic-hair-transplant-plastic-surgery' },
+  { name: 'Dental Surgery & Implant Dentistry',                 href: '/treatments/dental-surgery-implant-dentistry' },
 ]
 
 // "Our Network" mega-menu data — geography first, hospitals + destination info per country
 const NETWORK_INDIA = {
   heading: 'India',
-  flag: '🇮🇳',
+  flag: 'in',
   description: 'JCI-accredited hospitals with world-class specialists at a fraction of U.S. costs.',
   links: [
     { name: 'Hospitals in India',        href: '/hospitals/india' },
     { name: 'Destination Guide — India', href: '/destinations/india' },
-    { name: 'Medical Visa — India',      href: '/destinations/india#visa' },
-    { name: 'Cost Savings in India',     href: '/destinations/india#costs' },
+    { name: 'Medical Visa — India',      href: '/visa-guide/india' },
+    { name: 'Cost Savings in India',     href: '/cost-savings/india' },
   ],
 }
 
 const NETWORK_TURKEY = {
   heading: 'Turkey',
-  flag: '🇹🇷',
+  flag: 'tr',
   description: "Istanbul's internationally renowned clinics combining quality care with modern facilities.",
   links: [
     { name: 'Hospitals in Turkey',        href: '/hospitals/turkey' },
     { name: 'Destination Guide — Turkey', href: '/destinations/turkey' },
-    { name: 'Medical Visa — Turkey',      href: '/destinations/turkey#visa' },
-    { name: 'Cost Savings in Turkey',     href: '/destinations/turkey#costs' },
+    { name: 'Medical Visa — Turkey',      href: '/visa-guide/turkey' },
+    { name: 'Cost Savings in Turkey',     href: '/cost-savings/turkey' },
   ],
 }
 
@@ -70,8 +74,8 @@ const NAV_ITEMS = [
       { name: 'About Us',                       href: '/about' },
       { name: 'Why Choose Sultan GHC',          href: '/why-sultan-ghc' },
       { name: 'International Patient Services', href: '/international-patient-services' },
-      { name: 'Patient Success Stories',        href: '/patient-success-stories' },
-      { name: 'Testimonials',                   href: '/testimonials' },
+      // { name: 'Patient Success Stories',     href: '/patient-success-stories' },  // PLANNED — hidden until content is ready
+      // { name: 'Testimonials',                href: '/testimonials' },              // PLANNED — hidden until content is ready
       { name: 'Frequently Asked Questions',     href: '/faq' },
     ],
   },
@@ -281,7 +285,8 @@ const Navbar = () => {
                         {[item.india, item.turkey].map((country) => (
                           <div key={country.heading}>
                             <p className="text-sm font-semibold text-gray-900 mb-1 flex items-center gap-1.5">
-                              <span>{country.flag}</span> {country.heading}
+                              <img src={`https://flagcdn.com/20x15/${country.flag}.png`} width={20} height={15} alt={country.heading} className="rounded-sm inline-block" />
+                              {country.heading}
                             </p>
                             <p className="text-[12px] text-gray-400 mb-3 leading-snug">
                               {country.description}
@@ -342,13 +347,7 @@ const Navbar = () => {
 
           {/* ── Right Actions ── */}
           <div className="flex items-center gap-2 shrink-0">
-            {/* Search */}
-            <button
-              aria-label="Search"
-              className="hidden xl:flex w-9 h-9 items-center justify-center rounded-full text-gray-500 hover:text-primary hover:bg-blue-50 transition-colors"
-            >
-              <Search size={17} />
-            </button>
+
 
             {/* CTA */}
             <Link
@@ -420,10 +419,10 @@ const Navbar = () => {
             // Flatten Our Network into a single list for mobile
             const mobileLinks = item.megaNetwork
               ? [
-                  { name: `${item.india.flag} India — Hospitals`, href: '/hospitals/india' },
-                  { name: `${item.india.flag} Destination Guide — India`, href: '/destinations/india' },
-                  { name: `${item.turkey.flag} Turkey — Hospitals`, href: '/hospitals/turkey' },
-                  { name: `${item.turkey.flag} Destination Guide — Turkey`, href: '/destinations/turkey' },
+                  { name: 'India — Hospitals', href: '/hospitals/india' },
+                  { name: 'Destination Guide — India', href: '/destinations/india' },
+                  { name: 'Turkey — Hospitals', href: '/hospitals/turkey' },
+                  { name: 'Destination Guide — Turkey', href: '/destinations/turkey' },
                 ]
               : item.items
 

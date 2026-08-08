@@ -22,7 +22,7 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Heart Surgery & Cardiology Treatment Abroad | India & Turkey | Sultan GHC',
+  title: 'Cardiology & Cardiac Surgery Abroad | India & Turkey | Sultan GHC',
   description:
     'Access world-class heart surgery, bypass surgery, valve replacement, and advanced cardiology care in India and Turkey at 60–80% lower cost than the U.S. Sultan GHC connects American heart patients with JCI-accredited cardiac centers and top cardiologists.',
   keywords: [
@@ -305,14 +305,14 @@ export default function CardiologyPage() {
             <ChevronRight size={12} />
             <Link href="/treatments" className="hover:text-primary transition-colors">Treatments</Link>
             <ChevronRight size={12} />
-            <span className="text-primary font-medium">Cardiology & Heart Surgery</span>
+            <span className="text-primary font-medium">Cardiology & Cardiac Surgery</span>
           </nav>
 
           <div className="flex flex-col lg:flex-row gap-12 items-center">
             {/* Left */}
             <div className="flex-1">
               <span className="inline-block text-[11px] font-semibold text-primary uppercase tracking-widest bg-primary/10 px-3 py-1.5 rounded-full mb-4">
-                Cardiology & Heart Surgery
+                Cardiology & Cardiac Surgery
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 World-Class Heart Care in{' '}
@@ -594,7 +594,7 @@ export default function CardiologyPage() {
             {/* India */}
             <div className="bg-white/5 border border-white/10 rounded-2xl p-8">
               <div className="flex items-center gap-3 mb-6">
-                <span className="text-3xl">🇮🇳</span>
+                <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-white">Cardiac Care in India</h3>
                   <p className="text-sm text-gray-400">The world's most affordable cardiac surgery destination</p>
@@ -638,7 +638,7 @@ export default function CardiologyPage() {
             {/* Turkey */}
             <div className="bg-white/5 border border-white/10 rounded-2xl p-8">
               <div className="flex items-center gap-3 mb-6">
-                <span className="text-3xl">🇹🇷</span>
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-white">Cardiac Care in Turkey</h3>
                   <p className="text-sm text-gray-400">Europe-standard care, closer to the U.S. East Coast</p>
@@ -702,9 +702,9 @@ export default function CardiologyPage() {
             <thead>
               <tr className="bg-gray-950 text-white">
                 <th className="text-left px-6 py-4 font-semibold">Procedure</th>
-                <th className="text-center px-6 py-4 font-semibold">🇺🇸 USA</th>
-                <th className="text-center px-6 py-4 font-semibold text-primary">🇮🇳 India</th>
-                <th className="text-center px-6 py-4 font-semibold text-primary">🇹🇷 Turkey</th>
+                <th className="text-center px-6 py-4 font-semibold"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/us.png" width={20} height={15} alt="USA" className="rounded-sm" />USA</span></th>
+                <th className="text-center px-6 py-4 font-semibold text-primary"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/in.png" width={20} height={15} alt="India" className="rounded-sm" />India</span></th>
+                <th className="text-center px-6 py-4 font-semibold text-primary"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" />Turkey</span></th>
               </tr>
             </thead>
             <tbody>
