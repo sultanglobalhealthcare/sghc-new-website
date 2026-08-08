@@ -747,7 +747,7 @@ export default function OrthopedicsPage() {
             {
               step: '04',
               title: 'Recovery & Return',
-              desc: 'In-hospital physiotherapy begins the day after surgery. When you're cleared to fly, we coordinate your return journey and follow-up care back home.',
+              desc: 'In-hospital physiotherapy begins the day after surgery. When you are cleared to fly, we coordinate your return journey and follow-up care back home.',
             },
           ].map(({ step, title, desc }) => (
             <div key={step} className="relative bg-white rounded-2xl p-6 border border-gray-200 hover:border-primary hover:shadow-md transition-all">

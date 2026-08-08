@@ -367,7 +367,7 @@ export default function HepatologyPage() {
           <div className="flex items-start gap-3">
             <AlertCircle size={20} className="text-primary shrink-0 mt-0.5" />
             <p className="text-sm text-gray-700 leading-relaxed">
-              <strong className="text-gray-900">Digestive tract conditions?</strong> Hepatology covers liver, bile duct, and pancreas disease. For colonoscopy, ERCP, IBD (Crohn{'''}s / ulcerative colitis), and GI endoscopy, see our{' '}
+              <strong className="text-gray-900">Digestive tract conditions?</strong> Hepatology covers liver, bile duct, and pancreas disease. For colonoscopy, ERCP, IBD (Crohn&apos;s / ulcerative colitis), and GI endoscopy, see our{' '}
               <Link href="/treatments/gastroenterology" className="text-primary font-semibold hover:underline">
                 Gastroenterology page →
               </Link>
