@@ -592,7 +592,7 @@ export default function HepatologyPage() {
               <div>
                 <h3 className="text-sm font-semibold text-amber-900 mb-1">Important Note on Liver Transplantation</h3>
                 <p className="text-sm text-amber-800 leading-relaxed">
-                  Liver transplantation requires thorough pre-transplant evaluation including cardiopulmonary assessment, psychological screening, and transplant committee review. Not all patients are eligible for transplant and medical candidacy is determined by the receiving hospital{'''}s multidisciplinary transplant team — not by Sultan GHC. Our role is to facilitate access to evaluation, help you understand your options, and coordinate your complete journey. We do not guarantee transplant eligibility or outcomes.
+                  Liver transplantation requires thorough pre-transplant evaluation including cardiopulmonary assessment, psychological screening, and transplant committee review. Not all patients are eligible for transplant and medical candidacy is determined by the receiving hospital&apos;s multidisciplinary transplant team — not by Sultan GHC. Our role is to facilitate access to evaluation, help you understand your options, and coordinate your complete journey. We do not guarantee transplant eligibility or outcomes.
                 </p>
               </div>
             </div>

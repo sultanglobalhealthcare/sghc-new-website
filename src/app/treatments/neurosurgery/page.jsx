@@ -668,7 +668,7 @@ export default function NeurosurgeryPage() {
               Frequently Asked Questions — Neurosurgery Abroad
             </h2>
             <p className="text-gray-500 text-sm">
-              Sourced from real patient questions handled by Sultan GHC{'’'}s medical and patient care team.
+              Sourced from real patient questions handled by Sultan GHC&apos;s medical and patient care team.
             </p>
           </div>
           <div className="space-y-4">
