@@ -2,6 +2,7 @@ import { Geist, Geist_Mono, Montserrat, Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/landing/Navbar";
 import Footer from "@/landing/Footer";
+import WhatsAppButton from "@/landing/WhatsAppButton";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -116,6 +117,7 @@ export default function RootLayout({ children }) {
         <Navbar/>
         {children}
         <Footer/>
+        <WhatsAppButton />
       </body>
     </html>
   );

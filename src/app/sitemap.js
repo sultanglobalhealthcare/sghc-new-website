@@ -52,12 +52,14 @@ export default function sitemap() {
 
   /** Destination & network pages */
   const destinations = [
-    { url: `${BASE}/destinations/india`,   lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE}/destinations/turkey`,  lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE}/cost-savings/india`,   lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE}/cost-savings/turkey`,  lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE}/visa-guide/india`,     lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
-    { url: `${BASE}/visa-guide/turkey`,    lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${BASE}/destinations/india`,                         lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/destinations/india/tourist-attractions`,     lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${BASE}/destinations/turkey`,                        lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/destinations/turkey/tourist-attractions`,    lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${BASE}/cost-savings/india`,                         lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/cost-savings/turkey`,                        lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${BASE}/visa-guide/india`,                           lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${BASE}/visa-guide/turkey`,                          lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
   ]
 
   /** Legal & compliance pages */

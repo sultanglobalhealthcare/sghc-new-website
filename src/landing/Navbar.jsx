@@ -34,10 +34,11 @@ const NETWORK_INDIA = {
   flag: 'in',
   description: 'JCI-accredited hospitals with world-class specialists at a fraction of U.S. costs.',
   links: [
-    { name: 'Hospitals in India',        href: '/hospitals/india' },
-    { name: 'Destination Guide — India', href: '/destinations/india' },
-    { name: 'Medical Visa — India',      href: '/visa-guide/india' },
-    { name: 'Cost Savings in India',     href: '/cost-savings/india' },
+    { name: 'Hospitals in India',           href: '/hospitals/india' },
+    { name: 'Destination Guide — India',    href: '/destinations/india' },
+    { name: 'Tourist Attractions — India',  href: '/destinations/india/tourist-attractions' },
+    { name: 'Medical Visa — India',         href: '/visa-guide/india' },
+    { name: 'Cost Savings in India',        href: '/cost-savings/india' },
   ],
 }
 
@@ -46,10 +47,11 @@ const NETWORK_TURKEY = {
   flag: 'tr',
   description: "Istanbul's internationally renowned clinics combining quality care with modern facilities.",
   links: [
-    { name: 'Hospitals in Turkey',        href: '/hospitals/turkey' },
-    { name: 'Destination Guide — Turkey', href: '/destinations/turkey' },
-    { name: 'Medical Visa — Turkey',      href: '/visa-guide/turkey' },
-    { name: 'Cost Savings in Turkey',     href: '/cost-savings/turkey' },
+    { name: 'Hospitals in Turkey',          href: '/hospitals/turkey' },
+    { name: 'Destination Guide — Turkey',   href: '/destinations/turkey' },
+    { name: 'Tourist Attractions — Turkey', href: '/destinations/turkey/tourist-attractions' },
+    { name: 'Medical Visa — Turkey',        href: '/visa-guide/turkey' },
+    { name: 'Cost Savings in Turkey',       href: '/cost-savings/turkey' },
   ],
 }
 
