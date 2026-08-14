@@ -43,15 +43,15 @@ const NETWORK_INDIA = {
 }
 
 const NETWORK_TURKEY = {
-  heading: 'Turkey',
+  heading: 'Türkiye',
   flag: 'tr',
   description: "Istanbul's internationally renowned clinics combining quality care with modern facilities.",
   links: [
-    { name: 'Hospitals in Turkey',          href: '/hospitals/turkey' },
-    { name: 'Destination Guide — Turkey',   href: '/destinations/turkey' },
-    { name: 'Tourist Attractions — Turkey', href: '/destinations/turkey/tourist-attractions' },
-    { name: 'Medical Visa — Turkey',        href: '/visa-guide/turkey' },
-    { name: 'Cost Savings in Turkey',       href: '/cost-savings/turkey' },
+    { name: 'Hospitals in Türkiye',          href: '/hospitals/turkey' },
+    { name: 'Destination Guide — Türkiye',   href: '/destinations/turkey' },
+    { name: 'Tourist Attractions — Türkiye', href: '/destinations/turkey/tourist-attractions' },
+    { name: 'Medical Visa — Türkiye',        href: '/visa-guide/turkey' },
+    { name: 'Cost Savings in Türkiye',       href: '/cost-savings/turkey' },
   ],
 }
 
@@ -423,8 +423,8 @@ const Navbar = () => {
               ? [
                   { name: 'India — Hospitals', href: '/hospitals/india' },
                   { name: 'Destination Guide — India', href: '/destinations/india' },
-                  { name: 'Turkey — Hospitals', href: '/hospitals/turkey' },
-                  { name: 'Destination Guide — Turkey', href: '/destinations/turkey' },
+                  { name: 'Türkiye — Hospitals', href: '/hospitals/turkey' },
+                  { name: 'Destination Guide — Türkiye', href: '/destinations/turkey' },
                 ]
               : item.items
 

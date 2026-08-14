@@ -6,22 +6,22 @@ import {
 } from 'lucide-react'
 
 export const metadata = {
-  title: 'Tourist Attractions in Turkey for Medical Travelers | Sultan GHC',
+  title: 'Tourist Attractions in Türkiye for Medical Travelers | Sultan GHC',
   description:
-    'Explore Turkey\'s most iconic destinations while recovering from medical treatment. City guides tied to hospital locations in Istanbul — with Cappadocia, Pamukkale, Ephesus & the Turkish Riviera. Curated for U.S. patients by Sultan GHC.',
+    'Explore Türkiye\'s most iconic destinations while recovering from medical treatment. City guides tied to hospital locations in Istanbul — with Cappadocia, Pamukkale, Ephesus & the Turkish Riviera. Curated for U.S. patients by Sultan GHC.',
   keywords: [
-    'tourist places Turkey medical tourism',
-    'things to do in Turkey after surgery',
-    'Turkey travel guide medical tourists Americans',
+    'tourist places Türkiye medical tourism',
+    'things to do in Türkiye after surgery',
+    'Türkiye travel guide medical tourists Americans',
     'Istanbul sightseeing medical trip',
     'Cappadocia medical tourism',
     'Pamukkale thermal pools recovery',
-    'Turkey tourist attractions recovery friendly',
-    'Sultan GHC Turkey travel guide',
-    'Turkey itinerary medical tourism USA',
+    'Türkiye tourist attractions recovery friendly',
+    'Sultan GHC Türkiye travel guide',
+    'Türkiye itinerary medical tourism USA',
   ],
   openGraph: {
-    title: 'Tourist Attractions in Turkey | Travel Guide for Medical Patients | Sultan GHC',
+    title: 'Tourist Attractions in Türkiye | Travel Guide for Medical Patients | Sultan GHC',
     description: 'Hagia Sophia, Cappadocia hot air balloons, Pamukkale thermal pools, and the Turkish Riviera — curated for U.S. medical tourists.',
     url: 'https://www.sultanghc.com/destinations/turkey/tourist-attractions',
     siteName: 'Sultan Global Health Care',
@@ -29,8 +29,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tourist Attractions in Turkey for Medical Travelers | Sultan GHC',
-    description: 'Explore Turkey before or after your treatment. City guides, hammam wellness, and sample itineraries for U.S. patients.',
+    title: 'Tourist Attractions in Türkiye for Medical Travelers | Sultan GHC',
+    description: 'Explore Türkiye before or after your treatment. City guides, hammam wellness, and sample itineraries for U.S. patients.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/destinations/turkey/tourist-attractions' },
 }
@@ -41,7 +41,7 @@ const breadcrumbSchema = {
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home',               item: 'https://www.sultanghc.com' },
     { '@type': 'ListItem', position: 2, name: 'Destinations',       item: 'https://www.sultanghc.com/destinations/turkey' },
-    { '@type': 'ListItem', position: 3, name: 'Turkey',             item: 'https://www.sultanghc.com/destinations/turkey' },
+    { '@type': 'ListItem', position: 3, name: 'Türkiye',             item: 'https://www.sultanghc.com/destinations/turkey' },
     { '@type': 'ListItem', position: 4, name: 'Tourist Attractions', item: 'https://www.sultanghc.com/destinations/turkey/tourist-attractions' },
   ],
 }
@@ -63,7 +63,7 @@ const DESTINATIONS = [
     lightBorder: 'border-red-100',
     tagBg: 'bg-red-100 text-red-700',
     emoji: '🕌',
-    description: 'Istanbul is one of the great cities of human history — the only city spanning two continents, former capital of three empires (Roman, Byzantine, Ottoman), and home to monuments that left their mark on world civilisation. Most Sultan GHC Turkey patients are treated here, making extraordinary heritage immediately accessible.',
+    description: 'Istanbul is one of the great cities of human history — the only city spanning two continents, former capital of three empires (Roman, Byzantine, Ottoman), and home to monuments that left their mark on world civilisation. Most Sultan GHC Türkiye patients are treated here, making extraordinary heritage immediately accessible.',
     attractions: [
       { name: 'Hagia Sophia', distance: 'Old City (Sultanahmet)', type: 'World Wonder · UNESCO', desc: 'Built in 537 AD — one of the great architectural achievements in human history. The vast interior with its floating dome is staggering. Completely flat, accessible at all recovery stages.' },
       { name: 'Blue Mosque (Sultan Ahmet Camii)', distance: 'Walking distance from Hagia Sophia', type: 'Ottoman Masterpiece', desc: 'Six minarets, 20,000 hand-painted Iznik tiles, and a soaring central dome. Visited outside prayer times. Flat, accessible, extraordinary.' },
@@ -89,7 +89,7 @@ const DESTINATIONS = [
     attractions: [
       { name: 'Hot Air Balloon at Sunrise', distance: 'Goreme Valley', type: 'Bucket List Experience', desc: 'Floating silently above the fairy chimneys as the sun rises is one of the most transcendent travel experiences available. 60+ balloons lift off simultaneously each morning. The basket is enclosed; you stand for the 1-hour flight. Doctor clearance required for post-surgical patients — typically appropriate after week 3 for most procedures.' },
       { name: 'Cave Hotels, Goreme & Uchisar', distance: 'Goreme town', type: 'Unique Accommodation', desc: 'Luxury rooms carved into volcanic rock with private terraces overlooking the valleys. Museum Hotel, Argos in Cappadocia, and Kayakapi Premium Caves are world-class. Staying here is itself one of the great travel experiences — very comfortable, zero exertion.' },
-      { name: 'Goreme Open Air Museum', distance: 'Goreme town', type: 'UNESCO Heritage', desc: 'Byzantine rock-cut churches decorated with vivid 10th–13th century frescoes. UNESCO World Heritage Site. Flat walking paths throughout. One of Turkey\'s most remarkable sites.' },
+      { name: 'Goreme Open Air Museum', distance: 'Goreme town', type: 'UNESCO Heritage', desc: 'Byzantine rock-cut churches decorated with vivid 10th–13th century frescoes. UNESCO World Heritage Site. Flat walking paths throughout. One of Türkiye\'s most remarkable sites.' },
       { name: 'Devrent & Pasabag Valleys', distance: 'North Goreme', type: 'Natural Wonder', desc: 'Lunar landscapes of volcanic formations — some resembling animals, some resembling nothing from this planet. The best are seen from the road by car; very short walking is optional.' },
       { name: 'Underground City — Derinkuyu', distance: '30 km from Goreme', type: 'Archaeological Wonder', desc: 'An 8-level underground city carved by early Christians — with ventilation shafts, wine presses, and churches for 20,000 people. Best for patients 2+ weeks post-op who are comfortable in confined spaces.' },
     ],
@@ -99,7 +99,7 @@ const DESTINATIONS = [
   {
     city: 'Pamukkale & Hierapolis',
     hospital: '1 hr flight to Denizli, then 20 min transfer',
-    tag: 'Southwest Turkey — Thermal Terraces & Roman Ruins',
+    tag: 'Southwest Türkiye — Thermal Terraces & Roman Ruins',
     gradient: 'from-blue-600 to-cyan-500',
     lightBg: 'bg-blue-50',
     lightBorder: 'border-blue-100',
@@ -118,16 +118,16 @@ const DESTINATIONS = [
   {
     city: 'Ephesus & the Aegean Coast',
     hospital: '1 hr flight to Izmir from Istanbul',
-    tag: 'Aegean Turkey — Ancient Greek & Roman Heritage',
+    tag: 'Aegean Türkiye — Ancient Greek & Roman Heritage',
     gradient: 'from-stone-600 to-amber-600',
     lightBg: 'bg-stone-50',
     lightBorder: 'border-stone-100',
     tagBg: 'bg-stone-100 text-stone-700',
     emoji: '🏛️',
-    description: 'The Aegean coast of Turkey is lined with ancient cities of extraordinary scale. Ephesus alone was a city of 250,000 people in the 1st century AD. Combined with turquoise sea, olive groves, and beautiful harbour towns, this is one of the world\'s finest destinations for history-minded travellers.',
+    description: 'The Aegean coast of Türkiye is lined with ancient cities of extraordinary scale. Ephesus alone was a city of 250,000 people in the 1st century AD. Combined with turquoise sea, olive groves, and beautiful harbour towns, this is one of the world\'s finest destinations for history-minded travellers.',
     attractions: [
       { name: 'Ephesus Ancient City', distance: '80 km from Izmir', type: 'UNESCO Heritage · Top 10 World Ruins', desc: 'One of the largest and best-preserved Roman cities in the world — the Library of Celsus, the Great Theatre (25,000 seats), marble streets. An electric cart tour is available for patients with limited mobility. Flat marble roads throughout.' },
-      { name: 'Library of Celsus', distance: 'Within Ephesus', type: 'Roman Monument', desc: 'Built in 117 AD to hold 12,000 scrolls — the two-storey marble facade is one of the most photographed ruins in the world. Just seeing it from across the ancient square is enough to understand why Turkey is one of the world\'s great archaeological destinations.' },
+      { name: 'Library of Celsus', distance: 'Within Ephesus', type: 'Roman Monument', desc: 'Built in 117 AD to hold 12,000 scrolls — the two-storey marble facade is one of the most photographed ruins in the world. Just seeing it from across the ancient square is enough to understand why Türkiye is one of the world\'s great archaeological destinations.' },
       { name: 'House of the Virgin Mary', distance: '7 km from Ephesus', type: 'Pilgrimage Site', desc: 'A small stone chapel believed to be the last home of the Virgin Mary — a pilgrimage site for both Christians and Muslims. Quiet, forested, deeply peaceful. Entirely flat and accessible.' },
       { name: 'Bodrum', distance: '1 hr from Izmir / direct flight', type: 'Aegean Harbour Town', desc: 'A beautiful harbour with the Castle of St Peter, fish restaurants, and the site of the ancient Mausoleum of Halicarnassus (one of the Seven Wonders of the World). Very walkable flat harbour.' },
       { name: 'Sirince Village', distance: 'Next to Ephesus', type: 'Authentic Hill Village', desc: 'A preserved 19th-century Greek village — cobblestone streets, stone houses, fruit wine cellars. Only 8 km from Ephesus. Extremely peaceful. Excellent for a post-Ephesus lunch and afternoon rest.' },
@@ -161,7 +161,7 @@ const WELLNESS_ACTIVITIES = [
   { icon: Heart,   title: 'Traditional Turkish Hammam', desc: 'The hammam — Turkish bath — is one of the great wellness traditions of the Ottoman world. A marble-floored steam room followed by an exfoliating scrub and foam massage. Many Istanbul hammams (Cemberlitas, Suleymaniye) date from the 16th century. Deeply relaxing; confirm timing with your surgeon post-op.' },
   { icon: Star,    title: 'Bosphorus at Golden Hour', desc: 'Sitting on a ferry terrace as the sun sets behind the European minarets and the Bosphorus lights up gold is one of the most beautiful moments available anywhere. Entirely effortless. Many patients do this every evening of their stay.' },
   { icon: Camera,  title: 'Cave Hotel Stay in Cappadocia', desc: 'Waking up in a centuries-old cave carved into volcanic rock, with a terrace overlooking the fairy chimneys as balloons lift off at sunrise, is an experience patients carry with them for the rest of their lives. Completely comfortable, no exertion.' },
-  { icon: Coffee,  title: 'Turkish Coffee Culture', desc: 'Turkey invented coffee culture — the world\'s first coffee shops opened in Istanbul in the 1550s. A traditional Turkish breakfast with tea, followed by a slow coffee in a historic han (caravanserai), is an excellent way to spend a recovery morning.' },
+  { icon: Coffee,  title: 'Turkish Coffee Culture', desc: 'Türkiye invented coffee culture — the world\'s first coffee shops opened in Istanbul in the 1550s. A traditional Turkish breakfast with tea, followed by a slow coffee in a historic han (caravanserai), is an excellent way to spend a recovery morning.' },
   { icon: Shield,  title: 'Pamukkale Thermal Soak', desc: 'Soaking in the naturally warm, mineral-rich waters of Cleopatra\'s Pool among sunken Roman marble columns is one of the most peculiar and wonderful recovery experiences available anywhere. Genuine healing properties — confirm clearance with your surgeon first.' },
   { icon: Plane,   title: 'Gulet Cruise, Aegean Sea', desc: 'A traditional Turkish wooden gulet charter along the Aegean coast — sleeping aboard, swimming from the deck in turquoise coves, anchoring at ancient ruins. Day charters available from Bodrum and Marmaris. Entirely low-effort, utterly beautiful.' },
 ]
@@ -215,23 +215,23 @@ const ITINERARIES = [
 
 const PRACTICAL = [
   { icon: Plane,    title: 'Flights from the U.S.', desc: 'Turkish Airlines, United, Delta, and Lufthansa/KLM offer connections to Istanbul (IST or SAW). Typical travel time: 11–14 hours direct on Turkish Airlines from New York, Chicago, Houston, and Los Angeles. Turkish Airlines is consistently ranked among the world\'s best airlines.' },
-  { icon: MapPin,   title: 'Currency', desc: 'Turkish Lira (TRY). The exchange rate makes Turkey exceptionally affordable for U.S. patients — treatment, hotels, dining, and shopping all represent outstanding value. ATMs everywhere; cards widely accepted at hotels, restaurants, and tourist sites.' },
+  { icon: MapPin,   title: 'Currency', desc: 'Turkish Lira (TRY). The exchange rate makes Türkiye exceptionally affordable for U.S. patients — treatment, hotels, dining, and shopping all represent outstanding value. ATMs everywhere; cards widely accepted at hotels, restaurants, and tourist sites.' },
   { icon: Star,     title: 'Language', desc: 'English is widely spoken in Istanbul hotels, tourist sites, hospitals, and restaurants. All hospital staff communicate fully in English. Google Translate works well offline in Turkish for everyday interactions outside major cities.' },
   { icon: Shield,   title: 'Safety', desc: 'Istanbul and all major tourist cities are safe for international visitors. Use BiTaksi or Uber for registered taxis. The hospital districts (Nisantasi, Sisli, Kadikoy) are particularly safe. Always buy comprehensive travel insurance before departing the U.S.' },
   { icon: Coffee,   title: 'Food During Recovery', desc: 'Turkish cuisine is rich in vegetables, legumes, olive oil, and grilled protein — generally excellent for recovery. Soups (lentil, yogurt) are gentle post-operatively. Your Sultan GHC coordinator advises on dietary restrictions specific to your procedure.' },
-  { icon: Calendar, title: 'SIM Card & Connectivity', desc: 'Buy a Turkcell or Vodafone Turkey prepaid SIM at Istanbul Airport on arrival (passport required). Fast 4G/5G data throughout Istanbul at very affordable rates. Hotel WiFi is generally excellent. WhatsApp is the preferred communication platform in Turkey.' },
+  { icon: Calendar, title: 'SIM Card & Connectivity', desc: 'Buy a Turkcell or Vodafone Türkiye prepaid SIM at Istanbul Airport on arrival (passport required). Fast 4G/5G data throughout Istanbul at very affordable rates. Hotel WiFi is generally excellent. WhatsApp is the preferred communication platform in Türkiye.' },
 ]
 
 const FAQS = [
   { q: 'Can I visit Istanbul\'s historic sites while recovering from surgery?', a: 'Most of Istanbul\'s main sites — Hagia Sophia, Blue Mosque, Basilica Cistern — are on flat ground and require minimal walking. The Bosphorus cruise is entirely seated. For patients in early recovery (days 3–7), we recommend car tours and boat trips. Walking heritage tours are typically appropriate from week 2 for most procedures. Sultan GHC plans your itinerary with your surgeon\'s guidance.' },
-  { q: 'Is Turkey safe for U.S. patients?', a: 'Yes. Istanbul is a major international city receiving over 15 million tourists annually. The hospital districts where most Sultan GHC patients stay — Nisantasi, Sisli, and Kadikoy — are affluent, safe, and well-served by hotels and transport. Standard urban precautions apply as they would in any large city.' },
+  { q: 'Is Türkiye safe for U.S. patients?', a: 'Yes. Istanbul is a major international city receiving over 15 million tourists annually. The hospital districts where most Sultan GHC patients stay — Nisantasi, Sisli, and Kadikoy — are affluent, safe, and well-served by hotels and transport. Standard urban precautions apply as they would in any large city.' },
   { q: 'Is a hammam safe for post-surgical patients?', a: 'A traditional Turkish hammam should only be undertaken with your surgeon\'s clearance. For most procedures, this is appropriate 2–3 weeks after the operation. Sultan GHC coordinates with your surgical team on this timeline. Many patients book their hammam experience as a post-discharge treat on their final days in Istanbul.' },
   { q: 'Should I extend my trip to Cappadocia?', a: 'We strongly recommend a 2–3 night Cappadocia extension for patients cleared to fly domestically (usually 5–7 days after most procedures). Cappadocia\'s cave hotels are extraordinarily comfortable and the landscape is unlike anything else in the world. The balloon flight requires surgeon clearance; watching from the hotel terrace is equally magical.' },
   { q: 'Is the thermal water at Pamukkale genuinely therapeutic?', a: 'The Pamukkale thermal waters are naturally rich in calcium bicarbonate, magnesium, and sulfate — minerals with documented effects on circulation and musculoskeletal conditions. As with any thermal bathing post-surgery, please confirm clearance with your surgeon before soaking. Sultan GHC coordinates this conversation on your behalf.' },
   { q: 'Does Sultan GHC arrange sightseeing alongside medical care?', a: 'Sultan GHC specialises in medical coordination, but our team connects you with trusted local travel partners in Istanbul and other cities who handle hotel bookings, day trips, and transportation for your family. We coordinate the timeline between your medical schedule and tourist activities so nothing conflicts with your treatment or recovery.' },
 ]
 
-export default function TurkeyTouristAttractionsPage() {
+export default function TürkiyeTouristAttractionsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
@@ -242,7 +242,7 @@ export default function TurkeyTouristAttractionsPage() {
           <nav aria-label="Breadcrumb" className="flex items-center gap-1.5 text-[12px] text-gray-400 mb-8 flex-wrap">
             <Link href="/" className="hover:text-primary transition-colors">Home</Link>
             <ChevronRight size={12} />
-            <Link href="/destinations/turkey" className="hover:text-primary transition-colors">Turkey</Link>
+            <Link href="/destinations/turkey" className="hover:text-primary transition-colors">Türkiye</Link>
             <ChevronRight size={12} />
             <span className="text-primary font-medium">Tourist Attractions</span>
           </nav>
@@ -251,17 +251,17 @@ export default function TurkeyTouristAttractionsPage() {
             {/* Left — headline */}
             <div className="flex-1">
               <div className="flex items-center gap-3 mb-5">
-                <img src="https://flagcdn.com/w40/tr.png" srcSet="https://flagcdn.com/w80/tr.png 2x" width="40" height="30" alt="Turkey flag" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/w40/tr.png" srcSet="https://flagcdn.com/w80/tr.png 2x" width="40" height="30" alt="Türkiye flag" className="rounded shadow-sm" />
                 <span className="text-[11px] font-semibold text-primary uppercase tracking-widest bg-primary/10 px-3 py-1.5 rounded-full">
-                  Travel Guide — Turkey
+                  Travel Guide — Türkiye
                 </span>
               </div>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
-                Turkey — More Than<br />
+                Türkiye — More Than<br />
                 <span className="text-primary">a Medical Destination</span>
               </h1>
               <p className="text-lg text-gray-500 leading-relaxed mb-4 max-w-xl">
-                Most Turkey patients stay 7–14 days. That is enough to witness Hagia Sophia at dawn, float over Cappadocia in a hot air balloon, soak in Pamukkale\'s thermal pools, and experience one of the world\'s great cities.
+                Most Türkiye patients stay 7–14 days. That is enough to witness Hagia Sophia at dawn, float over Cappadocia in a hot air balloon, soak in Pamukkale\'s thermal pools, and experience one of the world\'s great cities.
               </p>
               <p className="text-gray-500 leading-relaxed mb-8 max-w-xl">
                 Sultan GHC plans your itinerary around your medical schedule — your family can tour Topkapi Palace while you rest, and you can join the Bosphorus cruise once your doctor clears gentle activity.
@@ -300,7 +300,7 @@ export default function TurkeyTouristAttractionsPage() {
             <div>
               <p className="text-sm font-semibold text-gray-900 mb-1.5">Where three empires left their mark — and where you heal</p>
               <p className="text-sm text-gray-600 leading-relaxed">
-                Istanbul was capital of the Roman, Byzantine, and Ottoman Empires — each left monuments of extraordinary grandeur within walking distance of each other. Turkey is also the world\'s fourth-largest medical tourism destination, and most Sultan GHC patients are genuinely surprised by how beautiful and accessible their recovery environment is. Your itinerary is planned around your treatment — not the other way around.
+                Istanbul was capital of the Roman, Byzantine, and Ottoman Empires — each left monuments of extraordinary grandeur within walking distance of each other. Türkiye is also the world\'s fourth-largest medical tourism destination, and most Sultan GHC patients are genuinely surprised by how beautiful and accessible their recovery environment is. Your itinerary is planned around your treatment — not the other way around.
               </p>
             </div>
           </div>
@@ -387,7 +387,7 @@ export default function TurkeyTouristAttractionsPage() {
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Recovery-Friendly Experiences</h2>
-            <p className="text-gray-500 text-sm max-w-xl mx-auto">Turkey has been a wellness destination since the Roman era. These experiences are beautiful, meaningful, and appropriate for recovering patients.</p>
+            <p className="text-gray-500 text-sm max-w-xl mx-auto">Türkiye has been a wellness destination since the Roman era. These experiences are beautiful, meaningful, and appropriate for recovering patients.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {WELLNESS_ACTIVITIES.map(({ icon: Icon, title, desc }) => (
@@ -408,7 +408,7 @@ export default function TurkeyTouristAttractionsPage() {
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Sample Trip Itineraries</h2>
-            <p className="text-gray-500 text-sm max-w-xl mx-auto">How Sultan GHC patients combine treatment and travel in Turkey.</p>
+            <p className="text-gray-500 text-sm max-w-xl mx-auto">How Sultan GHC patients combine treatment and travel in Türkiye.</p>
           </div>
           <div className="grid lg:grid-cols-3 gap-6">
             {ITINERARIES.map((itin) => (
@@ -472,9 +472,9 @@ export default function TurkeyTouristAttractionsPage() {
       {/* ── CTA ── */}
       <section className="bg-[#EEF4FF] border-t border-[#d9e6ff] py-14 sm:py-16">
         <div className="max-w-4xl mx-auto px-6 sm:px-10 lg:px-16 text-center">
-          <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-4">Ready to plan your Turkey medical and travel itinerary?</h2>
+          <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-4">Ready to plan your Türkiye medical and travel itinerary?</h2>
           <p className="text-gray-500 text-sm mb-8 max-w-xl mx-auto leading-relaxed">
-            Our patient coordinators create a seamless itinerary combining hospital appointments, recovery accommodation, and the best of Turkey — so your trip is medically excellent and personally unforgettable.
+            Our patient coordinators create a seamless itinerary combining hospital appointments, recovery accommodation, and the best of Türkiye — so your trip is medically excellent and personally unforgettable.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Link href="/enquiry" className="inline-flex items-center gap-2 bg-primary text-white px-7 py-3.5 rounded-full font-semibold text-sm hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">

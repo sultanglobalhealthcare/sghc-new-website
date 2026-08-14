@@ -6,7 +6,7 @@ const REASONS = [
     number: '01',
     icon: '🏥',
     title: 'Network of Accredited Hospitals',
-    desc: 'Access to 50+ JCI and NABH-accredited hospitals across India and Turkey — vetted for quality, safety, and international patient standards.',
+    desc: 'Access to 50+ JCI and NABH-accredited hospitals across India and Türkiye — vetted for quality, safety, and international patient standards.',
     color: 'blue',
   },
   {

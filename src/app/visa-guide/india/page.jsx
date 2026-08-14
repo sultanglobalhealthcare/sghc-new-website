@@ -628,7 +628,7 @@ export default function IndiaVisaGuidePage() {
               <div className="grid sm:grid-cols-3 gap-4">
                 {[
                   { label: 'India Destination Guide', href: '/destinations/india', desc: 'Cities, hospitals, costs, and specialties' },
-                  { label: 'Turkey Medical Visa Guide', href: '/visa-guide/turkey', desc: 'Visa-free entry rules and residence permit process' },
+                  { label: 'Türkiye Medical Visa Guide', href: '/visa-guide/turkey', desc: 'Visa-free entry rules and residence permit process' },
                   { label: 'International Patient Services', href: '/international-patient-services', desc: 'Full list of services Sultan GHC provides' },
                 ].map(({ label, href, desc }) => (
                   <Link

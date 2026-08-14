@@ -18,15 +18,15 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'About Sultan GHC | U.S.-Based Global Healthcare Concierge | India & Turkey',
+  title: 'About Sultan GHC | U.S.-Based Global Healthcare Concierge | India & Türkiye',
   description:
-    'Sultan Global Health Care (Sultan GHC) is a U.S.-based medical tourism and healthcare concierge company connecting American patients with internationally accredited hospitals in India and Turkey. Learn about our mission, story, and the team behind your care.',
+    'Sultan Global Health Care (Sultan GHC) is a U.S.-based medical tourism and healthcare concierge company connecting American patients with internationally accredited hospitals in India and Türkiye. Learn about our mission, story, and the team behind your care.',
   keywords: [
     'about Sultan GHC',
     'Sultan Global Health Care',
     'medical tourism company USA',
     'healthcare concierge United States',
-    'medical facilitator India Turkey',
+    'medical facilitator India Türkiye',
     'Dr Nasar Sultan',
     'Sultan GHC mission',
     'global healthcare concierge',
@@ -36,16 +36,16 @@ export const metadata = {
   openGraph: {
     title: 'About Sultan GHC — U.S.-Based Global Healthcare Concierge',
     description:
-      'Sultan GHC connects American patients with world-class, internationally accredited hospitals in India and Turkey — making quality healthcare accessible, transparent, and affordable.',
+      'Sultan GHC connects American patients with world-class, internationally accredited hospitals in India and Türkiye — making quality healthcare accessible, transparent, and affordable.',
     url: 'https://www.sultanghc.com/about',
     siteName: 'Sultan Global Health Care',
     type: 'website',
-    images: [{ url: 'https://www.sultanghc.com/api/og?title=About+Sultan+GHC&desc=U.S.-based+medical+tourism+concierge+connecting+American+patients+with+JCI-accredited+hospitals+in+India+%26+Turkey&cat=About+Us', width: 1200, height: 630, alt: 'About Sultan Global Health Care' }],
+    images: [{ url: 'https://www.sultanghc.com/api/og?title=About+Sultan+GHC&desc=U.S.-based+medical+tourism+concierge+connecting+American+patients+with+JCI-accredited+hospitals+in+India+%26+Türkiye&cat=About+Us', width: 1200, height: 630, alt: 'About Sultan Global Health Care' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'About Sultan GHC | U.S.-Based Global Healthcare Concierge',
-    description: 'Connecting American patients with world-class hospitals in India and Turkey since day one.',
+    description: 'Connecting American patients with world-class hospitals in India and Türkiye since day one.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/about' },
 }
@@ -69,7 +69,7 @@ const orgSchema = {
   url: 'https://www.sultanghc.com',
   logo: 'https://www.sultanghc.com/sghc-new-logo.png',
   description:
-    'Sultan GHC is a U.S.-based medical tourism and global healthcare concierge company connecting American patients with internationally accredited hospitals and specialist doctors in India and Turkey.',
+    'Sultan GHC is a U.S.-based medical tourism and global healthcare concierge company connecting American patients with internationally accredited hospitals and specialist doctors in India and Türkiye.',
   foundingLocation: { '@type': 'Place', name: 'United States' },
   areaServed: 'United States',
   contactPoint: {
@@ -141,7 +141,7 @@ export default function AboutPage() {
               <p className="text-lg text-gray-500 leading-relaxed mb-6 max-w-xl">
                 Sultan Global Health Care is a United States-based medical tourism and global healthcare
                 concierge company. We help American patients access world-class, internationally accredited
-                medical care in India and Turkey — at transparent, affordable costs.
+                medical care in India and Türkiye — at transparent, affordable costs.
               </p>
               <p className="text-gray-500 leading-relaxed mb-8 max-w-xl">
                 We are not a hospital. We are not a clinic. We do not provide medical treatment.
@@ -172,7 +172,7 @@ export default function AboutPage() {
                 width={1200}
                 height={900}
                 label="Sultan GHC team — U.S.-based global healthcare concierge"
-                aiPrompt="Professional corporate photography: A diverse, professional team of 4-5 healthcare coordinators in a modern, bright office setting in the United States. They are gathered around a table with laptops, looking confident and collaborative. The office has a premium, clean aesthetic. Some team members appear to be of South Asian and Middle Eastern heritage, reflecting the company's India and Turkey network. Natural light, photorealistic, Canon R5."
+                aiPrompt="Professional corporate photography: A diverse, professional team of 4-5 healthcare coordinators in a modern, bright office setting in the United States. They are gathered around a table with laptops, looking confident and collaborative. The office has a premium, clean aesthetic. Some team members appear to be of South Asian and Middle Eastern heritage, reflecting the company's India and Türkiye network. Natural light, photorealistic, Canon R5."
                 aspectRatio="4/3"
               />
             </div>
@@ -186,7 +186,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { value: '19',      label: 'Medical specialties in our network',    icon: Star },
-              { value: '2',       label: 'Destinations — India and Turkey',       icon: Globe2 },
+              { value: '2',       label: 'Destinations — India and Türkiye',       icon: Globe2 },
               { value: '60–90%',  label: 'Average cost savings vs. U.S. prices', icon: Heart },
               { value: '24 hrs',  label: 'Free first medical opinion turnaround', icon: Shield },
             ].map(({ value, label, icon: Icon }) => (
@@ -232,7 +232,7 @@ export default function AboutPage() {
             </p>
             <p className="text-gray-500 leading-relaxed mb-4">
               Having witnessed firsthand the extraordinary quality of internationally accredited hospitals
-              in India and Turkey — and the devastating financial burden that U.S. healthcare places on
+              in India and Türkiye — and the devastating financial burden that U.S. healthcare places on
               uninsured and underinsured families — Dr. Sultan set out to build a bridge.
             </p>
             <p className="text-gray-500 leading-relaxed mb-6">
@@ -272,7 +272,7 @@ export default function AboutPage() {
               <p className="text-gray-500 leading-relaxed text-base">
                 To make world-class healthcare more accessible, transparent, and affordable for
                 patients in the United States — by connecting them with internationally accredited
-                hospitals and specialist doctors in India and Turkey through a trusted, end-to-end
+                hospitals and specialist doctors in India and Türkiye through a trusted, end-to-end
                 concierge service.
               </p>
             </div>
@@ -285,7 +285,7 @@ export default function AboutPage() {
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Our Vision</h3>
               <p className="text-gray-500 leading-relaxed text-base">
                 To become the most trusted global healthcare concierge brand connecting U.S. patients
-                with internationally recognized hospitals in India and Turkey — known for our
+                with internationally recognized hospitals in India and Türkiye — known for our
                 compassion, transparency, and the life-changing outcomes we help facilitate for
                 every patient who trusts us with their care.
               </p>
@@ -384,7 +384,7 @@ export default function AboutPage() {
             Two of the World's Leading Medical Tourism Destinations
           </h2>
           <p className="text-gray-500 leading-relaxed">
-            We partner exclusively with JCI-accredited hospitals in India and Turkey —
+            We partner exclusively with JCI-accredited hospitals in India and Türkiye —
             two countries globally recognized for exceptional healthcare quality and value.
           </p>
         </div>
@@ -401,10 +401,10 @@ export default function AboutPage() {
             },
             {
               flag: 'tr',
-              country: 'Turkey',
+              country: 'Türkiye',
               href: '/destinations/turkey',
               headline: "Europe's Leading Medical Tourism Hub",
-              desc: "Turkey receives more medical tourists than any other country in Europe. Istanbul, Ankara, and Antalya are home to internationally accredited hospitals operating to European Union standards — with specialists holding fellowships from Germany, France, and the UK. Direct flights from the U.S. East Coast make Turkey remarkably accessible.",
+              desc: "Türkiye receives more medical tourists than any other country in Europe. Istanbul, Ankara, and Antalya are home to internationally accredited hospitals operating to European Union standards — with specialists holding fellowships from Germany, France, and the UK. Direct flights from the U.S. East Coast make Türkiye remarkably accessible.",
               highlights: ['150,000+ international patients annually', 'JCI-accredited hospitals in Istanbul & beyond', 'European-standard care and facilities', '10–11 hour direct flight from U.S. East Coast'],
             },
           ].map(({ flag, country, href, headline, desc, highlights }) => (

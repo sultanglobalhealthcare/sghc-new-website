@@ -310,7 +310,7 @@ export default function ContactPage() {
                   <div>
                     <p className="text-sm font-semibold text-gray-800 mb-0.5">Based in the United States</p>
                     <p className="text-sm text-gray-600">Serving patients across all 50 states</p>
-                    <p className="text-xs text-gray-400 mt-1">Partner hospitals in India & Turkey</p>
+                    <p className="text-xs text-gray-400 mt-1">Partner hospitals in India & Türkiye</p>
                   </div>
                 </div>
               </div>

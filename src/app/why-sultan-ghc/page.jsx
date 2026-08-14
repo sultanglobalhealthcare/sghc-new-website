@@ -27,13 +27,13 @@ import {
 export const metadata = {
   title: 'Why Choose Sultan GHC | Trusted Medical Tourism Concierge for U.S. Patients',
   description:
-    'Discover why U.S. patients trust Sultan GHC for medical treatment in India and Turkey. JCI-accredited hospitals, 60–80% cost savings, dedicated case managers, and end-to-end care. No booking platform — a real concierge.',
+    'Discover why U.S. patients trust Sultan GHC for medical treatment in India and Türkiye. JCI-accredited hospitals, 60–80% cost savings, dedicated case managers, and end-to-end care. No booking platform — a real concierge.',
   keywords: [
     'why choose Sultan GHC',
     'medical tourism concierge USA',
     'best medical tourism company for Americans',
     'affordable healthcare abroad from USA',
-    'medical tourism India Turkey',
+    'medical tourism India Türkiye',
     'JCI accredited hospitals India',
     'international patient services',
     'healthcare facilitation USA',
@@ -96,7 +96,7 @@ const PILLARS = [
     headline: 'Not Every Hospital. Only the Right Ones.',
     body: 'Every hospital in the Sultan GHC network has been personally vetted — not just checked for accreditation on a website, but evaluated for specialist quality, international patient protocols, outcome data, nursing ratios, and real patient feedback.',
     detail:
-      'We only partner with JCI (Joint Commission International) and NABH-accredited hospitals in India, and JCI-accredited institutions in Turkey. JCI is the same independent body that accredits leading U.S. hospitals. When your surgeon trained at Harvard or Johns Hopkins and operates in a facility with ISO-certified ORs and 24/7 intensivists, you are not compromising — you are choosing differently.',
+      'We only partner with JCI (Joint Commission International) and NABH-accredited hospitals in India, and JCI-accredited institutions in Türkiye. JCI is the same independent body that accredits leading U.S. hospitals. When your surgeon trained at Harvard or Johns Hopkins and operates in a facility with ISO-certified ORs and 24/7 intensivists, you are not compromising — you are choosing differently.',
     highlights: [
       'JCI and NABH-accredited hospitals only',
       'Same accreditation standards as top U.S. hospitals',
@@ -132,7 +132,7 @@ const PILLARS = [
     headline: 'You Focus on Getting Better. We Handle Everything Else.',
     body: 'Medical visa. Flight coordination. Airport pickup. Hospital admission. Accommodation. Local transport. Interpreter services. Prescription documentation for re-entry. Every logistical element of your international journey is planned, coordinated, and managed by our team.',
     detail:
-      'Navigating a foreign healthcare system while managing a medical condition is genuinely hard. Language barriers, unfamiliar bureaucracy, unfamiliar cities — it adds anxiety at exactly the moment you can least afford it. Sultan GHC eliminates this completely. Our on-ground teams in India and Turkey are embedded in the cities where your hospitals are located. They know every corridor, every process, and every shortcut.',
+      'Navigating a foreign healthcare system while managing a medical condition is genuinely hard. Language barriers, unfamiliar bureaucracy, unfamiliar cities — it adds anxiety at exactly the moment you can least afford it. Sultan GHC eliminates this completely. Our on-ground teams in India and Türkiye are embedded in the cities where your hospitals are located. They know every corridor, every process, and every shortcut.',
     highlights: [
       'Medical visa assistance — official invitation letter included',
       'Accommodation near the hospital arranged to your budget',
@@ -150,7 +150,7 @@ const PILLARS = [
     headline: 'Someone Is Always There. Night, Day, or Emergency.',
     body: 'Being in a foreign country for medical treatment is a deeply personal experience. Having a trusted person physically present — not just a chatbot or a helpline number — changes everything. Our on-ground coordinators visit you daily during your hospital stay and are reachable around the clock.',
     detail:
-      'From the moment you land to the moment you board your return flight, our teams in India and Turkey are physically present. They accompany you to consultations, help you understand medical instructions, liaise with nursing staff on your behalf, and ensure you always have everything you need. A WhatsApp group keeps your family updated in real time, wherever they are.',
+      'From the moment you land to the moment you board your return flight, our teams in India and Türkiye are physically present. They accompany you to consultations, help you understand medical instructions, liaise with nursing staff on your behalf, and ensure you always have everything you need. A WhatsApp group keeps your family updated in real time, wherever they are.',
     highlights: [
       'Daily welfare visits from our on-ground coordinator',
       '24/7 WhatsApp support — real people, not bots',
@@ -249,7 +249,7 @@ const FAQS = [
   },
   {
     q: 'How do I know the hospitals you recommend are safe?',
-    a: 'Every hospital in our network holds JCI (Joint Commission International) accreditation in India and Turkey, and/or NABH certification in India. JCI is the same body that accredits leading U.S. hospitals internationally. Additionally, our clinical advisors have personally reviewed each facility for specialist quality, international patient protocols, and track record before any partnership is established.',
+    a: 'Every hospital in our network holds JCI (Joint Commission International) accreditation in India and Türkiye, and/or NABH certification in India. JCI is the same body that accredits leading U.S. hospitals internationally. Additionally, our clinical advisors have personally reviewed each facility for specialist quality, international patient protocols, and track record before any partnership is established.',
   },
   {
     q: 'What is the difference between Sultan GHC and a medical tourism booking website?',
@@ -280,7 +280,7 @@ const pageSchema = {
   '@type': 'WebPage',
   name: 'Why Choose Sultan GHC',
   description:
-    'Why U.S. patients trust Sultan GHC for medical tourism in India and Turkey — dedicated case management, JCI-accredited hospitals, 60–80% cost savings, and end-to-end patient support.',
+    'Why U.S. patients trust Sultan GHC for medical tourism in India and Türkiye — dedicated case management, JCI-accredited hospitals, 60–80% cost savings, and end-to-end patient support.',
   url: 'https://www.sultanghc.com/why-sultan-ghc',
   breadcrumb: {
     '@type': 'BreadcrumbList',
@@ -447,7 +447,7 @@ export default function WhySultanGHCPage() {
             {/* Right: mini trust cards */}
             <div className="w-full lg:w-auto grid grid-cols-2 gap-3 lg:max-w-xs">
               {[
-                { icon: BadgeCheck, label: 'JCI-Accredited Hospitals', sub: 'India & Turkey' },
+                { icon: BadgeCheck, label: 'JCI-Accredited Hospitals', sub: 'India & Türkiye' },
                 { icon: TrendingDown, label: 'Save 60–80%', sub: 'vs. U.S. costs' },
                 { icon: Users, label: 'Dedicated Case Manager', sub: 'Assigned Day 1' },
                 { icon: HeartPulse, label: 'Post-Treatment Care', sub: 'Even back home' },
@@ -498,7 +498,7 @@ export default function WhySultanGHCPage() {
                 increasingly complex system that leaves many patients without viable options.
               </p>
               <p className="text-base text-gray-500 leading-relaxed mb-5">
-                Internationally accredited hospitals in India and Turkey offer the same quality of
+                Internationally accredited hospitals in India and Türkiye offer the same quality of
                 specialist care — at 10–20% of U.S. prices. Many of these hospitals were built
                 specifically to serve international patients, with English-speaking staff, international
                 patient departments, and outcomes data that matches or exceeds Western benchmarks.
@@ -514,7 +514,7 @@ export default function WhySultanGHCPage() {
             <div className="w-full lg:w-5/12 flex-shrink-0 grid grid-cols-1 gap-4">
               {[
                 { icon: '💸', title: 'Prohibitive U.S. Costs', body: 'Average knee replacement in the U.S.: $40,000–$55,000. In India: $6,500. Including flights and accommodation.' },
-                { icon: '⏳', title: 'Long Wait Times', body: 'Many U.S. surgical procedures carry waits of 3–12 months. Our partner hospitals in India and Turkey typically schedule within 2–4 weeks.' },
+                { icon: '⏳', title: 'Long Wait Times', body: 'Many U.S. surgical procedures carry waits of 3–12 months. Our partner hospitals in India and Türkiye typically schedule within 2–4 weeks.' },
                 { icon: '📋', title: 'Insurance Gaps', body: 'Over 26 million Americans are uninsured or underinsured. Many more face high deductibles that make U.S. procedures effectively unaffordable.' },
                 { icon: '🌐', title: 'The Navigation Gap', body: 'International healthcare is confusing — not because the care is inferior, but because the logistics are unfamiliar. Sultan GHC bridges that gap completely.' },
               ].map(({ icon, title, body }) => (
@@ -633,7 +633,7 @@ export default function WhySultanGHCPage() {
             </h2>
             <p className="text-gray-500 max-w-xl mx-auto leading-relaxed">
               These figures represent typical U.S. list prices compared to all-inclusive treatment
-              packages at our partner hospitals in India and Turkey — including hospital stay,
+              packages at our partner hospitals in India and Türkiye — including hospital stay,
               surgeon fees, and post-operative care.
             </p>
           </div>
@@ -651,7 +651,7 @@ export default function WhySultanGHCPage() {
                 <span className="text-xs font-semibold uppercase tracking-wider text-gray-400">India</span>
               </div>
               <div className="p-4 lg:p-5 text-center border-l border-gray-700">
-                <span className="text-xs font-semibold uppercase tracking-wider text-gray-400">Turkey</span>
+                <span className="text-xs font-semibold uppercase tracking-wider text-gray-400">Türkiye</span>
               </div>
             </div>
 

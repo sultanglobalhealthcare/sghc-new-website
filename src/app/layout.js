@@ -16,15 +16,15 @@ const outfit = Outfit({
 
 export const metadata = {
   title: {
-    default: 'Sultan GHC | U.S.-Based Medical Tourism Concierge — India & Turkey',
+    default: 'Sultan GHC | U.S.-Based Medical Tourism Concierge — India & Türkiye',
     template: '%s | Sultan GHC',
   },
   description:
-    'Sultan Global Health Care (SGHC) is a United States-based medical tourism concierge connecting U.S. patients with JCI-accredited hospitals and specialist doctors in India and Turkey. Save 60–80% on world-class medical treatment.',
+    'Sultan Global Health Care (SGHC) is a United States-based medical tourism concierge connecting U.S. patients with JCI-accredited hospitals and specialist doctors in India and Türkiye. Save 60–80% on world-class medical treatment.',
   keywords: [
     'medical tourism USA',
     'medical tourism India',
-    'medical tourism Turkey',
+    'medical tourism Türkiye',
     'affordable healthcare abroad',
     'JCI accredited hospitals India',
     'Sultan GHC',
@@ -42,10 +42,10 @@ export const metadata = {
     siteName: 'Sultan Global Health Care',
     title: 'Sultan GHC | Trusted Medical Tourism Concierge for U.S. Patients',
     description:
-      'Connect with JCI-accredited hospitals and specialist doctors in India and Turkey. Save 60–80% on treatment. Dedicated case managers. End-to-end patient support.',
+      'Connect with JCI-accredited hospitals and specialist doctors in India and Türkiye. Save 60–80% on treatment. Dedicated case managers. End-to-end patient support.',
     images: [
       {
-        url: 'https://www.sultanghc.com/api/og?title=Sultan+GHC+%7C+Medical+Tourism+Concierge&desc=JCI-accredited+hospitals+in+India+%26+Turkey.+Save+60-80%25+on+world-class+treatment.+Free+medical+opinion.+Dedicated+Case+Managers.',
+        url: 'https://www.sultanghc.com/api/og?title=Sultan+GHC+%7C+Medical+Tourism+Concierge&desc=JCI-accredited+hospitals+in+India+%26+Türkiye.+Save+60-80%25+on+world-class+treatment.+Free+medical+opinion.+Dedicated+Case+Managers.',
         width: 1200,
         height: 630,
         alt: 'Sultan Global Health Care — Medical Tourism Concierge',
@@ -54,10 +54,10 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sultan GHC | Medical Tourism Concierge — India & Turkey',
+    title: 'Sultan GHC | Medical Tourism Concierge — India & Türkiye',
     description:
       'JCI-accredited hospitals, 60–80% savings, and a dedicated Case Manager. The trusted medical tourism concierge for U.S. patients.',
-    images: ['https://www.sultanghc.com/api/og?title=Sultan+GHC+%7C+Medical+Tourism+Concierge&desc=JCI-accredited+hospitals+in+India+%26+Turkey.+Save+60-80%25+on+world-class+treatment.'],
+    images: ['https://www.sultanghc.com/api/og?title=Sultan+GHC+%7C+Medical+Tourism+Concierge&desc=JCI-accredited+hospitals+in+India+%26+Türkiye.+Save+60-80%25+on+world-class+treatment.'],
   },
   robots: {
     index: true,
@@ -85,7 +85,7 @@ const organizationSchema = {
   url: 'https://www.sultanghc.com',
   logo: 'https://www.sultanghc.com/sghc-new-logo.png',
   description:
-    'Sultan Global Health Care (SGHC) is a United States-based medical tourism concierge connecting U.S. patients with JCI-accredited hospitals and specialist doctors in India and Turkey.',
+    'Sultan Global Health Care (SGHC) is a United States-based medical tourism concierge connecting U.S. patients with JCI-accredited hospitals and specialist doctors in India and Türkiye.',
   address: {
     '@type': 'PostalAddress',
     addressCountry: 'US',

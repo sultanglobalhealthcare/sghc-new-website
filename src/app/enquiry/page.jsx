@@ -37,7 +37,7 @@ const TREATMENTS = [
 
 const DESTINATIONS = [
   { id: 'india',  label: 'India',       code: 'in', desc: '80% savings · JCI hospitals'   },
-  { id: 'turkey', label: 'Turkey',      code: 'tr', desc: 'European standards · Istanbul' },
+  { id: 'turkey', label: 'Türkiye',      code: 'tr', desc: 'European standards · Istanbul' },
   { id: 'best',   label: 'Best Option', code: null,  desc: 'Let our team recommend'        },
 ]
 

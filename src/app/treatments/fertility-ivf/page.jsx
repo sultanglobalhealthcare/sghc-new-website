@@ -8,7 +8,7 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'IVF Abroad in India & Turkey | Cost, Success Rates & How It Works | Sultan GHC',
+  title: 'IVF Abroad in India & Türkiye | Cost, Success Rates & How It Works | Sultan GHC',
   description:
     'IVF in India costs $2,000–$4,000 per cycle vs $15,000–$30,000 in the U.S. — a saving of 85–90%. Sultan GHC connects American patients with JCI-accredited IVF centers offering IVF, ICSI, PGT-A, PGT-M, egg freezing, donor eggs, FET, and ERA. Verified success rates, transparent costs, full care coordination.',
   keywords: [
@@ -16,7 +16,7 @@ export const metadata = {
     'IVF abroad for Americans',
     'IVF India vs USA cost',
     'ICSI treatment India cost',
-    'IVF Turkey cost',
+    'IVF Türkiye cost',
     'PGT-A genetic testing India cost',
     'egg freezing India cost',
     'donor egg IVF India',
@@ -24,7 +24,7 @@ export const metadata = {
     'ERA endometrial receptivity India',
     'IVF success rate India',
     'fertility treatment abroad Americans',
-    'affordable IVF USA patients India Turkey',
+    'affordable IVF USA patients India Türkiye',
     'Sultan GHC IVF fertility',
     'IVF medical tourism India',
     'PCOS infertility treatment India',
@@ -32,7 +32,7 @@ export const metadata = {
     'low AMH IVF India donor eggs',
   ],
   openGraph: {
-    title: 'IVF & Fertility Treatment in India & Turkey | 85% Less Than U.S. Costs | Sultan GHC',
+    title: 'IVF & Fertility Treatment in India & Türkiye | 85% Less Than U.S. Costs | Sultan GHC',
     description:
       'IVF in India: $2,000–$4,000/cycle vs $15,000–$30,000 in the U.S. ICSI, PGT-A, donor eggs, egg freezing, ERA — JCI-accredited fertility centers. Full journey coordination by Sultan GHC.',
     url: 'https://www.sultanghc.com/treatments/fertility-ivf',
@@ -41,7 +41,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'IVF Abroad | India & Turkey | $2K–$4K per Cycle | Sultan GHC',
+    title: 'IVF Abroad | India & Türkiye | $2K–$4K per Cycle | Sultan GHC',
     description: 'IVF in India costs $2,000–$4,000 vs $15,000–$30,000 in the U.S. ICSI, PGT-A, donor eggs, egg freezing. Full coordination by Sultan GHC.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/treatments/fertility-ivf' },
@@ -62,8 +62,8 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'IVF & Fertility Treatment Abroad — India and Turkey',
-  description: 'Comprehensive IVF, ICSI, PGT-A, donor egg, egg freezing, and fertility preservation for U.S. patients at JCI-accredited IVF centers in India and Turkey, coordinated by Sultan GHC.',
+  name: 'IVF & Fertility Treatment Abroad — India and Türkiye',
+  description: 'Comprehensive IVF, ICSI, PGT-A, donor egg, egg freezing, and fertility preservation for U.S. patients at JCI-accredited IVF centers in India and Türkiye, coordinated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/fertility-ivf',
   about: {
     '@type': 'MedicalSpecialty',
@@ -122,7 +122,7 @@ const faqSchema = {
       name: 'Can I freeze my eggs in India? How much does egg freezing cost?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Elective egg freezing (social freezing) and medical egg freezing (fertility preservation before chemotherapy or surgery) are both available at partner IVF centers in India and Turkey. Egg freezing in the U.S. costs $10,000–$20,000 including medications (ASRM data). In India: $1,500–$3,500 including all medications. Annual embryo/egg storage fee in India: $150–$300 vs $600–$1,500 in the U.S. Turkey egg freezing: $2,000–$4,500.',
+        text: 'Elective egg freezing (social freezing) and medical egg freezing (fertility preservation before chemotherapy or surgery) are both available at partner IVF centers in India and Türkiye. Egg freezing in the U.S. costs $10,000–$20,000 including medications (ASRM data). In India: $1,500–$3,500 including all medications. Annual embryo/egg storage fee in India: $150–$300 vs $600–$1,500 in the U.S. Türkiye egg freezing: $2,000–$4,500.',
       },
     },
     {
@@ -367,12 +367,12 @@ export default function FertilityIVFPage() {
                 IVF · ICSI · PGT-A · Donor Eggs · Egg Freezing
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
-                IVF in India & Turkey —{' '}
+                IVF in India & Türkiye —{' '}
                 <span className="text-primary">$2,000–$4,000/Cycle</span>{' '}
                 vs $15,000–$30,000 in the U.S.
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-5 max-w-2xl">
-                For millions of American couples, the cost of IVF is the single biggest barrier to starting a family. Sultan GHC connects U.S. patients with JCI-accredited fertility centers in India and Turkey offering world-class IVF, ICSI, PGT-A, donor egg IVF, egg freezing, and ERA — at 80–87% less than U.S. prices, with verified success rates and full care coordination.
+                For millions of American couples, the cost of IVF is the single biggest barrier to starting a family. Sultan GHC connects U.S. patients with JCI-accredited fertility centers in India and Türkiye offering world-class IVF, ICSI, PGT-A, donor egg IVF, egg freezing, and ERA — at 80–87% less than U.S. prices, with verified success rates and full care coordination.
               </p>
               {/* Core savings callout */}
               <div className="bg-white border border-primary/20 rounded-2xl p-5 mb-8 shadow-sm">
@@ -520,8 +520,8 @@ export default function FertilityIVFPage() {
       <section className="bg-white py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">IVF Cost Comparison: USA vs India vs Turkey</h2>
-            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">U.S. figures from RESOLVE: The National Infertility Association (2024) and ASRM published data. India and Turkey from JCI-accredited partner center published rates (2025). All figures include medications unless stated.</p>
+            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">IVF Cost Comparison: USA vs India vs Türkiye</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">U.S. figures from RESOLVE: The National Infertility Association (2024) and ASRM published data. India and Türkiye from JCI-accredited partner center published rates (2025). All figures include medications unless stated.</p>
           </div>
           <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
             <table className="w-full text-sm">
@@ -540,7 +540,7 @@ export default function FertilityIVFPage() {
                   </th>
                   <th className="text-center px-5 py-4 font-semibold text-primary">
                     <span className="inline-flex items-center justify-center gap-1.5">
-                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" /> Turkey
+                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" /> Türkiye
                     </span>
                   </th>
                   <th className="text-center px-5 py-4 font-semibold text-green-400 rounded-tr-2xl">Save (India)</th>
@@ -574,7 +574,7 @@ export default function FertilityIVFPage() {
         </div>
       </section>
 
-      {/* Why India / Turkey */}
+      {/* Why India / Türkiye */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-10">
@@ -605,20 +605,20 @@ export default function FertilityIVFPage() {
 
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">IVF in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">IVF in Türkiye</h3>
                   <p className="text-sm text-gray-500">Acibadem Sistina, Memorial IVF, Medicana, Clinic Eurofertil</p>
                 </div>
               </div>
               <ul className="space-y-3">
                 {[
-                  'Turkey is one of Europe\'s most popular IVF destinations — drawing patients from 50+ countries annually for its high-quality care at competitive prices',
+                  'Türkiye is one of Europe\'s most popular IVF destinations — drawing patients from 50+ countries annually for its high-quality care at competitive prices',
                   'Acibadem Sistina (Istanbul) — internationally accredited IVF center with reproductive genetics, PGT-A, and dedicated international patient coordinators',
-                  'Donor egg IVF is particularly popular in Turkey — where donor profiles include Eastern European and Turkish donors, with fast turnaround times (2–4 weeks)',
-                  'Turkey has no age restriction for IVF in private clinics — patients up to 50 can access treatment with donor eggs',
+                  'Donor egg IVF is particularly popular in Türkiye — where donor profiles include Eastern European and Turkish donors, with fast turnaround times (2–4 weeks)',
+                  'Türkiye has no age restriction for IVF in private clinics — patients up to 50 can access treatment with donor eggs',
                   'Koç University Hospital — academic IVF center with fellowship-trained reproductive endocrinologists and research-standard laboratory protocols',
-                  'U.S. citizens are visa-free for Turkey (effective January 2024); Turkish Airlines nonstop from 7 U.S. cities',
+                  'U.S. citizens are visa-free for Türkiye (effective January 2024); Turkish Airlines nonstop from 7 U.S. cities',
                   'IVF packages often include hotel, airport transfer, translation, and clinic visits — easy to coordinate for a 14–20 day trip',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">

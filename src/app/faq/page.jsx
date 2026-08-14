@@ -34,23 +34,23 @@ const FAQ_CATEGORIES = [
     faqs: [
       {
         q: 'What is Sultan GHC and what do you do?',
-        a: 'Sultan Global Health Care (Sultan GHC) is a United States-based medical tourism and global healthcare concierge company. We help American patients access high-quality, internationally accredited medical treatment in India and Turkey at a fraction of U.S. costs. We are not a hospital, clinic, or healthcare provider. We are a healthcare facilitator — meaning we evaluate your medical case, match you to the right hospital and specialist, coordinate your travel and accommodation, and support you throughout your entire treatment journey and recovery. We manage everything so you can focus entirely on getting better.',
+        a: 'Sultan Global Health Care (Sultan GHC) is a United States-based medical tourism and global healthcare concierge company. We help American patients access high-quality, internationally accredited medical treatment in India and Türkiye at a fraction of U.S. costs. We are not a hospital, clinic, or healthcare provider. We are a healthcare facilitator — meaning we evaluate your medical case, match you to the right hospital and specialist, coordinate your travel and accommodation, and support you throughout your entire treatment journey and recovery. We manage everything so you can focus entirely on getting better.',
       },
       {
         q: 'Where is Sultan GHC based?',
-        a: 'Sultan GHC is based in the United States and serves American patients nationwide. Our phone number is +1-610-787-0713 and we can be reached at info@sultanghc.com. While our home base is in the U.S., we have in-country coordinators and partnerships with hospitals in India and Turkey who support patients on the ground throughout their treatment.',
+        a: 'Sultan GHC is based in the United States and serves American patients nationwide. Our phone number is +1-610-787-0713 and we can be reached at info@sultanghc.com. While our home base is in the U.S., we have in-country coordinators and partnerships with hospitals in India and Türkiye who support patients on the ground throughout their treatment.',
       },
       {
         q: 'Who founded Sultan GHC?',
-        a: 'Sultan GHC was founded by Dr. Nasar A. Sultan, MD, who serves as the company\'s Founder and Medical Director. Dr. Sultan established Sultan GHC with the conviction that millions of Americans deserve access to world-class medical care — regardless of their insurance status or financial means. Having witnessed both the extraordinary quality of internationally accredited hospitals in India and Turkey, and the devastating financial burden U.S. healthcare can place on families, Dr. Sultan built Sultan GHC as a trusted bridge between the two.',
+        a: 'Sultan GHC was founded by Dr. Nasar A. Sultan, MD, who serves as the company\'s Founder and Medical Director. Dr. Sultan established Sultan GHC with the conviction that millions of Americans deserve access to world-class medical care — regardless of their insurance status or financial means. Having witnessed both the extraordinary quality of internationally accredited hospitals in India and Türkiye, and the devastating financial burden U.S. healthcare can place on families, Dr. Sultan built Sultan GHC as a trusted bridge between the two.',
       },
       {
         q: 'Is Sultan GHC a hospital or a healthcare provider?',
-        a: 'No. Sultan GHC is not a hospital, not a clinic, and not a healthcare provider of any kind. We do not diagnose, treat, or provide medical care. We are a healthcare facilitation and concierge company. Our role is to evaluate your case, recommend accredited hospitals and qualified specialists, coordinate your logistics, and support you every step of the way — but the actual medical care is provided by internationally trained physicians at our partner hospitals in India and Turkey.',
+        a: 'No. Sultan GHC is not a hospital, not a clinic, and not a healthcare provider of any kind. We do not diagnose, treat, or provide medical care. We are a healthcare facilitation and concierge company. Our role is to evaluate your case, recommend accredited hospitals and qualified specialists, coordinate your logistics, and support you every step of the way — but the actual medical care is provided by internationally trained physicians at our partner hospitals in India and Türkiye.',
       },
       {
         q: 'Which countries does Sultan GHC work with?',
-        a: 'Sultan GHC currently facilitates treatment in two countries: India and Turkey. Both are globally recognized as leading medical tourism destinations. India is home to some of Asia\'s finest JCI-accredited hospitals in cities such as Delhi, Mumbai, Chennai, Bengaluru, and Hyderabad. Turkey — particularly Istanbul — is Europe\'s top medical tourism hub, with internationally accredited facilities operating to European Union standards. We chose these two destinations specifically because they offer the best combination of internationally accredited quality, specialist expertise, and genuine cost savings for U.S. patients.',
+        a: 'Sultan GHC currently facilitates treatment in two countries: India and Türkiye. Both are globally recognized as leading medical tourism destinations. India is home to some of Asia\'s finest JCI-accredited hospitals in cities such as Delhi, Mumbai, Chennai, Bengaluru, and Hyderabad. Türkiye — particularly Istanbul — is Europe\'s top medical tourism hub, with internationally accredited facilities operating to European Union standards. We chose these two destinations specifically because they offer the best combination of internationally accredited quality, specialist expertise, and genuine cost savings for U.S. patients.',
       },
       {
         q: 'How is Sultan GHC different from other medical tourism companies?',
@@ -66,7 +66,7 @@ const FAQ_CATEGORIES = [
     faqs: [
       {
         q: 'What is medical tourism?',
-        a: 'Medical tourism refers to the practice of traveling to another country to receive medical, surgical, or dental treatment. Patients typically choose medical tourism to access lower-cost care, access treatments not available at home, bypass long waiting lists, or seek a second opinion from world-class specialists. Countries such as India, Turkey, Thailand, Mexico, and Germany are leading medical tourism destinations, each known for specific specialties. India and Turkey — Sultan GHC\'s focus destinations — are particularly popular with American patients seeking cardiac surgery, orthopedic procedures, cancer treatment, organ transplants, fertility treatment, and cosmetic procedures.',
+        a: 'Medical tourism refers to the practice of traveling to another country to receive medical, surgical, or dental treatment. Patients typically choose medical tourism to access lower-cost care, access treatments not available at home, bypass long waiting lists, or seek a second opinion from world-class specialists. Countries such as India, Türkiye, Thailand, Mexico, and Germany are leading medical tourism destinations, each known for specific specialties. India and Türkiye — Sultan GHC\'s focus destinations — are particularly popular with American patients seeking cardiac surgery, orthopedic procedures, cancer treatment, organ transplants, fertility treatment, and cosmetic procedures.',
       },
       {
         q: 'Is medical tourism safe?',
@@ -78,7 +78,7 @@ const FAQ_CATEGORIES = [
       },
       {
         q: 'Why do Americans travel abroad for medical treatment?',
-        a: 'Americans seek treatment abroad for several key reasons. Cost is the most common: a procedure that costs $80,000–$120,000 in the United States may cost $8,000–$20,000 in India or Turkey — with equivalent or superior clinical outcomes. Lack of insurance or high deductibles is another driver, as are long waiting periods for elective or complex procedures. Some patients seek world-class specialists not available locally, or want a second opinion from internationally trained surgeons. Others find that international hospitals offer more personalized, attentive care and shorter hospital stays.',
+        a: 'Americans seek treatment abroad for several key reasons. Cost is the most common: a procedure that costs $80,000–$120,000 in the United States may cost $8,000–$20,000 in India or Türkiye — with equivalent or superior clinical outcomes. Lack of insurance or high deductibles is another driver, as are long waiting periods for elective or complex procedures. Some patients seek world-class specialists not available locally, or want a second opinion from internationally trained surgeons. Others find that international hospitals offer more personalized, attentive care and shorter hospital stays.',
       },
       {
         q: 'What types of treatments do patients seek abroad?',
@@ -93,12 +93,12 @@ const FAQ_CATEGORIES = [
     label: 'Costs & Savings',
     faqs: [
       {
-        q: 'How much can I save on medical treatment in India or Turkey compared to the U.S.?',
-        a: 'Patients typically save between 60% and 90% on major medical procedures compared to U.S. prices. For example, a cardiac bypass surgery that costs $130,000 in the U.S. may cost $7,000–$12,000 in India. A knee replacement that costs $35,000–$50,000 in the U.S. can be done for $4,000–$7,000 in India or Turkey. Spinal fusion surgery priced at $60,000–$150,000 in the U.S. may cost $6,000–$12,000 internationally. Even after accounting for flights, accommodation, and Sultan GHC\'s coordination services, the net savings are substantial — often $20,000–$100,000 or more on a single procedure.',
+        q: 'How much can I save on medical treatment in India or Türkiye compared to the U.S.?',
+        a: 'Patients typically save between 60% and 90% on major medical procedures compared to U.S. prices. For example, a cardiac bypass surgery that costs $130,000 in the U.S. may cost $7,000–$12,000 in India. A knee replacement that costs $35,000–$50,000 in the U.S. can be done for $4,000–$7,000 in India or Türkiye. Spinal fusion surgery priced at $60,000–$150,000 in the U.S. may cost $6,000–$12,000 internationally. Even after accounting for flights, accommodation, and Sultan GHC\'s coordination services, the net savings are substantial — often $20,000–$100,000 or more on a single procedure.',
       },
       {
-        q: 'Why is medical treatment so much cheaper in India and Turkey?',
-        a: 'The cost difference is not due to lower quality care — it reflects differences in the cost of living, medical liability insurance, administrative overhead, pharmaceutical pricing, and hospital infrastructure costs. Indian and Turkish hospitals do not carry the massive administrative burden of U.S. hospitals. Doctor salaries, while competitive in local terms, are not inflated by the same forces as in the U.S. healthcare system. Medical liability insurance costs are a fraction of U.S. rates. Importantly, India and Turkey actively compete for medical tourists and invest heavily in maintaining internationally accredited facilities to attract patients from the U.S., UK, Middle East, and Europe.',
+        q: 'Why is medical treatment so much cheaper in India and Türkiye?',
+        a: 'The cost difference is not due to lower quality care — it reflects differences in the cost of living, medical liability insurance, administrative overhead, pharmaceutical pricing, and hospital infrastructure costs. Indian and Turkish hospitals do not carry the massive administrative burden of U.S. hospitals. Doctor salaries, while competitive in local terms, are not inflated by the same forces as in the U.S. healthcare system. Medical liability insurance costs are a fraction of U.S. rates. Importantly, India and Türkiye actively compete for medical tourists and invest heavily in maintaining internationally accredited facilities to attract patients from the U.S., UK, Middle East, and Europe.',
       },
       {
         q: 'Does Sultan GHC charge for its services?',
@@ -137,8 +137,8 @@ const FAQ_CATEGORIES = [
         a: 'After you submit your reports, Sultan GHC\'s clinical team reviews your case within 24 hours. You then receive: (1) A written free first medical opinion assessing your diagnosis and recommended treatment path. (2) Recommended hospitals matched to your condition and preferred destination — with JCI accreditation details and specialist credentials. (3) A transparent, itemised cost estimate covering treatment, hospital stay, and support services. (4) An opportunity to ask questions before making any decision. If you decide to proceed, a dedicated Case Manager is assigned who manages everything from that point forward.',
       },
       {
-        q: 'Do I need to speak the local language to receive treatment in India or Turkey?',
-        a: 'No. In major hospitals in India, English is widely spoken — by doctors, specialist nurses, and hospital coordinators. Medical records, treatment consent forms, discharge summaries, and all clinical communication at our partner hospitals are conducted in English. In Turkey, major internationally accredited hospitals in Istanbul and other cities also provide English-language care. Sultan GHC additionally provides interpreter support at all partner hospitals and assigns an English-speaking coordinator who accompanies you during key consultations and procedures.',
+        q: 'Do I need to speak the local language to receive treatment in India or Türkiye?',
+        a: 'No. In major hospitals in India, English is widely spoken — by doctors, specialist nurses, and hospital coordinators. Medical records, treatment consent forms, discharge summaries, and all clinical communication at our partner hospitals are conducted in English. In Türkiye, major internationally accredited hospitals in Istanbul and other cities also provide English-language care. Sultan GHC additionally provides interpreter support at all partner hospitals and assigns an English-speaking coordinator who accompanies you during key consultations and procedures.',
       },
       {
         q: 'Can I bring a family member or companion with me?',
@@ -158,19 +158,19 @@ const FAQ_CATEGORIES = [
       },
       {
         q: 'Which hospitals are in the Sultan GHC network?',
-        a: 'Our hospital network includes JCI-accredited institutions in India (Delhi NCR, Mumbai, Chennai, Bengaluru, Hyderabad) and Turkey (Istanbul, Ankara, Antalya). In India, we work with top-tier hospitals known for cardiac surgery, oncology, orthopedics, and neurosurgery. In Turkey, our network includes internationally accredited hospitals recognized for cardiac procedures, hair transplantation, dental surgery, bariatric surgery, and cosmetic procedures. Please contact us at info@sultanghc.com or visit our Hospitals pages for the current list of featured partner hospitals.',
+        a: 'Our hospital network includes JCI-accredited institutions in India (Delhi NCR, Mumbai, Chennai, Bengaluru, Hyderabad) and Türkiye (Istanbul, Ankara, Antalya). In India, we work with top-tier hospitals known for cardiac surgery, oncology, orthopedics, and neurosurgery. In Türkiye, our network includes internationally accredited hospitals recognized for cardiac procedures, hair transplantation, dental surgery, bariatric surgery, and cosmetic procedures. Please contact us at info@sultanghc.com or visit our Hospitals pages for the current list of featured partner hospitals.',
       },
       {
         q: 'Can I choose my own doctor or hospital?',
         a: 'Yes. Sultan GHC presents you with multiple hospital and specialist options based on your condition, budget, and destination preference — and the final choice is always yours. We will share complete profiles for each recommended specialist, including their qualifications, international training, surgical volumes, and areas of subspecialty expertise. If you have a specific hospital or doctor in mind, we can also facilitate your care at that institution if it meets our accreditation standards.',
       },
       {
-        q: 'How qualified are the doctors in India and Turkey?',
-        a: 'Many specialist surgeons and physicians at our partner hospitals in India and Turkey hold postgraduate fellowships from institutions in the United States, United Kingdom, Germany, France, and Australia. Cardiac surgeons who trained at the Cleveland Clinic, orthopedic specialists with Royal College of Surgeons fellowship training, and oncologists with U.S. board certifications are commonly found in our network. Medical education at major Indian and Turkish medical universities is rigorously structured, and competitive specialist training programs attract the brightest candidates. The clinical standards at JCI-accredited hospitals in both countries are evaluated against the same benchmarks as leading U.S. hospitals.',
+        q: 'How qualified are the doctors in India and Türkiye?',
+        a: 'Many specialist surgeons and physicians at our partner hospitals in India and Türkiye hold postgraduate fellowships from institutions in the United States, United Kingdom, Germany, France, and Australia. Cardiac surgeons who trained at the Cleveland Clinic, orthopedic specialists with Royal College of Surgeons fellowship training, and oncologists with U.S. board certifications are commonly found in our network. Medical education at major Indian and Turkish medical universities is rigorously structured, and competitive specialist training programs attract the brightest candidates. The clinical standards at JCI-accredited hospitals in both countries are evaluated against the same benchmarks as leading U.S. hospitals.',
       },
       {
         q: 'What technology and equipment is available at partner hospitals?',
-        a: 'Partner hospitals in our network are equipped with the same diagnostic and surgical technology used in leading U.S. hospitals. This includes robotic surgical systems (da Vinci), high-field MRI and 4D CT imaging, PET-CT scanners, CyberKnife and TrueBeam radiosurgery systems for oncology, TAVI systems for cardiac intervention, and modern ICU facilities. Major hospitals in India and Turkey import medical devices and pharmaceuticals from U.S. and European manufacturers — so the technology you receive abroad is often identical to what would be used in the United States.',
+        a: 'Partner hospitals in our network are equipped with the same diagnostic and surgical technology used in leading U.S. hospitals. This includes robotic surgical systems (da Vinci), high-field MRI and 4D CT imaging, PET-CT scanners, CyberKnife and TrueBeam radiosurgery systems for oncology, TAVI systems for cardiac intervention, and modern ICU facilities. Major hospitals in India and Türkiye import medical devices and pharmaceuticals from U.S. and European manufacturers — so the technology you receive abroad is often identical to what would be used in the United States.',
       },
     ],
   },
@@ -181,12 +181,12 @@ const FAQ_CATEGORIES = [
     label: 'Travel, Visa & Logistics',
     faqs: [
       {
-        q: 'Do I need a visa to travel to India or Turkey for medical treatment?',
-        a: 'Yes, a visa is required for U.S. passport holders traveling to both India and Turkey for medical purposes. For India, you will need a Medical Visa (e-MED) — available online through the Indian government\'s e-Visa portal. The Medical Visa requires a letter from the accredited Indian hospital confirming your appointment, and Sultan GHC will help you obtain this. For Turkey, U.S. citizens can obtain a standard e-Visa online within minutes at evisa.gov.tr, which covers medical travel. Sultan GHC provides visa guidance, document preparation support, and invitation letters from partner hospitals as part of our patient coordination services.',
+        q: 'Do I need a visa to travel to India or Türkiye for medical treatment?',
+        a: 'Yes, a visa is required for U.S. passport holders traveling to both India and Türkiye for medical purposes. For India, you will need a Medical Visa (e-MED) — available online through the Indian government\'s e-Visa portal. The Medical Visa requires a letter from the accredited Indian hospital confirming your appointment, and Sultan GHC will help you obtain this. For Türkiye, U.S. citizens can obtain a standard e-Visa online within minutes at evisa.gov.tr, which covers medical travel. Sultan GHC provides visa guidance, document preparation support, and invitation letters from partner hospitals as part of our patient coordination services.',
       },
       {
-        q: 'How far is India or Turkey from the United States?',
-        a: 'From the U.S. East Coast, Turkey (Istanbul) is approximately 10–11 hours by direct flight. From the U.S. West Coast, the journey is approximately 14–16 hours with one stop. India from the U.S. East Coast is approximately 14–16 hours with a typical connection; from the U.S. West Coast, nonstop flights to Delhi or Mumbai take approximately 15–17 hours. Major U.S. airlines and international carriers including Turkish Airlines, Air India, Emirates, Qatar Airways, and Etihad provide frequent services to both destinations.',
+        q: 'How far is India or Türkiye from the United States?',
+        a: 'From the U.S. East Coast, Türkiye (Istanbul) is approximately 10–11 hours by direct flight. From the U.S. West Coast, the journey is approximately 14–16 hours with one stop. India from the U.S. East Coast is approximately 14–16 hours with a typical connection; from the U.S. West Coast, nonstop flights to Delhi or Mumbai take approximately 15–17 hours. Major U.S. airlines and international carriers including Turkish Airlines, Air India, Emirates, Qatar Airways, and Etihad provide frequent services to both destinations.',
       },
       {
         q: 'What accommodation options are available near partner hospitals?',
@@ -222,7 +222,7 @@ const FAQ_CATEGORIES = [
       },
       {
         q: 'What medications will I receive and are they safe?',
-        a: 'Partner hospitals in India and Turkey use medications manufactured by internationally recognized pharmaceutical companies — including many U.S. and European brands. Generic versions of branded U.S. medications are commonly used and are equivalent in active ingredient and efficacy. If you have known medication allergies or are taking specific medications at home, please document these clearly in your medical report submission. Your treating team will review your current medications for interactions and adjust your protocol accordingly.',
+        a: 'Partner hospitals in India and Türkiye use medications manufactured by internationally recognized pharmaceutical companies — including many U.S. and European brands. Generic versions of branded U.S. medications are commonly used and are equivalent in active ingredient and efficacy. If you have known medication allergies or are taking specific medications at home, please document these clearly in your medical report submission. Your treating team will review your current medications for interactions and adjust your protocol accordingly.',
       },
     ],
   },
@@ -380,7 +380,7 @@ export default function FaqPage() {
               { icon: FileText, label: `${allFaqs.length} questions answered` },
               { icon: Clock,    label: 'Free first opinion in 24 hours' },
               { icon: Users,    label: 'Dedicated Case Manager for every patient' },
-              { icon: Globe2,   label: 'India & Turkey specialist network' },
+              { icon: Globe2,   label: 'India & Türkiye specialist network' },
             ].map(({ icon: Icon, label }) => (
               <div key={label} className="flex items-center gap-2 text-sm text-gray-500">
                 <Icon size={15} className="text-primary shrink-0" />

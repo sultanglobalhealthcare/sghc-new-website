@@ -17,36 +17,36 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Spine Surgery & Sports Injury Treatment Abroad | India & Turkey | Sultan GHC',
+  title: 'Spine Surgery & Sports Injury Treatment Abroad | India & Türkiye | Sultan GHC',
   description:
-    'Affordable spine surgery and sports injury treatment in India and Turkey — disc replacement, spinal fusion, microdiscectomy, ACL reconstruction, and more at 70–85% less than U.S. costs. Sultan GHC connects American patients with internationally accredited spine surgeons and sports medicine specialists.',
+    'Affordable spine surgery and sports injury treatment in India and Türkiye — disc replacement, spinal fusion, microdiscectomy, ACL reconstruction, and more at 70–85% less than U.S. costs. Sultan GHC connects American patients with internationally accredited spine surgeons and sports medicine specialists.',
   keywords: [
     'spine surgery abroad',
     'spinal disc replacement India cost',
-    'spinal fusion surgery Turkey',
+    'spinal fusion surgery Türkiye',
     'microdiscectomy India',
     'scoliosis surgery abroad',
     'ACL reconstruction India cost',
-    'sports injury surgery Turkey',
+    'sports injury surgery Türkiye',
     'affordable spine surgery USA patients',
     'minimally invasive spine surgery India',
     'sciatica surgery abroad',
-    'herniated disc treatment India Turkey',
+    'herniated disc treatment India Türkiye',
     'spinal stenosis surgery abroad',
     'Sultan GHC spine surgery',
     'medical tourism spine',
     'sports medicine surgery India',
   ],
   openGraph: {
-    title: 'Spine Surgery & Sports Injury Treatment Abroad — India & Turkey | Sultan GHC',
+    title: 'Spine Surgery & Sports Injury Treatment Abroad — India & Türkiye | Sultan GHC',
     description:
-      'World-class spine surgery and sports injury treatment at 70–85% lower than U.S. prices. Internationally accredited spine centers in India and Turkey.',
+      'World-class spine surgery and sports injury treatment at 70–85% lower than U.S. prices. Internationally accredited spine centers in India and Türkiye.',
     url: 'https://www.sultanghc.com/treatments/spine-sports-injury',
     siteName: 'Sultan Global Health Care',
     type: 'website',
     images: [
       {
-        url: 'https://www.sultanghc.com/api/og?title=Spine+%26+Sports+Injury+Surgery+Abroad&desc=Disc+replacement%2C+TLIF%2C+spinal+fusion+in+India+%26+Turkey.+Save+75-85%25+vs+U.S.&cat=Spine+Surgery',
+        url: 'https://www.sultanghc.com/api/og?title=Spine+%26+Sports+Injury+Surgery+Abroad&desc=Disc+replacement%2C+TLIF%2C+spinal+fusion+in+India+%26+Türkiye.+Save+75-85%25+vs+U.S.&cat=Spine+Surgery',
         width: 1200,
         height: 630,
         alt: 'Spine Surgery & Sports Injury Treatment Abroad — Sultan GHC',
@@ -57,7 +57,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Spine Surgery & Sports Injury Treatment Abroad | Sultan GHC',
     description:
-      'World-class spine and sports injury care at 70–85% lower than U.S. prices. Internationally accredited centers in India and Turkey.',
+      'World-class spine and sports injury care at 70–85% lower than U.S. prices. Internationally accredited centers in India and Türkiye.',
   },
   alternates: {
     canonical: 'https://www.sultanghc.com/treatments/spine-sports-injury',
@@ -79,9 +79,9 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Spine Surgery and Sports Injury Treatment Abroad — India and Turkey',
+  name: 'Spine Surgery and Sports Injury Treatment Abroad — India and Türkiye',
   description:
-    'Comprehensive spine surgery and sports injury treatment for U.S. patients at internationally accredited hospitals in India and Turkey, facilitated by Sultan GHC.',
+    'Comprehensive spine surgery and sports injury treatment for U.S. patients at internationally accredited hospitals in India and Türkiye, facilitated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/spine-sports-injury',
   about: {
     '@type': 'MedicalCondition',
@@ -107,12 +107,12 @@ const faqSchema = {
       name: 'How much does spinal fusion surgery cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Spinal fusion surgery in the U.S. typically costs $50,000–$100,000 or more. The same procedure at an internationally accredited hospital in India costs $7,000–$12,000 — a saving of 80–90%. Turkey offers similar procedures for $9,000–$15,000. Sultan GHC provides a personalised cost estimate based on your MRI reports and diagnosis at no charge.',
+        text: 'Spinal fusion surgery in the U.S. typically costs $50,000–$100,000 or more. The same procedure at an internationally accredited hospital in India costs $7,000–$12,000 — a saving of 80–90%. Türkiye offers similar procedures for $9,000–$15,000. Sultan GHC provides a personalised cost estimate based on your MRI reports and diagnosis at no charge.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Are spine surgeons in India and Turkey as qualified as U.S. surgeons?',
+      name: 'Are spine surgeons in India and Türkiye as qualified as U.S. surgeons?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Yes. Many of our partner spine surgeons completed fellowships in the United States, United Kingdom, Germany, or South Korea. They perform hundreds of complex spinal procedures annually using the same implant systems, navigation technology, and surgical protocols as leading U.S. spine centers.',
@@ -128,7 +128,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'Is minimally invasive spine surgery available in India and Turkey?',
+      name: 'Is minimally invasive spine surgery available in India and Türkiye?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Yes. Our partner hospitals offer the full range of minimally invasive spine techniques including tubular retractor discectomy, percutaneous pedicle screw fixation, endoscopic spine surgery, and robotic-assisted spinal navigation. These approaches mean smaller incisions, less blood loss, shorter hospital stays, and faster recovery.',
@@ -144,7 +144,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'What spinal implants are used in India and Turkey?',
+      name: 'What spinal implants are used in India and Türkiye?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Our partner spine centers use internationally certified implant systems from Medtronic, DePuy Synthes, Stryker, NuVasive, and Globus Medical — the same systems used in leading U.S. spine centers. All implants carry CE and international quality certifications.',
@@ -227,10 +227,10 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does spinal fusion surgery cost in India compared to the U.S.?',
-    a: 'Spinal fusion in the U.S. typically costs $50,000–$100,000. The same procedure at an accredited hospital in India costs $7,000–$12,000 — a saving of 80–90%. Turkey offers $9,000–$15,000. Sultan GHC provides a personalised estimate based on your MRI at no charge.',
+    a: 'Spinal fusion in the U.S. typically costs $50,000–$100,000. The same procedure at an accredited hospital in India costs $7,000–$12,000 — a saving of 80–90%. Türkiye offers $9,000–$15,000. Sultan GHC provides a personalised estimate based on your MRI at no charge.',
   },
   {
-    q: 'Are spine surgeons in India and Turkey as qualified as U.S. surgeons?',
+    q: 'Are spine surgeons in India and Türkiye as qualified as U.S. surgeons?',
     a: 'Yes. Many of our partner spine surgeons completed fellowships in the U.S., UK, Germany, or South Korea. They perform hundreds of complex procedures annually using the same implant systems and navigation technology as leading U.S. spine centers.',
   },
   {
@@ -238,7 +238,7 @@ const FAQS = [
     a: 'For microdiscectomy, 7–10 days in-country is typical. For spinal fusion or disc replacement, 14–21 days is recommended — including pre-op evaluation, surgery, hospital recovery, and physiotherapy before flying clearance. Your Case Manager coordinates the full itinerary.',
   },
   {
-    q: 'Is minimally invasive spine surgery available in India and Turkey?',
+    q: 'Is minimally invasive spine surgery available in India and Türkiye?',
     a: 'Yes. Our partner hospitals offer tubular retractor discectomy, percutaneous pedicle screw fixation, endoscopic spine surgery, and robotic-assisted navigation — resulting in smaller incisions, less blood loss, shorter stays, and faster recovery.',
   },
   {
@@ -246,7 +246,7 @@ const FAQS = [
     a: 'Yes. Our partner hospitals have dedicated sports medicine and arthroscopy units. Procedures include ACL/PCL reconstruction, rotator cuff repair, meniscus repair, shoulder labrum stabilisation, and Achilles tendon repair — all arthroscopic where possible.',
   },
   {
-    q: 'What spinal implants are used in India and Turkey?',
+    q: 'What spinal implants are used in India and Türkiye?',
     a: 'Our partner spine centers use internationally certified systems from Medtronic, DePuy Synthes, Stryker, NuVasive, and Globus Medical — the same brands used in leading U.S. spine centers. All implants carry CE and international quality certifications.',
   },
   {
@@ -315,11 +315,11 @@ export default function SpineSportsInjuryPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 Spine Surgery & Sports Injury Treatment in{' '}
-                <span className="text-primary">India & Turkey</span> — 80–90% Less Than U.S. Costs
+                <span className="text-primary">India & Türkiye</span> — 80–90% Less Than U.S. Costs
               </h1>
               <p className="text-lg text-gray-500 leading-relaxed mb-6 max-w-xl">
                 Americans pay up to $100,000 for spinal fusion. At our internationally accredited partner
-                hospitals in India and Turkey, the same procedure — with the same implant systems —
+                hospitals in India and Türkiye, the same procedure — with the same implant systems —
                 costs a fraction of that, with no waitlists, no insurance denials, and a dedicated
                 Case Manager by your side from first contact to full recovery.
               </p>
@@ -427,7 +427,7 @@ export default function SpineSportsInjuryPage() {
               waitlists and no guarantee of insurance coverage.
             </p>
             <p className="text-gray-500 leading-relaxed mb-6">
-              Our partner hospitals in India and Turkey offer the same spine surgical techniques,
+              Our partner hospitals in India and Türkiye offer the same spine surgical techniques,
               navigation systems, and implant brands as leading U.S. spine centers — at 80–90% lower
               cost, with internationally trained surgeons, English-speaking teams, and a dedicated
               Case Manager coordinating every step of your journey.
@@ -527,7 +527,7 @@ export default function SpineSportsInjuryPage() {
               Cost Comparison
             </span>
             <h2 className="text-2xl sm:text-4xl font-semibold text-gray-900 mb-4">
-              What Does Spine Surgery Cost in India & Turkey vs. the U.S.?
+              What Does Spine Surgery Cost in India & Türkiye vs. the U.S.?
             </h2>
             <p className="text-gray-500 leading-relaxed">
               Prices below are indicative ranges. Sultan GHC provides a personalised estimate based
@@ -542,7 +542,7 @@ export default function SpineSportsInjuryPage() {
                   <th className="text-left px-6 py-4 font-semibold">Procedure</th>
                   <th className="text-center px-6 py-4 font-semibold"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/us.png" width={20} height={15} alt="USA" className="rounded-sm" />United States</span></th>
                   <th className="text-center px-6 py-4 font-semibold text-green-300"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/in.png" width={20} height={15} alt="India" className="rounded-sm" />India</span></th>
-                  <th className="text-center px-6 py-4 font-semibold text-blue-300"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" />Turkey</span></th>
+                  <th className="text-center px-6 py-4 font-semibold text-blue-300"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" />Türkiye</span></th>
                 </tr>
               </thead>
               <tbody>
@@ -644,25 +644,25 @@ export default function SpineSportsInjuryPage() {
         </div>
       </section>
 
-      {/* ── Turkey Section ── */}
+      {/* ── Türkiye Section ── */}
       <section className="bg-[#F5F7FA] border-y border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-20">
           <div className="flex flex-col lg:flex-row-reverse gap-12 items-center">
             <div className="flex-1">
               <span className="inline-block text-[11px] font-semibold text-primary uppercase tracking-widest bg-primary/10 px-3 py-1.5 rounded-full mb-4">
-                Spine Surgery in Turkey
+                Spine Surgery in Türkiye
               </span>
               <h2 className="text-2xl sm:text-4xl font-semibold text-gray-900 mb-5 leading-snug">
-                Turkey — European-Standard Spine Care for International Patients
+                Türkiye — European-Standard Spine Care for International Patients
               </h2>
               <p className="text-gray-500 leading-relaxed mb-4">
-                Turkey's neurosurgery and orthopedic spine departments have grown rapidly into
+                Türkiye's neurosurgery and orthopedic spine departments have grown rapidly into
                 internationally recognized centers of excellence. Turkish spine surgeons are trained
                 to European standards — many with fellowships in Germany, France, and the United
                 Kingdom — and operate in JCI-accredited facilities in Istanbul, Ankara, and Izmir.
               </p>
               <p className="text-gray-500 leading-relaxed mb-6">
-                For U.S. patients seeking spine surgery at European quality, Turkey offers an
+                For U.S. patients seeking spine surgery at European quality, Türkiye offers an
                 exceptional combination of surgical expertise, modern infrastructure, and cost
                 savings of 80–85% compared to U.S. prices — all within a 10–11 hour direct
                 flight from the East Coast.
@@ -688,14 +688,14 @@ export default function SpineSportsInjuryPage() {
                   href="/enquiry"
                   className="inline-flex items-center gap-2 bg-primary text-white text-sm font-semibold px-6 py-3 rounded-full hover:bg-primary/90 transition-all"
                 >
-                  Plan My Spine Journey to Turkey
+                  Plan My Spine Journey to Türkiye
                   <ArrowRight size={16} />
                 </Link>
                 <Link
                   href="/destinations/turkey"
                   className="inline-flex items-center gap-2 border border-gray-200 text-gray-600 text-sm font-medium px-6 py-3 rounded-full hover:border-primary hover:text-primary transition-all"
                 >
-                  Explore Turkey as a Destination
+                  Explore Türkiye as a Destination
                 </Link>
               </div>
             </div>
@@ -705,8 +705,8 @@ export default function SpineSportsInjuryPage() {
                 filename="spine-surgery-turkey-istanbul-hospital-international-patient-sultan-ghc.jpg"
                 width={1200}
                 height={900}
-                label="Modern spine surgery center in Istanbul, Turkey — Sultan GHC"
-                aiPrompt="Professional architectural and medical photography: The modern, premium neurosurgery and spine department of a JCI-accredited hospital in Istanbul, Turkey. Clean hallway with advanced diagnostic equipment visible through glass walls, hospital staff in professional attire, English and Turkish signage. Premium European aesthetic, natural light. Shot on Nikon Z9, wide angle, photorealistic."
+                label="Modern spine surgery center in Istanbul, Türkiye — Sultan GHC"
+                aiPrompt="Professional architectural and medical photography: The modern, premium neurosurgery and spine department of a JCI-accredited hospital in Istanbul, Türkiye. Clean hallway with advanced diagnostic equipment visible through glass walls, hospital staff in professional attire, English and Turkish signage. Premium European aesthetic, natural light. Shot on Nikon Z9, wide angle, photorealistic."
                 aspectRatio="4/3"
               />
             </div>

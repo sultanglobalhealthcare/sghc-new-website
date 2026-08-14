@@ -32,16 +32,16 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Medical Treatments Abroad | All Specialties | India & Turkey | Sultan GHC',
+  title: 'Medical Treatments Abroad | All Specialties | India & Türkiye | Sultan GHC',
   description:
-    'Explore 19 medical specialties available through Sultan GHC in India and Turkey — cardiology, oncology, orthopaedics, spine surgery, dental implants, IVF, bariatric surgery, and more at 60–90% less than U.S. costs. JCI-accredited hospitals, internationally trained specialists.',
+    'Explore 19 medical specialties available through Sultan GHC in India and Türkiye — cardiology, oncology, orthopaedics, spine surgery, dental implants, IVF, bariatric surgery, and more at 60–90% less than U.S. costs. JCI-accredited hospitals, internationally trained specialists.',
   keywords: [
     'medical treatments abroad',
     'healthcare abroad for Americans',
     'medical tourism India',
-    'medical tourism Turkey',
+    'medical tourism Türkiye',
     'affordable surgery abroad USA',
-    'JCI accredited hospitals India Turkey',
+    'JCI accredited hospitals India Türkiye',
     'Sultan GHC treatments',
     'international patient services',
     'heart surgery abroad',
@@ -53,15 +53,15 @@ export const metadata = {
     'spine surgery abroad',
   ],
   openGraph: {
-    title: 'All Medical Treatments Abroad — India & Turkey | Sultan GHC',
+    title: 'All Medical Treatments Abroad — India & Türkiye | Sultan GHC',
     description:
-      '19 medical specialties at 60–90% lower than U.S. prices. JCI-accredited hospitals in India and Turkey, matched to your condition and budget.',
+      '19 medical specialties at 60–90% lower than U.S. prices. JCI-accredited hospitals in India and Türkiye, matched to your condition and budget.',
     url: 'https://www.sultanghc.com/treatments',
     siteName: 'Sultan Global Health Care',
     type: 'website',
     images: [
       {
-        url: 'https://www.sultanghc.com/api/og?title=All+Medical+Treatments+Abroad&desc=19+specialties+in+India+%26+Turkey+at+60-90%25+less+than+U.S.+costs.+JCI-accredited+hospitals.&cat=Treatments',
+        url: 'https://www.sultanghc.com/api/og?title=All+Medical+Treatments+Abroad&desc=19+specialties+in+India+%26+Türkiye+at+60-90%25+less+than+U.S.+costs.+JCI-accredited+hospitals.&cat=Treatments',
         width: 1200,
         height: 630,
         alt: 'Medical Treatments Abroad — Sultan GHC',
@@ -72,7 +72,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'All Medical Treatments Abroad | Sultan GHC',
     description:
-      '19 medical specialties at 60–90% lower than U.S. prices. JCI-accredited hospitals in India and Turkey.',
+      '19 medical specialties at 60–90% lower than U.S. prices. JCI-accredited hospitals in India and Türkiye.',
   },
   alternates: {
     canonical: 'https://www.sultanghc.com/treatments',
@@ -96,7 +96,7 @@ const medicalOrgSchema = {
   name: 'Sultan Global Health Care',
   url: 'https://www.sultanghc.com',
   description:
-    'Sultan GHC is a U.S.-based medical tourism and global healthcare concierge connecting American patients with internationally accredited hospitals and specialist doctors in India and Turkey.',
+    'Sultan GHC is a U.S.-based medical tourism and global healthcare concierge connecting American patients with internationally accredited hospitals and specialist doctors in India and Türkiye.',
   medicalSpecialty: [
     'Cardiology', 'Oncology', 'Neurology', 'Neurosurgery', 'Orthopedics',
     'Spine Surgery', 'Gastroenterology', 'Hepatology', 'Pulmonology',
@@ -299,7 +299,7 @@ export default function TreatmentsPage() {
             </span>
             <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
               World-Class Medical Treatments in{' '}
-              <span className="text-primary">India & Turkey</span> — for U.S. Patients
+              <span className="text-primary">India & Türkiye</span> — for U.S. Patients
             </h1>
             <p className="text-lg text-gray-500 leading-relaxed mb-8 max-w-2xl">
               Sultan GHC connects American patients with internationally accredited hospitals across

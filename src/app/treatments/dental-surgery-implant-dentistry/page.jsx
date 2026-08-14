@@ -19,36 +19,36 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Dental Implants & Smile Makeover Abroad | India & Turkey | Sultan GHC',
+  title: 'Dental Implants & Smile Makeover Abroad | India & Türkiye | Sultan GHC',
   description:
-    'Affordable dental implants, All-on-4, veneers, full mouth rehabilitation, and smile makeovers in India and Turkey — 60–80% less than U.S. costs. Sultan GHC connects American patients with internationally accredited dental surgeons and clinics.',
+    'Affordable dental implants, All-on-4, veneers, full mouth rehabilitation, and smile makeovers in India and Türkiye — 60–80% less than U.S. costs. Sultan GHC connects American patients with internationally accredited dental surgeons and clinics.',
   keywords: [
     'dental implants abroad',
     'dental implants India cost',
-    'dental implants Turkey cost',
+    'dental implants Türkiye cost',
     'All-on-4 dental implants abroad',
     'smile makeover India',
-    'veneers Turkey cost',
+    'veneers Türkiye cost',
     'full mouth rehabilitation abroad',
     'affordable dental treatment USA patients',
     'dental tourism India',
-    'dental tourism Turkey',
+    'dental tourism Türkiye',
     'teeth implants India price',
-    'All-on-6 Turkey',
+    'All-on-6 Türkiye',
     'dental crowns abroad',
     'Sultan GHC dental',
     'dental surgery medical tourism',
   ],
   openGraph: {
-    title: 'Dental Implants & Smile Makeover Abroad — India & Turkey | Sultan GHC',
+    title: 'Dental Implants & Smile Makeover Abroad — India & Türkiye | Sultan GHC',
     description:
-      'World-class dental implants, veneers, and full mouth rehabilitation at 60–80% lower than U.S. prices. Internationally accredited dental clinics in India and Turkey.',
+      'World-class dental implants, veneers, and full mouth rehabilitation at 60–80% lower than U.S. prices. Internationally accredited dental clinics in India and Türkiye.',
     url: 'https://www.sultanghc.com/treatments/dental-surgery-implant-dentistry',
     siteName: 'Sultan Global Health Care',
     type: 'website',
     images: [
       {
-        url: 'https://www.sultanghc.com/api/og?title=Dental+Surgery+%26+Implants+Abroad&desc=Dental+implants%2C+full-arch+restoration%2C+veneers+in+India+%26+Turkey.+Save+60-80%25.&cat=Dental+Surgery',
+        url: 'https://www.sultanghc.com/api/og?title=Dental+Surgery+%26+Implants+Abroad&desc=Dental+implants%2C+full-arch+restoration%2C+veneers+in+India+%26+Türkiye.+Save+60-80%25.&cat=Dental+Surgery',
         width: 1200,
         height: 630,
         alt: 'Dental Implants & Smile Makeover Abroad — Sultan GHC',
@@ -59,7 +59,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Dental Implants & Smile Makeover Abroad | Sultan GHC',
     description:
-      'World-class dental care at 60–80% lower than U.S. prices. Internationally accredited dental clinics in India and Turkey.',
+      'World-class dental care at 60–80% lower than U.S. prices. Internationally accredited dental clinics in India and Türkiye.',
   },
   alternates: {
     canonical: 'https://www.sultanghc.com/treatments/dental-surgery-implant-dentistry',
@@ -81,9 +81,9 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Dental Surgery and Implant Dentistry Abroad — India and Turkey',
+  name: 'Dental Surgery and Implant Dentistry Abroad — India and Türkiye',
   description:
-    'Comprehensive dental surgery and implant dentistry services for U.S. patients at internationally accredited dental clinics in India and Turkey, facilitated by Sultan GHC.',
+    'Comprehensive dental surgery and implant dentistry services for U.S. patients at internationally accredited dental clinics in India and Türkiye, facilitated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/dental-surgery-implant-dentistry',
   about: {
     '@type': 'MedicalCondition',
@@ -106,15 +106,15 @@ const faqSchema = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'How much do dental implants cost in India and Turkey compared to the U.S.?',
+      name: 'How much do dental implants cost in India and Türkiye compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A single dental implant in the U.S. typically costs $3,000–$6,000. The same procedure at an internationally accredited clinic in India costs $500–$1,000, and in Turkey $600–$1,200 — savings of 70–85%. For full-mouth restorations like All-on-4 or All-on-6, U.S. costs of $20,000–$50,000 compare to $4,000–$9,000 abroad. Sultan GHC provides a personalised cost estimate at no charge.',
+        text: 'A single dental implant in the U.S. typically costs $3,000–$6,000. The same procedure at an internationally accredited clinic in India costs $500–$1,000, and in Türkiye $600–$1,200 — savings of 70–85%. For full-mouth restorations like All-on-4 or All-on-6, U.S. costs of $20,000–$50,000 compare to $4,000–$9,000 abroad. Sultan GHC provides a personalised cost estimate at no charge.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Are dental clinics in India and Turkey safe and accredited?',
+      name: 'Are dental clinics in India and Türkiye safe and accredited?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Yes. Our partner dental clinics use internationally certified equipment, sterilisation protocols meeting ISO and JCI standards, and materials sourced from globally recognised brands including Straumann, Nobel Biocare, and Osstem. Many of our partner dentists completed postgraduate training in Europe or the United States.',
@@ -149,7 +149,7 @@ const faqSchema = {
       name: 'Can I combine dental treatment with a holiday?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Absolutely — and many patients do. Turkey is one of the world\'s top dental tourism destinations, with cities like Istanbul and Antalya offering world-class clinics alongside exceptional cultural experiences. India\'s dental hubs in Delhi, Mumbai, and Chennai are equally well-suited for combining treatment with travel. Sultan GHC can help arrange accommodation, transport, and sightseeing around your appointment schedule.',
+        text: 'Absolutely — and many patients do. Türkiye is one of the world\'s top dental tourism destinations, with cities like Istanbul and Antalya offering world-class clinics alongside exceptional cultural experiences. India\'s dental hubs in Delhi, Mumbai, and Chennai are equally well-suited for combining treatment with travel. Sultan GHC can help arrange accommodation, transport, and sightseeing around your appointment schedule.',
       },
     },
     {
@@ -228,11 +228,11 @@ const COST_COMPARISON = [
 
 const FAQS = [
   {
-    q: 'How much do dental implants cost in India and Turkey compared to the U.S.?',
-    a: 'A single dental implant in the U.S. typically costs $3,000–$6,000. The same procedure at an internationally accredited clinic in India costs $500–$1,000, and in Turkey $600–$1,200 — savings of 70–85%. For All-on-4 or All-on-6, U.S. costs of $20,000–$50,000 compare to $4,000–$9,000 abroad. Sultan GHC provides a personalised estimate at no charge.',
+    q: 'How much do dental implants cost in India and Türkiye compared to the U.S.?',
+    a: 'A single dental implant in the U.S. typically costs $3,000–$6,000. The same procedure at an internationally accredited clinic in India costs $500–$1,000, and in Türkiye $600–$1,200 — savings of 70–85%. For All-on-4 or All-on-6, U.S. costs of $20,000–$50,000 compare to $4,000–$9,000 abroad. Sultan GHC provides a personalised estimate at no charge.',
   },
   {
-    q: 'Are dental clinics in India and Turkey safe and accredited?',
+    q: 'Are dental clinics in India and Türkiye safe and accredited?',
     a: 'Yes. Our partner clinics use internationally certified equipment, ISO and JCI-standard sterilisation protocols, and materials from globally recognised brands including Straumann, Nobel Biocare, and Osstem. Many partner dentists completed postgraduate training in Europe or the U.S.',
   },
   {
@@ -249,7 +249,7 @@ const FAQS = [
   },
   {
     q: 'Can I combine dental treatment with a holiday?',
-    a: "Many patients do. Turkey's Istanbul and Antalya, and India's Delhi, Mumbai, and Chennai are world-class dental tourism destinations. Sultan GHC helps arrange accommodation, transport, and sightseeing around your appointment schedule.",
+    a: "Many patients do. Türkiye's Istanbul and Antalya, and India's Delhi, Mumbai, and Chennai are world-class dental tourism destinations. Sultan GHC helps arrange accommodation, transport, and sightseeing around your appointment schedule.",
   },
   {
     q: 'Does Sultan GHC offer a free first consultation for dental cases?',
@@ -319,11 +319,11 @@ export default function DentalSurgeryPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 Dental Implants & Smile Makeovers in{' '}
-                <span className="text-primary">India & Turkey</span> — Up to 80% Less Than U.S. Prices
+                <span className="text-primary">India & Türkiye</span> — Up to 80% Less Than U.S. Prices
               </h1>
               <p className="text-lg text-gray-500 leading-relaxed mb-6 max-w-xl">
                 Americans pay $3,000–$6,000 per implant at home. At our internationally accredited partner
-                clinics in India and Turkey, you get the same premium implant brands — Straumann, Nobel
+                clinics in India and Türkiye, you get the same premium implant brands — Straumann, Nobel
                 Biocare — at a fraction of the cost, with no insurance battles and a dedicated Case Manager
                 handling every step.
               </p>
@@ -415,7 +415,7 @@ export default function DentalSurgeryPage() {
               width={1200}
               height={900}
               label="American patient consulting with a dental specialist for implant dentistry abroad — Sultan GHC"
-              aiPrompt="Professional dental photography: A middle-aged American patient (50s, casual clothes) sitting in a dental chair consulting with a confident dental specialist in white coat at a modern, bright dental clinic in India or Turkey. The dentist is reviewing a dental X-ray on a large screen. Clean, premium clinic environment. Patient appears relieved and hopeful. Photorealistic, Canon R5, natural light."
+              aiPrompt="Professional dental photography: A middle-aged American patient (50s, casual clothes) sitting in a dental chair consulting with a confident dental specialist in white coat at a modern, bright dental clinic in India or Türkiye. The dentist is reviewing a dental X-ray on a large screen. Clean, premium clinic environment. Patient appears relieved and hopeful. Photorealistic, Canon R5, natural light."
               aspectRatio="4/3"
             />
           </div>
@@ -435,7 +435,7 @@ export default function DentalSurgeryPage() {
               embarrassment, and deteriorating oral health.
             </p>
             <p className="text-gray-500 leading-relaxed mb-6">
-              Our partner dental clinics in India and Turkey deliver the same premium implant systems,
+              Our partner dental clinics in India and Türkiye deliver the same premium implant systems,
               the same digital imaging technology, and the same internationally trained specialists —
               at 70–80% lower cost. No insurance required, no waiting lists, and no hidden fees.
             </p>
@@ -534,7 +534,7 @@ export default function DentalSurgeryPage() {
               Cost Comparison
             </span>
             <h2 className="text-2xl sm:text-4xl font-semibold text-gray-900 mb-4">
-              What Does Dental Treatment Cost in India & Turkey vs. the U.S.?
+              What Does Dental Treatment Cost in India & Türkiye vs. the U.S.?
             </h2>
             <p className="text-gray-500 leading-relaxed">
               Prices below are indicative ranges in USD. Sultan GHC provides a personalised estimate
@@ -549,7 +549,7 @@ export default function DentalSurgeryPage() {
                   <th className="text-left px-6 py-4 font-semibold">Procedure</th>
                   <th className="text-center px-6 py-4 font-semibold"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/us.png" width={20} height={15} alt="USA" className="rounded-sm" />United States</span></th>
                   <th className="text-center px-6 py-4 font-semibold text-green-300"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/in.png" width={20} height={15} alt="India" className="rounded-sm" />India</span></th>
-                  <th className="text-center px-6 py-4 font-semibold text-blue-300"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" />Turkey</span></th>
+                  <th className="text-center px-6 py-4 font-semibold text-blue-300"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" />Türkiye</span></th>
                 </tr>
               </thead>
               <tbody>
@@ -582,25 +582,25 @@ export default function DentalSurgeryPage() {
         </div>
       </section>
 
-      {/* ── Turkey Section ── */}
+      {/* ── Türkiye Section ── */}
       <section className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-20">
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <div className="flex-1">
             <span className="inline-block text-[11px] font-semibold text-primary uppercase tracking-widest bg-primary/10 px-3 py-1.5 rounded-full mb-4">
-              Dental Care in Turkey
+              Dental Care in Türkiye
             </span>
             <h2 className="text-2xl sm:text-4xl font-semibold text-gray-900 mb-5 leading-snug">
-              Turkey — Europe's #1 Dental Tourism Destination
+              Türkiye — Europe's #1 Dental Tourism Destination
             </h2>
             <p className="text-gray-500 leading-relaxed mb-4">
-              Turkey receives more dental tourists than any other country in Europe — over 150,000
+              Türkiye receives more dental tourists than any other country in Europe — over 150,000
               international patients every year. Istanbul, Antalya, and Izmir are home to world-class
               dental clinics equipped with the latest digital dentistry technology, CAD/CAM milling
               machines, and 3D CBCT imaging.
             </p>
             <p className="text-gray-500 leading-relaxed mb-6">
               Turkish dental specialists are trained to European standards, and many hold postgraduate
-              qualifications from Germany, the Netherlands, and the UK. For U.S. patients, Turkey offers
+              qualifications from Germany, the Netherlands, and the UK. For U.S. patients, Türkiye offers
               an unbeatable combination: European-quality dentistry, extraordinary savings, and an
               unforgettable travel experience — all in one trip.
             </p>
@@ -625,14 +625,14 @@ export default function DentalSurgeryPage() {
                 href="/enquiry"
                 className="inline-flex items-center gap-2 bg-primary text-white text-sm font-semibold px-6 py-3 rounded-full hover:bg-primary/90 transition-all"
               >
-                Plan My Dental Journey to Turkey
+                Plan My Dental Journey to Türkiye
                 <ArrowRight size={16} />
               </Link>
               <Link
                 href="/destinations/turkey"
                 className="inline-flex items-center gap-2 border border-gray-200 text-gray-600 text-sm font-medium px-6 py-3 rounded-full hover:border-primary hover:text-primary transition-all"
               >
-                Explore Turkey as a Destination
+                Explore Türkiye as a Destination
               </Link>
             </div>
           </div>
@@ -642,8 +642,8 @@ export default function DentalSurgeryPage() {
               filename="dental-clinic-turkey-istanbul-implant-dentistry-sultan-ghc.jpg"
               width={1200}
               height={900}
-              label="Premium dental clinic in Istanbul, Turkey — Sultan GHC"
-              aiPrompt="Professional dental clinic photography: The modern, sleek interior of a premium dental clinic in Istanbul, Turkey. Bright white treatment room with a state-of-the-art dental chair, digital X-ray equipment, and large screens for imaging. A confident Turkish dentist in white coat standing beside the chair. Clean, minimalist, European-quality aesthetic. Shot on Sony A7R IV, wide angle, photorealistic."
+              label="Premium dental clinic in Istanbul, Türkiye — Sultan GHC"
+              aiPrompt="Professional dental clinic photography: The modern, sleek interior of a premium dental clinic in Istanbul, Türkiye. Bright white treatment room with a state-of-the-art dental chair, digital X-ray equipment, and large screens for imaging. A confident Turkish dentist in white coat standing beside the chair. Clean, minimalist, European-quality aesthetic. Shot on Sony A7R IV, wide angle, photorealistic."
               aspectRatio="4/3"
             />
           </div>
@@ -792,7 +792,7 @@ export default function DentalSurgeryPage() {
               {
                 href: '/treatments/ophthalmology',
                 title: 'Ophthalmology & Eye Surgery',
-                desc: 'LASIK, cataract surgery, glaucoma treatment, and retinal procedures in India and Turkey.',
+                desc: 'LASIK, cataract surgery, glaucoma treatment, and retinal procedures in India and Türkiye.',
               },
               {
                 href: '/treatments/bariatric-metabolic-surgery',

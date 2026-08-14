@@ -7,27 +7,27 @@ import {
 // ─── Metadata ────────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Cost of Medical Treatment in Turkey vs USA | Real Price Comparison 2026 | Sultan GHC',
+  title: 'Cost of Medical Treatment in Türkiye vs USA | Real Price Comparison 2026 | Sultan GHC',
   description:
-    'Verified procedure-by-procedure cost comparison: medical treatment in Turkey vs the United States. Real figures for hair transplant, dental implants, cardiac surgery, bariatric surgery, IVF, and rhinoplasty — with sources.',
+    'Verified procedure-by-procedure cost comparison: medical treatment in Türkiye vs the United States. Real figures for hair transplant, dental implants, cardiac surgery, bariatric surgery, IVF, and rhinoplasty — with sources.',
   keywords: [
-    'medical treatment cost Turkey vs USA',
-    'hair transplant cost Turkey vs USA',
-    'dental implants Turkey vs USA cost',
-    'gastric sleeve Turkey cost vs America',
-    'cardiac surgery Turkey vs USA',
-    'rhinoplasty Turkey vs USA cost',
-    'medical tourism Turkey cost savings',
-    'IVF cost Turkey vs USA',
-    'how much cheaper is Turkey for surgery',
-    'JCI hospital Turkey price',
-    'Turkey medical tourism 2025 2026 costs',
-    'affordable surgery Turkey Americans',
+    'medical treatment cost Türkiye vs USA',
+    'hair transplant cost Türkiye vs USA',
+    'dental implants Türkiye vs USA cost',
+    'gastric sleeve Türkiye cost vs America',
+    'cardiac surgery Türkiye vs USA',
+    'rhinoplasty Türkiye vs USA cost',
+    'medical tourism Türkiye cost savings',
+    'IVF cost Türkiye vs USA',
+    'how much cheaper is Türkiye for surgery',
+    'JCI hospital Türkiye price',
+    'Türkiye medical tourism 2025 2026 costs',
+    'affordable surgery Türkiye Americans',
   ],
   openGraph: {
-    title: 'Turkey vs USA Medical Costs — Verified Comparison | Sultan GHC',
+    title: 'Türkiye vs USA Medical Costs — Verified Comparison | Sultan GHC',
     description:
-      'Real cost data for 14 procedures: Turkey vs USA. Includes hair transplant, dental implants, bariatric surgery, cardiac procedures, IVF, and rhinoplasty — sourced from published JCI hospital rates and US billing data.',
+      'Real cost data for 14 procedures: Türkiye vs USA. Includes hair transplant, dental implants, bariatric surgery, cardiac procedures, IVF, and rhinoplasty — sourced from published JCI hospital rates and US billing data.',
     url: 'https://www.sultanghc.com/cost-savings/turkey',
     siteName: 'Sultan Global Health Care',
     type: 'website',
@@ -48,22 +48,22 @@ export const metadata = {
 // — AdvancedFertility.com / GoodRx (IVF)
 // — American Refractive Surgery Council (LASIK)
 //
-// Turkey figures sourced from:
+// Türkiye figures sourced from:
 // — Published rates at JCI-accredited hospitals: Acibadem, Memorial, Medipol, Florence Nightingale
-// — Bookimed.com (aggregated Turkey hospital rates)
-// — NowHairTime.com (Turkey vs US hair transplant comparison)
-// — Turkey Travel Planner (Dental costs Turkey 2026)
-// — International Clinics (Rhinoplasty Turkey 2025)
+// — Bookimed.com (aggregated Türkiye hospital rates)
+// — NowHairTime.com (Türkiye vs US hair transplant comparison)
+// — Türkiye Travel Planner (Dental costs Türkiye 2026)
+// — International Clinics (Rhinoplasty Türkiye 2025)
 
 const PROCEDURES = [
-  // Turkey-signature procedures first
+  // Türkiye-signature procedures first
   {
     name: 'Hair Transplant — FUE (2,000 grafts)',
     category: 'Hair & Aesthetics',
     usa: { low: 7000, high: 15000, display: '$7,000 – $15,000', source: 'NowHairTime 2025; avg $5.44/graft in USA' },
     turkey: { low: 1500, high: 3500, display: '$1,500 – $3,500' },
     saving: 77,
-    note: 'Turkey performs over 500,000 hair transplants annually — more than any other country. DHI and FUE available.',
+    note: 'Türkiye performs over 500,000 hair transplants annually — more than any other country. DHI and FUE available.',
   },
   {
     name: 'Hair Transplant — FUE (4,000 grafts)',
@@ -95,7 +95,7 @@ const PROCEDURES = [
     usa: { low: 8000, high: 18000, display: '$8,000 – $18,000', source: 'ASPS 2024 statistics; avg surgeon fee + facility' },
     turkey: { low: 2500, high: 5500, display: '$2,500 – $5,500' },
     saving: 70,
-    note: 'Turkey is the global leader in rhinoplasty volume. Istanbul surgeons publish peer-reviewed outcomes.',
+    note: 'Türkiye is the global leader in rhinoplasty volume. Istanbul surgeons publish peer-reviewed outcomes.',
   },
   {
     name: 'Gastric Sleeve (Sleeve Gastrectomy)',
@@ -103,7 +103,7 @@ const PROCEDURES = [
     usa: { low: 18000, high: 32000, display: '$18,000 – $32,000', source: 'ASMBS 2024; FAIR Health benchmark' },
     turkey: { low: 2800, high: 5500, display: '$2,800 – $5,500' },
     saving: 84,
-    note: 'Typically all-inclusive in Turkey: surgery, anaesthesia, 3–5 night stay, nutritionist, transfers. Acibadem and Memorial perform hundreds monthly.',
+    note: 'Typically all-inclusive in Türkiye: surgery, anaesthesia, 3–5 night stay, nutritionist, transfers. Acibadem and Memorial perform hundreds monthly.',
   },
   {
     name: 'Gastric Bypass (Roux-en-Y)',
@@ -238,18 +238,18 @@ const TRAVEL_COSTS = [
 const FAQS = [
   {
     q: 'Are Turkish hospitals actually comparable to US hospitals in quality?',
-    a: 'Turkey has more than 40 JCI-accredited hospitals — the same international accreditation held by Cleveland Clinic, Johns Hopkins, and other leading US centers. Twenty-five of these are in Istanbul alone. JCI accreditation requires identical patient safety standards, surgical outcome tracking, and infection control protocols as in the US. Acibadem, Memorial, American Hospital Istanbul, and Florence Nightingale Hospital treat hundreds of thousands of international patients annually.',
+    a: 'Türkiye has more than 40 JCI-accredited hospitals — the same international accreditation held by Cleveland Clinic, Johns Hopkins, and other leading US centers. Twenty-five of these are in Istanbul alone. JCI accreditation requires identical patient safety standards, surgical outcome tracking, and infection control protocols as in the US. Acibadem, Memorial, American Hospital Istanbul, and Florence Nightingale Hospital treat hundreds of thousands of international patients annually.',
   },
   {
-    q: 'Why is Turkey specifically known for hair transplants and dental work?',
-    a: 'Turkey performs more hair transplants than any other country — over 500,000 procedures annually (ISHRS data). The combination of volume, specialist training, and cost has made Istanbul the global hub. Turkish surgeons publish peer-reviewed outcomes and train international colleagues. For dental work, Turkey has both the trained specialists and the infrastructure to handle high international patient volumes with consistent quality.',
+    q: 'Why is Türkiye specifically known for hair transplants and dental work?',
+    a: 'Türkiye performs more hair transplants than any other country — over 500,000 procedures annually (ISHRS data). The combination of volume, specialist training, and cost has made Istanbul the global hub. Turkish surgeons publish peer-reviewed outcomes and train international colleagues. For dental work, Türkiye has both the trained specialists and the infrastructure to handle high international patient volumes with consistent quality.',
   },
   {
-    q: 'Is a Turkey hair transplant as good as one done in the US?',
+    q: 'Is a Türkiye hair transplant as good as one done in the US?',
     a: 'The technique is identical — FUE (Follicular Unit Extraction) and DHI (Direct Hair Implantation) are global standards, not country-specific. The difference is volume: a Turkish surgeon performing 300+ procedures per year has more hands-on experience than most US surgeons performing 30–50 per year. Sultan GHC selects clinics based on surgeon credentials, published outcomes, and patient volume — not lowest price.',
   },
   {
-    q: 'What does the gastric sleeve all-inclusive package in Turkey include?',
+    q: 'What does the gastric sleeve all-inclusive package in Türkiye include?',
     a: 'At most JCI-accredited Istanbul hospitals, a gastric sleeve package includes the surgery itself, anaesthesia, 3–5 night hospital stay, pre-surgery bloodwork and ECG, dietitian consultation, airport-to-hospital transfers, and aftercare follow-up. Flights and pre-travel accommodation are additional. The all-in range including travel is typically $5,000–$9,000 vs $18,000–$32,000 in the US.',
   },
   {
@@ -257,15 +257,15 @@ const FAQS = [
     a: 'Yes. Major Turkish hospitals use Zimmer Biomet, Stryker, and DePuy Synthes for orthopaedic implants; Nobel Biocare, Straumann, and Osstem for dental implants; Medtronic and Edwards Lifesciences for cardiac devices. The difference is hospital procurement costs — Turkish hospitals negotiate lower device prices due to volume and different import economics.',
   },
   {
-    q: 'What is the total cost including flights and accommodation for dental work in Turkey?',
-    a: 'A full mouth rehabilitation (All-on-4) in Turkey costs $4,500–$9,000 for the dental work itself. Adding two round-trip economy flights and two weeks in an Istanbul hotel brings the total to approximately $7,000–$12,500. The same procedure in the US costs $25,000–$55,000. The net saving even after all travel costs is $12,500–$42,500.',
+    q: 'What is the total cost including flights and accommodation for dental work in Türkiye?',
+    a: 'A full mouth rehabilitation (All-on-4) in Türkiye costs $4,500–$9,000 for the dental work itself. Adding two round-trip economy flights and two weeks in an Istanbul hotel brings the total to approximately $7,000–$12,500. The same procedure in the US costs $25,000–$55,000. The net saving even after all travel costs is $12,500–$42,500.',
   },
   {
-    q: 'Does Sultan GHC work with JCI-accredited hospitals in Turkey?',
-    a: 'Yes. Sultan GHC exclusively partners with JCI-accredited and internationally certified hospitals. In Turkey, our network includes hospitals in Istanbul, Ankara, Antalya, and Izmir — all with dedicated International Patient Departments, English-speaking coordinators, and experience serving American patients.',
+    q: 'Does Sultan GHC work with JCI-accredited hospitals in Türkiye?',
+    a: 'Yes. Sultan GHC exclusively partners with JCI-accredited and internationally certified hospitals. In Türkiye, our network includes hospitals in Istanbul, Ankara, Antalya, and Izmir — all with dedicated International Patient Departments, English-speaking coordinators, and experience serving American patients.',
   },
   {
-    q: 'What does Sultan GHC charge for facilitating treatment in Turkey?',
+    q: 'What does Sultan GHC charge for facilitating treatment in Türkiye?',
     a: 'Sultan GHC does not charge patients a facilitation fee. The service is free to patients. We are compensated by partner hospitals. There are no hidden charges and no markups on the hospital bill you receive.',
   },
 ]
@@ -280,7 +280,7 @@ const jsonLd = {
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.sultanghc.com' },
         { '@type': 'ListItem', position: 2, name: 'Cost Savings', item: 'https://www.sultanghc.com/cost-savings' },
-        { '@type': 'ListItem', position: 3, name: 'Turkey vs USA', item: 'https://www.sultanghc.com/cost-savings/turkey' },
+        { '@type': 'ListItem', position: 3, name: 'Türkiye vs USA', item: 'https://www.sultanghc.com/cost-savings/turkey' },
       ],
     },
     {
@@ -293,8 +293,8 @@ const jsonLd = {
     },
     {
       '@type': 'MedicalWebPage',
-      name: 'Medical Treatment Cost in Turkey vs USA',
-      description: 'Verified procedure cost comparison between Turkey (JCI-accredited hospitals) and the United States, covering hair transplant, dental implants, cardiac surgery, bariatric procedures, IVF, rhinoplasty, and orthopaedics.',
+      name: 'Medical Treatment Cost in Türkiye vs USA',
+      description: 'Verified procedure cost comparison between Türkiye (JCI-accredited hospitals) and the United States, covering hair transplant, dental implants, cardiac surgery, bariatric procedures, IVF, rhinoplasty, and orthopaedics.',
       url: 'https://www.sultanghc.com/cost-savings/turkey',
       audience: { '@type': 'Patient' },
     },
@@ -311,7 +311,7 @@ function savingBadgeColor(saving) {
 
 // ─── Component ────────────────────────────────────────────────────────────────
 
-export default function CostSavingsTurkeyPage() {
+export default function CostSavingsTürkiyePage() {
   return (
     <>
       <script
@@ -327,7 +327,7 @@ export default function CostSavingsTurkeyPage() {
             <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-gray-500">
               <Link href="/" className="hover:text-primary transition-colors">Home</Link>
               <span>/</span>
-              <Link href="/destinations/turkey" className="hover:text-primary transition-colors">Turkey</Link>
+              <Link href="/destinations/turkey" className="hover:text-primary transition-colors">Türkiye</Link>
               <span>/</span>
               <span className="text-gray-800 font-medium">Cost Savings</span>
             </nav>
@@ -344,22 +344,22 @@ export default function CostSavingsTurkeyPage() {
                   srcSet="https://flagcdn.com/96x72/tr.png 2x"
                   width={48}
                   height={36}
-                  alt="Turkey flag"
+                  alt="Türkiye flag"
                   className="rounded shadow-sm"
                 />
-                <span className="text-sm font-medium text-gray-400 uppercase tracking-widest">Turkey vs USA</span>
+                <span className="text-sm font-medium text-gray-400 uppercase tracking-widest">Türkiye vs USA</span>
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight mb-6">
                 What the Same Procedure
-                <span className="block text-primary mt-2">Actually Costs in Turkey</span>
+                <span className="block text-primary mt-2">Actually Costs in Türkiye</span>
               </h1>
 
               <p className="text-xl text-gray-300 leading-relaxed max-w-3xl mb-8">
                 14 procedure-by-procedure cost comparisons using verified US billing data and
                 published rates at JCI-accredited Turkish hospitals.
-                Includes Turkey-specific procedures: hair transplant, dental implants, rhinoplasty, and bariatric surgery
-                — categories where Turkey leads globally in both volume and expertise.
+                Includes Türkiye-specific procedures: hair transplant, dental implants, rhinoplasty, and bariatric surgery
+                — categories where Türkiye leads globally in both volume and expertise.
               </p>
 
               <div className="flex items-start gap-3 bg-white/10 border border-white/20 rounded-xl px-5 py-4 max-w-2xl">
@@ -368,7 +368,7 @@ export default function CostSavingsTurkeyPage() {
                   US costs sourced from: JAHA 2024 (CABG), Milliman 2025 (transplants),
                   ASPS 2024 statistics (rhinoplasty), ASMBS 2024 (bariatric),
                   ADA survey (dental), NowHairTime 2025 (hair transplant), GoodRx (IVF).
-                  Turkey costs from JCI-accredited hospital published rates.
+                  Türkiye costs from JCI-accredited hospital published rates.
                 </p>
               </div>
             </div>
@@ -381,8 +381,8 @@ export default function CostSavingsTurkeyPage() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-white text-center">
               {[
                 { stat: '70–96%', label: 'Savings range across 14 procedures' },
-                { stat: '500,000+', label: 'Hair transplants performed in Turkey annually' },
-                { stat: '40+', label: 'JCI-accredited hospitals in Turkey' },
+                { stat: '500,000+', label: 'Hair transplants performed in Türkiye annually' },
+                { stat: '40+', label: 'JCI-accredited hospitals in Türkiye' },
                 { stat: '$75,047', label: 'US median self-pay cost for CABG (JAHA 2024)' },
               ].map(({ stat, label }) => (
                 <div key={stat}>
@@ -402,7 +402,7 @@ export default function CostSavingsTurkeyPage() {
               US figures represent self-pay / uninsured billing — relevant for Americans who are uninsured,
               underinsured, or seeking procedures (hair transplant, dental, rhinoplasty) that US insurance
               classifies as cosmetic and does not cover.
-              Turkey figures are for JCI-accredited hospitals only.
+              Türkiye figures are for JCI-accredited hospitals only.
             </p>
 
             <div className="space-y-10 mt-10">
@@ -437,11 +437,11 @@ export default function CostSavingsTurkeyPage() {
                               <p className="text-[10px] text-gray-400 mt-1">Source: {proc.usa.source}</p>
                             </div>
 
-                            {/* Turkey */}
+                            {/* Türkiye */}
                             <div className="bg-primary/5 border border-primary/20 rounded-xl px-4 py-3">
                               <div className="flex items-center gap-1.5 text-[11px] font-semibold text-primary/70 uppercase tracking-wider mb-0.5">
-                                <img src="https://flagcdn.com/16x12/tr.png" width={16} height={12} alt="Turkey" className="rounded-sm" />
-                                Turkey — JCI hospital
+                                <img src="https://flagcdn.com/16x12/tr.png" width={16} height={12} alt="Türkiye" className="rounded-sm" />
+                                Türkiye — JCI hospital
                               </div>
                               <p className="text-lg font-bold text-primary leading-none">{proc.turkey.display}</p>
                             </div>
@@ -459,7 +459,7 @@ export default function CostSavingsTurkeyPage() {
 
             <p className="text-xs text-gray-400 mt-8 flex items-start gap-1.5 max-w-3xl">
               <Info size={13} className="shrink-0 mt-0.5" />
-              Turkey cost ranges reflect published rates at JCI-accredited hospitals only.
+              Türkiye cost ranges reflect published rates at JCI-accredited hospitals only.
               Actual quotes vary by hospital, surgeon, and patient complexity.
               Sultan GHC obtains itemised cost estimates from the treating hospital before you commit.
             </p>
@@ -470,9 +470,9 @@ export default function CostSavingsTurkeyPage() {
         <section className="py-16 sm:py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold text-gray-900 mb-3">What the Turkey Cost Includes</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-3">What the Türkiye Cost Includes</h2>
               <p className="text-gray-500 mb-10">
-                Turkey hospitals treating international patients often bundle more into the base price than US hospitals.
+                Türkiye hospitals treating international patients often bundle more into the base price than US hospitals.
                 Here is what is typically included and what is not.
               </p>
 
@@ -520,7 +520,7 @@ export default function CostSavingsTurkeyPage() {
                 <h2 className="text-3xl font-bold text-gray-900">Add Travel and Accommodation</h2>
               </div>
               <p className="text-gray-600 mb-8 leading-relaxed">
-                Turkey has a major advantage over India on travel: Turkish Airlines operates nonstop flights
+                Türkiye has a major advantage over India on travel: Turkish Airlines operates nonstop flights
                 from New York, Washington D.C., Chicago, Miami, Los Angeles, San Francisco, and Boston
                 — 10–11 hours versus 14–16 hours to India.
                 Here are realistic 2025 estimates for a patient and one companion.
@@ -552,7 +552,7 @@ export default function CostSavingsTurkeyPage() {
                       <p className="text-xs text-gray-500">Procedure only.</p>
                     </div>
                     <div>
-                      <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Turkey total all-in</p>
+                      <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Türkiye total all-in</p>
                       <p className="text-xl font-bold text-primary">$4,500 – $8,500</p>
                       <p className="text-xs text-gray-500">Procedure + flights + 1 week hotel + transfers.</p>
                     </div>
@@ -572,7 +572,7 @@ export default function CostSavingsTurkeyPage() {
                       <p className="text-xs text-gray-500">Surgery only. Most insurers require extended pre-approval.</p>
                     </div>
                     <div>
-                      <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Turkey total all-in</p>
+                      <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest mb-1">Türkiye total all-in</p>
                       <p className="text-xl font-bold text-primary">$5,500 – $9,500</p>
                       <p className="text-xs text-gray-500">All-inclusive surgery package + flights + 2 weeks hotel.</p>
                     </div>
@@ -625,7 +625,7 @@ export default function CostSavingsTurkeyPage() {
                 <h2 className="text-3xl font-bold text-gray-900">The Cost Gap Is Not a Quality Gap</h2>
               </div>
               <p className="text-gray-600 leading-relaxed mb-8">
-                Turkey{`'`}s lower prices are driven by physician compensation levels, hospital operational costs,
+                Türkiye{`'`}s lower prices are driven by physician compensation levels, hospital operational costs,
                 and medical device procurement — not by inferior outcomes.
                 The following facts are verifiable through public data.
               </p>
@@ -641,7 +641,7 @@ export default function CostSavingsTurkeyPage() {
                   },
                   {
                     fact: '500,000+ hair transplants per year',
-                    context: 'Turkey performs more hair transplants than any other country — ISHRS (International Society of Hair Restoration Surgery) data.',
+                    context: 'Türkiye performs more hair transplants than any other country — ISHRS (International Society of Hair Restoration Surgery) data.',
                   },
                   {
                     fact: 'HealthTurkiye mandatory registry',
@@ -690,7 +690,7 @@ export default function CostSavingsTurkeyPage() {
               <h2 className="text-3xl font-bold mb-4">Get a Free Cost Estimate from a Turkish Hospital</h2>
               <p className="text-gray-400 mb-8 text-lg">
                 Share your medical reports or treatment requirements.
-                Sultan GHC sends your case to the right hospital in Turkey and
+                Sultan GHC sends your case to the right hospital in Türkiye and
                 returns an itemised cost estimate — typically within 48 hours. No obligation.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -720,8 +720,8 @@ export default function CostSavingsTurkeyPage() {
             <h2 className="text-lg font-semibold text-gray-900 mb-6">Related Pages</h2>
             <div className="grid sm:grid-cols-4 gap-4">
               {[
-                { label: 'Turkey Destination Guide', href: '/destinations/turkey', desc: 'Cities, hospitals, and specialties' },
-                { label: 'Turkey Entry Guide (No Visa)', href: '/visa-guide/turkey', desc: 'US citizens enter visa-free since Jan 2024' },
+                { label: 'Türkiye Destination Guide', href: '/destinations/turkey', desc: 'Cities, hospitals, and specialties' },
+                { label: 'Türkiye Entry Guide (No Visa)', href: '/visa-guide/turkey', desc: 'US citizens enter visa-free since Jan 2024' },
                 { label: 'India Cost Savings', href: '/cost-savings/india', desc: 'Same comparison for India' },
                 { label: 'All Treatments', href: '/treatments', desc: '19 specialties with cost context' },
               ].map(({ label, href, desc }) => (

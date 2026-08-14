@@ -8,28 +8,28 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Gynaecology Surgery Abroad | India & Turkey | Hysterectomy, Fibroids, Endometriosis | Sultan GHC',
+  title: 'Gynaecology Surgery Abroad | India & Türkiye | Hysterectomy, Fibroids, Endometriosis | Sultan GHC',
   description:
-    'Laparoscopic hysterectomy, myomectomy, endometriosis excision, robotic gynaecological surgery, PCOS, ovarian cysts, cervical cancer, and pelvic floor repair in India and Turkey — 70–85% less than U.S. costs. Board-certified gynaecologists at JCI-accredited hospitals. Sultan GHC coordinates your complete gynecology journey.',
+    'Laparoscopic hysterectomy, myomectomy, endometriosis excision, robotic gynaecological surgery, PCOS, ovarian cysts, cervical cancer, and pelvic floor repair in India and Türkiye — 70–85% less than U.S. costs. Board-certified gynaecologists at JCI-accredited hospitals. Sultan GHC coordinates your complete gynecology journey.',
   keywords: [
     'gynaecology surgery India cost',
     'laparoscopic hysterectomy India cost',
     'myomectomy India cost',
-    'endometriosis surgery India Turkey',
+    'endometriosis surgery India Türkiye',
     'fibroid surgery India cost',
     'robotic hysterectomy India',
     'ovarian cyst surgery India cost',
     'cervical cancer treatment India',
     'uterine cancer surgery India',
     'PCOS treatment India',
-    'pelvic floor repair India Turkey',
+    'pelvic floor repair India Türkiye',
     'affordable gynaecology for Americans',
     'gynaecology medical tourism',
     'Sultan GHC gynaecology',
-    'laparoscopic gynecology India Turkey',
+    'laparoscopic gynecology India Türkiye',
   ],
   openGraph: {
-    title: 'Gynaecology Surgery in India & Turkey | Fibroids, Endometriosis, Hysterectomy | Sultan GHC',
+    title: 'Gynaecology Surgery in India & Türkiye | Fibroids, Endometriosis, Hysterectomy | Sultan GHC',
     description:
       'Laparoscopic hysterectomy, myomectomy, endometriosis excision, and robotic gynecological surgery at JCI-accredited hospitals — 70–85% less than U.S. costs.',
     url: 'https://www.sultanghc.com/treatments/obstetrics-gynaecology',
@@ -38,7 +38,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gynaecology Surgery Abroad | India & Turkey | Sultan GHC',
+    title: 'Gynaecology Surgery Abroad | India & Türkiye | Sultan GHC',
     description: 'Laparoscopic hysterectomy, myomectomy, endometriosis excision, PCOS, ovarian cysts — 70–85% less than U.S. costs.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/treatments/obstetrics-gynaecology' },
@@ -59,8 +59,8 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Obstetrics & Gynaecology Treatment Abroad — India and Turkey',
-  description: 'Comprehensive gynaecological surgical and medical care for U.S. patients at JCI-accredited hospitals in India and Turkey, facilitated by Sultan GHC.',
+  name: 'Obstetrics & Gynaecology Treatment Abroad — India and Türkiye',
+  description: 'Comprehensive gynaecological surgical and medical care for U.S. patients at JCI-accredited hospitals in India and Türkiye, facilitated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/obstetrics-gynaecology',
   about: {
     '@type': 'MedicalSpecialty',
@@ -92,10 +92,10 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'How much does endometriosis surgery cost in India or Turkey?',
+      name: 'How much does endometriosis surgery cost in India or Türkiye?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Laparoscopic excision of endometriosis — including deep infiltrating endometriosis (DIE) — costs $10,000–$30,000 in the U.S. In India: $1,500–$4,500. In Turkey at Acibadem or Memorial hospitals: $2,500–$6,000. India has highly experienced laparoscopic gynecologists trained in advanced endometriosis excision, including colorectal and urological involvement cases. Sultan GHC shares surgeon case volumes and patient references before matching.',
+        text: 'Laparoscopic excision of endometriosis — including deep infiltrating endometriosis (DIE) — costs $10,000–$30,000 in the U.S. In India: $1,500–$4,500. In Türkiye at Acibadem or Memorial hospitals: $2,500–$6,000. India has highly experienced laparoscopic gynecologists trained in advanced endometriosis excision, including colorectal and urological involvement cases. Sultan GHC shares surgeon case volumes and patient references before matching.',
       },
     },
     {
@@ -103,7 +103,7 @@ const faqSchema = {
       name: 'Can American women get gynecological cancer surgery in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Sultan GHC coordinates gynecological oncology care — including surgery, chemotherapy, and radiation — for U.S. patients at JCI-accredited hospitals in India and Turkey. Procedures include radical hysterectomy (Wertheim\'s) for cervical cancer, staging laparotomy and debulking for ovarian cancer, and hysteroscopic resection + staging for uterine/endometrial cancer. Robotic radical hysterectomy (RARP-gynae) is available at Apollo and Fortis. A second opinion from a gynecological oncologist can be arranged within 24–48 hours.',
+        text: 'Yes. Sultan GHC coordinates gynecological oncology care — including surgery, chemotherapy, and radiation — for U.S. patients at JCI-accredited hospitals in India and Türkiye. Procedures include radical hysterectomy (Wertheim\'s) for cervical cancer, staging laparotomy and debulking for ovarian cancer, and hysteroscopic resection + staging for uterine/endometrial cancer. Robotic radical hysterectomy (RARP-gynae) is available at Apollo and Fortis. A second opinion from a gynecological oncologist can be arranged within 24–48 hours.',
       },
     },
     {
@@ -135,7 +135,7 @@ const faqSchema = {
       name: 'Is pelvic floor surgery (prolapse repair) available in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Laparoscopic sacrocolpopexy (mesh-based vault suspension for vaginal vault prolapse), anterior/posterior colporrhaphy, and mid-urethral sling procedures (TOT, TVT) for stress urinary incontinence are fully available at partner hospitals in India and Turkey. Pelvic floor repair in the U.S. costs $10,000–$30,000; India costs $1,500–$4,500. Urogynaecology subspecialists are available at Apollo, Fortis, and Manipal.',
+        text: 'Yes. Laparoscopic sacrocolpopexy (mesh-based vault suspension for vaginal vault prolapse), anterior/posterior colporrhaphy, and mid-urethral sling procedures (TOT, TVT) for stress urinary incontinence are fully available at partner hospitals in India and Türkiye. Pelvic floor repair in the U.S. costs $10,000–$30,000; India costs $1,500–$4,500. Urogynaecology subspecialists are available at Apollo, Fortis, and Manipal.',
       },
     },
   ],
@@ -250,8 +250,8 @@ const FAQS = [
     a: 'Laparoscopic myomectomy: $10,000–$40,000 U.S. vs $2,000–$5,000 India. Hysteroscopic myomectomy for submucosal fibroids: $1,000–$3,000 India vs $5,000–$15,000 U.S. Fertility-preserving approaches used for women wishing to conceive.',
   },
   {
-    q: 'How much does endometriosis surgery cost in India or Turkey?',
-    a: 'Laparoscopic endometriosis excision: $10,000–$30,000 U.S. vs $1,500–$4,500 India vs $2,500–$6,000 Turkey. Partner centers perform complete excision (not just ablation) including deep infiltrating endometriosis with bowel/bladder involvement.',
+    q: 'How much does endometriosis surgery cost in India or Türkiye?',
+    a: 'Laparoscopic endometriosis excision: $10,000–$30,000 U.S. vs $1,500–$4,500 India vs $2,500–$6,000 Türkiye. Partner centers perform complete excision (not just ablation) including deep infiltrating endometriosis with bowel/bladder involvement.',
   },
   {
     q: 'Can American women get gynaecological cancer surgery in India?',
@@ -276,7 +276,7 @@ const FAQS = [
 ]
 
 const RELATED = [
-  { name: 'Fertility & IVF',                          href: '/treatments/fertility-ivf',                    desc: 'IVF, ICSI, egg freezing, PGT-A — infertility treatment for U.S. patients in India & Turkey' },
+  { name: 'Fertility & IVF',                          href: '/treatments/fertility-ivf',                    desc: 'IVF, ICSI, egg freezing, PGT-A — infertility treatment for U.S. patients in India & Türkiye' },
   { name: 'Oncology & Cancer Care',                   href: '/treatments/oncology',                         desc: 'Gynaecological cancers — chemotherapy, targeted therapy, and radiation coordination' },
   { name: 'Robotic & Minimally Invasive Surgery',     href: '/treatments/robotic-minimally-invasive',       desc: 'da Vinci robotic hysterectomy, myomectomy, and radical hysterectomy' },
   { name: 'Urology',                                  href: '/treatments/urology',                          desc: 'Pelvic floor conditions involving the bladder and urinary tract' },
@@ -335,7 +335,7 @@ export default function ObstetricsGynaecologyPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 World-Class Gynaecology Surgery in{' '}
-                <span className="text-primary">India & Turkey</span> — 80–88% Less Than U.S. Costs
+                <span className="text-primary">India & Türkiye</span> — 80–88% Less Than U.S. Costs
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-5 max-w-2xl">
                 From laparoscopic hysterectomy and fibroid surgery to endometriosis excision, robotic gynecological procedures, and pelvic floor repair — Sultan GHC connects U.S. women with fellowship-trained gynaecologists at JCI-accredited hospitals offering gold-standard minimally invasive surgery at a fraction of U.S. prices.
@@ -465,8 +465,8 @@ export default function ObstetricsGynaecologyPage() {
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Gynaecology Surgery Cost: USA vs India vs Turkey</h2>
-            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">U.S. figures from FAIR Health Consumer (2024), CMS Hospital Price Transparency, and GoodRx Health. India and Turkey from JCI-accredited partner hospital published rates (2025). All-inclusive: surgeon, anaesthesia, hospital stay.</p>
+            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Gynaecology Surgery Cost: USA vs India vs Türkiye</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">U.S. figures from FAIR Health Consumer (2024), CMS Hospital Price Transparency, and GoodRx Health. India and Türkiye from JCI-accredited partner hospital published rates (2025). All-inclusive: surgeon, anaesthesia, hospital stay.</p>
           </div>
           <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
             <table className="w-full text-sm">
@@ -485,7 +485,7 @@ export default function ObstetricsGynaecologyPage() {
                   </th>
                   <th className="text-center px-5 py-4 font-semibold text-primary">
                     <span className="inline-flex items-center justify-center gap-1.5">
-                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" /> Turkey
+                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" /> Türkiye
                     </span>
                   </th>
                   <th className="text-center px-5 py-4 font-semibold text-green-400 rounded-tr-2xl">Save (India)</th>
@@ -509,12 +509,12 @@ export default function ObstetricsGynaecologyPage() {
           <p className="text-xs text-gray-400 mt-4 text-center">
             Figures are approximate self-pay estimates. Actual costs vary by complexity, approach, and length of stay.{' '}
             <Link href="/cost-savings/india" className="text-primary hover:underline">Full India cost savings →</Link>{' '}·{' '}
-            <Link href="/cost-savings/turkey" className="text-primary hover:underline">Turkey cost savings →</Link>
+            <Link href="/cost-savings/turkey" className="text-primary hover:underline">Türkiye cost savings →</Link>
           </p>
           <div className="mt-8 grid sm:grid-cols-3 gap-4">
             {[
               { label: 'Average Saving in India',  value: '80–88%', sub: 'vs U.S. self-pay gynaecology' },
-              { label: 'Average Saving in Turkey', value: '75–85%', sub: 'vs U.S. self-pay gynaecology' },
+              { label: 'Average Saving in Türkiye', value: '75–85%', sub: 'vs U.S. self-pay gynaecology' },
               { label: 'Surgeon Opinion',          value: '24–48 hrs', sub: 'from fellowship-trained gynaecologist' },
             ].map(({ label, value, sub }) => (
               <div key={label} className="text-center bg-primary/5 border border-primary/15 rounded-2xl py-6 px-4">
@@ -527,7 +527,7 @@ export default function ObstetricsGynaecologyPage() {
         </div>
       </section>
 
-      {/* Why India / Turkey */}
+      {/* Why India / Türkiye */}
       <section className="bg-white py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-10">
@@ -563,9 +563,9 @@ export default function ObstetricsGynaecologyPage() {
 
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">Gynaecology in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">Gynaecology in Türkiye</h3>
                   <p className="text-sm text-gray-500">Acibadem, Memorial, Koç University Hospital</p>
                 </div>
               </div>
@@ -576,7 +576,7 @@ export default function ObstetricsGynaecologyPage() {
                   'Koç University Hospital — academic centre with fellowship-trained gynaecological oncologists and a multidisciplinary tumor board',
                   'Florence Nightingale Hospital — established private women\'s health facility with IVF, pelvic floor, and oncology services',
                   'Turkish gynaecologists extensively trained in Europe (Germany, France, UK) — many hold dual European and Turkish board certifications',
-                  'U.S. citizens visa-free for Turkey; Turkish Airlines nonstop from 7 U.S. cities; 90-minute flights from Istanbul to most Turkish cities',
+                  'U.S. citizens visa-free for Türkiye; Turkish Airlines nonstop from 7 U.S. cities; 90-minute flights from Istanbul to most Turkish cities',
                   'All-inclusive packages covering hospital, accommodation, airport transfer, and interpreter — often combined with IVF cycle abroad',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
@@ -585,7 +585,7 @@ export default function ObstetricsGynaecologyPage() {
                 ))}
               </ul>
               <div className="mt-6 pt-5 border-t border-gray-100 flex gap-3 flex-wrap">
-                <Link href="/visa-guide/turkey" className="text-xs text-primary font-semibold hover:underline">Turkey Entry Guide →</Link>
+                <Link href="/visa-guide/turkey" className="text-xs text-primary font-semibold hover:underline">Türkiye Entry Guide →</Link>
                 <Link href="/cost-savings/turkey" className="text-xs text-primary font-semibold hover:underline">Cost Savings →</Link>
                 <Link href="/destinations/turkey" className="text-xs text-primary font-semibold hover:underline">Destination Guide →</Link>
               </div>

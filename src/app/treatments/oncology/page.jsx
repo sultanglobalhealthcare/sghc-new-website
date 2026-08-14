@@ -20,13 +20,13 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Oncology & Cancer Care Abroad | India & Turkey | Sultan GHC',
+  title: 'Oncology & Cancer Care Abroad | India & Türkiye | Sultan GHC',
   description:
-    'Access world-class oncology and cancer care in India and Turkey at 60–80% lower cost than the U.S. Sultan GHC connects American patients with JCI-accredited cancer centers, top oncologists, and advanced treatments including chemotherapy, immunotherapy, and bone marrow transplants.',
+    'Access world-class oncology and cancer care in India and Türkiye at 60–80% lower cost than the U.S. Sultan GHC connects American patients with JCI-accredited cancer centers, top oncologists, and advanced treatments including chemotherapy, immunotherapy, and bone marrow transplants.',
   keywords: [
     'cancer treatment abroad',
     'oncology treatment India',
-    'cancer treatment Turkey',
+    'cancer treatment Türkiye',
     'affordable cancer care USA patients',
     'chemotherapy abroad',
     'bone marrow transplant India',
@@ -37,15 +37,15 @@ export const metadata = {
     'Sultan GHC oncology',
   ],
   openGraph: {
-    title: 'Cancer Treatment Abroad — Oncology Care in India & Turkey | Sultan GHC',
+    title: 'Cancer Treatment Abroad — Oncology Care in India & Türkiye | Sultan GHC',
     description:
-      'World-class cancer care at 60–80% lower than U.S. prices. JCI-accredited oncology centers in India and Turkey, matched to your diagnosis.',
+      'World-class cancer care at 60–80% lower than U.S. prices. JCI-accredited oncology centers in India and Türkiye, matched to your diagnosis.',
     url: 'https://www.sultanghc.com/treatments/oncology',
     siteName: 'Sultan Global Health Care',
     type: 'website',
     images: [
       {
-        url: 'https://www.sultanghc.com/api/og?title=Oncology+%26+Cancer+Care+Abroad&desc=Chemotherapy%2C+radiation%2C+robotic+surgery+%26+immunotherapy+in+India+%26+Turkey.+Save+60-80%25.&cat=Oncology',
+        url: 'https://www.sultanghc.com/api/og?title=Oncology+%26+Cancer+Care+Abroad&desc=Chemotherapy%2C+radiation%2C+robotic+surgery+%26+immunotherapy+in+India+%26+Türkiye.+Save+60-80%25.&cat=Oncology',
         width: 1200,
         height: 630,
         alt: 'Oncology Cancer Treatment Abroad — Sultan GHC',
@@ -56,7 +56,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Cancer Treatment Abroad — Oncology | Sultan GHC',
     description:
-      'World-class cancer care at 60–80% lower than U.S. prices. JCI-accredited hospitals in India and Turkey.',
+      'World-class cancer care at 60–80% lower than U.S. prices. JCI-accredited hospitals in India and Türkiye.',
   },
   alternates: {
     canonical: 'https://www.sultanghc.com/treatments/oncology',
@@ -78,9 +78,9 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Oncology and Cancer Care Abroad — India and Turkey',
+  name: 'Oncology and Cancer Care Abroad — India and Türkiye',
   description:
-    'Comprehensive oncology treatment services for U.S. patients at JCI-accredited hospitals in India and Turkey, facilitated by Sultan GHC.',
+    'Comprehensive oncology treatment services for U.S. patients at JCI-accredited hospitals in India and Türkiye, facilitated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/oncology',
   about: {
     '@type': 'MedicalCondition',
@@ -135,7 +135,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'How long will I need to stay in India or Turkey for cancer treatment?',
+      name: 'How long will I need to stay in India or Türkiye for cancer treatment?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: "Length of stay depends on the type and stage of cancer and the treatment protocol. Surgical oncology procedures typically require 2–4 weeks. Chemotherapy and radiation therapy protocols may require multiple visits or extended stays. Your dedicated Case Manager will provide a personalised itinerary based on your oncologist's treatment plan.",
@@ -231,7 +231,7 @@ const FAQS = [
     a: 'Our partner hospitals treat all major cancer types including breast, lung, colorectal, prostate, blood cancers (leukemia, lymphoma, myeloma), liver, cervical, stomach, brain tumors, thyroid, pancreatic, and many others. Rare and complex cancers are evaluated on a case-by-case basis.',
   },
   {
-    q: 'How long will I need to stay in India or Turkey for cancer treatment?',
+    q: 'How long will I need to stay in India or Türkiye for cancer treatment?',
     a: 'Length of stay depends on the type and stage of cancer and the treatment protocol. Surgical procedures typically require 2–4 weeks. Chemotherapy and radiation protocols may require multiple visits. Your Case Manager will provide a personalised itinerary based on your treatment plan.',
   },
   {
@@ -289,12 +289,12 @@ export default function OncologyPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 World-Class Cancer Treatment in{' '}
-                <span className="text-primary">India & Turkey</span>
+                <span className="text-primary">India & Türkiye</span>
               </h1>
               <p className="text-lg text-gray-500 leading-relaxed mb-6 max-w-xl">
                 Access the same advanced oncology treatments available in the U.S. — at 60–80% lower cost.
                 Sultan GHC connects American cancer patients with internationally accredited specialists
-                and cancer centers in India and Turkey.
+                and cancer centers in India and Türkiye.
               </p>
 
               {/* Trust chips */}
@@ -389,7 +389,7 @@ export default function OncologyPage() {
               Uninsured or underinsured patients often face impossible choices.
             </p>
             <p className="text-gray-500 leading-relaxed mb-8">
-              Our partner hospitals in India and Turkey provide the exact same internationally accredited
+              Our partner hospitals in India and Türkiye provide the exact same internationally accredited
               standard of oncology care — using the same drugs, protocols, and technologies — at a
               fraction of the U.S. price, with no waitlists and no insurance gatekeepers.
             </p>
@@ -479,7 +479,7 @@ export default function OncologyPage() {
         </div>
       </section>
 
-      {/* ── India vs Turkey ── */}
+      {/* ── India vs Türkiye ── */}
       <section className="bg-gray-950 text-white">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-20">
           <div className="text-center max-w-2xl mx-auto mb-14">
@@ -487,7 +487,7 @@ export default function OncologyPage() {
               Choose Your Destination
             </span>
             <h2 className="text-2xl sm:text-4xl font-semibold text-white mb-4">
-              Cancer Treatment in India or Turkey?
+              Cancer Treatment in India or Türkiye?
             </h2>
             <p className="text-gray-400 leading-relaxed">
               Both destinations offer world-class oncology care. Here is how they compare.
@@ -539,12 +539,12 @@ export default function OncologyPage() {
               </Link>
             </div>
 
-            {/* Turkey */}
+            {/* Türkiye */}
             <div className="bg-white/5 border border-white/10 rounded-2xl p-8">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-white">Oncology in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-white">Oncology in Türkiye</h3>
                   <p className="text-sm text-gray-400">Europe-adjacent, cutting-edge facilities</p>
                 </div>
               </div>
@@ -554,7 +554,7 @@ export default function OncologyPage() {
                 <ImagePlaceholder
                   width={600}
                   height={280}
-                  label="Modern oncology center exterior — Istanbul Turkey"
+                  label="Modern oncology center exterior — Istanbul Türkiye"
                   className="rounded-xl"
                 />
               </div>
@@ -579,7 +579,7 @@ export default function OncologyPage() {
                 href="/destinations/turkey"
                 className="inline-flex items-center gap-2 mt-6 text-sm text-primary hover:underline font-medium"
               >
-                Explore Turkey for Cancer Treatment <ArrowRight size={14} />
+                Explore Türkiye for Cancer Treatment <ArrowRight size={14} />
               </Link>
             </div>
           </div>
@@ -593,7 +593,7 @@ export default function OncologyPage() {
             Cost Comparison
           </span>
           <h2 className="text-2xl sm:text-4xl font-semibold text-gray-900 mb-4">
-            Cancer Treatment Cost: U.S. vs. India vs. Turkey
+            Cancer Treatment Cost: U.S. vs. India vs. Türkiye
           </h2>
           <p className="text-gray-500 leading-relaxed">
             All estimates are approximate and vary by hospital, stage of cancer, and individual protocol.
@@ -608,7 +608,7 @@ export default function OncologyPage() {
                 <th className="text-left px-6 py-4 font-semibold">Procedure</th>
                 <th className="text-center px-6 py-4 font-semibold"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/us.png" width={20} height={15} alt="USA" className="rounded-sm" />USA</span></th>
                 <th className="text-center px-6 py-4 font-semibold text-primary"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/in.png" width={20} height={15} alt="India" className="rounded-sm" />India</span></th>
-                <th className="text-center px-6 py-4 font-semibold text-primary"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" />Turkey</span></th>
+                <th className="text-center px-6 py-4 font-semibold text-primary"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" />Türkiye</span></th>
               </tr>
             </thead>
             <tbody>
@@ -670,19 +670,19 @@ export default function OncologyPage() {
                 spec: 'Medical Oncology, Targeted Therapy, Hematology',
               },
               {
-                country: 'Turkey',
+                country: 'Türkiye',
                 name: 'Memorial Hospital Group',
                 location: 'Istanbul, Ankara',
                 spec: 'Gamma Knife, CyberKnife, Surgical Oncology',
               },
               {
-                country: 'Turkey',
+                country: 'Türkiye',
                 name: 'Acibadem Healthcare Group',
                 location: 'Istanbul, Izmir',
                 spec: 'PET-CT, IMRT Radiation, Chemotherapy Suites',
               },
               {
-                country: 'Turkey',
+                country: 'Türkiye',
                 name: 'Medipol Mega Hospital',
                 location: 'Istanbul',
                 spec: 'Proton Therapy, Stem Cell, Integrative Oncology',
@@ -721,7 +721,7 @@ export default function OncologyPage() {
               href="/hospitals/turkey"
               className="inline-flex items-center gap-2 text-sm text-primary font-semibold hover:underline"
             >
-              View all hospitals in Turkey <ArrowRight size={14} />
+              View all hospitals in Türkiye <ArrowRight size={14} />
             </Link>
           </div>
         </div>
@@ -746,7 +746,7 @@ export default function OncologyPage() {
             { step: '01', title: 'Submit Medical Reports', body: 'Share your pathology reports, imaging scans, and treatment history through our secure portal. No obligation at this stage.' },
             { step: '02', title: 'Free First Oncologist Review', body: 'Our network oncologists review your case within 24–48 hours and provide a complimentary first opinion and recommended treatment protocol.' },
             { step: '03', title: 'Cost Estimate & Planning', body: 'Receive a transparent, itemised cost estimate with hospital options, doctor profiles, and duration of stay — no hidden fees.' },
-            { step: '04', title: 'Visa & Travel Support', body: 'We obtain your medical visa invitation letter and guide you through the full visa application process for India or Turkey.' },
+            { step: '04', title: 'Visa & Travel Support', body: 'We obtain your medical visa invitation letter and guide you through the full visa application process for India or Türkiye.' },
             { step: '05', title: 'Treatment & In-Person Care', body: 'Our on-ground team accompanies you through admission, treatment, and daily hospital visits to ensure your comfort.' },
             { step: '06', title: 'Follow-Up After You Return', body: 'Remote video consultations with your oncologist continue after you return home to monitor your recovery and next steps.' },
           ].map(({ step, title, body }) => (
@@ -782,7 +782,7 @@ export default function OncologyPage() {
               Cancer Treatment Abroad — FAQs
             </h2>
             <p className="text-gray-500">
-              Common questions from U.S. patients considering oncology treatment in India or Turkey.
+              Common questions from U.S. patients considering oncology treatment in India or Türkiye.
             </p>
           </div>
 

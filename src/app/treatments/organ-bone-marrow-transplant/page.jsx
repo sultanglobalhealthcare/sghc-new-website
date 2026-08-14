@@ -8,9 +8,9 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Organ & Bone Marrow Transplant Abroad | India & Turkey | Sultan GHC',
+  title: 'Organ & Bone Marrow Transplant Abroad | India & Türkiye | Sultan GHC',
   description:
-    'Kidney, liver, heart, lung, bone marrow, and stem cell transplants at JCI-accredited hospitals in India and Turkey — up to 96% less than U.S. costs. Sultan GHC coordinates full transplant journeys for American patients: donor workup, surgery, post-transplant monitoring, and follow-up.',
+    'Kidney, liver, heart, lung, bone marrow, and stem cell transplants at JCI-accredited hospitals in India and Türkiye — up to 96% less than U.S. costs. Sultan GHC coordinates full transplant journeys for American patients: donor workup, surgery, post-transplant monitoring, and follow-up.',
   keywords: [
     'organ transplant India cost',
     'kidney transplant India cost USA patients',
@@ -28,7 +28,7 @@ export const metadata = {
     'allogeneic stem cell transplant India',
   ],
   openGraph: {
-    title: 'Organ & Bone Marrow Transplant in India & Turkey | Sultan GHC',
+    title: 'Organ & Bone Marrow Transplant in India & Türkiye | Sultan GHC',
     description:
       'Kidney, liver, heart, bone marrow, and stem cell transplants at JCI-accredited centers — up to 96% less than U.S. costs. Full journey coordination by Sultan GHC.',
     url: 'https://www.sultanghc.com/treatments/organ-bone-marrow-transplant',
@@ -37,7 +37,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Organ & Bone Marrow Transplant Abroad | India & Turkey | Sultan GHC',
+    title: 'Organ & Bone Marrow Transplant Abroad | India & Türkiye | Sultan GHC',
     description: 'Kidney, liver, bone marrow, and stem cell transplants — up to 96% less than U.S. costs.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/treatments/organ-bone-marrow-transplant' },
@@ -58,8 +58,8 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Organ & Bone Marrow Transplant Abroad — India and Turkey',
-  description: 'Comprehensive organ and bone marrow transplant coordination for U.S. patients at JCI-accredited hospitals in India and Turkey, facilitated by Sultan GHC.',
+  name: 'Organ & Bone Marrow Transplant Abroad — India and Türkiye',
+  description: 'Comprehensive organ and bone marrow transplant coordination for U.S. patients at JCI-accredited hospitals in India and Türkiye, facilitated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/organ-bone-marrow-transplant',
   about: {
     '@type': 'MedicalSpecialty',
@@ -255,7 +255,7 @@ export default function OrganBoneMarrowTransplantPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 Organ & Bone Marrow Transplant in{' '}
-                <span className="text-primary">India & Turkey</span> — Up to 96% Less Than U.S. Costs
+                <span className="text-primary">India & Türkiye</span> — Up to 96% Less Than U.S. Costs
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-6 max-w-2xl">
                 Kidney, liver, bone marrow, stem cell, heart, and lung transplants at NOTTO-compliant, JCI-accredited hospitals — coordinated end-to-end by Sultan GHC from donor workup through post-transplant monitoring.
@@ -367,8 +367,8 @@ export default function OrganBoneMarrowTransplantPage() {
       <section className="bg-white py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Transplant Cost Comparison: USA vs India vs Turkey</h2>
-            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">U.S. figures from Milliman 2025 Actuarial Report, FAIR Health Consumer (2024), and ASBMT published data. India and Turkey from JCI-accredited partner hospital published rates (2025).</p>
+            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Transplant Cost Comparison: USA vs India vs Türkiye</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">U.S. figures from Milliman 2025 Actuarial Report, FAIR Health Consumer (2024), and ASBMT published data. India and Türkiye from JCI-accredited partner hospital published rates (2025).</p>
           </div>
           <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
             <table className="w-full text-sm">
@@ -387,7 +387,7 @@ export default function OrganBoneMarrowTransplantPage() {
                   </th>
                   <th className="text-center px-6 py-4 font-semibold text-primary">
                     <span className="inline-flex items-center justify-center gap-1.5">
-                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" /> Turkey
+                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" /> Türkiye
                     </span>
                   </th>
                   <th className="text-center px-6 py-4 font-semibold text-green-400 rounded-tr-2xl">Save (India)</th>
@@ -415,7 +415,7 @@ export default function OrganBoneMarrowTransplantPage() {
         </div>
       </section>
 
-      {/* Why India / Turkey */}
+      {/* Why India / Türkiye */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-10">
@@ -446,9 +446,9 @@ export default function OrganBoneMarrowTransplantPage() {
 
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">Transplant in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">Transplant in Türkiye</h3>
                   <p className="text-sm text-gray-500">Acibadem, Memorial, Koç University, Florence Nightingale</p>
                 </div>
               </div>
@@ -458,8 +458,8 @@ export default function OrganBoneMarrowTransplantPage() {
                   'Memorial Hospital Istanbul — dedicated BMT unit for allogeneic and autologous hematopoietic transplant',
                   'Koç University Hospital — academic transplant program, EFI/FACT-accredited bone marrow unit',
                   'Florence Nightingale — experienced renal transplant program with 24-hour nephrology ICU support',
-                  'Turkey performs 3,500+ kidney and 700+ liver transplants annually — among Europe\'s highest volumes',
-                  'U.S. citizens are visa-free for Turkey; Turkish Airlines nonstop from 7 U.S. cities',
+                  'Türkiye performs 3,500+ kidney and 700+ liver transplants annually — among Europe\'s highest volumes',
+                  'U.S. citizens are visa-free for Türkiye; Turkish Airlines nonstop from 7 U.S. cities',
                   'Post-transplant immunosuppressants (tacrolimus, mycophenolate) significantly cheaper than U.S. prices',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">

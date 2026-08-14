@@ -44,7 +44,7 @@ const OurFocus = () => {
               With thousands of patients seeking medical care internationally each year, Sultan GHC
               plays a vital role in helping people access the right medical services in{' '}
               <strong className="text-gray-700">India</strong> and{' '}
-              <strong className="text-gray-700">Turkey</strong> — at a standard of care and support
+              <strong className="text-gray-700">Türkiye</strong> — at a standard of care and support
               they can truly rely on.
             </p>
 

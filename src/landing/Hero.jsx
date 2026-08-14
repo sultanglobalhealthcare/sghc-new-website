@@ -6,7 +6,7 @@ const TRUST_CHIPS = [
   { icon: '🏥', label: 'JCI-Accredited Hospitals' },
   { icon: '💬', label: 'Free First Medical Opinion' },
   { icon: '💰', label: 'Save Up to 80%' },
-  { icon: '🌍', label: 'India & Turkey Network' },
+  { icon: '🌍', label: 'India & Türkiye Network' },
 ]
 
 const Hero = () => {
@@ -33,7 +33,7 @@ const Hero = () => {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight tracking-tight">
               World-Class Healthcare <br className="hidden sm:block" />
               in{' '}
-              <span className="text-primary">India & Turkey</span>
+              <span className="text-primary">India & Türkiye</span>
               {' '}—{' '}
               <span className="relative inline-block">
                 at a Fraction

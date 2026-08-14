@@ -124,7 +124,7 @@ const OurNetwork = () => {
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
               Trusted Hospitals in <span className="text-primary">India</span> &{' '}
-              <span className="text-primary">Turkey</span>
+              <span className="text-primary">Türkiye</span>
             </h2>
             <p className="text-base text-gray-500 mt-3 max-w-xl leading-relaxed">
               Every hospital in our network is individually vetted for international accreditation,
@@ -151,12 +151,12 @@ const OurNetwork = () => {
           </div>
         </div>
 
-        {/* Turkey */}
+        {/* Türkiye */}
         <div>
           <div className="flex items-center gap-3 mb-6">
-            <img src="https://flagcdn.com/32x24/tr.png" width={32} height={24} alt="Turkey" className="rounded shadow-sm" />
+            <img src="https://flagcdn.com/32x24/tr.png" width={32} height={24} alt="Türkiye" className="rounded shadow-sm" />
             <div>
-              <h3 className="text-base font-bold text-gray-900">Turkey</h3>
+              <h3 className="text-base font-bold text-gray-900">Türkiye</h3>
               <p className="text-sm text-gray-400">Istanbul's internationally renowned clinics combining quality care with modern facilities</p>
             </div>
             <div className="flex-1 h-px bg-gray-200 ml-4" />

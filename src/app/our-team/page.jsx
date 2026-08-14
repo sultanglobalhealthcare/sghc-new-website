@@ -286,7 +286,7 @@ const TEAM = [
   //       name: 'Elif Demir, PT',
   //       title: 'Senior Physiotherapist — Neurological Rehab',
   //       organization: 'Acibadem Rehabilitation Centre, Istanbul',
-  //       country: 'Turkey',
+  //       country: 'Türkiye',
   //       flag: 'tr',
   //       degree: 'BSc Physiotherapy, MSc Neuroscience, Bobath Certified',
   //       specialty: "Stroke Recovery, Parkinson's Disease & Spinal Cord Rehab",
@@ -342,7 +342,7 @@ const TEAM = [
   //       name: 'Selin Kaya, RD',
   //       title: 'Integrative Nutritionist — Metabolic Health',
   //       organization: 'Memorial Sisli Hospital, Istanbul',
-  //       country: 'Turkey',
+  //       country: 'Türkiye',
   //       flag: 'tr',
   //       degree: 'BSc Nutrition & Dietetics, MSc Integrative Medicine, IFM Certified',
   //       specialty: 'Metabolic Syndrome, Bariatric Nutrition & Anti-Inflammatory Diets',
@@ -401,7 +401,7 @@ const TEAM = [
 // ─── Category meta ────────────────────────────────────────────────────────────
 
 const CATEGORY_META = {
-  'Doctors':         { icon: Stethoscope, bg: 'bg-blue-600',    label: 'Medical Doctors',       desc: 'Board-certified specialists from JCI-accredited hospitals in India & Turkey' },
+  'Doctors':         { icon: Stethoscope, bg: 'bg-blue-600',    label: 'Medical Doctors',       desc: 'Board-certified specialists from JCI-accredited hospitals in India & Türkiye' },
   'Physiotherapy':   { icon: Activity,    bg: 'bg-violet-600',  label: 'Physiotherapy',         desc: 'Expert rehabilitation therapists for post-surgical and neurological recovery' },
   'Nutritionists':   { icon: Leaf,        bg: 'bg-emerald-600', label: 'Nutrition & Dietetics', desc: 'Clinical dietitians supporting recovery, metabolic health, and oncology care' },
   'Yoga & Wellness': { icon: Sun,         bg: 'bg-amber-600',   label: 'Yoga & Wellness',       desc: 'Certified therapists combining ancient wisdom with modern rehabilitation' },
@@ -609,7 +609,7 @@ function ConsultationModal({ doctor, onClose }) {
                     onChange={(e) => handleChange('destination', e.target.value)}
                     className={inputCls()}
                   >
-                    {['No Preference','India','Turkey'].map((d) => (
+                    {['No Preference','India','Türkiye'].map((d) => (
                       <option key={d}>{d}</option>
                     ))}
                   </select>
@@ -709,7 +709,7 @@ function inputCls(error) {
 const COUNTRY_FLAG_CODE = {
   'India':         'in',
   'United States': 'us',
-  'Turkey':        'tr',
+  'Türkiye':        'tr',
 }
 
 // ─── Team Card ────────────────────────────────────────────────────────────────
@@ -963,14 +963,14 @@ export default function OurTeamPage() {
 
               <p className="text-lg text-gray-500 leading-relaxed mb-8">
                 Every specialist is verified for qualifications, hospital affiliations, and patient outcomes.
-                We match you to the right expert for your condition — in India or Turkey.
+                We match you to the right expert for your condition — in India or Türkiye.
               </p>
 
               <div className="flex flex-wrap gap-3">
                 {[
                   { label: `${totalCount} Verified Specialists`, icon: '✓' },
                   { label: 'JCI-Accredited Hospitals', icon: '🏥' },
-                  { label: 'India & Turkey', icon: '🌍' },
+                  { label: 'India & Türkiye', icon: '🌍' },
                   { label: 'Free Second Opinion', icon: '💬' },
                 ].map(({ label, icon }) => (
                   <div key={label} className="flex items-center gap-1.5 bg-white border border-gray-200 rounded-full px-4 py-2 text-sm text-gray-600 shadow-sm">

@@ -774,7 +774,7 @@ export default function IndiaDestinationPage() {
           {[
             { href: '/hospitals/india',               icon: Shield,       label: 'Partner Hospitals in India' },
             { href: '/treatments',                    icon: Stethoscope,  label: 'All Treatments We Facilitate' },
-            { href: '/destinations/turkey',           icon: Globe2,       label: 'Also Explore Turkey' },
+            { href: '/destinations/turkey',           icon: Globe2,       label: 'Also Explore Türkiye' },
             { href: '/international-patient-services', icon: Users,        label: 'Our Patient Services' },
           ].map(({ href, icon: Icon, label }) => (
             <Link

@@ -23,12 +23,12 @@ import {
 export const metadata = {
   title: 'How It Works | Sultan GHC — Your Step-by-Step Medical Tourism Journey',
   description:
-    'Learn exactly how Sultan GHC guides U.S. patients through every stage of medical tourism — from your first enquiry to post-treatment follow-up. World-class hospitals in India and Turkey, managed end-to-end.',
+    'Learn exactly how Sultan GHC guides U.S. patients through every stage of medical tourism — from your first enquiry to post-treatment follow-up. World-class hospitals in India and Türkiye, managed end-to-end.',
   keywords: [
     'how medical tourism works',
     'medical tourism process',
     'medical travel from USA to India',
-    'medical travel from USA to Turkey',
+    'medical travel from USA to Türkiye',
     'healthcare abroad for Americans',
     'medical tourism step by step',
     'Sultan GHC patient journey',
@@ -210,7 +210,7 @@ const STEPS = [
       },
       {
         title: 'Continuity of Care',
-        body: 'Once you are home, our relationship continues. We facilitate regular video consultations with your doctor in India or Turkey to monitor your recovery and answer questions.',
+        body: 'Once you are home, our relationship continues. We facilitate regular video consultations with your doctor in India or Türkiye to monitor your recovery and answer questions.',
       },
     ],
   },

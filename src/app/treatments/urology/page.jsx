@@ -8,27 +8,27 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Urology Treatment Abroad | India & Turkey | Sultan GHC',
+  title: 'Urology Treatment Abroad | India & Türkiye | Sultan GHC',
   description:
-    'Access world-class urology care — kidney stone surgery, prostate cancer (RALP), kidney transplant, TURP, bladder cancer, PCNL, and ureteroscopy — in India and Turkey at 70–92% lower cost than U.S. prices. Sultan GHC connects American patients with JCI-accredited urology centers and internationally trained urologists.',
+    'Access world-class urology care — kidney stone surgery, prostate cancer (RALP), kidney transplant, TURP, bladder cancer, PCNL, and ureteroscopy — in India and Türkiye at 70–92% lower cost than U.S. prices. Sultan GHC connects American patients with JCI-accredited urology centers and internationally trained urologists.',
   keywords: [
     'urology treatment abroad',
     'kidney stone surgery India cost',
-    'prostate cancer surgery India Turkey',
+    'prostate cancer surgery India Türkiye',
     'robot-assisted prostatectomy India cost',
     'RALP India cost',
     'kidney transplant India cost',
     'TURP India cost',
     'PCNL kidney stone India',
-    'bladder cancer surgery India Turkey',
+    'bladder cancer surgery India Türkiye',
     'affordable urology for Americans',
     'medical tourism urology',
-    'JCI urology hospital India Turkey',
+    'JCI urology hospital India Türkiye',
     'Sultan GHC urology',
     'nephrectomy India cost',
   ],
   openGraph: {
-    title: 'Urology in India & Turkey — Affordable for U.S. Patients | Sultan GHC',
+    title: 'Urology in India & Türkiye — Affordable for U.S. Patients | Sultan GHC',
     description:
       'Kidney stone surgery, prostate cancer (RALP), kidney transplant, TURP, and bladder cancer surgery at JCI-accredited urology centers — 70–92% less than U.S. costs.',
     url: 'https://www.sultanghc.com/treatments/urology',
@@ -37,8 +37,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Urology Abroad | Kidney & Prostate Treatment India & Turkey | Sultan GHC',
-    description: 'Kidney stones, prostate cancer (RALP), kidney transplant, TURP in India & Turkey at 70–92% less than U.S. costs.',
+    title: 'Urology Abroad | Kidney & Prostate Treatment India & Türkiye | Sultan GHC',
+    description: 'Kidney stones, prostate cancer (RALP), kidney transplant, TURP in India & Türkiye at 70–92% less than U.S. costs.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/treatments/urology' },
 }
@@ -58,8 +58,8 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Urology Treatment Abroad — India and Turkey',
-  description: 'Comprehensive urology services for U.S. patients at JCI-accredited hospitals in India and Turkey, facilitated by Sultan GHC.',
+  name: 'Urology Treatment Abroad — India and Türkiye',
+  description: 'Comprehensive urology services for U.S. patients at JCI-accredited hospitals in India and Türkiye, facilitated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/urology',
   about: {
     '@type': 'MedicalSpecialty',
@@ -78,7 +78,7 @@ const faqSchema = {
       name: 'How much does robot-assisted prostatectomy (RALP) cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Robot-assisted radical prostatectomy (RALP) using the da Vinci Surgical System in the U.S. costs $15,000–$50,000 for self-pay patients. At JCI-accredited hospitals in India (Apollo, Fortis, Medanta), which operate da Vinci systems, the same procedure costs $5,000–$12,000 — a saving of 75–90%. Turkey costs $7,000–$18,000. Sultan GHC provides a personalised cost estimate within 24 hours.',
+        text: 'Robot-assisted radical prostatectomy (RALP) using the da Vinci Surgical System in the U.S. costs $15,000–$50,000 for self-pay patients. At JCI-accredited hospitals in India (Apollo, Fortis, Medanta), which operate da Vinci systems, the same procedure costs $5,000–$12,000 — a saving of 75–90%. Türkiye costs $7,000–$18,000. Sultan GHC provides a personalised cost estimate within 24 hours.',
       },
     },
     {
@@ -102,7 +102,7 @@ const faqSchema = {
       name: 'Is TURP (prostate surgery for BPH) available in India? How much does it cost?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'TURP (Transurethral Resection of the Prostate) and its modern variants — HoLEP (Holmium Laser Enucleation of the Prostate) and GreenLight laser PVP — are fully available at JCI-accredited partner hospitals in India and Turkey. TURP costs $10,000–$30,000 in the U.S. India costs $1,500–$4,000. HoLEP, which offers better outcomes for large prostate glands, is available at select centers for similar pricing. Turkey costs $2,000–$6,000.',
+        text: 'TURP (Transurethral Resection of the Prostate) and its modern variants — HoLEP (Holmium Laser Enucleation of the Prostate) and GreenLight laser PVP — are fully available at JCI-accredited partner hospitals in India and Türkiye. TURP costs $10,000–$30,000 in the U.S. India costs $1,500–$4,000. HoLEP, which offers better outcomes for large prostate glands, is available at select centers for similar pricing. Türkiye costs $2,000–$6,000.',
       },
     },
     {
@@ -200,7 +200,7 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does robot-assisted prostatectomy (RALP) cost in India?',
-    a: 'RALP using da Vinci in the U.S. costs $15,000–$50,000 for self-pay patients. At JCI-accredited hospitals in India with da Vinci systems (Apollo, Fortis, Medanta): $5,000–$12,000 — a saving of 75–90%. Turkey: $7,000–$18,000.',
+    a: 'RALP using da Vinci in the U.S. costs $15,000–$50,000 for self-pay patients. At JCI-accredited hospitals in India with da Vinci systems (Apollo, Fortis, Medanta): $5,000–$12,000 — a saving of 75–90%. Türkiye: $7,000–$18,000.',
   },
   {
     q: 'How much does PCNL (kidney stone surgery) cost in India?',
@@ -284,7 +284,7 @@ export default function UrologyPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 World-Class Urology in{' '}
-                <span className="text-primary">India & Turkey</span> — at 70–92% Less Than U.S. Costs
+                <span className="text-primary">India & Türkiye</span> — at 70–92% Less Than U.S. Costs
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-2xl">
                 From kidney stone removal and robotic prostatectomy to kidney transplant and bladder cancer surgery — Sultan GHC connects U.S. patients with fellowship-trained urologists at JCI-accredited hospitals operating da Vinci robotic systems, Holmium lasers, and full urodynamic suites.
@@ -373,8 +373,8 @@ export default function UrologyPage() {
       <section className="bg-white py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Urology Cost Comparison: USA vs India vs Turkey</h2>
-            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">U.S. figures from FAIR Health Consumer (2024), CMS Hospital Price Transparency, and CostHelper. India and Turkey from JCI-accredited partner hospital published rates (2025).</p>
+            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Urology Cost Comparison: USA vs India vs Türkiye</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">U.S. figures from FAIR Health Consumer (2024), CMS Hospital Price Transparency, and CostHelper. India and Türkiye from JCI-accredited partner hospital published rates (2025).</p>
           </div>
           <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
             <table className="w-full text-sm">
@@ -393,7 +393,7 @@ export default function UrologyPage() {
                   </th>
                   <th className="text-center px-6 py-4 font-semibold text-primary rounded-tr-2xl">
                     <span className="inline-flex items-center justify-center gap-1.5">
-                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" /> Turkey
+                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" /> Türkiye
                     </span>
                   </th>
                 </tr>
@@ -413,12 +413,12 @@ export default function UrologyPage() {
           <p className="text-xs text-gray-400 mt-4 text-center">
             Figures are approximate self-pay estimates. Actual costs vary by complexity, implant choice, and hospital.{' '}
             <Link href="/cost-savings/india" className="text-primary hover:underline">Full India cost savings →</Link>{' '}·{' '}
-            <Link href="/cost-savings/turkey" className="text-primary hover:underline">Turkey cost savings →</Link>
+            <Link href="/cost-savings/turkey" className="text-primary hover:underline">Türkiye cost savings →</Link>
           </p>
           <div className="mt-8 grid sm:grid-cols-3 gap-4">
             {[
               { label: 'Average Saving in India',  value: '80–92%', sub: 'vs U.S. self-pay urology' },
-              { label: 'Average Saving in Turkey', value: '70–87%', sub: 'vs U.S. self-pay urology' },
+              { label: 'Average Saving in Türkiye', value: '70–87%', sub: 'vs U.S. self-pay urology' },
               { label: 'Free First Opinion',       value: '24–48 hrs', sub: 'remote urologist review' },
             ].map(({ label, value, sub }) => (
               <div key={label} className="text-center bg-primary/5 border border-primary/15 rounded-2xl py-6 px-4">
@@ -431,7 +431,7 @@ export default function UrologyPage() {
         </div>
       </section>
 
-      {/* Why India / Turkey */}
+      {/* Why India / Türkiye */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-10">
@@ -467,9 +467,9 @@ export default function UrologyPage() {
 
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">Urology in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">Urology in Türkiye</h3>
                   <p className="text-sm text-gray-500">Acibadem, Memorial, Koc University Hospital</p>
                 </div>
               </div>
@@ -480,7 +480,7 @@ export default function UrologyPage() {
                   'Koc University Hospital — academic urology with high-volume robotic oncology program',
                   'Endourology expertise: PCNL, flexible URS, and retroperitoneal laparoscopic surgery',
                   'NBI cystoscopy for enhanced bladder cancer surveillance and restaging',
-                  'U.S. citizens visa-free for Turkey — no pre-approval required (effective January 2024)',
+                  'U.S. citizens visa-free for Türkiye — no pre-approval required (effective January 2024)',
                   'Turkish Airlines nonstop from 7 U.S. cities — direct access to Istanbul urology centers',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
@@ -489,7 +489,7 @@ export default function UrologyPage() {
                 ))}
               </ul>
               <div className="mt-6 pt-5 border-t border-gray-100 flex gap-3 flex-wrap">
-                <Link href="/visa-guide/turkey" className="text-xs text-primary font-semibold hover:underline">Turkey Entry Guide →</Link>
+                <Link href="/visa-guide/turkey" className="text-xs text-primary font-semibold hover:underline">Türkiye Entry Guide →</Link>
                 <Link href="/cost-savings/turkey" className="text-xs text-primary font-semibold hover:underline">Cost Savings →</Link>
                 <Link href="/destinations/turkey" className="text-xs text-primary font-semibold hover:underline">Destination Guide →</Link>
               </div>

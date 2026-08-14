@@ -2,7 +2,7 @@ import React from 'react'
 
 const STATS = [
   { value: '500+',  label: 'Patients Helped',       sub: 'From the United States' },
-  { value: '50+',   label: 'Accredited Hospitals',   sub: 'India & Turkey' },
+  { value: '50+',   label: 'Accredited Hospitals',   sub: 'India & Türkiye' },
   { value: '80%',   label: 'Average Cost Savings',   sub: 'vs. U.S. prices' },
   { value: '24/7',  label: 'Patient Support',        sub: 'Before, during & after' },
 ]

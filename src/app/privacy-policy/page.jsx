@@ -60,7 +60,7 @@ export default function PrivacyPolicyPage() {
               Sultan Global Health Care (SGHC) is a United States-based healthcare facilitation and
               medical tourism concierge company. We are incorporated and operate in the United States.
               Our services connect U.S. patients with internationally accredited hospitals and medical
-              specialists in India and Turkey.
+              specialists in India and Türkiye.
             </p>
             <p className="text-gray-600 leading-relaxed">
               Sultan GHC is not a hospital, clinic, or licensed healthcare provider. We are a concierge
@@ -206,11 +206,11 @@ export default function PrivacyPolicyPage() {
           <Section number="6" title="International Data Transfers">
             <p className="text-gray-600 leading-relaxed mb-4">
               To facilitate your medical treatment abroad, we will necessarily share relevant portions
-              of your medical information with partner hospitals and physicians in India and Turkey.
+              of your medical information with partner hospitals and physicians in India and Türkiye.
               These transfers occur only with your explicit consent.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Our partner hospitals in India and Turkey are bound by their national healthcare privacy
+              Our partner hospitals in India and Türkiye are bound by their national healthcare privacy
               laws and international accreditation standards (JCI). We require contractual commitments
               from our partners to maintain appropriate data security and confidentiality.
             </p>

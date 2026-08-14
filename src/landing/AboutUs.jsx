@@ -33,7 +33,7 @@ const AboutUs = () => {
                 <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-xl flex-shrink-0">🌍</div>
                 <div>
                   <p className="text-sm font-bold text-gray-900">Trusted by Patients Across 30+ U.S. States</p>
-                  <p className="text-xs text-gray-500 mt-0.5">Serving patients in India & Turkey since 2020</p>
+                  <p className="text-xs text-gray-500 mt-0.5">Serving patients in India & Türkiye since 2020</p>
                 </div>
               </div>
             </div>
@@ -58,7 +58,7 @@ const AboutUs = () => {
             Sultan Global Health Care (SGHC) is a United States-based medical tourism concierge that
             helps patients access world-class, affordable healthcare through a trusted network of
             internationally accredited hospitals and specialist doctors in <strong className="text-gray-700">India</strong> and{' '}
-            <strong className="text-gray-700">Turkey</strong>.
+            <strong className="text-gray-700">Türkiye</strong>.
           </p>
 
           <p className="text-base text-gray-500 leading-relaxed">

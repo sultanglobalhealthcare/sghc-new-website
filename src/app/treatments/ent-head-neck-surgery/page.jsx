@@ -5,28 +5,28 @@ import {
 } from 'lucide-react'
 
 export const metadata = {
-  title: 'ENT & Head-Neck Surgery Abroad | Cochlear Implant, FESS, Thyroidectomy | India & Turkey | Sultan GHC',
+  title: 'ENT & Head-Neck Surgery Abroad | Cochlear Implant, FESS, Thyroidectomy | India & Türkiye | Sultan GHC',
   description:
-    'Cochlear implants ($15K–$25K vs $80K–$150K U.S.), FESS for chronic sinusitis, thyroidectomy, head and neck cancer surgery, sleep apnea surgery, tympanoplasty, and hearing loss treatment in India and Turkey. Board-certified ENT surgeons at JCI-accredited hospitals. Sultan GHC coordinates your complete ENT journey.',
+    'Cochlear implants ($15K–$25K vs $80K–$150K U.S.), FESS for chronic sinusitis, thyroidectomy, head and neck cancer surgery, sleep apnea surgery, tympanoplasty, and hearing loss treatment in India and Türkiye. Board-certified ENT surgeons at JCI-accredited hospitals. Sultan GHC coordinates your complete ENT journey.',
   keywords: [
     'cochlear implant India cost',
     'cochlear implant surgery India',
     'FESS sinus surgery India cost',
     'thyroidectomy India cost',
     'head neck cancer surgery India',
-    'ENT surgery India Turkey cost',
+    'ENT surgery India Türkiye cost',
     'tympanoplasty India cost',
     'septoplasty India cost',
     'sleep apnea surgery India',
     'hearing loss treatment India',
     'parotidectomy India cost',
     'Sultan GHC ENT',
-    'ENT medical tourism India Turkey',
+    'ENT medical tourism India Türkiye',
     'affordable ENT surgery Americans',
     'neck dissection India cost',
   ],
   openGraph: {
-    title: 'ENT & Head-Neck Surgery in India & Turkey | Cochlear Implant, FESS, Thyroidectomy | Sultan GHC',
+    title: 'ENT & Head-Neck Surgery in India & Türkiye | Cochlear Implant, FESS, Thyroidectomy | Sultan GHC',
     description: 'Cochlear implants, FESS, thyroidectomy, head and neck cancer surgery, and sleep apnea surgery — 70–90% less than U.S. costs at JCI-accredited ENT centers.',
     url: 'https://www.sultanghc.com/treatments/ent-head-neck-surgery',
     siteName: 'Sultan Global Health Care',
@@ -34,7 +34,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ENT & Head-Neck Surgery Abroad | India & Turkey | Sultan GHC',
+    title: 'ENT & Head-Neck Surgery Abroad | India & Türkiye | Sultan GHC',
     description: 'Cochlear implants, FESS, thyroidectomy, and head-neck cancer surgery — 70–90% less than U.S. costs.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/treatments/ent-head-neck-surgery' },
@@ -53,8 +53,8 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'ENT & Head-Neck Surgery Abroad — India and Turkey',
-  description: 'Cochlear implants, FESS, thyroidectomy, head and neck oncology, sleep apnea surgery, and hearing rehabilitation for U.S. patients at JCI-accredited hospitals in India and Turkey.',
+  name: 'ENT & Head-Neck Surgery Abroad — India and Türkiye',
+  description: 'Cochlear implants, FESS, thyroidectomy, head and neck oncology, sleep apnea surgery, and hearing rehabilitation for U.S. patients at JCI-accredited hospitals in India and Türkiye.',
   url: 'https://www.sultanghc.com/treatments/ent-head-neck-surgery',
   about: { '@type': 'MedicalSpecialty', name: 'Otolaryngology', alternateName: ['ENT', 'Head and Neck Surgery'], relevantSpecialty: 'Otolaryngology' },
 }
@@ -84,7 +84,7 @@ const faqSchema = {
       name: 'How much does thyroidectomy cost in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Total thyroidectomy in the U.S. costs $10,000–$35,000 for self-pay patients. In India: $1,500–$4,000. Hemithyroidectomy (lobectomy) costs $1,000–$2,500 India. Minimally invasive video-assisted thyroidectomy (MIVAT) and robotic thyroidectomy (via axillary or areolar approach — no neck scar) are also available at Apollo and Fortis. Turkey: $2,500–$6,000.',
+        text: 'Total thyroidectomy in the U.S. costs $10,000–$35,000 for self-pay patients. In India: $1,500–$4,000. Hemithyroidectomy (lobectomy) costs $1,000–$2,500 India. Minimally invasive video-assisted thyroidectomy (MIVAT) and robotic thyroidectomy (via axillary or areolar approach — no neck scar) are also available at Apollo and Fortis. Türkiye: $2,500–$6,000.',
       },
     },
     {
@@ -92,7 +92,7 @@ const faqSchema = {
       name: 'Is head and neck cancer surgery available in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Sultan GHC coordinates comprehensive head and neck oncology at Tata Memorial Hospital Mumbai (one of Asia\'s premier cancer centers), Apollo Cancer Centre, and Acibadem (Turkey). Available procedures include total laryngectomy, partial laryngectomy, glossectomy (tongue cancer), parotidectomy, radical and modified radical neck dissection, mandibulectomy, and reconstructive free flap surgery. All cases are reviewed by a multidisciplinary tumor board.',
+        text: 'Yes. Sultan GHC coordinates comprehensive head and neck oncology at Tata Memorial Hospital Mumbai (one of Asia\'s premier cancer centers), Apollo Cancer Centre, and Acibadem (Türkiye). Available procedures include total laryngectomy, partial laryngectomy, glossectomy (tongue cancer), parotidectomy, radical and modified radical neck dissection, mandibulectomy, and reconstructive free flap surgery. All cases are reviewed by a multidisciplinary tumor board.',
       },
     },
     {
@@ -216,7 +216,7 @@ const FAQS = [
   },
   {
     q: 'Is head and neck cancer surgery available in India?',
-    a: 'Yes. Tata Memorial Hospital Mumbai, Apollo Cancer Centre, and Acibadem Turkey offer total laryngectomy, neck dissection, glossectomy, free flap reconstruction, and parotidectomy. All cases reviewed by multidisciplinary tumor board.',
+    a: 'Yes. Tata Memorial Hospital Mumbai, Apollo Cancer Centre, and Acibadem Türkiye offer total laryngectomy, neck dissection, glossectomy, free flap reconstruction, and parotidectomy. All cases reviewed by multidisciplinary tumor board.',
   },
   {
     q: 'Can sleep apnea be surgically treated in India?',
@@ -280,7 +280,7 @@ export default function ENTHeadNeckSurgeryPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 ENT & Head-Neck Surgery in{' '}
-                <span className="text-primary">India & Turkey</span> — 80–90% Less Than U.S. Costs
+                <span className="text-primary">India & Türkiye</span> — 80–90% Less Than U.S. Costs
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-6 max-w-2xl">
                 From cochlear implants and sinus surgery to thyroidectomy, head and neck cancer, and sleep apnea surgery — Sultan GHC connects U.S. patients with fellowship-trained ENT surgeons at JCI-accredited hospitals offering world-class otolaryngology at a fraction of U.S. prices.
@@ -377,8 +377,8 @@ export default function ENTHeadNeckSurgeryPage() {
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">ENT Surgery Cost: USA vs India vs Turkey</h2>
-            <p className="text-gray-500 max-w-2xl mx-auto text-sm">U.S. figures from FAIR Health Consumer (2024), NIH NIDCD, and CostHelper. India and Turkey from JCI-accredited partner hospital rates (2025).</p>
+            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">ENT Surgery Cost: USA vs India vs Türkiye</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-sm">U.S. figures from FAIR Health Consumer (2024), NIH NIDCD, and CostHelper. India and Türkiye from JCI-accredited partner hospital rates (2025).</p>
           </div>
           <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
             <table className="w-full text-sm">
@@ -392,7 +392,7 @@ export default function ENTHeadNeckSurgeryPage() {
                     <span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/in.png" width={20} height={15} alt="India" className="rounded-sm" /> India</span>
                   </th>
                   <th className="text-center px-5 py-4 font-semibold text-primary">
-                    <span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" /> Turkey</span>
+                    <span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" /> Türkiye</span>
                   </th>
                   <th className="text-center px-5 py-4 font-semibold text-green-400 rounded-tr-2xl">Save (India)</th>
                 </tr>
@@ -414,7 +414,7 @@ export default function ENTHeadNeckSurgeryPage() {
         </div>
       </section>
 
-      {/* Why India / Turkey */}
+      {/* Why India / Türkiye */}
       <section className="bg-white py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-10">
@@ -443,9 +443,9 @@ export default function ENTHeadNeckSurgeryPage() {
             </div>
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">ENT in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">ENT in Türkiye</h3>
                   <p className="text-sm text-gray-500">Acibadem, Memorial, Koç University Hospital</p>
                 </div>
               </div>
@@ -455,7 +455,7 @@ export default function ENTHeadNeckSurgeryPage() {
                   'Memorial Hospital Istanbul — dedicated cochlear implant program and full otology service including BAHA bone-anchored hearing aids',
                   'Turkish ENT surgeons extensively trained in Germany and France — strong tradition in rhinology, laryngology, and head-neck oncology',
                   'Koç University Hospital — academic ENT center with skull base surgery, parotidectomy, and salivary gland tumor expertise',
-                  'U.S. citizens visa-free for Turkey; Turkish Airlines nonstop from 7 U.S. cities; packages include accommodation and interpretation',
+                  'U.S. citizens visa-free for Türkiye; Turkish Airlines nonstop from 7 U.S. cities; packages include accommodation and interpretation',
                   'Combined FESS + rhinoplasty trips common — ENT and cosmetic procedure coordinated in single 10-day stay',
                 ].map(pt => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">

@@ -683,7 +683,7 @@ export default function CostSavingsIndiaPage() {
               {[
                 { label: 'India Destination Guide', href: '/destinations/india', desc: 'Cities, hospitals, and specialties' },
                 { label: 'India Medical Visa Guide', href: '/visa-guide/india', desc: 'e-Medical Visa requirements and process' },
-                { label: 'Turkey Cost Savings', href: '/cost-savings/turkey', desc: 'Same comparison for Turkey' },
+                { label: 'Türkiye Cost Savings', href: '/cost-savings/turkey', desc: 'Same comparison for Türkiye' },
                 { label: 'All Treatments', href: '/treatments', desc: '19 specialties with cost context' },
               ].map(({ label, href, desc }) => (
                 <Link

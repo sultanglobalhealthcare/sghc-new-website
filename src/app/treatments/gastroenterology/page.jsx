@@ -8,38 +8,38 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Gastroenterology Treatment Abroad | India & Turkey | Sultan GHC',
+  title: 'Gastroenterology Treatment Abroad | India & Türkiye | Sultan GHC',
   description:
-    'Access world-class gastroenterology care — colonoscopy, ERCP, endoscopy, IBD management, Crohn\'s disease treatment, and advanced GI procedures — in India and Turkey at 70–90% lower cost than U.S. prices. Sultan GHC connects American patients with JCI-accredited GI centers and internationally trained gastroenterologists.',
+    'Access world-class gastroenterology care — colonoscopy, ERCP, endoscopy, IBD management, Crohn\'s disease treatment, and advanced GI procedures — in India and Türkiye at 70–90% lower cost than U.S. prices. Sultan GHC connects American patients with JCI-accredited GI centers and internationally trained gastroenterologists.',
   keywords: [
     'gastroenterology treatment abroad',
     'colonoscopy cost India vs USA',
     'ERCP India cost',
-    'Crohn\'s disease treatment India Turkey',
+    'Crohn\'s disease treatment India Türkiye',
     'IBD treatment abroad',
     'endoscopy cost India',
     'gastroenterology India vs USA cost',
     'affordable GI treatment for Americans',
     'capsule endoscopy India cost',
-    'endoscopic ultrasound India Turkey',
+    'endoscopic ultrasound India Türkiye',
     'medical tourism gastroenterology',
-    'JCI gastroenterology hospital India Turkey',
+    'JCI gastroenterology hospital India Türkiye',
     'Sultan GHC gastroenterology',
     'hepatitis C treatment India cost',
   ],
   openGraph: {
-    title: 'Gastroenterology in India & Turkey — Affordable for U.S. Patients | Sultan GHC',
+    title: 'Gastroenterology in India & Türkiye — Affordable for U.S. Patients | Sultan GHC',
     description:
-      'Colonoscopy, ERCP, endoscopy, IBD biologics, and advanced GI procedures at 70–90% less than U.S. prices. JCI-accredited gastroenterology hospitals in India and Turkey.',
+      'Colonoscopy, ERCP, endoscopy, IBD biologics, and advanced GI procedures at 70–90% less than U.S. prices. JCI-accredited gastroenterology hospitals in India and Türkiye.',
     url: 'https://www.sultanghc.com/treatments/gastroenterology',
     siteName: 'Sultan Global Health Care',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Gastroenterology Abroad | India & Turkey | Sultan GHC',
+    title: 'Gastroenterology Abroad | India & Türkiye | Sultan GHC',
     description:
-      'Colonoscopy, ERCP, IBD treatment, Crohn\'s disease care in India & Turkey at 70–90% less than U.S. costs.',
+      'Colonoscopy, ERCP, IBD treatment, Crohn\'s disease care in India & Türkiye at 70–90% less than U.S. costs.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/treatments/gastroenterology' },
 }
@@ -59,9 +59,9 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Gastroenterology Treatment Abroad — India and Turkey',
+  name: 'Gastroenterology Treatment Abroad — India and Türkiye',
   description:
-    'Comprehensive gastroenterology and digestive disease services for U.S. patients at JCI-accredited hospitals in India and Turkey, facilitated by Sultan GHC.',
+    'Comprehensive gastroenterology and digestive disease services for U.S. patients at JCI-accredited hospitals in India and Türkiye, facilitated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/gastroenterology',
   about: {
     '@type': 'MedicalSpecialty',
@@ -80,15 +80,15 @@ const faqSchema = {
       name: 'How much does a colonoscopy cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A colonoscopy in the U.S. costs $2,750–$9,000 on average for self-pay patients (source: FAIR Health Consumer 2024). At a JCI-accredited hospital in India, the same procedure costs $150–$500 including sedation and pathology review — a saving of 90–95%. Turkey costs $200–$700. Sultan GHC provides a personalised cost estimate at no charge based on your specific case and preferred hospital.',
+        text: 'A colonoscopy in the U.S. costs $2,750–$9,000 on average for self-pay patients (source: FAIR Health Consumer 2024). At a JCI-accredited hospital in India, the same procedure costs $150–$500 including sedation and pathology review — a saving of 90–95%. Türkiye costs $200–$700. Sultan GHC provides a personalised cost estimate at no charge based on your specific case and preferred hospital.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Is ERCP available in India and Turkey? How much does it cost?',
+      name: 'Is ERCP available in India and Türkiye? How much does it cost?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'ERCP (Endoscopic Retrograde Cholangiopancreatography) is fully available at our JCI-accredited partner hospitals in India and Turkey, performed by fellowship-trained therapeutic endoscopists. ERCP in the U.S. costs $5,000–$20,000 for self-pay patients. India costs $500–$1,500. Turkey costs $700–$2,500. Sultan GHC provides a cost estimate based on your diagnosis (gallstones, bile duct obstruction, pancreatitis) within 24 hours.',
+        text: 'ERCP (Endoscopic Retrograde Cholangiopancreatography) is fully available at our JCI-accredited partner hospitals in India and Türkiye, performed by fellowship-trained therapeutic endoscopists. ERCP in the U.S. costs $5,000–$20,000 for self-pay patients. India costs $500–$1,500. Türkiye costs $700–$2,500. Sultan GHC provides a cost estimate based on your diagnosis (gallstones, bile duct obstruction, pancreatitis) within 24 hours.',
       },
     },
     {
@@ -96,7 +96,7 @@ const faqSchema = {
       name: 'Can I get IBD treatment (Crohn\'s disease or ulcerative colitis) in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Our partner hospitals in India and Turkey have dedicated IBD clinics managed by gastroenterologists with sub-specialty training in inflammatory bowel disease. Treatment includes biologic infusion therapy (infliximab, adalimumab, vedolizumab, ustekinumab), small molecule therapy (tofacitinib), and structured endoscopic monitoring. Biologic infusion costs in India are 70–85% lower than U.S. prices. India sources biologics from WHO-prequalified manufacturers including biosimilar brands approved under Indian regulators (CDSCO).',
+        text: 'Yes. Our partner hospitals in India and Türkiye have dedicated IBD clinics managed by gastroenterologists with sub-specialty training in inflammatory bowel disease. Treatment includes biologic infusion therapy (infliximab, adalimumab, vedolizumab, ustekinumab), small molecule therapy (tofacitinib), and structured endoscopic monitoring. Biologic infusion costs in India are 70–85% lower than U.S. prices. India sources biologics from WHO-prequalified manufacturers including biosimilar brands approved under Indian regulators (CDSCO).',
       },
     },
     {
@@ -201,11 +201,11 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does a colonoscopy cost in India compared to the U.S.?',
-    a: 'Colonoscopy in the U.S. costs $2,750–$9,000 for self-pay patients (FAIR Health 2024). At a JCI-accredited hospital in India, the same procedure costs $150–$500 including sedation and pathology — a 90–95% saving. Turkey costs $200–$700. Sultan GHC provides a personalised estimate at no charge.',
+    a: 'Colonoscopy in the U.S. costs $2,750–$9,000 for self-pay patients (FAIR Health 2024). At a JCI-accredited hospital in India, the same procedure costs $150–$500 including sedation and pathology — a 90–95% saving. Türkiye costs $200–$700. Sultan GHC provides a personalised estimate at no charge.',
   },
   {
-    q: 'Is ERCP available in India and Turkey? How much does it cost?',
-    a: 'ERCP is fully available at JCI-accredited partner hospitals, performed by fellowship-trained therapeutic endoscopists. U.S. cost: $5,000–$20,000. India: $500–$1,500. Turkey: $700–$2,500. We provide a cost estimate based on your diagnosis within 24 hours.',
+    q: 'Is ERCP available in India and Türkiye? How much does it cost?',
+    a: 'ERCP is fully available at JCI-accredited partner hospitals, performed by fellowship-trained therapeutic endoscopists. U.S. cost: $5,000–$20,000. India: $500–$1,500. Türkiye: $700–$2,500. We provide a cost estimate based on your diagnosis within 24 hours.',
   },
   {
     q: 'Can I get IBD treatment (Crohn\'s or UC) in India?',
@@ -293,7 +293,7 @@ export default function GastroenterologyPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 World-Class GI Care in{' '}
-                <span className="text-primary">India & Turkey</span> — at 70–95% Less Than U.S. Costs
+                <span className="text-primary">India & Türkiye</span> — at 70–95% Less Than U.S. Costs
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-2xl">
                 From colonoscopy and ERCP to complex IBD management and hepatitis C treatment — Sultan GHC connects U.S. patients with internationally trained gastroenterologists at JCI-accredited hospitals, using the same Olympus and Fujifilm endoscopy equipment as leading American medical centers.
@@ -423,10 +423,10 @@ export default function GastroenterologyPage() {
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">
-              Gastroenterology Cost Comparison: USA vs India vs Turkey
+              Gastroenterology Cost Comparison: USA vs India vs Türkiye
             </h2>
             <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">
-              U.S. figures sourced from FAIR Health Consumer (2024), CMS Hospital Price Transparency data, and GoodRx. India and Turkey figures from JCI-accredited partner hospital published rates (2025).
+              U.S. figures sourced from FAIR Health Consumer (2024), CMS Hospital Price Transparency data, and GoodRx. India and Türkiye figures from JCI-accredited partner hospital published rates (2025).
             </p>
           </div>
 
@@ -449,8 +449,8 @@ export default function GastroenterologyPage() {
                   </th>
                   <th className="text-center px-6 py-4 font-semibold text-primary rounded-tr-2xl">
                     <span className="inline-flex items-center justify-center gap-1.5">
-                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" />
-                      Turkey
+                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" />
+                      Türkiye
                     </span>
                   </th>
                 </tr>
@@ -472,13 +472,13 @@ export default function GastroenterologyPage() {
             Figures are approximate self-pay estimates. Actual costs vary by clinical complexity, sedation type, and hospital.{' '}
             <Link href="/cost-savings/india" className="text-primary hover:underline">Full India cost savings →</Link>
             {' '}·{' '}
-            <Link href="/cost-savings/turkey" className="text-primary hover:underline">Turkey cost savings →</Link>
+            <Link href="/cost-savings/turkey" className="text-primary hover:underline">Türkiye cost savings →</Link>
           </p>
 
           <div className="mt-8 grid sm:grid-cols-3 gap-4">
             {[
               { label: 'Average Saving in India',   value: '85–95%', sub: 'vs U.S. self-pay GI costs' },
-              { label: 'Average Saving in Turkey',  value: '75–90%', sub: 'vs U.S. self-pay GI costs' },
+              { label: 'Average Saving in Türkiye',  value: '75–90%', sub: 'vs U.S. self-pay GI costs' },
               { label: 'Free First Consultation',   value: '24–48 hrs', sub: 'remote GI specialist opinion' },
             ].map(({ label, value, sub }) => (
               <div key={label} className="text-center bg-primary/5 border border-primary/15 rounded-2xl py-6 px-4">
@@ -491,7 +491,7 @@ export default function GastroenterologyPage() {
         </div>
       </section>
 
-      {/* ── Why India / Turkey ── */}
+      {/* ── Why India / Türkiye ── */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-10">
@@ -529,9 +529,9 @@ export default function GastroenterologyPage() {
 
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">Gastroenterology in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">Gastroenterology in Türkiye</h3>
                   <p className="text-sm text-gray-500">Acibadem, Memorial, Koc University Hospital</p>
                 </div>
               </div>
@@ -542,7 +542,7 @@ export default function GastroenterologyPage() {
                   'EUS-FNA performed by European Society of Gastrointestinal Endoscopy (ESGE) certified endoscopists',
                   'Chromoendoscopy and AI-assisted polyp detection (CADe/CADx) available at select centers',
                   'Multidisciplinary GI oncology board (colorectal, pancreatic, esophageal cancer) meets weekly',
-                  'U.S. citizens visa-free for Turkey — no pre-approval, no fee (effective January 2024)',
+                  'U.S. citizens visa-free for Türkiye — no pre-approval, no fee (effective January 2024)',
                   'Turkish Airlines nonstop from 7 U.S. cities — direct to Istanbul for GI treatment',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
@@ -552,7 +552,7 @@ export default function GastroenterologyPage() {
                 ))}
               </ul>
               <div className="mt-6 pt-5 border-t border-gray-100 flex gap-3 flex-wrap">
-                <Link href="/visa-guide/turkey" className="text-xs text-primary font-semibold hover:underline">Turkey Entry Guide →</Link>
+                <Link href="/visa-guide/turkey" className="text-xs text-primary font-semibold hover:underline">Türkiye Entry Guide →</Link>
                 <Link href="/cost-savings/turkey" className="text-xs text-primary font-semibold hover:underline">Cost Savings →</Link>
                 <Link href="/destinations/turkey" className="text-xs text-primary font-semibold hover:underline">Destination Guide →</Link>
               </div>

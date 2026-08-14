@@ -7,10 +7,10 @@ export const metadata = {
 }
 
 const POPULAR_LINKS = [
-  { label: 'All Treatments',        href: '/treatments',           desc: '19 medical specialties in India & Turkey' },
+  { label: 'All Treatments',        href: '/treatments',           desc: '19 medical specialties in India & Türkiye' },
   { label: 'How It Works',          href: '/how-it-works',         desc: 'Your end-to-end medical journey' },
   { label: 'Cost Savings — India',  href: '/cost-savings/india',   desc: 'Compare India vs U.S. treatment costs' },
-  { label: 'Cost Savings — Turkey', href: '/cost-savings/turkey',  desc: 'Compare Turkey vs U.S. treatment costs' },
+  { label: 'Cost Savings — Türkiye', href: '/cost-savings/turkey',  desc: 'Compare Türkiye vs U.S. treatment costs' },
   { label: 'Request an Enquiry',    href: '/enquiry',              desc: 'Free case review and cost estimate' },
   { label: 'Frequently Asked Questions', href: '/faq',             desc: 'Common questions about medical tourism' },
 ]

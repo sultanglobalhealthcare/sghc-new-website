@@ -31,7 +31,7 @@ const servicesData = [
   {
     title: 'Visa & Documentation Support',
     icon: File02Icon,
-    desc: 'We guide you through the medical visa process and help prepare all the documentation required for a smooth entry into India or Turkey.',
+    desc: 'We guide you through the medical visa process and help prepare all the documentation required for a smooth entry into India or Türkiye.',
     color: 'amber',
   },
   {

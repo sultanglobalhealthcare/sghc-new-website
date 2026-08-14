@@ -8,12 +8,12 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Pulmonology Treatment Abroad | India & Turkey | Sultan GHC',
+  title: 'Pulmonology Treatment Abroad | India & Türkiye | Sultan GHC',
   description:
-    'Access world-class pulmonology care — COPD, asthma, pulmonary fibrosis, lung cancer, interstitial lung disease, sleep apnea, bronchoscopy, EBUS, VATS, and lung transplant — in India and Turkey at 70–90% lower cost than U.S. prices. Sultan GHC connects American patients with JCI-accredited pulmonary centers.',
+    'Access world-class pulmonology care — COPD, asthma, pulmonary fibrosis, lung cancer, interstitial lung disease, sleep apnea, bronchoscopy, EBUS, VATS, and lung transplant — in India and Türkiye at 70–90% lower cost than U.S. prices. Sultan GHC connects American patients with JCI-accredited pulmonary centers.',
   keywords: [
     'pulmonology treatment abroad',
-    'COPD treatment India Turkey',
+    'COPD treatment India Türkiye',
     'lung cancer treatment India cost',
     'pulmonary fibrosis treatment India',
     'bronchoscopy cost India vs USA',
@@ -25,20 +25,20 @@ export const metadata = {
     'affordable pulmonology for Americans',
     'medical tourism pulmonology',
     'Sultan GHC pulmonology',
-    'ILD treatment India Turkey',
+    'ILD treatment India Türkiye',
   ],
   openGraph: {
-    title: 'Pulmonology in India & Turkey — Affordable for U.S. Patients | Sultan GHC',
+    title: 'Pulmonology in India & Türkiye — Affordable for U.S. Patients | Sultan GHC',
     description:
-      'COPD, ILD, lung cancer, bronchoscopy, EBUS, VATS, and lung transplant at JCI-accredited pulmonary centers in India and Turkey — 70–90% less than U.S. costs.',
+      'COPD, ILD, lung cancer, bronchoscopy, EBUS, VATS, and lung transplant at JCI-accredited pulmonary centers in India and Türkiye — 70–90% less than U.S. costs.',
     url: 'https://www.sultanghc.com/treatments/pulmonology',
     siteName: 'Sultan Global Health Care',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pulmonology Abroad | Lung Care India & Turkey | Sultan GHC',
-    description: 'COPD, pulmonary fibrosis, lung cancer, EBUS, VATS in India & Turkey at 70–90% less than U.S. costs.',
+    title: 'Pulmonology Abroad | Lung Care India & Türkiye | Sultan GHC',
+    description: 'COPD, pulmonary fibrosis, lung cancer, EBUS, VATS in India & Türkiye at 70–90% less than U.S. costs.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/treatments/pulmonology' },
 }
@@ -58,8 +58,8 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Pulmonology Treatment Abroad — India and Turkey',
-  description: 'Comprehensive pulmonology and respiratory medicine services for U.S. patients at JCI-accredited hospitals in India and Turkey, facilitated by Sultan GHC.',
+  name: 'Pulmonology Treatment Abroad — India and Türkiye',
+  description: 'Comprehensive pulmonology and respiratory medicine services for U.S. patients at JCI-accredited hospitals in India and Türkiye, facilitated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/pulmonology',
   about: {
     '@type': 'MedicalSpecialty',
@@ -78,7 +78,7 @@ const faqSchema = {
       name: 'How much does bronchoscopy cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Bronchoscopy in the U.S. costs $3,000–$8,000 for self-pay patients (FAIR Health Consumer 2024). At a JCI-accredited hospital in India, the same procedure costs $200–$600 including sedation and pathology — a saving of 90–93%. Turkey costs $300–$900. Endobronchial ultrasound (EBUS) bronchoscopy for lymph node sampling costs $500–$1,500 in India vs $5,000–$12,000 in the U.S.',
+        text: 'Bronchoscopy in the U.S. costs $3,000–$8,000 for self-pay patients (FAIR Health Consumer 2024). At a JCI-accredited hospital in India, the same procedure costs $200–$600 including sedation and pathology — a saving of 90–93%. Türkiye costs $300–$900. Endobronchial ultrasound (EBUS) bronchoscopy for lymph node sampling costs $500–$1,500 in India vs $5,000–$12,000 in the U.S.',
       },
     },
     {
@@ -86,7 +86,7 @@ const faqSchema = {
       name: 'Can I get VATS (Video-Assisted Thoracic Surgery) for lung cancer in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. VATS lobectomy and VATS wedge resection are performed at multiple JCI-accredited partner hospitals in India — Apollo, Medanta, Fortis — by thoracic surgeons with fellowship training from U.S. and UK programs. VATS lobectomy in the U.S. costs $50,000–$120,000. In India, the same minimally invasive lung cancer resection costs $7,000–$16,000. Turkey costs $10,000–$22,000. Recovery time and complication profiles are equivalent to procedures performed in the U.S.',
+        text: 'Yes. VATS lobectomy and VATS wedge resection are performed at multiple JCI-accredited partner hospitals in India — Apollo, Medanta, Fortis — by thoracic surgeons with fellowship training from U.S. and UK programs. VATS lobectomy in the U.S. costs $50,000–$120,000. In India, the same minimally invasive lung cancer resection costs $7,000–$16,000. Türkiye costs $10,000–$22,000. Recovery time and complication profiles are equivalent to procedures performed in the U.S.',
       },
     },
     {
@@ -279,7 +279,7 @@ export default function PulmonologyPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 World-Class Lung Care in{' '}
-                <span className="text-primary">India & Turkey</span> — at 70–90% Less Than U.S. Costs
+                <span className="text-primary">India & Türkiye</span> — at 70–90% Less Than U.S. Costs
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-2xl">
                 Respiratory conditions demand specialist expertise and advanced diagnostics. Sultan GHC connects U.S. patients with internationally trained pulmonologists at JCI-accredited hospitals — from complex ILD management and EBUS-guided lung cancer staging to VATS thoracic surgery and lung transplant evaluation.
@@ -369,8 +369,8 @@ export default function PulmonologyPage() {
       <section className="bg-white py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Pulmonology Cost Comparison: USA vs India vs Turkey</h2>
-            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">U.S. figures from FAIR Health Consumer (2024), CMS data, and published hospital pricing. India and Turkey from JCI-accredited partner hospital published rates (2025).</p>
+            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Pulmonology Cost Comparison: USA vs India vs Türkiye</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">U.S. figures from FAIR Health Consumer (2024), CMS data, and published hospital pricing. India and Türkiye from JCI-accredited partner hospital published rates (2025).</p>
           </div>
           <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
             <table className="w-full text-sm">
@@ -389,7 +389,7 @@ export default function PulmonologyPage() {
                   </th>
                   <th className="text-center px-6 py-4 font-semibold text-primary rounded-tr-2xl">
                     <span className="inline-flex items-center justify-center gap-1.5">
-                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" /> Turkey
+                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" /> Türkiye
                     </span>
                   </th>
                 </tr>
@@ -409,12 +409,12 @@ export default function PulmonologyPage() {
           <p className="text-xs text-gray-400 mt-4 text-center">
             Figures are approximate self-pay estimates. Actual costs vary by procedure complexity and hospital.{' '}
             <Link href="/cost-savings/india" className="text-primary hover:underline">Full India cost savings →</Link>{' '}·{' '}
-            <Link href="/cost-savings/turkey" className="text-primary hover:underline">Turkey cost savings →</Link>
+            <Link href="/cost-savings/turkey" className="text-primary hover:underline">Türkiye cost savings →</Link>
           </p>
           <div className="mt-8 grid sm:grid-cols-3 gap-4">
             {[
               { label: 'Average Saving in India',  value: '80–93%', sub: 'vs U.S. self-pay pulmonology' },
-              { label: 'Average Saving in Turkey', value: '70–88%', sub: 'vs U.S. self-pay pulmonology' },
+              { label: 'Average Saving in Türkiye', value: '70–88%', sub: 'vs U.S. self-pay pulmonology' },
               { label: 'Free First Opinion',       value: '24–48 hrs', sub: 'remote pulmonologist review' },
             ].map(({ label, value, sub }) => (
               <div key={label} className="text-center bg-primary/5 border border-primary/15 rounded-2xl py-6 px-4">
@@ -427,7 +427,7 @@ export default function PulmonologyPage() {
         </div>
       </section>
 
-      {/* Why India / Turkey */}
+      {/* Why India / Türkiye */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-10">
@@ -463,9 +463,9 @@ export default function PulmonologyPage() {
 
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">Pulmonology in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">Pulmonology in Türkiye</h3>
                   <p className="text-sm text-gray-500">Acibadem, Memorial, Koc University Hospital</p>
                 </div>
               </div>
@@ -476,7 +476,7 @@ export default function PulmonologyPage() {
                   'Thoracic surgeons with European Society of Thoracic Surgeons (ESTS) membership and training',
                   'Same-day HRCT chest, PFT, and spirometry with 24-hour expert reporting',
                   'Interventional pulmonology — rigid bronchoscopy, airway stenting, cryotherapy, and thermal ablation',
-                  'U.S. citizens visa-free for Turkey — no pre-approval required (effective January 2024)',
+                  'U.S. citizens visa-free for Türkiye — no pre-approval required (effective January 2024)',
                   'Turkish Airlines nonstop from 7 U.S. cities — direct access to Istanbul pulmonology centers',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
@@ -485,7 +485,7 @@ export default function PulmonologyPage() {
                 ))}
               </ul>
               <div className="mt-6 pt-5 border-t border-gray-100 flex gap-3 flex-wrap">
-                <Link href="/visa-guide/turkey" className="text-xs text-primary font-semibold hover:underline">Turkey Entry Guide →</Link>
+                <Link href="/visa-guide/turkey" className="text-xs text-primary font-semibold hover:underline">Türkiye Entry Guide →</Link>
                 <Link href="/cost-savings/turkey" className="text-xs text-primary font-semibold hover:underline">Cost Savings →</Link>
                 <Link href="/destinations/turkey" className="text-xs text-primary font-semibold hover:underline">Destination Guide →</Link>
               </div>

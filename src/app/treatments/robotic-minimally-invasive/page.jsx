@@ -5,12 +5,12 @@ import {
 } from 'lucide-react'
 
 export const metadata = {
-  title: 'Robotic Surgery in India & Turkey for U.S. Patients | Sultan GHC',
+  title: 'Robotic Surgery in India & Türkiye for U.S. Patients | Sultan GHC',
   description:
-    'da Vinci robotic surgery in India and Turkey — RALP, robotic hysterectomy, robotic nephrectomy, robotic colectomy, robotic thyroidectomy, and robotic hernia repair. $3,000–$12,000 vs $15,000–$50,000 in the U.S. JCI-accredited hospitals with Si, Xi, and Intuitive Surgical systems.',
+    'da Vinci robotic surgery in India and Türkiye — RALP, robotic hysterectomy, robotic nephrectomy, robotic colectomy, robotic thyroidectomy, and robotic hernia repair. $3,000–$12,000 vs $15,000–$50,000 in the U.S. JCI-accredited hospitals with Si, Xi, and Intuitive Surgical systems.',
   keywords: [
     'robotic surgery India cost',
-    'robotic surgery Turkey cost',
+    'robotic surgery Türkiye cost',
     'da Vinci surgery India',
     'RALP robotic prostatectomy India cost',
     'robotic hysterectomy India cost',
@@ -19,14 +19,14 @@ export const metadata = {
     'robotic thyroidectomy India cost',
     'robotic surgery for Americans India',
     'minimally invasive surgery India',
-    'robotic surgery medical tourism India Turkey',
+    'robotic surgery medical tourism India Türkiye',
     'Sultan GHC robotic surgery',
     'da Vinci prostatectomy India',
     'robotic hernia repair India cost',
     'robotic bariatric surgery India',
   ],
   openGraph: {
-    title: 'Robotic & Minimally Invasive Surgery in India & Turkey | Sultan GHC',
+    title: 'Robotic & Minimally Invasive Surgery in India & Türkiye | Sultan GHC',
     description: 'RALP, robotic hysterectomy, nephrectomy, colectomy, and thyroidectomy — $3,000–$12,000 vs $15,000–$50,000 U.S. costs at JCI-accredited hospitals.',
     url: 'https://www.sultanghc.com/treatments/robotic-minimally-invasive',
     siteName: 'Sultan Global Health Care',
@@ -34,7 +34,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Robotic Surgery Abroad | India & Turkey | Sultan GHC',
+    title: 'Robotic Surgery Abroad | India & Türkiye | Sultan GHC',
     description: 'da Vinci robotic surgery — RALP, hysterectomy, nephrectomy — $3,000–$12,000 vs $15,000–$50,000 U.S. costs.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/treatments/robotic-minimally-invasive' },
@@ -53,8 +53,8 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Robotic & Minimally Invasive Surgery — India and Turkey',
-  description: 'da Vinci robotic surgery for U.S. patients at JCI-accredited hospitals in India and Turkey — RALP, robotic hysterectomy, robotic nephrectomy, robotic colectomy, robotic thyroidectomy, and more — coordinated by Sultan GHC.',
+  name: 'Robotic & Minimally Invasive Surgery — India and Türkiye',
+  description: 'da Vinci robotic surgery for U.S. patients at JCI-accredited hospitals in India and Türkiye — RALP, robotic hysterectomy, robotic nephrectomy, robotic colectomy, robotic thyroidectomy, and more — coordinated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/robotic-minimally-invasive',
   about: { '@type': 'MedicalSpecialty', name: 'Robotic Surgery', alternateName: ['Minimally Invasive Surgery', 'da Vinci Surgery', 'Laparoscopic Surgery'], relevantSpecialty: 'General Surgery' },
 }
@@ -113,10 +113,10 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'Is robotic surgery available in Turkey?',
+      name: 'Is robotic surgery available in Türkiye?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Acibadem (JCI-accredited) and Memorial Hospital in Istanbul have da Vinci Surgical Systems. Turkey offers robotic prostatectomy, hysterectomy, nephrectomy, colectomy, and thyroidectomy. Costs in Turkey are comparable to India: $4,000–$12,000 depending on procedure. Turkey is particularly popular for U.S. patients seeking robotic surgery with easier logistics — Turkish Airlines nonstop from 7 U.S. cities, no visa required for Americans.',
+        text: 'Yes. Acibadem (JCI-accredited) and Memorial Hospital in Istanbul have da Vinci Surgical Systems. Türkiye offers robotic prostatectomy, hysterectomy, nephrectomy, colectomy, and thyroidectomy. Costs in Türkiye are comparable to India: $4,000–$12,000 depending on procedure. Türkiye is particularly popular for U.S. patients seeking robotic surgery with easier logistics — Turkish Airlines nonstop from 7 U.S. cities, no visa required for Americans.',
       },
     },
   ],
@@ -205,8 +205,8 @@ const FAQS = [
     a: '7–12 days: 1–2 days pre-op workup, surgery day, 2–3 nights hospital, 4–6 days recovery before flying. Sultan GHC arranges accommodation and 2-week and 6-week post-op teleconsultation.',
   },
   {
-    q: 'Is robotic surgery available in Turkey?',
-    a: 'Yes. Acibadem and Memorial Hospital Istanbul have da Vinci systems. Turkey costs $4,000–$12,000 — comparable to India. No visa required for Americans; Turkish Airlines nonstop from 7 U.S. cities.',
+    q: 'Is robotic surgery available in Türkiye?',
+    a: 'Yes. Acibadem and Memorial Hospital Istanbul have da Vinci systems. Türkiye costs $4,000–$12,000 — comparable to India. No visa required for Americans; Turkish Airlines nonstop from 7 U.S. cities.',
   },
 ]
 
@@ -264,10 +264,10 @@ export default function RoboticMinimallyInvasivePage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 Robotic Surgery in{' '}
-                <span className="text-primary">India & Turkey</span> — $3,000–$12,000 vs $15,000–$50,000 in the U.S.
+                <span className="text-primary">India & Türkiye</span> — $3,000–$12,000 vs $15,000–$50,000 in the U.S.
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-6 max-w-2xl">
-                RALP, robotic hysterectomy, robotic nephrectomy, robotic colectomy, robotic thyroidectomy, and more — on the same da Vinci Surgical System (Si / Xi) used in U.S. academic medical centers. Performed by U.S.-trained or FMAS-credentialed robotic surgeons at JCI-accredited hospitals in India and Turkey.
+                RALP, robotic hysterectomy, robotic nephrectomy, robotic colectomy, robotic thyroidectomy, and more — on the same da Vinci Surgical System (Si / Xi) used in U.S. academic medical centers. Performed by U.S.-trained or FMAS-credentialed robotic surgeons at JCI-accredited hospitals in India and Türkiye.
               </p>
               {/* Platform badge */}
               <div className="bg-white border border-primary/20 rounded-2xl p-5 mb-8 shadow-sm">
@@ -414,8 +414,8 @@ export default function RoboticMinimallyInvasivePage() {
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Robotic Surgery Cost: USA vs India vs Turkey</h2>
-            <p className="text-gray-500 max-w-2xl mx-auto text-sm">U.S. figures from FAIR Health Consumer 2024 (self-pay, all-in). India and Turkey from partner hospital rate cards 2025. All-inclusive: surgeon, anaesthesia, robotic system use, 2–3 night hospital stay, and standard post-op care.</p>
+            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Robotic Surgery Cost: USA vs India vs Türkiye</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-sm">U.S. figures from FAIR Health Consumer 2024 (self-pay, all-in). India and Türkiye from partner hospital rate cards 2025. All-inclusive: surgeon, anaesthesia, robotic system use, 2–3 night hospital stay, and standard post-op care.</p>
           </div>
           <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
             <table className="w-full text-sm">
@@ -429,7 +429,7 @@ export default function RoboticMinimallyInvasivePage() {
                     <span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/in.png" width={20} height={15} alt="India" className="rounded-sm" /> India</span>
                   </th>
                   <th className="text-center px-5 py-4 font-semibold text-primary">
-                    <span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" /> Turkey</span>
+                    <span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" /> Türkiye</span>
                   </th>
                   <th className="text-center px-5 py-4 font-semibold text-green-400 rounded-tr-2xl">Save (India)</th>
                 </tr>
@@ -451,7 +451,7 @@ export default function RoboticMinimallyInvasivePage() {
         </div>
       </section>
 
-      {/* India / Turkey centers */}
+      {/* India / Türkiye centers */}
       <section className="bg-white py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <h2 className="text-xl font-semibold text-gray-900 mb-8 text-center">Partner Robotic Surgery Centers</h2>
@@ -482,9 +482,9 @@ export default function RoboticMinimallyInvasivePage() {
             </div>
             <div className="bg-gray-50 rounded-3xl border border-gray-200 p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">Robotic Surgery Centers in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">Robotic Surgery Centers in Türkiye</h3>
                   <p className="text-sm text-gray-500">Istanbul — JCI-Accredited Programs</p>
                 </div>
               </div>
@@ -493,8 +493,8 @@ export default function RoboticMinimallyInvasivePage() {
                   'Acibadem Healthcare Group — multiple JCI-accredited hospitals across Istanbul and Ankara; da Vinci Xi for urology, gynecology, and thoracic surgery',
                   'Memorial Hospital Istanbul — da Vinci Xi; high-volume robotic prostatectomy and robotic hysterectomy; English-speaking robotic surgical team',
                   'Medicana International Istanbul — da Vinci robotic program; popular for international patients with English patient coordinator support',
-                  'American Hospital Istanbul — established 1920; da Vinci robotic surgery; most U.S.-aligned hospital experience in Turkey',
-                  'Turkey benefits for U.S. patients: no visa required, Turkish Airlines nonstop from New York, Los Angeles, Chicago, Houston, Boston, Washington D.C., Miami',
+                  'American Hospital Istanbul — established 1920; da Vinci robotic surgery; most U.S.-aligned hospital experience in Türkiye',
+                  'Türkiye benefits for U.S. patients: no visa required, Turkish Airlines nonstop from New York, Los Angeles, Chicago, Houston, Boston, Washington D.C., Miami',
                   'Comparable costs to India for robotic procedures, with shorter travel time from U.S. East Coast cities',
                 ].map(pt => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">

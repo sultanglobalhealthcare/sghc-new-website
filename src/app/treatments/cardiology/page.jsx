@@ -22,13 +22,13 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Cardiology & Cardiac Surgery Abroad | India & Turkey | Sultan GHC',
+  title: 'Cardiology & Cardiac Surgery Abroad | India & Türkiye | Sultan GHC',
   description:
-    'Access world-class heart surgery, bypass surgery, valve replacement, and advanced cardiology care in India and Turkey at 60–80% lower cost than the U.S. Sultan GHC connects American heart patients with JCI-accredited cardiac centers and top cardiologists.',
+    'Access world-class heart surgery, bypass surgery, valve replacement, and advanced cardiology care in India and Türkiye at 60–80% lower cost than the U.S. Sultan GHC connects American heart patients with JCI-accredited cardiac centers and top cardiologists.',
   keywords: [
     'heart surgery abroad',
     'cardiology treatment India',
-    'heart bypass surgery Turkey',
+    'heart bypass surgery Türkiye',
     'affordable heart surgery USA patients',
     'cardiac surgery India cost',
     'valve replacement surgery India',
@@ -39,18 +39,18 @@ export const metadata = {
     'heart surgery cost comparison',
     'Sultan GHC cardiology',
     'open heart surgery abroad for Americans',
-    'angioplasty India Turkey',
+    'angioplasty India Türkiye',
   ],
   openGraph: {
-    title: 'Heart Surgery & Cardiology Abroad — India & Turkey | Sultan GHC',
+    title: 'Heart Surgery & Cardiology Abroad — India & Türkiye | Sultan GHC',
     description:
-      'World-class cardiac surgery and cardiology care at 60–80% lower than U.S. prices. JCI-accredited heart centers in India and Turkey, matched to your condition.',
+      'World-class cardiac surgery and cardiology care at 60–80% lower than U.S. prices. JCI-accredited heart centers in India and Türkiye, matched to your condition.',
     url: 'https://www.sultanghc.com/treatments/cardiology',
     siteName: 'Sultan Global Health Care',
     type: 'website',
     images: [
       {
-        url: 'https://www.sultanghc.com/api/og?title=Cardiology+%26+Cardiac+Surgery+Abroad&desc=Heart+bypass%2C+valve+replacement%2C+angioplasty+in+India+%26+Turkey.+Save+75-90%25+vs+U.S.&cat=Cardiology',
+        url: 'https://www.sultanghc.com/api/og?title=Cardiology+%26+Cardiac+Surgery+Abroad&desc=Heart+bypass%2C+valve+replacement%2C+angioplasty+in+India+%26+Türkiye.+Save+75-90%25+vs+U.S.&cat=Cardiology',
         width: 1200,
         height: 630,
         alt: 'Heart Surgery & Cardiology Treatment Abroad — Sultan GHC',
@@ -61,7 +61,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Heart Surgery & Cardiology Abroad | Sultan GHC',
     description:
-      'World-class cardiac care at 60–80% lower than U.S. prices. JCI-accredited heart hospitals in India and Turkey.',
+      'World-class cardiac care at 60–80% lower than U.S. prices. JCI-accredited heart hospitals in India and Türkiye.',
   },
   alternates: {
     canonical: 'https://www.sultanghc.com/treatments/cardiology',
@@ -83,9 +83,9 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Cardiology and Heart Surgery Abroad — India and Turkey',
+  name: 'Cardiology and Heart Surgery Abroad — India and Türkiye',
   description:
-    'Comprehensive cardiology and cardiac surgery services for U.S. patients at JCI-accredited hospitals in India and Turkey, facilitated by Sultan GHC.',
+    'Comprehensive cardiology and cardiac surgery services for U.S. patients at JCI-accredited hospitals in India and Türkiye, facilitated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/cardiology',
   about: {
     '@type': 'MedicalCondition',
@@ -111,12 +111,12 @@ const faqSchema = {
       name: 'How much does open heart surgery cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Open heart surgery in the U.S. typically costs $80,000–$200,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$12,000 — a saving of 85–95%. Turkey offers similar procedures for $7,000–$15,000. Sultan GHC provides a personalised cost estimate based on your specific case at no charge.',
+        text: 'Open heart surgery in the U.S. typically costs $80,000–$200,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$12,000 — a saving of 85–95%. Türkiye offers similar procedures for $7,000–$15,000. Sultan GHC provides a personalised cost estimate based on your specific case at no charge.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Are cardiac surgeons in India and Turkey as qualified as U.S. surgeons?',
+      name: 'Are cardiac surgeons in India and Türkiye as qualified as U.S. surgeons?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Yes. Many of our partner cardiac surgeons completed their fellowships and postgraduate training in the United States, United Kingdom, or Germany. They regularly operate on international patients and publish in peer-reviewed journals. Our hospitals perform thousands of cardiac surgeries annually with outcomes comparable to top U.S. centers.',
@@ -132,7 +132,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'How long will I need to stay in India or Turkey after heart surgery?',
+      name: 'How long will I need to stay in India or Türkiye after heart surgery?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Most cardiac surgery patients require 14–21 days in-country. This includes pre-operative evaluation (2–3 days), the surgery, ICU monitoring (2–4 days), general ward recovery (5–7 days), and a post-operative review before clearance to fly. Your Case Manager will plan your full itinerary and coordinate with your surgeon.',
@@ -221,10 +221,10 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does open heart surgery cost in India compared to the U.S.?',
-    a: 'Open heart surgery in the U.S. typically costs $80,000–$200,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$12,000 — a saving of 85–95%. Turkey offers similar procedures for $7,000–$15,000. Sultan GHC provides a personalised cost estimate based on your specific case at no charge.',
+    a: 'Open heart surgery in the U.S. typically costs $80,000–$200,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$12,000 — a saving of 85–95%. Türkiye offers similar procedures for $7,000–$15,000. Sultan GHC provides a personalised cost estimate based on your specific case at no charge.',
   },
   {
-    q: 'Are cardiac surgeons in India and Turkey as qualified as U.S. surgeons?',
+    q: 'Are cardiac surgeons in India and Türkiye as qualified as U.S. surgeons?',
     a: 'Yes. Many of our partner cardiac surgeons completed fellowships and postgraduate training in the United States, United Kingdom, or Germany. They regularly operate on international patients and publish in peer-reviewed journals. Our hospitals perform thousands of cardiac surgeries annually with outcomes comparable to top U.S. centers.',
   },
   {
@@ -316,11 +316,11 @@ export default function CardiologyPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 World-Class Heart Care in{' '}
-                <span className="text-primary">India & Turkey</span> — at a Fraction of U.S. Costs
+                <span className="text-primary">India & Türkiye</span> — at a Fraction of U.S. Costs
               </h1>
               <p className="text-lg text-gray-500 leading-relaxed mb-6 max-w-xl">
                 Americans pay up to $200,000 for heart surgery. At our JCI-accredited partner hospitals
-                in India and Turkey, the same procedures cost 80–90% less — with no waitlists,
+                in India and Türkiye, the same procedures cost 80–90% less — with no waitlists,
                 no insurance gatekeepers, and a dedicated Case Manager by your side.
               </p>
 
@@ -433,7 +433,7 @@ export default function CardiologyPage() {
               and surprise bills — accessing cardiac care can mean bankruptcy.
             </p>
             <p className="text-gray-500 leading-relaxed mb-6">
-              Our partner hospitals in India and Turkey deliver internationally accredited cardiac surgery
+              Our partner hospitals in India and Türkiye deliver internationally accredited cardiac surgery
               and cardiology care using the same implants, devices, and surgical protocols as U.S. hospitals —
               at 80–90% lower cost, with zero waitlists and English-speaking care teams.
             </p>
@@ -575,7 +575,7 @@ export default function CardiologyPage() {
         </div>
       </section>
 
-      {/* ── India vs Turkey ── */}
+      {/* ── India vs Türkiye ── */}
       <section className="bg-gray-950 text-white">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-20">
           <div className="text-center max-w-2xl mx-auto mb-14">
@@ -583,7 +583,7 @@ export default function CardiologyPage() {
               Choose Your Destination
             </span>
             <h2 className="text-2xl sm:text-4xl font-semibold text-white mb-4">
-              Heart Surgery in India or Turkey?
+              Heart Surgery in India or Türkiye?
             </h2>
             <p className="text-gray-400 leading-relaxed">
               Both are globally recognized destinations for cardiac care. Here is how they compare for U.S. patients.
@@ -635,12 +635,12 @@ export default function CardiologyPage() {
               </Link>
             </div>
 
-            {/* Turkey */}
+            {/* Türkiye */}
             <div className="bg-white/5 border border-white/10 rounded-2xl p-8">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-white">Cardiac Care in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-white">Cardiac Care in Türkiye</h3>
                   <p className="text-sm text-gray-400">Europe-standard care, closer to the U.S. East Coast</p>
                 </div>
               </div>
@@ -648,7 +648,7 @@ export default function CardiologyPage() {
               <div className="mb-6 relative w-full rounded-xl overflow-hidden" style={{ aspectRatio: '16/7' }}>
                 <Image
                   src="/cardiology/heart-hospital-istanbul-turkey-cardiac-surgery-jci-accredited.png"
-                  alt="Modern JCI-accredited cardiac hospital in Istanbul, Turkey — heart surgery for U.S. patients"
+                  alt="Modern JCI-accredited cardiac hospital in Istanbul, Türkiye — heart surgery for U.S. patients"
                   fill
                   className="object-cover object-center"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -675,7 +675,7 @@ export default function CardiologyPage() {
                 href="/destinations/turkey"
                 className="inline-flex items-center gap-2 mt-6 text-sm text-primary hover:underline font-medium"
               >
-                Explore Turkey for Heart Treatment <ArrowRight size={14} />
+                Explore Türkiye for Heart Treatment <ArrowRight size={14} />
               </Link>
             </div>
           </div>
@@ -689,7 +689,7 @@ export default function CardiologyPage() {
             Cost Comparison
           </span>
           <h2 className="text-2xl sm:text-4xl font-semibold text-gray-900 mb-4">
-            Heart Surgery Cost: U.S. vs. India vs. Turkey
+            Heart Surgery Cost: U.S. vs. India vs. Türkiye
           </h2>
           <p className="text-gray-500 leading-relaxed">
             All estimates are approximate and vary by hospital, complexity, and individual case.
@@ -704,7 +704,7 @@ export default function CardiologyPage() {
                 <th className="text-left px-6 py-4 font-semibold">Procedure</th>
                 <th className="text-center px-6 py-4 font-semibold"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/us.png" width={20} height={15} alt="USA" className="rounded-sm" />USA</span></th>
                 <th className="text-center px-6 py-4 font-semibold text-primary"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/in.png" width={20} height={15} alt="India" className="rounded-sm" />India</span></th>
-                <th className="text-center px-6 py-4 font-semibold text-primary"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" />Turkey</span></th>
+                <th className="text-center px-6 py-4 font-semibold text-primary"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" />Türkiye</span></th>
               </tr>
             </thead>
             <tbody>
@@ -816,7 +816,7 @@ export default function CardiologyPage() {
               Heart Surgery Abroad — FAQs
             </h2>
             <p className="text-gray-500">
-              Common questions from U.S. patients considering cardiac care in India or Turkey.
+              Common questions from U.S. patients considering cardiac care in India or Türkiye.
             </p>
           </div>
 

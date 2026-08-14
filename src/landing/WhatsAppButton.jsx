@@ -33,8 +33,8 @@ const TOPICS = [
   {
     id: 'turkey',
     icon: '✈️',
-    label: 'Treatment in Turkey',
-    msg: 'I am interested in arranging medical treatment in Turkey.',
+    label: 'Treatment in Türkiye',
+    msg: 'I am interested in arranging medical treatment in Türkiye.',
   },
   {
     id: 'general',

@@ -7,7 +7,7 @@ export const metadata = {
     'medical tourism enquiry',
     'contact Sultan GHC',
     'submit medical records',
-    'get treatment cost estimate India Turkey',
+    'get treatment cost estimate India Türkiye',
     'book medical consultation abroad',
     'free first consultation medical tourism',
     'medical tourism patient form',

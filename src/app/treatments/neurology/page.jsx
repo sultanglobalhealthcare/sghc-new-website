@@ -8,13 +8,13 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Neurology Treatment Abroad | India & Turkey | Sultan GHC',
+  title: 'Neurology Treatment Abroad | India & Türkiye | Sultan GHC',
   description:
-    'Access world-class neurology care — stroke, epilepsy, Parkinson\'s, multiple sclerosis, deep brain stimulation, and more — in India and Turkey at 70–90% lower cost than U.S. prices. Sultan GHC connects American patients with JCI-accredited neurology centers and internationally trained neurologists.',
+    'Access world-class neurology care — stroke, epilepsy, Parkinson\'s, multiple sclerosis, deep brain stimulation, and more — in India and Türkiye at 70–90% lower cost than U.S. prices. Sultan GHC connects American patients with JCI-accredited neurology centers and internationally trained neurologists.',
   keywords: [
     'neurology treatment abroad',
     'stroke treatment India',
-    'epilepsy treatment Turkey',
+    'epilepsy treatment Türkiye',
     'Parkinson\'s disease treatment India',
     'deep brain stimulation India cost',
     'multiple sclerosis treatment abroad',
@@ -25,12 +25,12 @@ export const metadata = {
     'neurologist India internationally trained',
     'medical tourism neurology',
     'Sultan GHC neurology',
-    'brain specialist India Turkey',
+    'brain specialist India Türkiye',
   ],
   openGraph: {
-    title: 'Neurology Treatment in India & Turkey — Affordable for U.S. Patients | Sultan GHC',
+    title: 'Neurology Treatment in India & Türkiye — Affordable for U.S. Patients | Sultan GHC',
     description:
-      'World-class neurology care at 70–90% lower than U.S. prices. JCI-accredited neurology hospitals in India and Turkey matched to your diagnosis.',
+      'World-class neurology care at 70–90% lower than U.S. prices. JCI-accredited neurology hospitals in India and Türkiye matched to your diagnosis.',
     url: 'https://www.sultanghc.com/treatments/neurology',
     siteName: 'Sultan Global Health Care',
     type: 'website',
@@ -39,7 +39,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Neurology Treatment Abroad | Sultan GHC',
     description:
-      'Stroke, Parkinson\'s, epilepsy, MS care in India & Turkey at 70–90% less than U.S. costs. JCI-accredited hospitals.',
+      'Stroke, Parkinson\'s, epilepsy, MS care in India & Türkiye at 70–90% less than U.S. costs. JCI-accredited hospitals.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/treatments/neurology' },
 }
@@ -59,9 +59,9 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Neurology Treatment Abroad — India and Turkey',
+  name: 'Neurology Treatment Abroad — India and Türkiye',
   description:
-    'Comprehensive neurology services for U.S. patients at JCI-accredited hospitals in India and Turkey, facilitated by Sultan GHC.',
+    'Comprehensive neurology services for U.S. patients at JCI-accredited hospitals in India and Türkiye, facilitated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/neurology',
   about: {
     '@type': 'MedicalSpecialty',
@@ -80,7 +80,7 @@ const faqSchema = {
       name: 'How much does deep brain stimulation (DBS) cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Deep brain stimulation (DBS) for Parkinson\'s disease in the U.S. typically costs $80,000–$150,000 including device and surgery. At a JCI-accredited hospital in India, the same procedure — using FDA-approved Medtronic or Abbott devices — costs $15,000–$28,000, a saving of 80–85%. Turkey offers DBS for $20,000–$35,000. Sultan GHC provides a personalised cost estimate at no charge.',
+        text: 'Deep brain stimulation (DBS) for Parkinson\'s disease in the U.S. typically costs $80,000–$150,000 including device and surgery. At a JCI-accredited hospital in India, the same procedure — using FDA-approved Medtronic or Abbott devices — costs $15,000–$28,000, a saving of 80–85%. Türkiye offers DBS for $20,000–$35,000. Sultan GHC provides a personalised cost estimate at no charge.',
       },
     },
     {
@@ -93,7 +93,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'Can I travel to India or Turkey after a stroke?',
+      name: 'Can I travel to India or Türkiye after a stroke?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Travel after a stroke depends on neurological stability. Most neurologists recommend waiting a minimum of 4–6 weeks after an ischemic stroke before long-haul air travel, subject to individual clinical assessment. Sultan GHC\'s medical team reviews your imaging, current medications, and neurological status before making a travel recommendation. For sub-acute rehabilitation rather than acute care, travel is often safe and beneficial.',
@@ -101,7 +101,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'What neurology tests are available in India and Turkey?',
+      name: 'What neurology tests are available in India and Türkiye?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Our partner hospitals offer the full range of diagnostic neurology: 3T MRI brain and spine, CT angiography, EEG (routine and long-term), video EEG epilepsy monitoring, nerve conduction studies (NCS), electromyography (EMG), evoked potentials (VEP, BAEP, SSEP), PET-CT for dementia workup, neuropsychological testing, and CSF analysis. Turnaround times are typically 24–48 hours for routine studies.',
@@ -192,18 +192,18 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does deep brain stimulation (DBS) cost in India compared to the U.S.?',
-    a: 'DBS in the U.S. typically costs $80,000–$150,000. At a JCI-accredited hospital in India using FDA-approved Medtronic or Abbott devices, the same procedure costs $15,000–$28,000 — a saving of 80–85%. Turkey costs $20,000–$35,000. Sultan GHC provides a personalised cost estimate at no charge.',
+    a: 'DBS in the U.S. typically costs $80,000–$150,000. At a JCI-accredited hospital in India using FDA-approved Medtronic or Abbott devices, the same procedure costs $15,000–$28,000 — a saving of 80–85%. Türkiye costs $20,000–$35,000. Sultan GHC provides a personalised cost estimate at no charge.',
   },
   {
     q: 'Are neurologists in India trained to U.S. or European standards?',
     a: 'Many neurologists at our partner hospitals completed fellowship and sub-specialty training in the U.S., UK, or Germany. They hold international certifications (ABPN equivalent, Royal College of Physicians UK, European Academy of Neurology) and publish regularly in peer-reviewed journals.',
   },
   {
-    q: 'Can I travel to India or Turkey after a stroke?',
+    q: 'Can I travel to India or Türkiye after a stroke?',
     a: 'Travel after a stroke depends on neurological stability. Most neurologists recommend waiting at least 4–6 weeks after an ischemic stroke before long-haul travel, subject to individual assessment. Sultan GHC\'s medical team reviews your imaging and clinical status before advising on travel. For sub-acute rehab, travel is often safe and highly beneficial.',
   },
   {
-    q: 'What neurology tests are available in India and Turkey?',
+    q: 'What neurology tests are available in India and Türkiye?',
     a: 'Partner hospitals offer the full diagnostic range: 3T MRI brain and spine, CT angiography, EEG (routine and long-term), video EEG, nerve conduction studies, EMG, evoked potentials, PET-CT for dementia workup, neuropsychological testing, and CSF analysis. Turnaround is typically 24–48 hours.',
   },
   {
@@ -285,10 +285,10 @@ export default function NeurologyPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 World-Class Neurology Care in{' '}
-                <span className="text-primary">India & Turkey</span> — at 70–90% Less Than U.S. Costs
+                <span className="text-primary">India & Türkiye</span> — at 70–90% Less Than U.S. Costs
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-2xl">
-                Brain and nervous system conditions demand expert diagnosis and precision medicine. Sultan GHC connects U.S. patients with internationally trained neurologists at JCI-accredited hospitals in India and Turkey — the same standard of care at a fraction of American prices.
+                Brain and nervous system conditions demand expert diagnosis and precision medicine. Sultan GHC connects U.S. patients with internationally trained neurologists at JCI-accredited hospitals in India and Türkiye — the same standard of care at a fraction of American prices.
               </p>
 
               {/* Trust signals */}
@@ -390,7 +390,7 @@ export default function NeurologyPage() {
               Neurology Treatments & Procedures Available
             </h2>
             <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">
-              Our partner hospitals in India and Turkey offer the complete range of diagnostic and therapeutic neurology services — managed with the same protocols used in leading U.S. medical centers.
+              Our partner hospitals in India and Türkiye offer the complete range of diagnostic and therapeutic neurology services — managed with the same protocols used in leading U.S. medical centers.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-5">
@@ -429,10 +429,10 @@ export default function NeurologyPage() {
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">
-              Neurology Cost Comparison: USA vs India vs Turkey
+              Neurology Cost Comparison: USA vs India vs Türkiye
             </h2>
             <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">
-              All figures represent approximate self-pay costs. U.S. figures sourced from FAIR Health Consumer, CMS, and published hospital pricing data. India and Turkey figures from JCI-accredited partner hospital published rates.
+              All figures represent approximate self-pay costs. U.S. figures sourced from FAIR Health Consumer, CMS, and published hospital pricing data. India and Türkiye figures from JCI-accredited partner hospital published rates.
             </p>
           </div>
 
@@ -455,8 +455,8 @@ export default function NeurologyPage() {
                   </th>
                   <th className="text-center px-6 py-4 font-semibold text-primary rounded-tr-2xl">
                     <span className="inline-flex items-center justify-center gap-1.5">
-                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" />
-                      Turkey
+                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" />
+                      Türkiye
                     </span>
                   </th>
                 </tr>
@@ -487,7 +487,7 @@ export default function NeurologyPage() {
           <div className="mt-8 grid sm:grid-cols-3 gap-4">
             {[
               { label: 'Average Saving in India', value: '80–90%', sub: 'vs U.S. self-pay costs' },
-              { label: 'Average Saving in Turkey', value: '70–85%', sub: 'vs U.S. self-pay costs' },
+              { label: 'Average Saving in Türkiye', value: '70–85%', sub: 'vs U.S. self-pay costs' },
               { label: 'Free First Consultation', value: '24–48 hrs', sub: 'remote medical opinion' },
             ].map(({ label, value, sub }) => (
               <div key={label} className="text-center bg-primary/5 border border-primary/15 rounded-2xl py-6 px-4">
@@ -500,7 +500,7 @@ export default function NeurologyPage() {
         </div>
       </section>
 
-      {/* ── Why India / Turkey for Neurology ── */}
+      {/* ── Why India / Türkiye for Neurology ── */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-10">
@@ -543,12 +543,12 @@ export default function NeurologyPage() {
               </div>
             </div>
 
-            {/* Turkey */}
+            {/* Türkiye */}
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">Neurology in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">Neurology in Türkiye</h3>
                   <p className="text-sm text-gray-500">Acibadem, Memorial, Koc University Hospital</p>
                 </div>
               </div>
@@ -558,7 +558,7 @@ export default function NeurologyPage() {
                   'Memorial Hospital Group operates dedicated Parkinson\'s and movement disorder clinics',
                   'Gamma Knife and CyberKnife radiosurgery available for non-surgical candidates',
                   'Same-day MRI, EEG, and neurophysiology with 24-hour report turnaround',
-                  'U.S. citizens visa-free for Turkey — no pre-approval required (effective Jan 2024)',
+                  'U.S. citizens visa-free for Türkiye — no pre-approval required (effective Jan 2024)',
                   'Istanbul\'s hospitals are 30–60 minutes from 7 U.S. nonstop routes via Turkish Airlines',
                   'Interpreter and patient liaison support available in English for all appointments',
                 ].map((pt) => (
@@ -570,10 +570,10 @@ export default function NeurologyPage() {
               </ul>
               <div className="mt-6 pt-5 border-t border-gray-100 flex gap-3 flex-wrap">
                 <Link href="/visa-guide/turkey" className="text-xs text-primary font-semibold hover:underline">
-                  Turkey Entry Guide →
+                  Türkiye Entry Guide →
                 </Link>
                 <Link href="/cost-savings/turkey" className="text-xs text-primary font-semibold hover:underline">
-                  Cost Savings in Turkey →
+                  Cost Savings in Türkiye →
                 </Link>
                 <Link href="/destinations/turkey" className="text-xs text-primary font-semibold hover:underline">
                   Destination Guide →

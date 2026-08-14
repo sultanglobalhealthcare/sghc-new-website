@@ -8,36 +8,36 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Neurosurgery Abroad | Brain & Spine Surgery India & Turkey | Sultan GHC',
+  title: 'Neurosurgery Abroad | Brain & Spine Surgery India & Türkiye | Sultan GHC',
   description:
-    'Access world-class neurosurgery — brain tumor removal, craniotomy, cerebral aneurysm clipping, Gamma Knife radiosurgery, DBS, and minimally invasive spine surgery — in India and Turkey at 80–90% lower cost than U.S. prices. Sultan GHC connects American patients with JCI-accredited neurosurgery centers.',
+    'Access world-class neurosurgery — brain tumor removal, craniotomy, cerebral aneurysm clipping, Gamma Knife radiosurgery, DBS, and minimally invasive spine surgery — in India and Türkiye at 80–90% lower cost than U.S. prices. Sultan GHC connects American patients with JCI-accredited neurosurgery centers.',
   keywords: [
     'neurosurgery abroad',
     'brain tumor surgery India',
     'brain surgery cost India vs USA',
     'craniotomy cost India',
-    'aneurysm clipping India Turkey',
+    'aneurysm clipping India Türkiye',
     'Gamma Knife radiosurgery India cost',
     'minimally invasive spine surgery India',
-    'pituitary tumor surgery Turkey',
+    'pituitary tumor surgery Türkiye',
     'affordable brain surgery for Americans',
     'deep brain stimulation surgery India',
     'medical tourism neurosurgery',
-    'JCI neurosurgery hospital India Turkey',
+    'JCI neurosurgery hospital India Türkiye',
     'Sultan GHC neurosurgery',
     'AVM embolization India cost',
   ],
   openGraph: {
-    title: 'Neurosurgery in India & Turkey — 80–90% Less Than U.S. Costs | Sultan GHC',
+    title: 'Neurosurgery in India & Türkiye — 80–90% Less Than U.S. Costs | Sultan GHC',
     description:
-      'Brain tumor surgery, aneurysm clipping, Gamma Knife, and spine surgery at JCI-accredited neurosurgery centers in India and Turkey. Verified cost data. Free consultation.',
+      'Brain tumor surgery, aneurysm clipping, Gamma Knife, and spine surgery at JCI-accredited neurosurgery centers in India and Türkiye. Verified cost data. Free consultation.',
     url: 'https://www.sultanghc.com/treatments/neurosurgery',
     siteName: 'Sultan Global Health Care',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Neurosurgery Abroad | Brain Surgery India & Turkey | Sultan GHC',
+    title: 'Neurosurgery Abroad | Brain Surgery India & Türkiye | Sultan GHC',
     description:
       'Brain tumor removal, aneurysm surgery, Gamma Knife, spine surgery — 80–90% less than U.S. costs at JCI hospitals.',
   },
@@ -59,9 +59,9 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Neurosurgery Abroad — Brain and Spine Surgery in India and Turkey',
+  name: 'Neurosurgery Abroad — Brain and Spine Surgery in India and Türkiye',
   description:
-    'Comprehensive neurosurgery services for U.S. patients at JCI-accredited hospitals in India and Turkey, facilitated by Sultan GHC.',
+    'Comprehensive neurosurgery services for U.S. patients at JCI-accredited hospitals in India and Türkiye, facilitated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/neurosurgery',
   about: {
     '@type': 'MedicalSpecialty',
@@ -80,15 +80,15 @@ const faqSchema = {
       name: 'How much does brain tumor surgery (craniotomy) cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Brain tumor surgery (craniotomy) in the U.S. typically costs $100,000–$300,000 including hospital, surgeon, and ICU fees. At a JCI-accredited neurosurgery center in India, the same procedure costs $8,000–$18,000 — a saving of over 90%. Turkey offers craniotomy for $12,000–$25,000. Sultan GHC provides a personalised cost estimate within 24 hours based on your MRI reports and surgical plan, at no charge.',
+        text: 'Brain tumor surgery (craniotomy) in the U.S. typically costs $100,000–$300,000 including hospital, surgeon, and ICU fees. At a JCI-accredited neurosurgery center in India, the same procedure costs $8,000–$18,000 — a saving of over 90%. Türkiye offers craniotomy for $12,000–$25,000. Sultan GHC provides a personalised cost estimate within 24 hours based on your MRI reports and surgical plan, at no charge.',
       },
     },
     {
       '@type': 'Question',
-      name: 'How safe is brain surgery in India and Turkey?',
+      name: 'How safe is brain surgery in India and Türkiye?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Neurosurgery safety is determined by surgeon experience, hospital infrastructure, and ICU capability — not geography. Our partner JCI-accredited hospitals in India (Apollo, Fortis, Medanta) and Turkey (Acibadem, Memorial) have dedicated neurosurgery units with intraoperative MRI (iMRI), neuronavigation systems, neurophysiology monitoring, and Level-1 NeuroICUs. Neurosurgeons at these centers perform 500–1,500 cranial and spine operations annually and hold international qualifications including FRCS (Neurosurgery), American board training, and EANS (European Association of Neurosurgical Societies) fellowships.',
+        text: 'Neurosurgery safety is determined by surgeon experience, hospital infrastructure, and ICU capability — not geography. Our partner JCI-accredited hospitals in India (Apollo, Fortis, Medanta) and Türkiye (Acibadem, Memorial) have dedicated neurosurgery units with intraoperative MRI (iMRI), neuronavigation systems, neurophysiology monitoring, and Level-1 NeuroICUs. Neurosurgeons at these centers perform 500–1,500 cranial and spine operations annually and hold international qualifications including FRCS (Neurosurgery), American board training, and EANS (European Association of Neurosurgical Societies) fellowships.',
       },
     },
     {
@@ -96,7 +96,7 @@ const faqSchema = {
       name: 'What is Gamma Knife radiosurgery and is it available in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Gamma Knife radiosurgery (stereotactic radiosurgery) is a non-invasive procedure that delivers highly focused radiation beams to destroy brain tumors, arteriovenous malformations (AVMs), or metastatic lesions — without a surgical incision. It is available at select Apollo and Fortis partner hospitals in India and at Acibadem and Memorial Hospital Istanbul in Turkey. Cost in the U.S. is $20,000–$50,000. India costs $4,000–$10,000. Turkey costs $6,000–$14,000.',
+        text: 'Gamma Knife radiosurgery (stereotactic radiosurgery) is a non-invasive procedure that delivers highly focused radiation beams to destroy brain tumors, arteriovenous malformations (AVMs), or metastatic lesions — without a surgical incision. It is available at select Apollo and Fortis partner hospitals in India and at Acibadem and Memorial Hospital Istanbul in Türkiye. Cost in the U.S. is $20,000–$50,000. India costs $4,000–$10,000. Türkiye costs $6,000–$14,000.',
       },
     },
     {
@@ -117,7 +117,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'Are neurosurgeons in India and Turkey as experienced as U.S. neurosurgeons?',
+      name: 'Are neurosurgeons in India and Türkiye as experienced as U.S. neurosurgeons?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Many neurosurgeons at our partner JCI hospitals trained at or did fellowships at institutions including Johns Hopkins, Cleveland Clinic, Mayo Clinic, Karolinska Institute, and UK NHS neurosurgery centers. They hold FRCS (Neurosurgery), MCh (Neurosurgery), or DM Neurosurgery credentials and operate within JCIA-accredited hospital systems with the same international clinical protocols used in U.S. academic medical centers. Volume is also high — surgeons perform 400–1,500 neurosurgical cases annually.',
@@ -202,10 +202,10 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does brain tumor surgery (craniotomy) cost in India compared to the U.S.?',
-    a: 'Craniotomy in the U.S. typically costs $100,000–$300,000. At a JCI-accredited hospital in India, the same procedure costs $8,000–$18,000 — a saving of over 90%. Turkey costs $12,000–$25,000. Sultan GHC provides a personalised estimate within 24 hours based on your MRI and surgical plan, at no charge.',
+    a: 'Craniotomy in the U.S. typically costs $100,000–$300,000. At a JCI-accredited hospital in India, the same procedure costs $8,000–$18,000 — a saving of over 90%. Türkiye costs $12,000–$25,000. Sultan GHC provides a personalised estimate within 24 hours based on your MRI and surgical plan, at no charge.',
   },
   {
-    q: 'How safe is brain surgery in India and Turkey?',
+    q: 'How safe is brain surgery in India and Türkiye?',
     a: 'Safety is determined by surgeon experience, hospital infrastructure, and ICU capability — not location. Our partner JCI hospitals have intraoperative MRI (iMRI), neuronavigation, neurophysiology monitoring, and Level-1 NeuroICUs. Neurosurgeons perform 500–1,500 cranial and spine operations annually and hold international qualifications including FRCS (Neurosurgery) and EANS fellowships.',
   },
   {
@@ -221,7 +221,7 @@ const FAQS = [
     a: 'Yes — and it is strongly recommended for brain surgery. Sultan GHC arranges a complimentary remote second opinion from a senior neurosurgeon within 24–48 hours. Upload your MRI with contrast, CT scans, biopsy reports, and current medications. The neurosurgeon provides a written recommendation including surgical approach, implant choices, and recovery expectations. No cost, no obligation.',
   },
   {
-    q: 'Are neurosurgeons in India and Turkey as experienced as U.S. neurosurgeons?',
+    q: 'Are neurosurgeons in India and Türkiye as experienced as U.S. neurosurgeons?',
     a: 'Many of our partner neurosurgeons trained at Johns Hopkins, Cleveland Clinic, Mayo Clinic, Karolinska Institute, and UK NHS neurosurgery centers. They hold FRCS (Neurosurgery) or MCh Neurosurgery credentials and work in JCIA-accredited hospitals with the same international clinical protocols. Volume is high — 400–1,500 neurosurgical cases per surgeon per year.',
   },
 ]
@@ -295,7 +295,7 @@ export default function NeurosurgeryPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 Brain & Spine Surgery in{' '}
-                <span className="text-primary">India & Turkey</span> — Up to 90% Less Than U.S. Costs
+                <span className="text-primary">India & Türkiye</span> — Up to 90% Less Than U.S. Costs
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-2xl">
                 Neurosurgery requires the highest level of surgical precision, infrastructure, and post-operative care. Sultan GHC partners exclusively with JCI-accredited hospitals where internationally trained neurosurgeons perform hundreds of cranial and spine procedures each year — at a fraction of American hospital costs.
@@ -437,10 +437,10 @@ export default function NeurosurgeryPage() {
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">
-              Neurosurgery Cost Comparison: USA vs India vs Turkey
+              Neurosurgery Cost Comparison: USA vs India vs Türkiye
             </h2>
             <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">
-              All figures represent approximate self-pay costs. U.S. figures sourced from FAIR Health Consumer, CMS Hospital Price Transparency data, and published hospital pricing. India and Turkey figures from JCI-accredited partner hospital published rates (2025).
+              All figures represent approximate self-pay costs. U.S. figures sourced from FAIR Health Consumer, CMS Hospital Price Transparency data, and published hospital pricing. India and Türkiye figures from JCI-accredited partner hospital published rates (2025).
             </p>
           </div>
 
@@ -463,8 +463,8 @@ export default function NeurosurgeryPage() {
                   </th>
                   <th className="text-center px-6 py-4 font-semibold text-primary rounded-tr-2xl">
                     <span className="inline-flex items-center justify-center gap-1.5">
-                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" />
-                      Turkey
+                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" />
+                      Türkiye
                     </span>
                   </th>
                 </tr>
@@ -489,14 +489,14 @@ export default function NeurosurgeryPage() {
             </Link>
             {' '}·{' '}
             <Link href="/cost-savings/turkey" className="text-primary hover:underline">
-              Turkey cost savings →
+              Türkiye cost savings →
             </Link>
           </p>
 
           <div className="mt-8 grid sm:grid-cols-3 gap-4">
             {[
               { label: 'Average Saving in India',   value: '85–92%', sub: 'vs U.S. self-pay neurosurgery' },
-              { label: 'Average Saving in Turkey',  value: '75–88%', sub: 'vs U.S. self-pay neurosurgery' },
+              { label: 'Average Saving in Türkiye',  value: '75–88%', sub: 'vs U.S. self-pay neurosurgery' },
               { label: 'Free Surgical Opinion',     value: '24–48 hrs', sub: 'submit MRI, get written review' },
             ].map(({ label, value, sub }) => (
               <div key={label} className="text-center bg-primary/5 border border-primary/15 rounded-2xl py-6 px-4">
@@ -509,7 +509,7 @@ export default function NeurosurgeryPage() {
         </div>
       </section>
 
-      {/* ── Why India / Turkey ── */}
+      {/* ── Why India / Türkiye ── */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-10">
@@ -546,12 +546,12 @@ export default function NeurosurgeryPage() {
               </div>
             </div>
 
-            {/* Turkey */}
+            {/* Türkiye */}
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">Neurosurgery in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">Neurosurgery in Türkiye</h3>
                   <p className="text-sm text-gray-500">Acibadem, Memorial, Koc University Hospital</p>
                 </div>
               </div>
@@ -562,7 +562,7 @@ export default function NeurosurgeryPage() {
                   'Memorial Hospital Istanbul performs 1,200+ cranial and spine neurosurgical procedures annually',
                   'Endoscopic and minimally invasive spine surgery (MISS) with same-day discharge protocols',
                   'Neurosurgeons with training at German, UK, and U.S. academic neurosurgery programs',
-                  'U.S. citizens visa-free for Turkey — no application, no fee (effective January 2024)',
+                  'U.S. citizens visa-free for Türkiye — no application, no fee (effective January 2024)',
                   'Turkish Airlines nonstop from 7 U.S. cities — 10–11 hour flights to Istanbul',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
@@ -572,8 +572,8 @@ export default function NeurosurgeryPage() {
                 ))}
               </ul>
               <div className="mt-6 pt-5 border-t border-gray-100 flex gap-3 flex-wrap">
-                <Link href="/visa-guide/turkey" className="text-xs text-primary font-semibold hover:underline">Turkey Entry Guide →</Link>
-                <Link href="/cost-savings/turkey" className="text-xs text-primary font-semibold hover:underline">Cost Savings in Turkey →</Link>
+                <Link href="/visa-guide/turkey" className="text-xs text-primary font-semibold hover:underline">Türkiye Entry Guide →</Link>
+                <Link href="/cost-savings/turkey" className="text-xs text-primary font-semibold hover:underline">Cost Savings in Türkiye →</Link>
                 <Link href="/destinations/turkey" className="text-xs text-primary font-semibold hover:underline">Destination Guide →</Link>
               </div>
             </div>

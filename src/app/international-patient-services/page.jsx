@@ -23,15 +23,15 @@ import {
 export const metadata = {
   title: 'International Patient Services | Sultan GHC | End-to-End Medical Tourism Support',
   description:
-    'Sultan GHC provides complete international patient services for Americans seeking treatment in India and Turkey — including medical case evaluation, hospital & doctor matching, travel coordination, visa assistance, interpreter support, accommodation, and post-treatment follow-up. Free first medical opinion in 24 hours.',
+    'Sultan GHC provides complete international patient services for Americans seeking treatment in India and Türkiye — including medical case evaluation, hospital & doctor matching, travel coordination, visa assistance, interpreter support, accommodation, and post-treatment follow-up. Free first medical opinion in 24 hours.',
   keywords: [
     'international patient services',
     'medical tourism support USA',
-    'patient services India Turkey',
+    'patient services India Türkiye',
     'medical tourism concierge USA',
     'healthcare coordinator abroad',
     'case management medical tourism',
-    'hospital doctor matching India Turkey',
+    'hospital doctor matching India Türkiye',
     'medical travel coordination Americans',
     'visa assistance medical tourism',
     'post treatment follow up abroad',
@@ -46,12 +46,12 @@ export const metadata = {
     url: 'https://www.sultanghc.com/international-patient-services',
     siteName: 'Sultan Global Health Care',
     type: 'website',
-    images: [{ url: 'https://www.sultanghc.com/api/og?title=International+Patient+Services&desc=End-to-end+care+coordination+for+U.S.+patients+seeking+treatment+in+India+%26+Turkey.&cat=Services', width: 1200, height: 630, alt: 'International Patient Services — Sultan GHC' }],
+    images: [{ url: 'https://www.sultanghc.com/api/og?title=International+Patient+Services&desc=End-to-end+care+coordination+for+U.S.+patients+seeking+treatment+in+India+%26+Türkiye.&cat=Services', width: 1200, height: 630, alt: 'International Patient Services — Sultan GHC' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'International Patient Services | Sultan GHC',
-    description: 'End-to-end healthcare facilitation for Americans seeking treatment in India and Turkey.',
+    description: 'End-to-end healthcare facilitation for Americans seeking treatment in India and Türkiye.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/international-patient-services' },
 }
@@ -71,7 +71,7 @@ const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
   name: 'International Patient Services',
-  description: 'Sultan GHC provides comprehensive international patient services for Americans seeking medical treatment in India and Turkey.',
+  description: 'Sultan GHC provides comprehensive international patient services for Americans seeking medical treatment in India and Türkiye.',
   url: 'https://www.sultanghc.com/international-patient-services',
   provider: {
     '@type': 'Organization',
@@ -147,7 +147,7 @@ const SERVICES = [
     summary: 'A transparent, itemised cost estimate before you commit — no hidden charges.',
     details: [
       'Surgical fees, hospital stay, diagnostics, and post-op care all included',
-      'Side-by-side comparison of India vs. Turkey vs. U.S. pricing',
+      'Side-by-side comparison of India vs. Türkiye vs. U.S. pricing',
       'Written cost estimate provided before any commitment',
       'No surprise billing — what we quote is what you pay',
     ],
@@ -192,7 +192,7 @@ const SERVICES = [
     icon: Globe2,
     title: 'Visa & Entry Guidance',
     color: 'bg-blue-50 text-blue-600',
-    summary: 'Medical visa support letters and entry guidance for India and Turkey.',
+    summary: 'Medical visa support letters and entry guidance for India and Türkiye.',
     details: [
       'Medical visa invitation letters from partner hospitals',
       'Guidance on Indian Medical Visa and Turkish e-Visa requirements',
@@ -254,7 +254,7 @@ export default function InternationalPatientServicesPage() {
               </h1>
               <p className="text-lg text-gray-500 leading-relaxed mb-6 max-w-xl">
                 Sultan GHC provides end-to-end support for American patients seeking medical treatment
-                in India and Turkey. From your first medical opinion to your post-treatment follow-up
+                in India and Türkiye. From your first medical opinion to your post-treatment follow-up
                 back home — your dedicated Case Manager coordinates every step.
               </p>
               <p className="text-gray-500 leading-relaxed mb-8 max-w-xl">
@@ -287,7 +287,7 @@ export default function InternationalPatientServicesPage() {
                 width={1200}
                 height={900}
                 label="Sultan GHC Case Manager helping a U.S. patient plan their international medical journey"
-                aiPrompt="Professional editorial photography: A friendly, professional female healthcare coordinator (30s, business casual attire) sitting across a desk from an American patient couple (60s). She is reviewing a tablet showing hospital options. On the desk are medical folders, a laptop showing hospital images, and a world map with India and Turkey highlighted. The setting is a clean, bright modern office. Warm, reassuring lighting. Photorealistic, Canon R5, natural light."
+                aiPrompt="Professional editorial photography: A friendly, professional female healthcare coordinator (30s, business casual attire) sitting across a desk from an American patient couple (60s). She is reviewing a tablet showing hospital options. On the desk are medical folders, a laptop showing hospital images, and a world map with India and Türkiye highlighted. The setting is a clean, bright modern office. Warm, reassuring lighting. Photorealistic, Canon R5, natural light."
                 aspectRatio="4/3"
               />
             </div>
@@ -302,7 +302,7 @@ export default function InternationalPatientServicesPage() {
             {[
               { icon: ShieldCheck,    text: 'JCI-Accredited Hospital Network' },
               { icon: HeartHandshake, text: 'Dedicated Case Manager for Every Patient' },
-              { icon: Globe2,         text: 'India & Turkey Specialists' },
+              { icon: Globe2,         text: 'India & Türkiye Specialists' },
               { icon: Phone,          text: '24-Hour First Medical Opinion' },
             ].map(({ icon: Icon, text }) => (
               <div key={text} className="flex items-center gap-2 text-sm text-gray-500">
@@ -376,7 +376,7 @@ export default function InternationalPatientServicesPage() {
             {[
               { step: '01', title: 'Submit Your Case',        desc: 'Share your medical reports, scans, and condition details through our secure online form or WhatsApp. Completely free and confidential.' },
               { step: '02', title: 'Get Your Medical Opinion', desc: 'Within 24 hours, receive a clinical assessment, specialist recommendation, and treatment plan — with no obligation to proceed.' },
-              { step: '03', title: 'Review Your Options',      desc: 'We present matched hospitals, doctors, and itemised cost estimates for India and Turkey. You choose what is right for you.' },
+              { step: '03', title: 'Review Your Options',      desc: 'We present matched hospitals, doctors, and itemised cost estimates for India and Türkiye. You choose what is right for you.' },
               { step: '04', title: 'We Coordinate Everything', desc: 'Once you confirm, your Case Manager handles travel, accommodation, hospital appointments, and every detail until you are safely home.' },
             ].map(({ step, title, desc }) => (
               <div key={step} className="relative z-10 bg-white rounded-2xl p-6 border border-gray-200 shadow-sm text-center">
@@ -453,7 +453,7 @@ export default function InternationalPatientServicesPage() {
               Our International Patient Services Cover Two Destinations
             </h2>
             <p className="text-gray-500 text-sm leading-relaxed max-w-xl mx-auto">
-              All our support services apply fully in both India and Turkey — with destination-specific
+              All our support services apply fully in both India and Türkiye — with destination-specific
               coordinators in each country who understand the local hospital systems.
             </p>
           </div>
@@ -473,7 +473,7 @@ export default function InternationalPatientServicesPage() {
               },
               {
                 flag: 'tr',
-                country: 'Turkey',
+                country: 'Türkiye',
                 href: '/destinations/turkey',
                 points: [
                   'Hospitals in Istanbul, Ankara, Antalya, and Izmir',
@@ -518,7 +518,7 @@ export default function InternationalPatientServicesPage() {
           {[
             { href: '/treatments',          label: 'All Treatments We Facilitate',     icon: Stethoscope },
             { href: '/hospitals/india',     label: 'Partner Hospitals in India',        icon: ShieldCheck },
-            { href: '/hospitals/turkey',    label: 'Partner Hospitals in Turkey',       icon: ShieldCheck },
+            { href: '/hospitals/turkey',    label: 'Partner Hospitals in Türkiye',       icon: ShieldCheck },
             { href: '/how-it-works',        label: 'How the Full Process Works',        icon: RefreshCw },
           ].map(({ href, label, icon: Icon }) => (
             <Link

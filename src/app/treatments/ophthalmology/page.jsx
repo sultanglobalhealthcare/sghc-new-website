@@ -5,9 +5,9 @@ import {
 } from 'lucide-react'
 
 export const metadata = {
-  title: 'Eye Treatment Abroad | LASIK, Cataract, Retina Surgery | India & Turkey | Sultan GHC',
+  title: 'Eye Treatment Abroad | LASIK, Cataract, Retina Surgery | India & Türkiye | Sultan GHC',
   description:
-    'LASIK, SMILE, cataract surgery (phacoemulsification), vitreoretinal surgery, corneal transplant, glaucoma, and diabetic retinopathy treatment in India and Turkey — 70–90% less than U.S. costs. World-renowned eye hospitals: Sankara Nethralaya, LV Prasad Eye Institute, Aravind Eye Hospital. Sultan GHC coordinates your complete eye care journey.',
+    'LASIK, SMILE, cataract surgery (phacoemulsification), vitreoretinal surgery, corneal transplant, glaucoma, and diabetic retinopathy treatment in India and Türkiye — 70–90% less than U.S. costs. World-renowned eye hospitals: Sankara Nethralaya, LV Prasad Eye Institute, Aravind Eye Hospital. Sultan GHC coordinates your complete eye care journey.',
   keywords: [
     'eye surgery India cost',
     'LASIK India cost',
@@ -24,10 +24,10 @@ export const metadata = {
     'affordable eye surgery Americans',
     'Sultan GHC ophthalmology',
     'retinal detachment surgery India cost',
-    'LASIK surgery Turkey cost',
+    'LASIK surgery Türkiye cost',
   ],
   openGraph: {
-    title: 'Ophthalmology & Eye Surgery in India & Turkey | Sultan GHC',
+    title: 'Ophthalmology & Eye Surgery in India & Türkiye | Sultan GHC',
     description: 'LASIK, cataract surgery, vitreoretinal, corneal transplant, and glaucoma at world-renowned Indian eye hospitals — 70–90% less than U.S. costs.',
     url: 'https://www.sultanghc.com/treatments/ophthalmology',
     siteName: 'Sultan Global Health Care',
@@ -35,7 +35,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Eye Surgery Abroad | LASIK, Cataract, Retina | India & Turkey | Sultan GHC',
+    title: 'Eye Surgery Abroad | LASIK, Cataract, Retina | India & Türkiye | Sultan GHC',
     description: 'LASIK, cataract, vitreoretinal, and corneal transplant surgery — 70–90% less than U.S. costs at world-class Indian eye hospitals.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/treatments/ophthalmology' },
@@ -54,8 +54,8 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Ophthalmology & Eye Surgery Abroad — India and Turkey',
-  description: 'Comprehensive eye care including LASIK, cataract surgery, vitreoretinal procedures, corneal transplant, and glaucoma management for U.S. patients at world-renowned hospitals in India and Turkey.',
+  name: 'Ophthalmology & Eye Surgery Abroad — India and Türkiye',
+  description: 'Comprehensive eye care including LASIK, cataract surgery, vitreoretinal procedures, corneal transplant, and glaucoma management for U.S. patients at world-renowned hospitals in India and Türkiye.',
   url: 'https://www.sultanghc.com/treatments/ophthalmology',
   about: { '@type': 'MedicalSpecialty', name: 'Ophthalmology', relevantSpecialty: 'Ophthalmology' },
 }
@@ -288,7 +288,7 @@ export default function OphthalmologyPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 World-Class Eye Surgery in{' '}
-                <span className="text-primary">India & Turkey</span> — 75–90% Less Than U.S. Costs
+                <span className="text-primary">India & Türkiye</span> — 75–90% Less Than U.S. Costs
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-6 max-w-2xl">
                 From LASIK and cataract surgery to vitreoretinal procedures, corneal transplants, and glaucoma management — Sultan GHC connects U.S. patients with India&apos;s globally acclaimed eye hospitals including Sankara Nethralaya, LV Prasad Eye Institute, and Aravind Eye Hospital.
@@ -395,8 +395,8 @@ export default function OphthalmologyPage() {
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Eye Surgery Cost: USA vs India vs Turkey</h2>
-            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">U.S. figures from FAIR Health Consumer (2024) and ASRS Patient Survey. India and Turkey from JCI-accredited partner hospital published rates (2025).</p>
+            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Eye Surgery Cost: USA vs India vs Türkiye</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">U.S. figures from FAIR Health Consumer (2024) and ASRS Patient Survey. India and Türkiye from JCI-accredited partner hospital published rates (2025).</p>
           </div>
           <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
             <table className="w-full text-sm">
@@ -410,7 +410,7 @@ export default function OphthalmologyPage() {
                     <span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/in.png" width={20} height={15} alt="India" className="rounded-sm" /> India</span>
                   </th>
                   <th className="text-center px-5 py-4 font-semibold text-primary">
-                    <span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" /> Turkey</span>
+                    <span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" /> Türkiye</span>
                   </th>
                   <th className="text-center px-5 py-4 font-semibold text-green-400 rounded-tr-2xl">Save (India)</th>
                 </tr>
@@ -432,7 +432,7 @@ export default function OphthalmologyPage() {
         </div>
       </section>
 
-      {/* Why India / Turkey */}
+      {/* Why India / Türkiye */}
       <section className="bg-white py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-10">
@@ -462,20 +462,20 @@ export default function OphthalmologyPage() {
             </div>
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">Eye Care in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">Eye Care in Türkiye</h3>
                   <p className="text-sm text-gray-500">Dunya Eye Hospital, Acibadem, Memorial Eye Units</p>
                 </div>
               </div>
               <ul className="space-y-3">
                 {[
-                  'Dunya Eye Hospital (Istanbul) — Turkey\'s most specialized eye hospital, performing 50,000+ procedures annually including LASIK, SMILE, and cataract',
-                  'Acibadem Eye Health Centres — full-spectrum ophthalmology across Turkey\'s hospital network, JCI-accredited facilities',
+                  'Dunya Eye Hospital (Istanbul) — Türkiye\'s most specialized eye hospital, performing 50,000+ procedures annually including LASIK, SMILE, and cataract',
+                  'Acibadem Eye Health Centres — full-spectrum ophthalmology across Türkiye\'s hospital network, JCI-accredited facilities',
                   'Turkish ophthalmologists trained in Germany, UK, and the U.S. — many dual-board certified with European qualifications',
                   'LASIK and SMILE popular with international patients — Istanbul is a major refractive surgery destination for Europeans and Americans',
-                  'Combined aesthetic + LASIK trips increasingly popular — Turkey coordination covers both in one itinerary',
-                  'U.S. citizens visa-free for Turkey; Turkish Airlines nonstop from 7 U.S. cities',
+                  'Combined aesthetic + LASIK trips increasingly popular — Türkiye coordination covers both in one itinerary',
+                  'U.S. citizens visa-free for Türkiye; Turkish Airlines nonstop from 7 U.S. cities',
                 ].map(pt => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

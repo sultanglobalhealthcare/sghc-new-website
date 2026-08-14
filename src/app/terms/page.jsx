@@ -65,7 +65,7 @@ export default function TermsPage() {
                 { term: '"Sultan GHC" / "We" / "Us"', def: 'Sultan Global Health Care, a healthcare facilitation company incorporated in the United States.' },
                 { term: '"Services"', def: 'Healthcare facilitation, case coordination, medical tourism concierge, and related services provided by Sultan GHC.' },
                 { term: '"Patient" / "You"', def: 'Any individual who accesses our website or engages Sultan GHC\'s services for themselves or on behalf of another person.' },
-                { term: '"Partner Hospitals"', def: 'Independent, internationally accredited hospitals and medical facilities in India and Turkey with whom Sultan GHC has referral arrangements.' },
+                { term: '"Partner Hospitals"', def: 'Independent, internationally accredited hospitals and medical facilities in India and Türkiye with whom Sultan GHC has referral arrangements.' },
                 { term: '"Partner Physicians"', def: 'Independent licensed medical doctors and specialists affiliated with partner hospitals.' },
                 { term: '"Website"', def: 'www.sultanghc.com and all associated subdomains, pages, and digital properties.' },
               ].map(({ term, def }) => (

@@ -6,7 +6,7 @@ export async function GET(request) {
   const { searchParams } = new URL(request.url)
 
   const title = searchParams.get('title') || 'Sultan Global Health Care'
-  const desc  = searchParams.get('desc')  || 'Trusted Medical Tourism Concierge for U.S. Patients — India & Turkey'
+  const desc  = searchParams.get('desc')  || 'Trusted Medical Tourism Concierge for U.S. Patients — India & Türkiye'
   const cat   = searchParams.get('cat')   || ''
 
   return new ImageResponse(

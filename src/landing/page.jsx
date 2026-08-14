@@ -32,7 +32,7 @@ const LandingPage = () => {
       {/* Why Choose Us — 6-card grid */}
       <WhyChooseUs />
 
-      {/* Hospital network — India & Turkey */}
+      {/* Hospital network — India & Türkiye */}
       <OurNetwork />
 
       {/* How It Works — step grid on dark */}

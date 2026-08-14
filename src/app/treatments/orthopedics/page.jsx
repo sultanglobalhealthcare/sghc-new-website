@@ -18,16 +18,16 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Knee & Hip Replacement Surgery Abroad | India & Turkey | Sultan GHC',
+  title: 'Knee & Hip Replacement Surgery Abroad | India & Türkiye | Sultan GHC',
   description:
-    'Affordable knee replacement, hip replacement, shoulder surgery, and joint care in India and Turkey — 70–80% less than U.S. costs. Sultan GHC connects American patients with JCI-accredited orthopedic hospitals and specialist surgeons abroad.',
+    'Affordable knee replacement, hip replacement, shoulder surgery, and joint care in India and Türkiye — 70–80% less than U.S. costs. Sultan GHC connects American patients with JCI-accredited orthopedic hospitals and specialist surgeons abroad.',
   keywords: [
     'knee replacement surgery abroad',
     'hip replacement India cost',
-    'orthopedic surgery Turkey',
+    'orthopedic surgery Türkiye',
     'affordable joint replacement USA patients',
     'knee replacement surgery India',
-    'hip replacement surgery Turkey',
+    'hip replacement surgery Türkiye',
     'orthopedic surgery medical tourism',
     'joint replacement cost comparison',
     'shoulder replacement abroad',
@@ -38,15 +38,15 @@ export const metadata = {
     'medical tourism knee replacement',
   ],
   openGraph: {
-    title: 'Knee & Hip Replacement Surgery Abroad — India & Turkey | Sultan GHC',
+    title: 'Knee & Hip Replacement Surgery Abroad — India & Türkiye | Sultan GHC',
     description:
-      'World-class orthopedic surgery at 70–80% lower than U.S. prices. JCI-accredited joint replacement centers in India and Turkey, matched to your condition.',
+      'World-class orthopedic surgery at 70–80% lower than U.S. prices. JCI-accredited joint replacement centers in India and Türkiye, matched to your condition.',
     url: 'https://www.sultanghc.com/treatments/orthopedics',
     siteName: 'Sultan Global Health Care',
     type: 'website',
     images: [
       {
-        url: 'https://www.sultanghc.com/api/og?title=Orthopaedics+%26+Joint+Replacement+Abroad&desc=Knee+%26+hip+replacement%2C+spine+surgery+in+India+%26+Turkey.+Save+80-85%25+vs+U.S.&cat=Orthopaedics',
+        url: 'https://www.sultanghc.com/api/og?title=Orthopaedics+%26+Joint+Replacement+Abroad&desc=Knee+%26+hip+replacement%2C+spine+surgery+in+India+%26+Türkiye.+Save+80-85%25+vs+U.S.&cat=Orthopaedics',
         width: 1200,
         height: 630,
         alt: 'Knee & Hip Replacement Surgery Abroad — Sultan GHC',
@@ -57,7 +57,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Knee & Hip Replacement Surgery Abroad | Sultan GHC',
     description:
-      'World-class joint replacement at 70–80% lower than U.S. prices. JCI-accredited orthopedic hospitals in India and Turkey.',
+      'World-class joint replacement at 70–80% lower than U.S. prices. JCI-accredited orthopedic hospitals in India and Türkiye.',
   },
   alternates: {
     canonical: 'https://www.sultanghc.com/treatments/orthopedics',
@@ -79,9 +79,9 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Orthopedics and Joint Replacement Surgery Abroad — India and Turkey',
+  name: 'Orthopedics and Joint Replacement Surgery Abroad — India and Türkiye',
   description:
-    'Comprehensive orthopedic and joint replacement surgery for U.S. patients at JCI-accredited hospitals in India and Turkey, facilitated by Sultan GHC.',
+    'Comprehensive orthopedic and joint replacement surgery for U.S. patients at JCI-accredited hospitals in India and Türkiye, facilitated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/orthopedics',
   about: {
     '@type': 'MedicalCondition',
@@ -107,12 +107,12 @@ const faqSchema = {
       name: 'How much does knee replacement surgery cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Knee replacement surgery in the U.S. typically costs $30,000–$70,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$8,000 — a saving of 75–85%. Turkey offers similar procedures for $6,000–$10,000. Sultan GHC provides a personalised cost estimate based on your specific case at no charge.',
+        text: 'Knee replacement surgery in the U.S. typically costs $30,000–$70,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$8,000 — a saving of 75–85%. Türkiye offers similar procedures for $6,000–$10,000. Sultan GHC provides a personalised cost estimate based on your specific case at no charge.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Are orthopedic surgeons in India and Turkey as qualified as U.S. surgeons?',
+      name: 'Are orthopedic surgeons in India and Türkiye as qualified as U.S. surgeons?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Yes. Many of our partner orthopedic surgeons completed fellowships and postgraduate training in the United States, United Kingdom, Germany, or Australia. They perform thousands of joint replacements annually, with outcomes and infection rates comparable to leading U.S. orthopedic centers.',
@@ -120,7 +120,7 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'How long will I need to stay in India or Turkey after joint replacement?',
+      name: 'How long will I need to stay in India or Türkiye after joint replacement?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Most knee and hip replacement patients require 14–21 days in-country. This includes pre-operative evaluation (2–3 days), surgery and hospital stay (5–7 days), and an in-country physiotherapy and recovery period before clearance to fly. Your Case Manager plans the full itinerary.',
@@ -226,10 +226,10 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does knee replacement surgery cost in India compared to the U.S.?',
-    a: 'Knee replacement surgery in the U.S. typically costs $30,000–$70,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$8,000 — a saving of 75–85%. Turkey offers similar procedures for $6,000–$10,000. Sultan GHC provides a personalised cost estimate at no charge.',
+    a: 'Knee replacement surgery in the U.S. typically costs $30,000–$70,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$8,000 — a saving of 75–85%. Türkiye offers similar procedures for $6,000–$10,000. Sultan GHC provides a personalised cost estimate at no charge.',
   },
   {
-    q: 'Are orthopedic surgeons in India and Turkey as qualified as U.S. surgeons?',
+    q: 'Are orthopedic surgeons in India and Türkiye as qualified as U.S. surgeons?',
     a: 'Yes. Many of our partner orthopedic surgeons completed fellowships in the United States, UK, Germany, or Australia. They perform thousands of joint replacements annually with outcomes comparable to leading U.S. orthopedic centers.',
   },
   {
@@ -316,11 +316,11 @@ export default function OrthopedicsPage() {
 </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 Knee & Hip Replacement in{' '}
-                <span className="text-primary">India & Turkey</span> — 75–85% Less Than U.S. Costs
+                <span className="text-primary">India & Türkiye</span> — 75–85% Less Than U.S. Costs
               </h1>
               <p className="text-lg text-gray-500 leading-relaxed mb-6 max-w-xl">
                 Americans pay up to $70,000 for a knee replacement. At our JCI-accredited partner hospitals
-                in India and Turkey, the same procedure — with the same implant brands — costs a fraction
+                in India and Türkiye, the same procedure — with the same implant brands — costs a fraction
                 of that, with no waitlists and a dedicated Case Manager handling every detail.
               </p>
 
@@ -430,7 +430,7 @@ export default function OrthopedicsPage() {
               joint replacement can feel out of reach — even as the pain becomes unbearable.
             </p>
             <p className="text-gray-500 leading-relaxed mb-6">
-              Our partner orthopedic hospitals in India and Turkey use the same implant brands as U.S.
+              Our partner orthopedic hospitals in India and Türkiye use the same implant brands as U.S.
               hospitals — Zimmer Biomet, Stryker, DePuy Synthes — at 75–85% lower cost, with no
               waitlists, English-speaking surgical teams, and internationally accredited facilities.
             </p>
@@ -529,7 +529,7 @@ export default function OrthopedicsPage() {
               Cost Comparison
             </span>
             <h2 className="text-2xl sm:text-4xl font-semibold text-gray-900 mb-4">
-              What Does Orthopedic Surgery Cost in India & Turkey vs. the U.S.?
+              What Does Orthopedic Surgery Cost in India & Türkiye vs. the U.S.?
             </h2>
             <p className="text-gray-500 leading-relaxed">
               Prices below are indicative ranges. Sultan GHC provides a personalised estimate
@@ -544,7 +544,7 @@ export default function OrthopedicsPage() {
                   <th className="text-left px-6 py-4 font-semibold">Procedure</th>
                   <th className="text-center px-6 py-4 font-semibold"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/us.png" width={20} height={15} alt="USA" className="rounded-sm" />United States</span></th>
                   <th className="text-center px-6 py-4 font-semibold text-green-300"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/in.png" width={20} height={15} alt="India" className="rounded-sm" />India</span></th>
-                  <th className="text-center px-6 py-4 font-semibold text-blue-300"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" />Turkey</span></th>
+                  <th className="text-center px-6 py-4 font-semibold text-blue-300"><span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" />Türkiye</span></th>
                 </tr>
               </thead>
               <tbody>
@@ -643,25 +643,25 @@ export default function OrthopedicsPage() {
         </div>
       </section>
 
-      {/* ── Turkey Section ── */}
+      {/* ── Türkiye Section ── */}
       <section className="bg-[#F5F7FA] border-y border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-20">
           <div className="flex flex-col lg:flex-row-reverse gap-12 items-center">
             <div className="flex-1">
               <span className="inline-block text-[11px] font-semibold text-primary uppercase tracking-widest bg-primary/10 px-3 py-1.5 rounded-full mb-4">
-                Orthopedics in Turkey
+                Orthopedics in Türkiye
               </span>
               <h2 className="text-2xl sm:text-4xl font-semibold text-gray-900 mb-5 leading-snug">
-                Turkey — European-Standard Orthopedic Care at Exceptional Value
+                Türkiye — European-Standard Orthopedic Care at Exceptional Value
               </h2>
               <p className="text-gray-500 leading-relaxed mb-4">
-                Turkey has become one of Europe's leading medical tourism destinations, attracting
+                Türkiye has become one of Europe's leading medical tourism destinations, attracting
                 hundreds of thousands of international patients every year. Turkish orthopedic hospitals
                 — many located in Istanbul, Ankara, and Antalya — operate under JCI accreditation and
                 meet European Union healthcare standards.
               </p>
               <p className="text-gray-500 leading-relaxed mb-6">
-                For U.S. patients, Turkey offers a unique combination: European-quality orthopedic
+                For U.S. patients, Türkiye offers a unique combination: European-quality orthopedic
                 care, internationally trained surgeons, modern facilities, and costs 70–80% lower
                 than U.S. prices — combined with the opportunity to recover in one of the world's
                 most culturally rich and welcoming destinations.
@@ -687,14 +687,14 @@ export default function OrthopedicsPage() {
                   href="/enquiry"
                   className="inline-flex items-center gap-2 bg-primary text-white text-sm font-semibold px-6 py-3 rounded-full hover:bg-primary/90 transition-all"
                 >
-                  Plan My Orthopedic Journey to Turkey
+                  Plan My Orthopedic Journey to Türkiye
                   <ArrowRight size={16} />
                 </Link>
                 <Link
                   href="/destinations/turkey"
                   className="inline-flex items-center gap-2 border border-gray-200 text-gray-600 text-sm font-medium px-6 py-3 rounded-full hover:border-primary hover:text-primary transition-all"
                 >
-                  Explore Turkey as a Destination
+                  Explore Türkiye as a Destination
                 </Link>
               </div>
             </div>
@@ -704,8 +704,8 @@ export default function OrthopedicsPage() {
                 filename="orthopedic-hospital-turkey-joint-replacement-istanbul-sultan-ghc.jpg"
                 width={1200}
                 height={900}
-                label="Modern orthopedic hospital in Istanbul, Turkey — Sultan GHC"
-                aiPrompt="Professional architectural and medical photography: The sleek, modern lobby and patient reception of a JCI-accredited hospital in Istanbul, Turkey. Light marble floors, modern signage in English and Turkish, well-dressed hospital staff at reception. Large windows with natural light. Looks European, premium, and welcoming. Shot on Nikon Z9, wide angle, photorealistic."
+                label="Modern orthopedic hospital in Istanbul, Türkiye — Sultan GHC"
+                aiPrompt="Professional architectural and medical photography: The sleek, modern lobby and patient reception of a JCI-accredited hospital in Istanbul, Türkiye. Light marble floors, modern signage in English and Turkish, well-dressed hospital staff at reception. Large windows with natural light. Looks European, premium, and welcoming. Shot on Nikon Z9, wide angle, photorealistic."
                 aspectRatio="4/3"
               />
             </div>
@@ -782,7 +782,7 @@ export default function OrthopedicsPage() {
               {
                 href: '/treatments/spine-sports-injury',
                 title: 'Spine & Sports Injury Surgery',
-                desc: 'Disc replacement, spinal fusion, and minimally invasive spine procedures in India and Turkey.',
+                desc: 'Disc replacement, spinal fusion, and minimally invasive spine procedures in India and Türkiye.',
               },
               {
                 href: '/treatments/cardiology',

@@ -28,19 +28,19 @@ const TREATMENT_LINKS = [
 
 const HOSPITAL_LINKS = [
   { name: 'Hospitals in India',  href: '/hospitals/india' },
-  { name: 'Hospitals in Turkey', href: '/hospitals/turkey' },
+  { name: 'Hospitals in Türkiye', href: '/hospitals/turkey' },
 ]
 
 const DESTINATION_LINKS = [
   { name: 'India',  href: '/destinations/india' },
-  { name: 'Turkey', href: '/destinations/turkey' },
+  { name: 'Türkiye', href: '/destinations/turkey' },
 ]
 
 const VISA_LINKS = [
   { name: 'India Medical Visa Guide',  href: '/visa-guide/india' },
-  { name: 'Turkey Entry Guide',        href: '/visa-guide/turkey' },
+  { name: 'Türkiye Entry Guide',        href: '/visa-guide/turkey' },
   { name: 'Cost Savings — India',      href: '/cost-savings/india' },
-  { name: 'Cost Savings — Turkey',     href: '/cost-savings/turkey' },
+  { name: 'Cost Savings — Türkiye',     href: '/cost-savings/turkey' },
 ]
 
 const RESOURCE_LINKS = [
@@ -136,7 +136,7 @@ const Footer = () => {
             />
             <p className="text-sm text-gray-400 leading-relaxed max-w-xs">
               Sultan GHC connects U.S. patients with world-class, internationally
-              accredited hospitals and specialists in India and Turkey — at transparent,
+              accredited hospitals and specialists in India and Türkiye — at transparent,
               affordable costs.
             </p>
 

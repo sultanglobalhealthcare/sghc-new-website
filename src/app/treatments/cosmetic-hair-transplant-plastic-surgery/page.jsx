@@ -8,27 +8,27 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Cosmetic Surgery & Hair Transplant Abroad | India & Turkey | Sultan GHC',
+  title: 'Cosmetic Surgery & Hair Transplant Abroad | India & Türkiye | Sultan GHC',
   description:
-    'Rhinoplasty, facelift, liposuction, tummy tuck, breast surgery, hair transplant (FUE/DHI), and reconstructive plastic surgery in India and Turkey — 60–85% less than U.S. prices. Board-certified plastic surgeons, internationally accredited clinics, JCI hospitals. Sultan GHC coordinates your full aesthetic journey.',
+    'Rhinoplasty, facelift, liposuction, tummy tuck, breast surgery, hair transplant (FUE/DHI), and reconstructive plastic surgery in India and Türkiye — 60–85% less than U.S. prices. Board-certified plastic surgeons, internationally accredited clinics, JCI hospitals. Sultan GHC coordinates your full aesthetic journey.',
   keywords: [
-    'hair transplant Turkey cost',
+    'hair transplant Türkiye cost',
     'hair transplant India cost',
-    'FUE hair transplant Turkey',
-    'DHI hair transplant Turkey',
-    'rhinoplasty Turkey cost',
+    'FUE hair transplant Türkiye',
+    'DHI hair transplant Türkiye',
+    'rhinoplasty Türkiye cost',
     'cosmetic surgery India cost',
     'tummy tuck India cost',
-    'liposuction India Turkey cost',
-    'breast augmentation Turkey cost',
+    'liposuction India Türkiye cost',
+    'breast augmentation Türkiye cost',
     'plastic surgery medical tourism',
     'affordable cosmetic surgery Americans',
     'facelift India cost',
     'Sultan GHC cosmetic surgery',
-    'board certified plastic surgeon India Turkey',
+    'board certified plastic surgeon India Türkiye',
   ],
   openGraph: {
-    title: 'Cosmetic Surgery & Hair Transplant in India & Turkey | Sultan GHC',
+    title: 'Cosmetic Surgery & Hair Transplant in India & Türkiye | Sultan GHC',
     description:
       'FUE/DHI hair transplant, rhinoplasty, facelift, breast surgery, and liposuction at accredited clinics — 60–85% less than U.S. prices.',
     url: 'https://www.sultanghc.com/treatments/cosmetic-hair-transplant-plastic-surgery',
@@ -37,7 +37,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Cosmetic Surgery & Hair Transplant Abroad | India & Turkey | Sultan GHC',
+    title: 'Cosmetic Surgery & Hair Transplant Abroad | India & Türkiye | Sultan GHC',
     description: 'FUE/DHI hair transplant, rhinoplasty, liposuction, tummy tuck, breast surgery — 60–85% less than U.S. costs.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/treatments/cosmetic-hair-transplant-plastic-surgery' },
@@ -58,8 +58,8 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Cosmetic Surgery & Hair Transplant Abroad — India and Turkey',
-  description: 'Aesthetic and reconstructive plastic surgery, FUE/DHI hair transplant, and body contouring for U.S. patients at accredited clinics in India and Turkey, facilitated by Sultan GHC.',
+  name: 'Cosmetic Surgery & Hair Transplant Abroad — India and Türkiye',
+  description: 'Aesthetic and reconstructive plastic surgery, FUE/DHI hair transplant, and body contouring for U.S. patients at accredited clinics in India and Türkiye, facilitated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/cosmetic-hair-transplant-plastic-surgery',
   about: {
     '@type': 'MedicalSpecialty',
@@ -75,18 +75,18 @@ const faqSchema = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'How much does a hair transplant cost in Turkey compared to the U.S.?',
+      name: 'How much does a hair transplant cost in Türkiye compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'FUE hair transplant in the U.S. typically costs $8,000–$20,000 depending on graft count and clinic. In Turkey at JCI-accredited or internationally certified clinics, the same procedure costs $1,500–$4,000 — a saving of 75–85%. DHI (Direct Hair Implantation) is similarly priced. Turkey is one of the world\'s highest-volume hair transplant destinations, with some clinics performing 5,000–10,000 procedures annually. Sultan GHC partners exclusively with surgically supervised, medically accredited centers.',
+        text: 'FUE hair transplant in the U.S. typically costs $8,000–$20,000 depending on graft count and clinic. In Türkiye at JCI-accredited or internationally certified clinics, the same procedure costs $1,500–$4,000 — a saving of 75–85%. DHI (Direct Hair Implantation) is similarly priced. Türkiye is one of the world\'s highest-volume hair transplant destinations, with some clinics performing 5,000–10,000 procedures annually. Sultan GHC partners exclusively with surgically supervised, medically accredited centers.',
       },
     },
     {
       '@type': 'Question',
-      name: 'How much does rhinoplasty (nose job) cost in Turkey?',
+      name: 'How much does rhinoplasty (nose job) cost in Türkiye?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Rhinoplasty in the U.S. costs $8,000–$25,000 (ASPS National Plastic Surgery Statistics 2024). In Turkey at board-certified plastic surgery clinics: $2,500–$6,000. Turkey\'s rhinoplasty surgeons — particularly in Istanbul — have a global reputation for precision closed and open rhinoplasty techniques. India rhinoplasty costs $1,500–$4,000. Sultan GHC shares surgeon credentials, before/after portfolios, and patient references before any commitment.',
+        text: 'Rhinoplasty in the U.S. costs $8,000–$25,000 (ASPS National Plastic Surgery Statistics 2024). In Türkiye at board-certified plastic surgery clinics: $2,500–$6,000. Türkiye\'s rhinoplasty surgeons — particularly in Istanbul — have a global reputation for precision closed and open rhinoplasty techniques. India rhinoplasty costs $1,500–$4,000. Sultan GHC shares surgeon credentials, before/after portfolios, and patient references before any commitment.',
       },
     },
     {
@@ -94,12 +94,12 @@ const faqSchema = {
       name: 'How much does a tummy tuck (abdominoplasty) cost in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Tummy tuck (abdominoplasty) in the U.S. costs $8,000–$25,000 including anesthesia and facility fees (ASPS 2024). In India: $2,500–$5,500. In Turkey: $3,000–$7,000. Combination body contouring — tummy tuck with liposuction or breast surgery (Mommy Makeover) — costs $5,000–$10,000 in India vs $20,000–$50,000 in the U.S. All procedures are performed by board-certified plastic surgeons at accredited facilities.',
+        text: 'Tummy tuck (abdominoplasty) in the U.S. costs $8,000–$25,000 including anesthesia and facility fees (ASPS 2024). In India: $2,500–$5,500. In Türkiye: $3,000–$7,000. Combination body contouring — tummy tuck with liposuction or breast surgery (Mommy Makeover) — costs $5,000–$10,000 in India vs $20,000–$50,000 in the U.S. All procedures are performed by board-certified plastic surgeons at accredited facilities.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Are cosmetic surgery results in India and Turkey comparable to U.S. standards?',
+      name: 'Are cosmetic surgery results in India and Türkiye comparable to U.S. standards?',
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Sultan GHC partners exclusively with plastic surgeons who are board-certified by their national plastic surgery boards (ISAPS members in many cases), trained at internationally recognized programs, and operating in accredited facilities. Many surgeons trained in the U.S., UK, Germany, or France. Outcomes depend heavily on surgeon selection — Sultan GHC shares surgeon credentials, case volume, and before/after results as part of the matching process. We do not partner with or recommend any clinic-mill or non-surgeon-supervised hair transplant center.',
@@ -107,10 +107,10 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'How long do I need to stay in Turkey for a hair transplant?',
+      name: 'How long do I need to stay in Türkiye for a hair transplant?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Most hair transplant patients need 3–5 days in Turkey: Day 1 consultation and blood work, Day 2 procedure (6–8 hours for 3,000–5,000 grafts), Day 3 first wash and care instructions. Rhinoplasty requires 7–10 days for splint removal and swelling assessment. Tummy tuck or Mommy Makeover requires 10–14 days.',
+        text: 'Most hair transplant patients need 3–5 days in Türkiye: Day 1 consultation and blood work, Day 2 procedure (6–8 hours for 3,000–5,000 grafts), Day 3 first wash and care instructions. Rhinoplasty requires 7–10 days for splint removal and swelling assessment. Tummy tuck or Mommy Makeover requires 10–14 days.',
       },
     },
     {
@@ -130,8 +130,8 @@ const PROCEDURES = [
   {
     category: 'Hair Restoration',
     items: [
-      { name: 'FUE Hair Transplant', desc: 'Follicular Unit Extraction — individual graft harvesting with no linear scar. 2,000–6,000 grafts in a single session. Available in both India and Turkey.' },
-      { name: 'DHI Hair Transplant', desc: 'Direct Hair Implantation using Choi implanter pens — no channel incision required, higher density possible. Turkey\'s signature technique.' },
+      { name: 'FUE Hair Transplant', desc: 'Follicular Unit Extraction — individual graft harvesting with no linear scar. 2,000–6,000 grafts in a single session. Available in both India and Türkiye.' },
+      { name: 'DHI Hair Transplant', desc: 'Direct Hair Implantation using Choi implanter pens — no channel incision required, higher density possible. Türkiye\'s signature technique.' },
       { name: 'Sapphire FUE', desc: 'Sapphire blade FUE for finer, more precise incisions and faster healing — widely available in Istanbul clinics.' },
       { name: 'Beard & Eyebrow Transplant', desc: 'FUE-based beard restoration and eyebrow reconstruction for scarring alopecia, previous over-plucking, or congenital sparse growth.' },
     ],
@@ -139,8 +139,8 @@ const PROCEDURES = [
   {
     category: 'Face & Neck',
     items: [
-      { name: 'Rhinoplasty (Open & Closed)', desc: 'Primary and revision rhinoplasty — structural, functional, and aesthetic correction. Turkey\'s Istanbul-based surgeons are internationally recognized for natural results.' },
-      { name: 'Facelift (SMAS & Deep Plane)', desc: 'SMAS facelift, mini-facelift, deep plane facelift, and neck lift — with or without fat grafting or blepharoplasty. Available at select India and Turkey centers.' },
+      { name: 'Rhinoplasty (Open & Closed)', desc: 'Primary and revision rhinoplasty — structural, functional, and aesthetic correction. Türkiye\'s Istanbul-based surgeons are internationally recognized for natural results.' },
+      { name: 'Facelift (SMAS & Deep Plane)', desc: 'SMAS facelift, mini-facelift, deep plane facelift, and neck lift — with or without fat grafting or blepharoplasty. Available at select India and Türkiye centers.' },
       { name: 'Eyelid Surgery (Blepharoplasty)', desc: 'Upper and lower blepharoplasty for hooded lids, under-eye bags, and functional vision obstruction. Often combined with facelift.' },
       { name: 'Otoplasty & Ear Reshaping', desc: 'Ear pinning, ear reduction, and reconstruction for prominent or asymmetric ears — day-surgery procedure.' },
     ],
@@ -148,9 +148,9 @@ const PROCEDURES = [
   {
     category: 'Body Contouring',
     items: [
-      { name: 'Liposuction (VASER & Standard)', desc: 'VASER ultrasound-assisted liposuction and standard tumescent liposuction for abdomen, flanks, thighs, arms, and gynecomastia. Available in India and Turkey.' },
+      { name: 'Liposuction (VASER & Standard)', desc: 'VASER ultrasound-assisted liposuction and standard tumescent liposuction for abdomen, flanks, thighs, arms, and gynecomastia. Available in India and Türkiye.' },
       { name: 'Tummy Tuck (Abdominoplasty)', desc: 'Full and mini abdominoplasty — with or without rectus diastasis repair. Commonly combined with liposuction for body contouring after weight loss or pregnancy.' },
-      { name: 'Mommy Makeover', desc: 'Combination breast lift/augmentation + tummy tuck + liposuction in a single surgical session — priced as a package in both India and Turkey.' },
+      { name: 'Mommy Makeover', desc: 'Combination breast lift/augmentation + tummy tuck + liposuction in a single surgical session — priced as a package in both India and Türkiye.' },
       { name: 'Arm Lift (Brachioplasty) & Thigh Lift', desc: 'Skin excision and contouring after significant weight loss — often combined with lower body lift.' },
     ],
   },
@@ -159,7 +159,7 @@ const PROCEDURES = [
     items: [
       { name: 'Breast Augmentation', desc: 'Silicone and cohesive gel implants — round and anatomical shapes. FDA-equivalent implant brands (Mentor, Motiva, Silimed) available at partner clinics.' },
       { name: 'Breast Lift (Mastopexy)', desc: 'Crescent, lollipop, and anchor mastopexy — with or without implants — for ptosis following pregnancy, weight loss, or age.' },
-      { name: 'Breast Reduction', desc: 'Functional and aesthetic breast reduction with nipple repositioning — covered by insurance in the U.S.; priced at $2,500–$5,000 in India and Turkey.' },
+      { name: 'Breast Reduction', desc: 'Functional and aesthetic breast reduction with nipple repositioning — covered by insurance in the U.S.; priced at $2,500–$5,000 in India and Türkiye.' },
       { name: 'Breast Reconstruction (Post-Mastectomy)', desc: 'Implant-based or autologous flap reconstruction (TRAM, DIEP, latissimus dorsi) for breast cancer survivors — available at Tata Memorial, Apollo, and Fortis.' },
     ],
   },
@@ -169,7 +169,7 @@ const PROCEDURES = [
       { name: 'Burn Scar Reconstruction', desc: 'Split-thickness skin grafting, full-thickness grafting, flap surgery, and tissue expansion for burn scars — India has dedicated burn reconstruction programs at tertiary centers.' },
       { name: 'Microsurgical Free Flap Reconstruction', desc: 'Complex soft tissue defect reconstruction after oncological resection or trauma — perforator flap and free flap techniques at Apollo, Manipal, and Koç University.' },
       { name: 'Cleft Lip & Palate Repair', desc: 'Primary cleft lip repair, palatoplasty, alveolar bone grafting, and secondary revision — available at pediatric plastic surgery centers in India at very low cost.' },
-      { name: 'Keloid & Hypertrophic Scar Treatment', desc: 'Combination excision, intralesional therapy, silicone sheeting, and radiotherapy for problematic scars — available at India and Turkey plastic surgery departments.' },
+      { name: 'Keloid & Hypertrophic Scar Treatment', desc: 'Combination excision, intralesional therapy, silicone sheeting, and radiotherapy for problematic scars — available at India and Türkiye plastic surgery departments.' },
     ],
   },
 ]
@@ -189,12 +189,12 @@ const COST_COMPARISON = [
 
 const FAQS = [
   {
-    q: 'How much does a hair transplant cost in Turkey?',
-    a: 'FUE in the U.S.: $8,000–$20,000. Turkey: $1,500–$4,000 — saving 75–85%. DHI is similarly priced. Sultan GHC partners exclusively with surgically supervised, medically accredited centers — not clinic mills.',
+    q: 'How much does a hair transplant cost in Türkiye?',
+    a: 'FUE in the U.S.: $8,000–$20,000. Türkiye: $1,500–$4,000 — saving 75–85%. DHI is similarly priced. Sultan GHC partners exclusively with surgically supervised, medically accredited centers — not clinic mills.',
   },
   {
-    q: 'How much does rhinoplasty cost in Turkey?',
-    a: 'Rhinoplasty in the U.S.: $8,000–$25,000 (ASPS 2024). Turkey: $2,500–$6,000. India: $1,500–$4,000. Sultan GHC shares surgeon credentials, before/after portfolios, and references before any commitment.',
+    q: 'How much does rhinoplasty cost in Türkiye?',
+    a: 'Rhinoplasty in the U.S.: $8,000–$25,000 (ASPS 2024). Türkiye: $2,500–$6,000. India: $1,500–$4,000. Sultan GHC shares surgeon credentials, before/after portfolios, and references before any commitment.',
   },
   {
     q: 'How much does a tummy tuck cost in India?',
@@ -205,7 +205,7 @@ const FAQS = [
     a: 'Sultan GHC partners only with board-certified plastic surgeons (many ISAPS members), trained at internationally recognized programs, operating in accredited facilities. We share credentials, case volume, and before/after results as part of matching.',
   },
   {
-    q: 'How long do I need to stay in Turkey for a hair transplant?',
+    q: 'How long do I need to stay in Türkiye for a hair transplant?',
     a: 'Hair transplant: 3–5 days. Rhinoplasty: 7–10 days. Tummy tuck / Mommy Makeover: 10–14 days.',
   },
   {
@@ -274,7 +274,7 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 Cosmetic Surgery & Hair Transplant in{' '}
-                <span className="text-primary">India & Turkey</span> — 60–85% Less Than U.S. Prices
+                <span className="text-primary">India & Türkiye</span> — 60–85% Less Than U.S. Prices
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-8 max-w-2xl">
                 FUE/DHI hair transplant, rhinoplasty, facelift, breast surgery, body contouring, and post-cancer reconstruction — performed by board-certified plastic surgeons at internationally accredited clinics and JCI hospitals. Sultan GHC coordinates your complete aesthetic journey.
@@ -305,7 +305,7 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
               <ImagePlaceholder
                 filename="cosmetic-surgery-hair-transplant-india-turkey-us-patients.jpg"
                 width={840} height={630} aspectRatio="4/3"
-                label="Modern cosmetic surgery clinic — India or Turkey, catering to international patients"
+                label="Modern cosmetic surgery clinic — India or Türkiye, catering to international patients"
                 aiPrompt="A bright, modern cosmetic surgery consultation room. An elegant, well-lit clinical space with a mirror wall, professional lighting, and a welcoming atmosphere. Neutral tones, premium finishes. No people. Photorealistic, 4K, no text overlays. Conveys professionalism, safety, and quality."
               />
             </div>
@@ -352,8 +352,8 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Cosmetic Surgery Cost Comparison: USA vs India vs Turkey</h2>
-            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">U.S. figures from ASPS National Plastic Surgery Statistics (2024) and RealSelf patient cost data. India and Turkey from accredited partner clinic rates (2025). All-inclusive pricing — surgeon, anesthesia, and facility.</p>
+            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Cosmetic Surgery Cost Comparison: USA vs India vs Türkiye</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">U.S. figures from ASPS National Plastic Surgery Statistics (2024) and RealSelf patient cost data. India and Türkiye from accredited partner clinic rates (2025). All-inclusive pricing — surgeon, anesthesia, and facility.</p>
           </div>
           <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
             <table className="w-full text-sm">
@@ -372,7 +372,7 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
                   </th>
                   <th className="text-center px-6 py-4 font-semibold text-primary rounded-tr-2xl">
                     <span className="inline-flex items-center justify-center gap-1.5">
-                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" /> Turkey
+                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" /> Türkiye
                     </span>
                   </th>
                 </tr>
@@ -392,12 +392,12 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
           <p className="text-xs text-gray-400 mt-4 text-center">
             Figures are all-inclusive estimates (surgeon + anesthesia + facility). Actual costs vary by graft count, implant choice, and complexity.{' '}
             <Link href="/cost-savings/india" className="text-primary hover:underline">India savings →</Link>{' '}·{' '}
-            <Link href="/cost-savings/turkey" className="text-primary hover:underline">Turkey savings →</Link>
+            <Link href="/cost-savings/turkey" className="text-primary hover:underline">Türkiye savings →</Link>
           </p>
           <div className="mt-8 grid sm:grid-cols-3 gap-4">
             {[
               { label: 'Average Saving in India',  value: '65–80%', sub: 'vs U.S. cosmetic surgery prices' },
-              { label: 'Average Saving in Turkey', value: '70–85%', sub: 'vs U.S. cosmetic surgery prices' },
+              { label: 'Average Saving in Türkiye', value: '70–85%', sub: 'vs U.S. cosmetic surgery prices' },
               { label: 'Free Surgeon Matching',    value: '24–48 hrs', sub: 'credentials & before/afters shared' },
             ].map(({ label, value, sub }) => (
               <div key={label} className="text-center bg-primary/5 border border-primary/15 rounded-2xl py-6 px-4">
@@ -410,7 +410,7 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
         </div>
       </section>
 
-      {/* Why India / Turkey */}
+      {/* Why India / Türkiye */}
       <section className="bg-white py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-10">
@@ -441,20 +441,20 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
 
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">Cosmetic Surgery in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">Cosmetic Surgery in Türkiye</h3>
                   <p className="text-sm text-gray-500">Istanbul — Rhinoplasty & Hair Transplant Capital of the World</p>
                 </div>
               </div>
               <ul className="space-y-3">
                 {[
                   'Istanbul is globally recognized as the rhinoplasty capital — Turkish surgeons perform tens of thousands annually with international patients from 80+ countries',
-                  'Hair transplant Turkey — among the world\'s highest volume destinations; Sultan GHC partners only with surgeon-supervised, medically licensed FUE and DHI centers',
-                  'DHI with Choi implanter pens and Sapphire FUE — Turkey\'s signature hair restoration techniques',
+                  'Hair transplant Türkiye — among the world\'s highest volume destinations; Sultan GHC partners only with surgeon-supervised, medically licensed FUE and DHI centers',
+                  'DHI with Choi implanter pens and Sapphire FUE — Türkiye\'s signature hair restoration techniques',
                   'Acibadem and Memorial plastic surgery departments — JCI-accredited, full general anesthesia services for major procedures',
                   'Facelift and blepharoplasty — high-volume Turkish surgeons with strong natural-result reputations',
-                  'U.S. citizens visa-free for Turkey; Turkish Airlines nonstop from 7 U.S. cities',
+                  'U.S. citizens visa-free for Türkiye; Turkish Airlines nonstop from 7 U.S. cities',
                   'All-inclusive recovery packages — airport transfer, hotel, post-op check-ups, translation included',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
@@ -473,7 +473,7 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
           <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
             <h2 className="text-xl font-semibold text-gray-900 mb-4">How Sultan GHC Selects Cosmetic Surgery Partners</h2>
             <p className="text-sm text-gray-600 leading-relaxed mb-5">
-              The cosmetic surgery industry — particularly in Turkey — includes a wide spectrum from world-class surgeons to unaccredited clinic operations. Sultan GHC applies a strict vetting standard before partnering with any cosmetic surgeon or clinic.
+              The cosmetic surgery industry — particularly in Türkiye — includes a wide spectrum from world-class surgeons to unaccredited clinic operations. Sultan GHC applies a strict vetting standard before partnering with any cosmetic surgeon or clinic.
             </p>
             <div className="grid sm:grid-cols-2 gap-4">
               {[

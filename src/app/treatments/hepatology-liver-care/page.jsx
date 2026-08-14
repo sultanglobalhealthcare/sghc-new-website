@@ -8,29 +8,29 @@ import {
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Hepatology & Liver Care Abroad | India & Turkey | Sultan GHC',
+  title: 'Hepatology & Liver Care Abroad | India & Türkiye | Sultan GHC',
   description:
-    'Access world-class liver care — liver transplant, liver cancer treatment (TACE, RFA), cirrhosis management, hepatitis B & C, and fatty liver disease — in India and Turkey at up to 96% lower cost than U.S. prices. Sultan GHC connects American patients with JCI-accredited liver centers and internationally trained hepatologists.',
+    'Access world-class liver care — liver transplant, liver cancer treatment (TACE, RFA), cirrhosis management, hepatitis B & C, and fatty liver disease — in India and Türkiye at up to 96% lower cost than U.S. prices. Sultan GHC connects American patients with JCI-accredited liver centers and internationally trained hepatologists.',
   keywords: [
     'liver transplant cost India vs USA',
     'hepatology treatment abroad',
-    'liver cancer treatment India Turkey',
+    'liver cancer treatment India Türkiye',
     'TACE liver cancer India cost',
     'RFA liver tumor India',
     'cirrhosis treatment India',
     'hepatitis C treatment India cost',
     'liver transplant India cost',
     'affordable liver care for Americans',
-    'NASH treatment India Turkey',
+    'NASH treatment India Türkiye',
     'liver disease specialist India',
     'medical tourism liver transplant',
     'Sultan GHC hepatology',
-    'HCC treatment India Turkey',
+    'HCC treatment India Türkiye',
   ],
   openGraph: {
-    title: 'Liver Transplant & Hepatology in India & Turkey — Up to 96% Savings | Sultan GHC',
+    title: 'Liver Transplant & Hepatology in India & Türkiye — Up to 96% Savings | Sultan GHC',
     description:
-      'Liver transplant, TACE, RFA, cirrhosis management, and hepatitis C treatment at JCI-accredited liver centers in India and Turkey. Real cost data. Free consultation.',
+      'Liver transplant, TACE, RFA, cirrhosis management, and hepatitis C treatment at JCI-accredited liver centers in India and Türkiye. Real cost data. Free consultation.',
     url: 'https://www.sultanghc.com/treatments/hepatology-liver-care',
     siteName: 'Sultan Global Health Care',
     type: 'website',
@@ -59,9 +59,9 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Hepatology and Liver Care Abroad — India and Turkey',
+  name: 'Hepatology and Liver Care Abroad — India and Türkiye',
   description:
-    'Comprehensive hepatology and liver disease services for U.S. patients at JCI-accredited hospitals in India and Turkey, facilitated by Sultan GHC.',
+    'Comprehensive hepatology and liver disease services for U.S. patients at JCI-accredited hospitals in India and Türkiye, facilitated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/hepatology-liver-care',
   about: {
     '@type': 'MedicalSpecialty',
@@ -88,7 +88,7 @@ const faqSchema = {
       name: 'What is TACE and how much does it cost in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'TACE (Trans-Arterial Chemoembolization) is an image-guided interventional radiology procedure used to treat hepatocellular carcinoma (HCC / liver cancer) by delivering chemotherapy directly into the tumor\'s blood supply while blocking it. TACE in the U.S. costs $10,000–$30,000 per session. At partner hospitals in India, TACE costs $1,500–$5,000 per session — a saving of 83–90%. Turkey costs $2,000–$7,000. Multiple sessions may be required depending on tumor response.',
+        text: 'TACE (Trans-Arterial Chemoembolization) is an image-guided interventional radiology procedure used to treat hepatocellular carcinoma (HCC / liver cancer) by delivering chemotherapy directly into the tumor\'s blood supply while blocking it. TACE in the U.S. costs $10,000–$30,000 per session. At partner hospitals in India, TACE costs $1,500–$5,000 per session — a saving of 83–90%. Türkiye costs $2,000–$7,000. Multiple sessions may be required depending on tumor response.',
       },
     },
     {
@@ -206,7 +206,7 @@ const FAQS = [
   },
   {
     q: 'What is TACE and how much does it cost in India?',
-    a: 'TACE (Trans-Arterial Chemoembolization) delivers chemotherapy directly into liver tumor blood supply while blocking it — first-line non-surgical treatment for unresectable HCC. U.S. cost: $10,000–$30,000 per session. India: $1,500–$5,000. Turkey: $2,000–$7,000. Multiple sessions may be needed based on tumor response.',
+    a: 'TACE (Trans-Arterial Chemoembolization) delivers chemotherapy directly into liver tumor blood supply while blocking it — first-line non-surgical treatment for unresectable HCC. U.S. cost: $10,000–$30,000 per session. India: $1,500–$5,000. Türkiye: $2,000–$7,000. Multiple sessions may be needed based on tumor response.',
   },
   {
     q: 'Can I get a living donor liver transplant in India?',
@@ -294,7 +294,7 @@ export default function HepatologyPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 Liver Transplant & Advanced Liver Care in{' '}
-                <span className="text-primary">India & Turkey</span> — Save Up to 96%
+                <span className="text-primary">India & Türkiye</span> — Save Up to 96%
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-6 max-w-2xl">
                 Liver disease is life-changing. A liver transplant in the U.S. averages $878,000–$1,017,000. The same procedure at a JCI-accredited center in India costs $22,000–$40,000. Sultan GHC connects U.S. patients with internationally trained hepatologists and transplant surgeons — the same standard of care at a fraction of American costs.
@@ -438,10 +438,10 @@ export default function HepatologyPage() {
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
             <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">
-              Liver Care Cost Comparison: USA vs India vs Turkey
+              Liver Care Cost Comparison: USA vs India vs Türkiye
             </h2>
             <p className="text-gray-500 max-w-2xl mx-auto text-sm leading-relaxed">
-              U.S. liver transplant figures from Milliman 2025 actuarial report (total billed before insurance). HCV treatment from GoodRx and CMS list price data. Procedural costs from FAIR Health Consumer 2024. India and Turkey from JCI-accredited partner hospital published rates.
+              U.S. liver transplant figures from Milliman 2025 actuarial report (total billed before insurance). HCV treatment from GoodRx and CMS list price data. Procedural costs from FAIR Health Consumer 2024. India and Türkiye from JCI-accredited partner hospital published rates.
             </p>
           </div>
 
@@ -464,8 +464,8 @@ export default function HepatologyPage() {
                   </th>
                   <th className="text-center px-6 py-4 font-semibold text-primary rounded-tr-2xl">
                     <span className="inline-flex items-center justify-center gap-1.5">
-                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" />
-                      Turkey
+                      <img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" />
+                      Türkiye
                     </span>
                   </th>
                 </tr>
@@ -494,7 +494,7 @@ export default function HepatologyPage() {
             Liver transplant figures are total billed costs before insurance. Individual quotes vary by donor type, organ status, and hospital.{' '}
             <Link href="/cost-savings/india" className="text-primary hover:underline">Full India cost savings →</Link>
             {' '}·{' '}
-            <Link href="/cost-savings/turkey" className="text-primary hover:underline">Turkey cost savings →</Link>
+            <Link href="/cost-savings/turkey" className="text-primary hover:underline">Türkiye cost savings →</Link>
           </p>
 
           <div className="mt-8 grid sm:grid-cols-3 gap-4">
@@ -513,7 +513,7 @@ export default function HepatologyPage() {
         </div>
       </section>
 
-      {/* ── Why India / Turkey ── */}
+      {/* ── Why India / Türkiye ── */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-10">
@@ -551,9 +551,9 @@ export default function HepatologyPage() {
 
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">Liver Care in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">Liver Care in Türkiye</h3>
                   <p className="text-sm text-gray-500">Acibadem, Memorial, Koc University Hospital</p>
                 </div>
               </div>
@@ -564,7 +564,7 @@ export default function HepatologyPage() {
                   'TACE, RFA, microwave ablation, and SIRT (Y-90 radioembolization) all available for HCC',
                   'Hepatitis C treatment with direct-acting antivirals — hepatologist supervised and monitored',
                   'MDT liver tumor board (hepatology, hepatobiliary surgery, oncology, radiology) meets weekly',
-                  'U.S. citizens visa-free for Turkey — no pre-approval required (effective January 2024)',
+                  'U.S. citizens visa-free for Türkiye — no pre-approval required (effective January 2024)',
                   'Istanbul hospitals accessible on Turkish Airlines nonstop from 7 U.S. cities',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
@@ -574,7 +574,7 @@ export default function HepatologyPage() {
                 ))}
               </ul>
               <div className="mt-6 pt-5 border-t border-gray-100 flex gap-3 flex-wrap">
-                <Link href="/visa-guide/turkey" className="text-xs text-primary font-semibold hover:underline">Turkey Entry Guide →</Link>
+                <Link href="/visa-guide/turkey" className="text-xs text-primary font-semibold hover:underline">Türkiye Entry Guide →</Link>
                 <Link href="/cost-savings/turkey" className="text-xs text-primary font-semibold hover:underline">Cost Savings →</Link>
                 <Link href="/destinations/turkey" className="text-xs text-primary font-semibold hover:underline">Destination Guide →</Link>
               </div>

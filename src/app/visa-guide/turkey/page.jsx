@@ -8,25 +8,25 @@ import {
 // ─── Metadata ────────────────────────────────────────────────────────────────
 
 export const metadata = {
-  title: 'Turkey Medical Visa Guide for US Patients | Visa-Free Entry & Residence Permit 2026 | Sultan GHC',
+  title: 'Türkiye Medical Visa Guide for US Patients | Visa-Free Entry & Residence Permit 2026 | Sultan GHC',
   description:
-    'U.S. citizens do not need a visa to enter Turkey for medical treatment under 90 days (effective January 19, 2024). Complete guide to Turkey entry rules, stay limits, and the Medical Treatment Residence Permit for extended treatment.',
+    'U.S. citizens do not need a visa to enter Türkiye for medical treatment under 90 days (effective January 19, 2024). Complete guide to Türkiye entry rules, stay limits, and the Medical Treatment Residence Permit for extended treatment.',
   keywords: [
-    'Turkey visa US citizens 2024 2025',
-    'Turkey visa-free entry Americans',
-    'Turkey medical treatment no visa',
-    'Turkey 90 days visa-free',
-    'Turkey medical tourism entry requirements',
-    'Turkey residence permit medical treatment',
-    'Turkey evisa medical patients US',
+    'Türkiye visa US citizens 2024 2025',
+    'Türkiye visa-free entry Americans',
+    'Türkiye medical treatment no visa',
+    'Türkiye 90 days visa-free',
+    'Türkiye medical tourism entry requirements',
+    'Türkiye residence permit medical treatment',
+    'Türkiye evisa medical patients US',
     'HealthTurkiye international patients',
-    'Turkey medical visa extension',
+    'Türkiye medical visa extension',
     'Istanbul hospital visa requirements',
   ],
   openGraph: {
-    title: 'Turkey Entry Guide for Medical Patients from the U.S. | Sultan GHC',
+    title: 'Türkiye Entry Guide for Medical Patients from the U.S. | Sultan GHC',
     description:
-      'US citizens are visa-free in Turkey for up to 90 days (since January 19, 2024). Complete guide: entry rules, stay limits, and the Medical Treatment Residence Permit for longer stays.',
+      'US citizens are visa-free in Türkiye for up to 90 days (since January 19, 2024). Complete guide: entry rules, stay limits, and the Medical Treatment Residence Permit for longer stays.',
     url: 'https://www.sultanghc.com/visa-guide/turkey',
     siteName: 'Sultan Global Health Care',
     type: 'website',
@@ -40,7 +40,7 @@ const ENTRY_FACTS = [
   {
     label: 'Visa Requirement for US Citizens',
     value: 'No visa required',
-    note: 'U.S. citizens have been visa-free for Turkey since January 19, 2024.',
+    note: 'U.S. citizens have been visa-free for Türkiye since January 19, 2024.',
     highlight: true,
   },
   {
@@ -58,7 +58,7 @@ const ENTRY_FACTS = [
   {
     label: 'Passport Validity Required',
     value: '6 months from arrival date',
-    note: 'Passport must be valid for at least 6 months from the date you enter Turkey.',
+    note: 'Passport must be valid for at least 6 months from the date you enter Türkiye.',
     highlight: false,
   },
   {
@@ -82,7 +82,7 @@ const ENTRY_FACTS = [
   {
     label: 'For Stays Exceeding 90 Days',
     value: 'Medical Treatment Residence Permit required',
-    note: 'Applied for through the Provincial Directorate of Migration Management (PDMM) in Turkey.',
+    note: 'Applied for through the Provincial Directorate of Migration Management (PDMM) in Türkiye.',
     highlight: false,
   },
 ]
@@ -119,7 +119,7 @@ const STEPS_UNDER_90 = [
   {
     num: '01',
     title: 'Book your medical appointment and travel',
-    detail: 'Select your hospital in Turkey. Sultan GHC coordinates the hospital, doctor, and appointment. Book your flights. No visa application required.',
+    detail: 'Select your hospital in Türkiye. Sultan GHC coordinates the hospital, doctor, and appointment. Book your flights. No visa application required.',
   },
   {
     num: '02',
@@ -134,16 +134,16 @@ const STEPS_UNDER_90 = [
   {
     num: '04',
     title: 'Depart within 90 days',
-    detail: 'Ensure you depart Turkey within 90 days of entry. The 90-day counter resets after you have been outside Turkey for sufficient time within the 180-day rolling window. Overstaying results in a fine and potential entry ban.',
+    detail: 'Ensure you depart Türkiye within 90 days of entry. The 90-day counter resets after you have been outside Türkiye for sufficient time within the 180-day rolling window. Overstaying results in a fine and potential entry ban.',
   },
 ]
 
 const RESIDENCE_PERMIT_DOCS = [
   'Valid U.S. passport (6+ months validity)',
   'Application form (submitted online through e-ikamet.goc.gov.tr)',
-  'Written confirmation from a public or private hospital in Turkey confirming you are under active treatment',
-  'Valid health insurance policy covering the full duration of your stay in Turkey',
-  'Proof of accommodation in Turkey (rental agreement or hotel booking)',
+  'Written confirmation from a public or private hospital in Türkiye confirming you are under active treatment',
+  'Valid health insurance policy covering the full duration of your stay in Türkiye',
+  'Proof of accommodation in Türkiye (rental agreement or hotel booking)',
   'Proof of sufficient financial means for the stay duration',
   'Biometric photographs (quantity specified at time of appointment)',
   'Proof of payment of the residence permit fee',
@@ -151,31 +151,31 @@ const RESIDENCE_PERMIT_DOCS = [
 
 const FAQS = [
   {
-    q: 'Do U.S. citizens need a visa to go to Turkey for medical treatment?',
-    a: 'No. As of January 19, 2024, U.S. citizens are visa-free in Turkey for stays up to 90 days in any 180-day period. This covers medical treatment — no e-Visa, no sticker visa, and no fee is required. You arrive in Turkey with your U.S. passport and receive an entry stamp.',
+    q: 'Do U.S. citizens need a visa to go to Türkiye for medical treatment?',
+    a: 'No. As of January 19, 2024, U.S. citizens are visa-free in Türkiye for stays up to 90 days in any 180-day period. This covers medical treatment — no e-Visa, no sticker visa, and no fee is required. You arrive in Türkiye with your U.S. passport and receive an entry stamp.',
   },
   {
-    q: 'Was there an e-Visa for Turkey before January 2024?',
-    a: 'Yes. Before January 19, 2024, U.S. citizens required a USD 50 e-Visa to enter Turkey. This requirement was eliminated effective January 19, 2024. If you see any website telling you to pay $50 for a Turkey e-Visa as a U.S. citizen, that information is outdated.',
+    q: 'Was there an e-Visa for Türkiye before January 2024?',
+    a: 'Yes. Before January 19, 2024, U.S. citizens required a USD 50 e-Visa to enter Türkiye. This requirement was eliminated effective January 19, 2024. If you see any website telling you to pay $50 for a Türkiye e-Visa as a U.S. citizen, that information is outdated.',
   },
   {
-    q: 'My treatment in Turkey will take more than 90 days. What do I do?',
+    q: 'My treatment in Türkiye will take more than 90 days. What do I do?',
     a: 'Apply for a Medical Treatment Residence Permit through the Provincial Directorate of Migration Management (PDMM). Required documents include a hospital letter confirming active treatment, valid health insurance, accommodation proof, and proof of financial means. Applications are submitted online at e-ikamet.goc.gov.tr. Processing takes approximately 30 days.',
   },
   {
-    q: 'Can I leave Turkey and re-enter during my treatment?',
-    a: 'Yes, within the 90-day/180-day framework. If you need to leave and return for follow-up treatment, the days outside Turkey do not count toward your 90-day limit. The 180-day rolling window means you can accumulate up to 90 days of presence in Turkey in any rolling 180-day period.',
+    q: 'Can I leave Türkiye and re-enter during my treatment?',
+    a: 'Yes, within the 90-day/180-day framework. If you need to leave and return for follow-up treatment, the days outside Türkiye do not count toward your 90-day limit. The 180-day rolling window means you can accumulate up to 90 days of presence in Türkiye in any rolling 180-day period.',
   },
   {
-    q: 'Does Turkey have a specific medical visa category like India?',
-    a: 'No. Turkey does not have a dedicated medical visa category for U.S. citizens. Medical treatment falls under the general visa-free entry permission. If your stay exceeds 90 days, the applicable permit is the Medical Treatment Residence Permit — not a visa.',
+    q: 'Does Türkiye have a specific medical visa category like India?',
+    a: 'No. Türkiye does not have a dedicated medical visa category for U.S. citizens. Medical treatment falls under the general visa-free entry permission. If your stay exceeds 90 days, the applicable permit is the Medical Treatment Residence Permit — not a visa.',
   },
   {
     q: 'Do attendants / family members accompanying me also get visa-free entry?',
-    a: 'U.S. citizens traveling as family members or caregivers also enter visa-free under the same 90-day rule. Each person enters individually on their own U.S. passport. No special attendant visa category exists for Turkey.',
+    a: 'U.S. citizens traveling as family members or caregivers also enter visa-free under the same 90-day rule. Each person enters individually on their own U.S. passport. No special attendant visa category exists for Türkiye.',
   },
   {
-    q: 'What happens if I overstay the 90-day limit in Turkey?',
+    q: 'What happens if I overstay the 90-day limit in Türkiye?',
     a: 'Overstaying is treated as a violation of Turkish immigration law. On departure, you will be assessed a fine. In some cases, overstaying can result in a re-entry ban. If your treatment is extending beyond 90 days, apply for the Medical Treatment Residence Permit before your 90 days expire.',
   },
   {
@@ -194,7 +194,7 @@ const jsonLd = {
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.sultanghc.com' },
         { '@type': 'ListItem', position: 2, name: 'Visa Guide', item: 'https://www.sultanghc.com/visa-guide' },
-        { '@type': 'ListItem', position: 3, name: 'Turkey Medical Visa', item: 'https://www.sultanghc.com/visa-guide/turkey' },
+        { '@type': 'ListItem', position: 3, name: 'Türkiye Medical Visa', item: 'https://www.sultanghc.com/visa-guide/turkey' },
       ],
     },
     {
@@ -207,8 +207,8 @@ const jsonLd = {
     },
     {
       '@type': 'MedicalWebPage',
-      name: 'Turkey Entry Guide for US Medical Patients',
-      description: 'US citizens are visa-free in Turkey for up to 90 days (since January 19, 2024). Guide to entry requirements and Medical Treatment Residence Permit for extended stays.',
+      name: 'Türkiye Entry Guide for US Medical Patients',
+      description: 'US citizens are visa-free in Türkiye for up to 90 days (since January 19, 2024). Guide to entry requirements and Medical Treatment Residence Permit for extended stays.',
       url: 'https://www.sultanghc.com/visa-guide/turkey',
       audience: { '@type': 'Patient' },
     },
@@ -217,7 +217,7 @@ const jsonLd = {
 
 // ─── Component ────────────────────────────────────────────────────────────────
 
-export default function TurkeyVisaGuidePage() {
+export default function TürkiyeVisaGuidePage() {
   return (
     <>
       <script
@@ -235,7 +235,7 @@ export default function TurkeyVisaGuidePage() {
               <span>/</span>
               <Link href="/visa-guide" className="hover:text-primary transition-colors">Visa Guide</Link>
               <span>/</span>
-              <span className="text-gray-800 font-medium">Turkey Medical Visa</span>
+              <span className="text-gray-800 font-medium">Türkiye Medical Visa</span>
             </nav>
           </div>
         </div>
@@ -251,19 +251,19 @@ export default function TurkeyVisaGuidePage() {
                   srcSet="https://flagcdn.com/96x72/tr.png 2x"
                   width={48}
                   height={36}
-                  alt="Turkey flag"
+                  alt="Türkiye flag"
                   className="rounded shadow-sm"
                 />
-                <span className="text-sm font-medium text-gray-400 uppercase tracking-widest">Turkey</span>
+                <span className="text-sm font-medium text-gray-400 uppercase tracking-widest">Türkiye</span>
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight mb-6">
-                Turkey Entry Guide
+                Türkiye Entry Guide
                 <span className="block text-primary mt-2">for U.S. Medical Patients</span>
               </h1>
 
               <p className="text-xl text-gray-300 leading-relaxed max-w-3xl mb-8">
-                U.S. citizens do not need a visa, an e-Visa, or any pre-approval to enter Turkey.
+                U.S. citizens do not need a visa, an e-Visa, or any pre-approval to enter Türkiye.
                 Since January 19, 2024, American passport holders arrive visa-free for up to 90 days.
                 This covers the vast majority of medical treatments — no paperwork, no fee.
               </p>
@@ -272,7 +272,7 @@ export default function TurkeyVisaGuidePage() {
               <div className="inline-flex items-start gap-3 bg-green-500/15 border border-green-500/30 rounded-xl px-5 py-4 max-w-2xl">
                 <CheckCircle size={20} className="text-green-400 shrink-0 mt-0.5" />
                 <p className="text-sm text-green-200">
-                  <strong className="text-green-300">No visa required.</strong> U.S. passport holders enter Turkey visa-free since January 19, 2024.
+                  <strong className="text-green-300">No visa required.</strong> U.S. passport holders enter Türkiye visa-free since January 19, 2024.
                   No e-Visa, no embassy appointment, no fee. Arrive at any Turkish airport with your passport.
                   Source:{' '}
                   <a
@@ -297,11 +297,11 @@ export default function TurkeyVisaGuidePage() {
                 <Globe size={28} className="text-white" />
               </div>
               <div>
-                <h2 className="text-white font-bold text-xl mb-1">Turkey vs. India — Key Difference</h2>
+                <h2 className="text-white font-bold text-xl mb-1">Türkiye vs. India — Key Difference</h2>
                 <p className="text-white/80 text-sm leading-relaxed">
                   India requires a specific Medical e-Visa, hospital invitation letter, and takes 3–5 days to process.
-                  Turkey requires nothing for U.S. citizens under 90 days — you book your treatment and fly.
-                  This makes Turkey one of the most frictionless medical tourism destinations for American patients.
+                  Türkiye requires nothing for U.S. citizens under 90 days — you book your treatment and fly.
+                  This makes Türkiye one of the most frictionless medical tourism destinations for American patients.
                 </p>
               </div>
             </div>
@@ -387,7 +387,7 @@ export default function TurkeyVisaGuidePage() {
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold text-gray-900 mb-2">For Treatments Under 90 Days — Process</h2>
               <p className="text-gray-500 mb-12">
-                Most medical procedures in Turkey — including cardiac surgery, orthopaedic surgery, dental work,
+                Most medical procedures in Türkiye — including cardiac surgery, orthopaedic surgery, dental work,
                 hair transplant, and bariatric surgery — are completed within the 90-day visa-free window.
                 The process is as simple as it gets.
               </p>
@@ -424,9 +424,9 @@ export default function TurkeyVisaGuidePage() {
               </div>
               <p className="text-gray-600 leading-relaxed mb-8">
                 For patients whose treatment extends beyond 90 days — such as organ transplant recipients,
-                patients undergoing multiple chemotherapy cycles, or extended rehabilitation — Turkey offers
+                patients undergoing multiple chemotherapy cycles, or extended rehabilitation — Türkiye offers
                 a dedicated Medical Treatment Residence Permit. This is not a visa; it is a residency permit
-                applied for after arrival in Turkey.
+                applied for after arrival in Türkiye.
               </p>
 
               {/* How it works */}
@@ -490,8 +490,8 @@ export default function TurkeyVisaGuidePage() {
               </div>
               <div className="bg-gray-50 rounded-xl border border-gray-200 p-6">
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  There is no separate attendant visa category for Turkey. U.S. citizens accompanying a medical patient
-                  enter Turkey on exactly the same terms — visa-free, up to 90 days, on their U.S. passport.
+                  There is no separate attendant visa category for Türkiye. U.S. citizens accompanying a medical patient
+                  enter Türkiye on exactly the same terms — visa-free, up to 90 days, on their U.S. passport.
                   Each person uses their own passport. No documentation linking them to the patient is required at the border.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
@@ -513,10 +513,10 @@ export default function TurkeyVisaGuidePage() {
                 <h2 className="text-3xl font-bold">HealthTurkiye — Government Patient Registry</h2>
               </div>
               <p className="text-gray-400 leading-relaxed mb-8">
-                Turkey operates HealthTurkiye (saglik.gov.tr), a government-mandated registry where all hospitals
+                Türkiye operates HealthTurkiye (saglik.gov.tr), a government-mandated registry where all hospitals
                 treating international patients must report cases. This is a patient-protection measure —
                 it ensures that every hospital treating a foreign patient is accountable to the Turkish Ministry of Health.
-                It does not affect the entry process for U.S. patients, but it is evidence of Turkey{`'`}s regulatory infrastructure
+                It does not affect the entry process for U.S. patients, but it is evidence of Türkiye{`'`}s regulatory infrastructure
                 for medical tourism.
               </p>
 
@@ -558,9 +558,9 @@ export default function TurkeyVisaGuidePage() {
         <section className="py-16 sm:py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">What Sultan GHC Handles for Turkey Patients</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">What Sultan GHC Handles for Türkiye Patients</h2>
               <p className="text-gray-500 mb-10">
-                Entry into Turkey is straightforward for U.S. patients. Our support is focused on what comes after you arrive.
+                Entry into Türkiye is straightforward for U.S. patients. Our support is focused on what comes after you arrive.
               </p>
 
               <div className="bg-white rounded-2xl border border-gray-200 p-8">
@@ -611,7 +611,7 @@ export default function TurkeyVisaGuidePage() {
               <h2 className="text-lg font-semibold text-gray-900 mb-6">Related Pages</h2>
               <div className="grid sm:grid-cols-3 gap-4">
                 {[
-                  { label: 'Turkey Destination Guide', href: '/destinations/turkey', desc: 'Cities, hospitals, costs, and specialties' },
+                  { label: 'Türkiye Destination Guide', href: '/destinations/turkey', desc: 'Cities, hospitals, costs, and specialties' },
                   { label: 'India Medical Visa Guide', href: '/visa-guide/india', desc: 'Dedicated Medical e-Visa for treatment in India' },
                   { label: 'International Patient Services', href: '/international-patient-services', desc: 'Full list of services Sultan GHC provides' },
                 ].map(({ label, href, desc }) => (

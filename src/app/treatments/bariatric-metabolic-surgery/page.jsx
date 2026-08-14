@@ -5,28 +5,28 @@ import {
 } from 'lucide-react'
 
 export const metadata = {
-  title: 'Bariatric & Weight Loss Surgery Abroad | India & Turkey | Sultan GHC',
+  title: 'Bariatric & Weight Loss Surgery Abroad | India & Türkiye | Sultan GHC',
   description:
-    'Sleeve gastrectomy, gastric bypass, mini gastric bypass, SADI-S, and bariatric revision surgery in India and Turkey — $4,000–$9,000 vs $15,000–$45,000 in the U.S. Accredited bariatric centers, IFSO-member surgeons, and full care coordination for American patients by Sultan GHC.',
+    'Sleeve gastrectomy, gastric bypass, mini gastric bypass, SADI-S, and bariatric revision surgery in India and Türkiye — $4,000–$9,000 vs $15,000–$45,000 in the U.S. Accredited bariatric centers, IFSO-member surgeons, and full care coordination for American patients by Sultan GHC.',
   keywords: [
     'bariatric surgery India cost',
     'sleeve gastrectomy India cost',
     'gastric bypass India cost',
-    'bariatric surgery Turkey cost',
+    'bariatric surgery Türkiye cost',
     'weight loss surgery India',
-    'sleeve gastrectomy Turkey cost',
+    'sleeve gastrectomy Türkiye cost',
     'mini gastric bypass India',
     'SADI-S surgery India',
     'bariatric surgery for Americans abroad',
     'affordable bariatric surgery USA patients',
-    'bariatric surgery medical tourism India Turkey',
+    'bariatric surgery medical tourism India Türkiye',
     'Sultan GHC bariatric',
     'IFSO bariatric surgeon India',
     'bariatric revision surgery India cost',
     'endoscopic sleeve gastroplasty India',
   ],
   openGraph: {
-    title: 'Bariatric Surgery in India & Turkey | Sleeve, Bypass, SADI-S | Sultan GHC',
+    title: 'Bariatric Surgery in India & Türkiye | Sleeve, Bypass, SADI-S | Sultan GHC',
     description: 'Sleeve gastrectomy, gastric bypass, and bariatric revision surgery — $4,000–$9,000 vs $15,000–$45,000 in the U.S. at accredited bariatric centers.',
     url: 'https://www.sultanghc.com/treatments/bariatric-metabolic-surgery',
     siteName: 'Sultan Global Health Care',
@@ -34,7 +34,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bariatric Surgery Abroad | Sleeve, Bypass, SADI-S | India & Turkey | Sultan GHC',
+    title: 'Bariatric Surgery Abroad | Sleeve, Bypass, SADI-S | India & Türkiye | Sultan GHC',
     description: 'Sleeve gastrectomy, gastric bypass, and revision bariatric surgery — $4,000–$9,000 vs $15,000–$45,000 U.S. costs.',
   },
   alternates: { canonical: 'https://www.sultanghc.com/treatments/bariatric-metabolic-surgery' },
@@ -53,8 +53,8 @@ const breadcrumbSchema = {
 const medicalSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalWebPage',
-  name: 'Bariatric & Metabolic Surgery Abroad — India and Turkey',
-  description: 'Sleeve gastrectomy, gastric bypass, mini gastric bypass, SADI-S, and revision bariatric surgery for U.S. patients at accredited bariatric centers in India and Turkey, coordinated by Sultan GHC.',
+  name: 'Bariatric & Metabolic Surgery Abroad — India and Türkiye',
+  description: 'Sleeve gastrectomy, gastric bypass, mini gastric bypass, SADI-S, and revision bariatric surgery for U.S. patients at accredited bariatric centers in India and Türkiye, coordinated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/bariatric-metabolic-surgery',
   about: { '@type': 'MedicalSpecialty', name: 'Bariatric Surgery', alternateName: ['Weight Loss Surgery', 'Metabolic Surgery', 'Obesity Surgery'], relevantSpecialty: 'General Surgery' },
 }
@@ -76,7 +76,7 @@ const faqSchema = {
       name: 'How much does gastric bypass surgery cost in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Roux-en-Y gastric bypass (RYGB) in the U.S. costs $20,000–$45,000 for self-pay patients. In India: $5,000–$9,000 — a saving of 75–80%. Mini gastric bypass (MGB / one-anastomosis gastric bypass / OAGB) costs $4,500–$7,500 in India. Both RYGB and MGB are available at Apollo, Fortis, and Medanta bariatric programs. Turkey: $5,000–$9,000 for RYGB.',
+        text: 'Roux-en-Y gastric bypass (RYGB) in the U.S. costs $20,000–$45,000 for self-pay patients. In India: $5,000–$9,000 — a saving of 75–80%. Mini gastric bypass (MGB / one-anastomosis gastric bypass / OAGB) costs $4,500–$7,500 in India. Both RYGB and MGB are available at Apollo, Fortis, and Medanta bariatric programs. Türkiye: $5,000–$9,000 for RYGB.',
       },
     },
     {
@@ -269,7 +269,7 @@ export default function BariatricMetabolicSurgeryPage() {
               </span>
               <h1 className="text-3xl sm:text-5xl font-semibold text-gray-900 leading-tight mb-5">
                 Bariatric Surgery in{' '}
-                <span className="text-primary">India & Turkey</span> — $4,000–$9,000 vs $15,000–$45,000 in the U.S.
+                <span className="text-primary">India & Türkiye</span> — $4,000–$9,000 vs $15,000–$45,000 in the U.S.
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-6 max-w-2xl">
                 Sleeve gastrectomy, gastric bypass, mini bypass, SADI-S, and revision bariatric surgery — performed by IFSO-member surgeons at accredited bariatric centers. Sultan GHC coordinates the complete journey for American patients seeking life-changing weight loss surgery at a fraction of U.S. costs.
@@ -281,7 +281,7 @@ export default function BariatricMetabolicSurgeryPage() {
                   {[
                     { flag: 'us', label: 'USA', price: '$15K–$35K', color: 'text-red-500' },
                     { flag: 'in', label: 'India', price: '$4K–$7K', color: 'text-primary' },
-                    { flag: 'tr', label: 'Turkey', price: '$4K–$8K', color: 'text-primary' },
+                    { flag: 'tr', label: 'Türkiye', price: '$4K–$8K', color: 'text-primary' },
                   ].map(({ flag, label, price, color }) => (
                     <div key={flag} className="bg-gray-50 rounded-xl p-3">
                       <img src={`https://flagcdn.com/20x15/${flag}.png`} width={20} height={15} alt={label} className="rounded-sm mx-auto mb-1.5" />
@@ -290,7 +290,7 @@ export default function BariatricMetabolicSurgeryPage() {
                     </div>
                   ))}
                 </div>
-                <p className="text-[10px] text-gray-400 mt-3">Source: ASMBS 2024 (U.S.) · IFSO partner center rates (India/Turkey 2025)</p>
+                <p className="text-[10px] text-gray-400 mt-3">Source: ASMBS 2024 (U.S.) · IFSO partner center rates (India/Türkiye 2025)</p>
               </div>
               <div className="flex flex-wrap gap-3">
                 <Link href="/enquiry" className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-xl font-semibold text-sm hover:bg-primary/90 transition-colors shadow-md">
@@ -402,8 +402,8 @@ export default function BariatricMetabolicSurgeryPage() {
       <section className="bg-white py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Bariatric Surgery Cost: USA vs India vs Turkey</h2>
-            <p className="text-gray-500 max-w-2xl mx-auto text-sm">U.S. figures from ASMBS (American Society for Metabolic and Bariatric Surgery, 2024) and FAIR Health. India and Turkey from IFSO partner center rates (2025). All-inclusive: surgeon, anaesthesia, 2–3 night hospital stay, dietitian consultation.</p>
+            <h2 className="text-2xl sm:text-3xl font-semibold text-gray-900 mb-3">Bariatric Surgery Cost: USA vs India vs Türkiye</h2>
+            <p className="text-gray-500 max-w-2xl mx-auto text-sm">U.S. figures from ASMBS (American Society for Metabolic and Bariatric Surgery, 2024) and FAIR Health. India and Türkiye from IFSO partner center rates (2025). All-inclusive: surgeon, anaesthesia, 2–3 night hospital stay, dietitian consultation.</p>
           </div>
           <div className="overflow-x-auto rounded-2xl border border-gray-200 shadow-sm">
             <table className="w-full text-sm">
@@ -417,7 +417,7 @@ export default function BariatricMetabolicSurgeryPage() {
                     <span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/in.png" width={20} height={15} alt="India" className="rounded-sm" /> India</span>
                   </th>
                   <th className="text-center px-5 py-4 font-semibold text-primary">
-                    <span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Turkey" className="rounded-sm" /> Turkey</span>
+                    <span className="inline-flex items-center justify-center gap-1.5"><img src="https://flagcdn.com/20x15/tr.png" width={20} height={15} alt="Türkiye" className="rounded-sm" /> Türkiye</span>
                   </th>
                   <th className="text-center px-5 py-4 font-semibold text-green-400 rounded-tr-2xl">Save (India)</th>
                 </tr>
@@ -439,7 +439,7 @@ export default function BariatricMetabolicSurgeryPage() {
         </div>
       </section>
 
-      {/* Why India / Turkey */}
+      {/* Why India / Türkiye */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
           <div className="grid lg:grid-cols-2 gap-10">
@@ -469,20 +469,20 @@ export default function BariatricMetabolicSurgeryPage() {
             </div>
             <div className="bg-white rounded-3xl border border-gray-200 p-8 shadow-sm">
               <div className="flex items-center gap-3 mb-6">
-                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Turkey" className="rounded shadow-sm" />
+                <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900">Bariatric Surgery in Turkey</h3>
+                  <h3 className="text-lg font-semibold text-gray-900">Bariatric Surgery in Türkiye</h3>
                   <p className="text-sm text-gray-500">Acibadem, Memorial, Medicana, Private Bariatric Clinics</p>
                 </div>
               </div>
               <ul className="space-y-3">
                 {[
-                  'Turkey is one of Europe\'s most popular bariatric destinations — particularly for sleeve gastrectomy and gastric bypass for European and Middle Eastern patients',
+                  'Türkiye is one of Europe\'s most popular bariatric destinations — particularly for sleeve gastrectomy and gastric bypass for European and Middle Eastern patients',
                   'Acibadem — JCI-accredited with dedicated bariatric units performing thousands of procedures annually across Istanbul, Ankara, and Izmir',
                   'Memorial Hospital Istanbul — comprehensive bariatric program with full pre-operative multidisciplinary team and post-operative nutrition support',
                   'Medicana International — high-volume sleeve gastrectomy center; all-inclusive packages covering hospital, hotel, transfers, and nutritionist follow-up',
                   'Turkish bariatric surgeons trained in Germany, France, and the U.S. — many IFSO Executive Council members',
-                  'U.S. citizens visa-free for Turkey; Turkish Airlines nonstop from 7 U.S. cities; all-inclusive 10–14 day packages widely available',
+                  'U.S. citizens visa-free for Türkiye; Turkish Airlines nonstop from 7 U.S. cities; all-inclusive 10–14 day packages widely available',
                 ].map(pt => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}
