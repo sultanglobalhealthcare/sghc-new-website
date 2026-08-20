@@ -358,6 +358,10 @@ export default function OrganBoneMarrowTransplantPage() {
                 Transplant candidacy is determined solely by the hospital's multidisciplinary transplant team — not by Sultan GHC. In India, living donor transplants for foreign nationals are permitted under the{' '}
                 <strong>Transplantation of Human Organs and Tissues Act (THOTA)</strong> when the donor is a blood relative or spouse, and all cases go through a state-mandated Authorization Committee. Deceased donor organs are generally not available to foreign nationals under Indian law. Sultan GHC provides complete legal and ethical guidance and works exclusively with NOTTO-compliant programs. We do not facilitate any commercial organ trade.
               </p>
+              <p className="text-sm font-semibold text-amber-800 mb-2 mt-5">Türkiye — Transplant Legal Framework</p>
+              <p className="text-sm text-amber-700 leading-relaxed">
+                In Türkiye, organ transplantation is governed by <strong>Organ Transplantation Law No. 2238</strong> (1979, as amended). Living donor transplants are permitted between first- and second-degree blood relatives or spouses, and all cases are reviewed by a hospital Ethics Committee under Turkish Ministry of Health oversight. Foreign nationals may access living donor transplant programs at JCI-accredited private hospitals in Istanbul, subject to Ethics Committee approval and full donor evaluation. Deceased donor organs are generally allocated to Turkish nationals first under the national waiting list system. Sultan GHC works with Ministry of Health-licensed transplant centers in Türkiye and provides complete legal guidance for each case.
+              </p>
             </div>
           </div>
         </div>

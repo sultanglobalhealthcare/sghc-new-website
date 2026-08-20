@@ -234,7 +234,7 @@ const FAQS = [
   },
   {
     q: 'How much can I realistically save on treatment costs?',
-    a: 'U.S. patients typically save 60–80% on the total cost of treatment — including flights and accommodation — compared to equivalent procedures in the United States. For example, a hip replacement that costs $40,000+ in the U.S. can be completed in India for under $8,000, including travel.',
+    a: 'U.S. patients typically save 60–80% on the total cost of treatment — including flights and accommodation — compared to equivalent procedures in the United States. For example, a hip replacement that costs $40,000+ in the U.S. can be completed in India for under $8,000, including travel. In Türkiye, the same procedure typically costs $7,000–$12,000 — still a saving of 70–80% compared to U.S. prices, with the added convenience of shorter flight times and no visa requirement for U.S. passport holders.',
   },
   {
     q: 'Can I bring a family member or companion with me?',

@@ -473,6 +473,7 @@ export default function RoboticMinimallyInvasivePage() {
                   'Manipal Hospital Bengaluru — da Vinci Si/Xi; robotic prostatectomy and robotic gynecology including radical hysterectomy for cervical cancer',
                   'Narayana Institute of Cardiac Sciences Bengaluru — da Vinci for robotic cardiac and thoracic surgery including robotic CABG and lobectomy',
                   'Tata Memorial Hospital Mumbai — select robotic procedures for oncological head-neck and thoracic surgery via government-run robotic program',
+                  'Rela Institute & Medical Centre Chennai — da Vinci robotic program for hepatobiliary, urological, and general surgery; Asia\'s largest liver transplant program by volume',
                 ].map(pt => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

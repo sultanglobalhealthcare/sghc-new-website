@@ -641,6 +641,10 @@ export default function FertilityIVFPage() {
               <p className="text-sm text-amber-700 leading-relaxed">
                 India's <strong>Surrogacy (Regulation) Act 2021</strong> restricts surrogacy to altruistic arrangements exclusively for Indian citizens (close relative surrogates only). <strong>Commercial surrogacy and surrogacy for foreign nationals are not legally available in India.</strong> Sultan GHC does not facilitate, promote, or arrange surrogacy of any kind. U.S. patients interested in gestational carrier arrangements should work with a licensed U.S. fertility attorney and a U.S.-based surrogacy agency. Sultan GHC can coordinate the IVF component (egg retrieval, embryo creation, and cryopreservation) in India if required as part of a U.S. gestational carrier program.
               </p>
+              <p className="text-sm font-semibold text-amber-800 mb-2 mt-5">Surrogacy in Türkiye — Legal Position</p>
+              <p className="text-sm text-amber-700 leading-relaxed">
+                Surrogacy is <strong>not legally recognized in Türkiye.</strong> Turkish law does not provide a legal framework for surrogacy arrangements — neither commercial nor altruistic surrogacy is available to Turkish nationals or foreign nationals under Turkish law. Sultan GHC does not facilitate, promote, or arrange surrogacy in Türkiye. U.S. patients seeking gestational carrier arrangements should consult a licensed U.S. fertility attorney and a U.S.-based surrogacy agency. Sultan GHC can coordinate IVF-related procedures (egg retrieval, embryo creation, and cryopreservation) in Türkiye as part of a broader fertility plan where legally appropriate.
+              </p>
             </div>
           </div>
         </div>

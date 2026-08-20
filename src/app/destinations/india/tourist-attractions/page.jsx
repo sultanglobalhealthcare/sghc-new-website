@@ -234,8 +234,8 @@ const ITINERARIES = [
 ]
 
 const PRACTICAL = [
-  { icon: Plane,    title: 'Flights from the U.S.', desc: 'Air India, United, American, Emirates, and Lufthansa offer connections to Delhi, Mumbai, Chennai, Bengaluru, and Hyderabad. Typical travel time: 16–22 hours including connections via London, Dubai, or Doha.' },
-  { icon: MapPin,   title: 'Currency', desc: 'Indian Rupee (INR). As of 2025: USD 1 ≈ ₹83. ATMs are widely available in all cities. Cards accepted at hotels and major restaurants. Tip 10% at restaurants; ₹100–200 for hotel staff per day.' },
+  { icon: Plane,    title: 'Flights from the U.S.', desc: 'American, Air India, Air France, British Airways, Emirates, Etihad, Lufthansa, Qatar, Saudi, Turkish, and United Airlines offer connections to Delhi, Mumbai, Chennai, Bengaluru, and Hyderabad. U.S. East Coast to Delhi/Mumbai: 14–16 hours, typically one stop via London, Dubai, or Doha. U.S. West Coast to Delhi/Mumbai: 15–17 hours, nonstop available on Air India and United. Typical travel time overall: 16–22 hours. Best practice: book flexible-date tickets; Sultan GHC helps plan your complete travel itinerary.' },
+  { icon: MapPin,   title: 'Currency', desc: 'Indian Rupee (INR). As of 2026: USD 1 ≈ ₹93 (verify current rate before travel). ATMs are widely available in all cities. Cards accepted at hotels and major restaurants. Tip 10% at restaurants; ₹100–200 for hotel staff per day.' },
   { icon: Star,     title: 'English Language', desc: 'English is widely spoken in all major hospital cities and tourist sites. All hospital staff communicate fully in English. Menus, signs, and transport in major cities are in English.' },
   { icon: Shield,   title: 'Safety', desc: 'All major hospital cities are safe for international tourists. Use Uber or Ola (both apps work throughout India) for transport. Avoid tap water — use bottled water exclusively throughout your stay.' },
   { icon: Coffee,   title: 'Food During Recovery', desc: 'South Indian vegetarian food (idli, dosa, rice) is very gentle post-operatively. All 5-star hotels have Western menus. Your Sultan GHC coordinator advises on diet restrictions specific to your procedure.' },
