@@ -501,12 +501,13 @@ export default function GastroenterologyPage() {
                 <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Gastroenterology in India</h3>
-                  <p className="text-sm text-gray-500">Apollo, Fortis, Medanta, Asian Institute of Gastroenterology</p>
+                  <p className="text-sm text-gray-500">Apollo, Fortis, Medanta, Rela Institute, Asian Institute of Gastroenterology</p>
                 </div>
               </div>
               <ul className="space-y-3">
                 {[
                   'Asian Institute of Gastroenterology (Hyderabad) — one of Asia\'s largest dedicated GI centers',
+                  'Rela Institute & Medical Centre Chennai — advanced hepatobiliary and GI surgery center; Sultan GHC MOU partner',
                   'High-definition colonoscopy with NBI (Narrow Band Imaging) for polyp detection at all partner hospitals',
                   'ERCP performed by therapeutic endoscopists trained at Mayo Clinic and UK tertiary GI centers',
                   'IBD biologics including infliximab, vedolizumab, and ustekinumab biosimilars at WHO-prequalified quality',

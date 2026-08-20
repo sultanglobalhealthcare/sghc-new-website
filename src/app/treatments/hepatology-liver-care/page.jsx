@@ -523,12 +523,13 @@ export default function HepatologyPage() {
                 <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Liver Care in India</h3>
-                  <p className="text-sm text-gray-500">Medanta, Global Hospitals, Apollo, Fortis</p>
+                  <p className="text-sm text-gray-500">Medanta, Rela Institute, Global Hospitals, Apollo, Fortis</p>
                 </div>
               </div>
               <ul className="space-y-3">
                 {[
                   'Medanta — The Medicity (Gurugram) performs 400+ liver transplants annually — one of Asia\'s highest volumes',
+                  'Rela Institute & Medical Centre Chennai — Asia\'s largest liver transplant program by volume; founded by world-renowned HPB surgeon Dr. Mohamed Rela; Sultan GHC MOU partner',
                   'Global Hospitals Mumbai specializes in living donor liver transplant with 95%+ graft survival',
                   'Drug-eluting bead TACE (DEB-TACE) and Y-90 radioembolization available for HCC',
                   'India performs 2,500+ liver transplants per year — comparable to top U.S. transplant programs in volume',

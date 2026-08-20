@@ -670,6 +670,12 @@ export default function OncologyPage() {
                 spec: 'Medical Oncology, Targeted Therapy, Hematology',
               },
               {
+                country: 'India',
+                name: 'Rela Institute & Medical Centre',
+                location: 'Chennai',
+                spec: 'Hepatobiliary Oncology, GI Cancer Surgery, Robotic Resection',
+              },
+              {
                 country: 'Türkiye',
                 name: 'Memorial Hospital Group',
                 location: 'Istanbul, Ankara',

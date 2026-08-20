@@ -222,7 +222,7 @@ const CITIES = [
     tagline: 'Cardiac Surgery, Spine & ENT',
     desc: "Often called India's \"health capital,\" Chennai attracts a significant share of India's international patients. The city is globally recognized for cardiac care, spine surgery, renal transplants, and ENT — with Apollo Chennai being one of the most visited hospitals by medical tourists in all of Asia.",
     specialties: ['Cardiac Surgery', 'Spine Surgery', 'ENT & Head-Neck', 'Renal Transplant', 'Robotic Surgery'],
-    hospitals: 'Apollo Hospitals Chennai, MGM Healthcare, MIOT International, Fortis Malar',
+    hospitals: 'Apollo Hospitals Chennai, Rela Institute & Medical Centre, MGM Healthcare, MIOT International, Fortis Malar',
     icon: Stethoscope,
     color: 'border-emerald-200 bg-emerald-50/50',
     accent: 'text-emerald-600 bg-emerald-100',

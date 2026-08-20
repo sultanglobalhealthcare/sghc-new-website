@@ -434,6 +434,7 @@ export default function OrganBoneMarrowTransplantPage() {
               <ul className="space-y-3">
                 {[
                   'Medanta Medicity (Gurugram) — 400+ liver transplants/year, India\'s highest-volume LDLT center',
+                  'Rela Institute & Medical Centre Chennai — Asia\'s largest liver transplant program; dedicated HPB and organ transplant center; Sultan GHC MOU partner',
                   'Apollo Hospitals Chennai — dedicated kidney and liver transplant program with 30-year track record',
                   'Global Hospitals Mumbai — recognized center for complex LDLT with auxiliary and split-liver techniques',
                   'AIIMS Delhi & Tata Memorial Mumbai — premier BMT programs for leukemia, lymphoma, MDS, aplastic anemia',

@@ -78,14 +78,14 @@ const CITIES = [
   },
   {
     city: 'Chennai & Tamil Nadu',
-    hospital: 'Apollo Hospitals, MIOT, Gleneagles',
+    hospital: 'Apollo Hospitals, Rela Institute & Medical Centre, MIOT, Gleneagles',
     tag: 'South India — Tamil Nadu',
     gradient: 'from-amber-700 to-orange-600',
     lightBg: 'bg-amber-50',
     lightBorder: 'border-amber-100',
     tagBg: 'bg-amber-100 text-amber-800',
     emoji: '🏛️',
-    description: 'Tamil Nadu is one of India\'s richest cultural states — ancient Dravidian temples, French colonial heritage, and pristine beaches all within easy reach of Chennai\'s world-class hospitals. Chennai is home to Apollo, one of Asia\'s most visited hospitals for medical tourists.',
+    description: 'Tamil Nadu is one of India\'s richest cultural states — ancient Dravidian temples, French colonial heritage, and pristine beaches all within easy reach of Chennai\'s world-class hospitals. Chennai is home to Apollo, one of Asia\'s most visited hospitals for medical tourists, and Rela Institute & Medical Centre, Asia\'s largest liver transplant program and a Sultan GHC MOU partner.',
     attractions: [
       { name: 'Mahabalipuram (Mamallapuram)', distance: '1 hr south', type: 'UNESCO Heritage', desc: '7th-century stone temples and rock carvings by the Bay of Bengal. Flat ground, wheelchair-accessible in most areas. Ideal for recovering patients in week one.' },
       { name: 'Pondicherry (Puducherry)', distance: '2 hrs south', type: 'French Colonial Town', desc: 'White-and-mustard French colonial buildings, Sri Aurobindo Ashram, and a beautiful seafront promenade. Slow-paced and serene — perfect for recovery.' },
