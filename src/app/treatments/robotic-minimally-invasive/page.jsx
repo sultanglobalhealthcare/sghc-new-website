@@ -207,6 +207,7 @@ const FAQS = [
   {
     q: 'Is robotic surgery available in Türkiye?',
     a: 'Yes. Acibadem and Memorial Hospital Istanbul have da Vinci systems. Türkiye costs $4,000–$12,000 — comparable to India. No visa required for Americans; Turkish Airlines nonstop from 7 U.S. cities.',
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
   },
 ]
 
@@ -568,6 +569,8 @@ export default function RoboticMinimallyInvasivePage() {
           <div className="mt-6"><Link href="/treatments" className="inline-flex items-center gap-1.5 text-sm text-primary font-semibold hover:underline">View All Treatment Specialties <ArrowRight size={14} /></Link></div>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited Robotic Surgery Centers" />
 
       {/* FAQ */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">

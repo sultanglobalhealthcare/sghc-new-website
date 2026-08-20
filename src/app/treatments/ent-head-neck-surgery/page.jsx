@@ -101,6 +101,7 @@ const faqSchema = {
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Yes. Surgical options for obstructive sleep apnea — for patients who cannot tolerate CPAP — include UPPP (uvulopalatopharyngoplasty), soft palate radiofrequency ablation, tonsillectomy, septoplasty for nasal obstruction, and Inspire hypoglossal nerve stimulator implantation (at select centers). Drug-Induced Sleep Endoscopy (DISE) is performed pre-operatively to identify the collapse site. Sleep surgery in the U.S. costs $8,000–$30,000; India: $1,500–$5,000.',
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
       },
     },
     {
@@ -502,6 +503,8 @@ export default function ENTHeadNeckSurgeryPage() {
           <div className="mt-6"><Link href="/treatments" className="inline-flex items-center gap-1.5 text-sm text-primary font-semibold hover:underline">View All Treatment Specialties <ArrowRight size={14} /></Link></div>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited ENT & Head-Neck Centers" />
 
       {/* FAQ */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">

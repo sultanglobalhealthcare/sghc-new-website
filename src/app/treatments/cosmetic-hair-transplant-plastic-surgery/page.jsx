@@ -160,6 +160,7 @@ const PROCEDURES = [
       { name: 'Breast Augmentation', desc: 'Silicone and cohesive gel implants — round and anatomical shapes. FDA-equivalent implant brands (Mentor, Motiva, Silimed) available at partner clinics.' },
       { name: 'Breast Lift (Mastopexy)', desc: 'Crescent, lollipop, and anchor mastopexy — with or without implants — for ptosis following pregnancy, weight loss, or age.' },
       { name: 'Breast Reduction', desc: 'Functional and aesthetic breast reduction with nipple repositioning — covered by insurance in the U.S.; priced at $2,500–$5,000 in India and Türkiye.' },
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
       { name: 'Breast Reconstruction (Post-Mastectomy)', desc: 'Implant-based or autologous flap reconstruction (TRAM, DIEP, latissimus dorsi) for breast cancer survivors — available at Tata Memorial, Apollo, and Fortis.' },
     ],
   },
@@ -530,6 +531,8 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
           </div>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited Partner Hospitals" />
 
       {/* FAQ */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">

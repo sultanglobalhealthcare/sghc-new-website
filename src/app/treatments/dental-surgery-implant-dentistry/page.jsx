@@ -246,6 +246,7 @@ const FAQS = [
   {
     q: 'What is the difference between All-on-4 and All-on-6?',
     a: 'All-on-4 uses four implants to support a full arch; All-on-6 uses six for added stability — particularly recommended for patients with more bone loss. Both provide fixed, permanent teeth. Your dentist will recommend the right option based on your bone density scans.',
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
   },
   {
     q: 'Can I combine dental treatment with a holiday?',
@@ -814,6 +815,8 @@ export default function DentalSurgeryPage() {
           </div>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited Dental & Surgical Centers" />
 
       {/* ── FAQs ── */}
       <section className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-20">

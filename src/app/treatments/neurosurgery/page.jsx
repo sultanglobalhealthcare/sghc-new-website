@@ -660,6 +660,8 @@ export default function NeurosurgeryPage() {
         </div>
       </section>
 
+      <PartnerHospitalsSection title="Internationally Accredited Neurosurgery Centers" />
+
       {/* ── FAQ ── */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
         <div className="max-w-4xl mx-auto px-6 sm:px-10 lg:px-16">
@@ -669,6 +671,7 @@ export default function NeurosurgeryPage() {
             </h2>
             <p className="text-gray-500 text-sm">
               Sourced from real patient questions handled by Sultan GHC&apos;s medical and patient care team.
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
             </p>
           </div>
           <div className="space-y-4">

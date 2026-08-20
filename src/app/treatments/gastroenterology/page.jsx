@@ -508,6 +508,7 @@ export default function GastroenterologyPage() {
                 {[
                   'Asian Institute of Gastroenterology (Hyderabad) — one of Asia\'s largest dedicated GI centers',
                   'Rela Institute & Medical Centre Chennai — advanced hepatobiliary and GI surgery center; Sultan GHC MOU partner',
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
                   'High-definition colonoscopy with NBI (Narrow Band Imaging) for polyp detection at all partner hospitals',
                   'ERCP performed by therapeutic endoscopists trained at Mayo Clinic and UK tertiary GI centers',
                   'IBD biologics including infliximab, vedolizumab, and ustekinumab biosimilars at WHO-prequalified quality',
@@ -618,6 +619,8 @@ export default function GastroenterologyPage() {
           </div>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited GI & Liver Centers" />
 
       {/* ── FAQ ── */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">

@@ -14,6 +14,7 @@ import {
   Stethoscope,
   Users,
 } from 'lucide-react'
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
@@ -809,6 +810,8 @@ export default function OrthopedicsPage() {
           </div>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited Orthopaedic Centers" />
 
       {/* ── FAQs ── */}
       <section className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-20">

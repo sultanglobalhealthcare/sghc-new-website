@@ -52,6 +52,8 @@ export default function sitemap() {
 
   /** Destination & network pages */
   const destinations = [
+    { url: `${BASE}/hospitals/india`,                            lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE}/hospitals/turkey`,                           lastModified: now, changeFrequency: 'monthly', priority: 0.85 },
     { url: `${BASE}/destinations/india`,                         lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE}/destinations/india/tourist-attractions`,     lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
     { url: `${BASE}/destinations/turkey`,                        lastModified: now, changeFrequency: 'monthly', priority: 0.8 },

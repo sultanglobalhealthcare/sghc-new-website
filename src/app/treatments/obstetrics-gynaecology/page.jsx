@@ -136,6 +136,7 @@ const faqSchema = {
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Yes. Laparoscopic sacrocolpopexy (mesh-based vault suspension for vaginal vault prolapse), anterior/posterior colporrhaphy, and mid-urethral sling procedures (TOT, TVT) for stress urinary incontinence are fully available at partner hospitals in India and Türkiye. Pelvic floor repair in the U.S. costs $10,000–$30,000; India costs $1,500–$4,500. Urogynaecology subspecialists are available at Apollo, Fortis, and Manipal.',
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
       },
     },
   ],
@@ -649,6 +650,8 @@ export default function ObstetricsGynaecologyPage() {
           </div>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited Gynaecology Centers" />
 
       {/* FAQ */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">

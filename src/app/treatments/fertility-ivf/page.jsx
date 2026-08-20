@@ -590,6 +590,7 @@ export default function FertilityIVFPage() {
                 {[
                   'India performs 250,000+ IVF cycles annually — one of the highest volumes in Asia, with a large pool of highly experienced reproductive endocrinologists',
                   'Nova IVF — India\'s largest IVF network with 80+ centers and published outcome data; partner with Sultan GHC for international patient coordination',
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
                   'Milann Fertility Centre (Bangalore) — ICMR-registered, dedicated fertility hospital with advanced genetics lab (PGT-A, PGT-M, ERA)',
                   'Cloudnine Hospitals — dedicated Women\'s health hospital with fertility unit, genetics laboratory, and gynaecological surgery integration',
                   'IVF medications (FSH, GnRH analogues) available as Indian generic equivalents at 60–75% lower cost than U.S. branded medications',
@@ -705,6 +706,8 @@ export default function FertilityIVFPage() {
           </div>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited Fertility & IVF Centers" />
 
       {/* FAQ */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">

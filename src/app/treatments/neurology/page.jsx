@@ -4,6 +4,7 @@ import {
   CheckCircle2, Brain, Activity, AlertCircle,
   DollarSign, Shield, Users, ImageIcon,
 } from 'lucide-react'
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
@@ -645,6 +646,8 @@ export default function NeurologyPage() {
           </div>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited Neurology Centers" />
 
       {/* ── FAQ Section ── */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">

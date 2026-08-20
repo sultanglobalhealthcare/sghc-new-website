@@ -292,6 +292,7 @@ export default function OphthalmologyPage() {
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed mb-6 max-w-2xl">
                 From LASIK and cataract surgery to vitreoretinal procedures, corneal transplants, and glaucoma management — Sultan GHC connects U.S. patients with India&apos;s globally acclaimed eye hospitals including Sankara Nethralaya, LV Prasad Eye Institute, and Aravind Eye Hospital.
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
               </p>
               <div className="flex flex-wrap gap-3 mb-8">
                 {[
@@ -521,6 +522,8 @@ export default function OphthalmologyPage() {
           <div className="mt-6"><Link href="/treatments" className="inline-flex items-center gap-1.5 text-sm text-primary font-semibold hover:underline">View All Treatment Specialties <ArrowRight size={14} /></Link></div>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited Eye Care Centers" />
 
       {/* FAQ */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">

@@ -161,6 +161,7 @@ const PROCEDURES = [
   {
     title: 'Kidney Transplant (Living & Deceased Donor)',
     desc: 'Full kidney transplant program for end-stage renal disease (ESRD). In India, living donor kidney transplant is the primary modality; partner hospitals are NOTTO-compliant with full ethics committee oversight, structured donor workup, and 30-day post-transplant monitoring included. In Türkiye, kidney transplant is available at JCI-accredited hospitals in Istanbul under the supervision of the Turkish Ministry of Health; living donor transplants are permitted between relatives or spouses with Ethics Committee approval.',
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
   },
   {
     title: 'Laparoscopic & Robotic Nephrectomy',
@@ -539,6 +540,8 @@ export default function UrologyPage() {
           </div>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited Urology Centers" />
 
       {/* FAQ */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">

@@ -111,6 +111,7 @@ const faqSchema = {
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'A single lung transplant in the U.S. costs $400,000–$600,000 (bilateral: $600,000–$900,000) — total billed before insurance. At JCI-accredited transplant centers in India, a single lung transplant costs $40,000–$70,000. Lung transplant is performed at a smaller number of specialized centers in India compared to liver transplant; Sultan GHC connects patients with the appropriate program based on diagnosis, lung allocation criteria, and individual case complexity.',
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
       },
     },
     {
@@ -535,6 +536,8 @@ export default function PulmonologyPage() {
           </div>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited Pulmonology Centers" />
 
       {/* FAQ */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">

@@ -368,6 +368,7 @@ export default function HepatologyPage() {
             <AlertCircle size={20} className="text-primary shrink-0 mt-0.5" />
             <p className="text-sm text-gray-700 leading-relaxed">
               <strong className="text-gray-900">Digestive tract conditions?</strong> Hepatology covers liver, bile duct, and pancreas disease. For colonoscopy, ERCP, IBD (Crohn&apos;s / ulcerative colitis), and GI endoscopy, see our{' '}
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
               <Link href="/treatments/gastroenterology" className="text-primary font-semibold hover:underline">
                 Gastroenterology page →
               </Link>
@@ -657,6 +658,8 @@ export default function HepatologyPage() {
           </div>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited Liver & Hepatology Centers" />
 
       {/* ── FAQ ── */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">

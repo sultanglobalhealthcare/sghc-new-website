@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 import {
   ChevronRight,
   ArrowRight,
@@ -804,6 +805,8 @@ export default function CardiologyPage() {
           </div>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited Cardiac Centers" />
 
       {/* ── FAQ ── */}
       <section className="bg-white border-b border-gray-100">
