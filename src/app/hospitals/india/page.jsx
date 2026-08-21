@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { CheckCircle2, MapPin, Star, Shield, Users, ArrowRight, Phone } from 'lucide-react'
+import Image from 'next/image'
+import { CheckCircle2, MapPin, Star, Shield, ArrowRight, BedDouble, Stethoscope, CalendarDays } from 'lucide-react'
 
 export const metadata = {
   title: 'Partner Hospitals in India | JCI & NABH Accredited | Sultan GHC',
@@ -47,19 +48,20 @@ const HOSPITALS = [
     name: 'Medanta — The Medicity',
     city: 'Delhi NCR',
     location: 'Gurugram, Haryana',
-    accreditation: 'JCI Accredited',
+    accreditation: 'JCI & NABH',
     accreditationColor: 'bg-blue-100 text-blue-700',
     beds: '1,600+ Beds',
     established: '2009',
     mou: true,
+    img: null,
     specialties: ['Cardiology & Cardiac Surgery', 'Oncology', 'Neurosurgery', 'Orthopaedics', 'Liver Transplant', 'Robotic Surgery'],
     highlights: [
-      '400+ liver transplants annually — India\'s highest-volume LDLT center',
+      'Ranked Best Private Hospital in India for 6 consecutive years (2020–2025) and Newsweek Top 250 World\'s Best Hospitals 2024',
       'da Vinci Xi robotic surgery across urology, gynecology, and cardiac surgery',
-      'JCI accreditation verified — same standard as leading U.S. hospitals',
-      'Institute of Heart, Brain & Spine, and Cancer all under one campus',
+      'High-volume liver transplant program — one of North India\'s leading LDLT centers',
+      'Dedicated institutes for Heart, Brain & Spine, Cancer, and Transplants on a single campus',
     ],
-    doctors: '1,200+ specialists',
+    doctors: '800+ specialists',
     color: 'from-blue-600 to-sky-500',
     initials: 'ME',
   },
@@ -72,12 +74,13 @@ const HOSPITALS = [
     beds: '10,000+ Beds (network)',
     established: '1983',
     mou: false,
+    img: null,
     specialties: ['Cancer Care', 'Organ Transplant', 'Spine Surgery', 'Robotic Surgery', 'Cardiology', 'Fertility'],
     highlights: [
-      'India\'s highest-volume robotic surgery center (da Vinci Xi) — 3,000+ procedures/year',
-      'Apollo Cancer Centre — multidisciplinary tumor board for every case',
-      'One of Asia\'s most visited hospitals by international patients',
-      'Apollo Fertility: advanced IVF and reproductive medicine',
+      'JCI accredited seven times — one of the longest-standing JCI-certified hospital networks in Asia',
+      'Apollo Cancer Centre — multidisciplinary tumor board for every case with da Vinci Xi robotic oncology',
+      'One of Asia\'s most visited hospitals by international patients across 50+ countries',
+      'Apollo Fertility: advanced IVF and reproductive medicine with high success rates',
     ],
     doctors: '4,000+ specialists',
     color: 'from-violet-600 to-purple-500',
@@ -87,16 +90,17 @@ const HOSPITALS = [
     name: 'Rela Institute & Medical Centre',
     city: 'Chennai',
     location: 'Chromepet, Chennai',
-    accreditation: 'NABH Accredited',
-    accreditationColor: 'bg-emerald-100 text-emerald-700',
-    beds: '400+ Beds',
-    established: '2010',
+    accreditation: 'JCI & NABH',
+    accreditationColor: 'bg-blue-100 text-blue-700',
+    beds: '450+ Beds',
+    established: '2018',
     mou: true,
+    img: '/rela-hospital.webp',
     specialties: ['Liver Transplant', 'Hepatobiliary Surgery', 'GI Surgery', 'Robotic Surgery', 'Kidney Transplant', 'Hepatobiliary Oncology'],
     highlights: [
-      'Asia\'s largest liver transplant program by volume — founded by world-renowned HPB surgeon Dr. Mohamed Rela',
-      'Sultan GHC MOU partner — preferred referral center for liver, HPB, and GI cases',
-      'Dedicated hepatobiliary oncology program for GI cancers',
+      'India\'s largest liver transplant program by volume — 300+ liver transplants performed annually',
+      'Founded by Prof. Mohamed Rela, who holds a Guinness World Record for a successful liver transplant on a 5-day-old infant',
+      'Prof. Rela has personally performed 4,000+ liver transplant surgeries over 28 years',
       'Robotic hepatobiliary surgery including robotic liver resection and Whipple procedure',
     ],
     doctors: '300+ specialists',
@@ -107,19 +111,20 @@ const HOSPITALS = [
     name: 'Fortis Memorial Research Institute',
     city: 'Delhi NCR',
     location: 'Gurugram, Haryana',
-    accreditation: 'NABH Accredited',
-    accreditationColor: 'bg-emerald-100 text-emerald-700',
+    accreditation: 'JCI & NABH',
+    accreditationColor: 'bg-blue-100 text-blue-700',
     beds: '310 Beds',
     established: '2013',
     mou: false,
+    img: null,
     specialties: ['Robotic Surgery', 'Neurology & Neurosurgery', 'Bone Marrow Transplant', 'Bariatric Surgery', 'Cardiology', 'Fertility'],
     highlights: [
-      'da Vinci Xi robotic prostatectomy, hysterectomy, colectomy, and complex revision bariatric',
-      'Haploidentical BMT program for patients without a fully matched donor',
-      'Joint Commission International standards-equivalent quality process',
-      'High-volume bariatric and metabolic surgery center',
+      'First hospital in India to perform robotic-assisted joint replacement surgery',
+      'da Vinci Xi robotic prostatectomy, hysterectomy, colectomy, and complex revision bariatric surgery',
+      'Haploidentical BMT program — bone marrow transplant for patients without a fully matched donor',
+      'High-volume bariatric and metabolic surgery center with 15 ultra-modern operating theatres',
     ],
-    doctors: '500+ specialists',
+    doctors: '200+ specialists',
     color: 'from-emerald-600 to-green-500',
     initials: 'FM',
   },
@@ -127,19 +132,20 @@ const HOSPITALS = [
     name: 'Kokilaben Dhirubhai Ambani Hospital',
     city: 'Mumbai',
     location: 'Andheri West, Mumbai',
-    accreditation: 'NABH Accredited',
-    accreditationColor: 'bg-emerald-100 text-emerald-700',
+    accreditation: 'JCI & NABH',
+    accreditationColor: 'bg-blue-100 text-blue-700',
     beds: '750+ Beds',
     established: '2009',
     mou: false,
+    img: null,
     specialties: ['Robotic Surgery', 'Oncology', 'Cardiology', 'Neurosurgery', 'Orthopaedics', 'Urology'],
     highlights: [
-      'da Vinci Xi robotic gynecology and urology — NABH-accredited with ISO certification',
-      'Tata Memorial-linked oncology programs for complex cancer cases',
-      'CyberKnife stereotactic radiosurgery for brain and spine tumors',
-      'One of Mumbai\'s largest private multispecialty hospitals',
+      'Only hospital in Mumbai with all four accreditations: JCI, NABH, NABL, and CAP (College of American Pathology)',
+      'da Vinci Xi robotic surgery across gynecology, urology, and oncology — 630+ robotic surgeries performed',
+      'Novalis TX stereotactic radiosurgery for brain, liver, pancreas, prostate, and lung tumors',
+      'One of Mumbai\'s largest and most technologically advanced private multispecialty hospitals',
     ],
-    doctors: '700+ specialists',
+    doctors: '400+ specialists',
     color: 'from-orange-600 to-amber-500',
     initials: 'KD',
   },
@@ -152,12 +158,13 @@ const HOSPITALS = [
     beds: '5,000+ Beds (network)',
     established: '1991',
     mou: false,
+    img: null,
     specialties: ['Oncology', 'Robotic Surgery', 'Orthopaedics', 'Neurology', 'Fertility', 'Cardiology'],
     highlights: [
-      'da Vinci Si/Xi robotic prostatectomy and radical hysterectomy for cervical cancer',
-      'Manipal Comprehensive Cancer Centre — multidisciplinary oncology board',
-      'Advanced orthopaedic and joint replacement program',
-      'Network across Bengaluru, Kolkata, Vijayawada, and Goa',
+      'Robotic oncology program — da Vinci Xi for gynecological, GI, oesophageal, thyroid, and urological cancers',
+      'Manipal Comprehensive Cancer Centre — multidisciplinary oncology board with IBM Watson-assisted diagnosis',
+      'Complex multi-organ transplants and high-risk cardiac procedures across 60+ specialties',
+      'Network spanning Bengaluru, Kolkata, Vijayawada, Goa, and other major Indian cities',
     ],
     doctors: '3,500+ specialists',
     color: 'from-rose-600 to-pink-500',
@@ -167,17 +174,18 @@ const HOSPITALS = [
     name: 'Narayana Health',
     city: 'Bengaluru',
     location: 'Bommasandra, Bengaluru',
-    accreditation: 'NABH Accredited',
-    accreditationColor: 'bg-emerald-100 text-emerald-700',
+    accreditation: 'JCI & NABH',
+    accreditationColor: 'bg-blue-100 text-blue-700',
     beds: '6,000+ Beds (network)',
     established: '2000',
     mou: false,
+    img: null,
     specialties: ['Cardiac Surgery', 'Robotic Cardiac Surgery', 'Oncology', 'Neurology', 'Kidney Transplant', 'Thoracic Surgery'],
     highlights: [
-      'da Vinci robotic cardiac surgery including robotic CABG and lobectomy',
-      'One of the world\'s highest-volume cardiac surgery programs — 30,000+ heart surgeries/year',
-      'Rabindranath Tagore International Institute of Cardiac Sciences: premier cardiac center',
-      'Exceptional cost-to-quality ratio — affordable cardiac care with JCI-equivalent outcomes',
+      'Narayana Institute of Cardiac Sciences performs 30–35 cardiac surgeries per day — among the highest in the world',
+      'World\'s largest dedicated pediatric cardiac ICU — 80-bed unit for complex congenital heart surgery',
+      '23 cardiac operation theatres and 5 digital catheterization laboratories including a hybrid OR',
+      'Exceptional cost-to-quality ratio — world-class cardiac outcomes at a fraction of U.S. prices',
     ],
     doctors: '4,000+ specialists',
     color: 'from-indigo-600 to-blue-500',
@@ -187,37 +195,39 @@ const HOSPITALS = [
     name: 'Max Super Speciality Hospital',
     city: 'Delhi NCR',
     location: 'Saket & Patparganj, Delhi',
-    accreditation: 'NABH Accredited',
-    accreditationColor: 'bg-emerald-100 text-emerald-700',
-    beds: '500+ Beds',
+    accreditation: 'JCI & NABH',
+    accreditationColor: 'bg-blue-100 text-blue-700',
+    beds: '539+ Beds',
     established: '2006',
     mou: false,
+    img: null,
     specialties: ['Cardiac Surgery', 'Orthopaedics', 'Neurology', 'Oncology', 'Bariatric Surgery', 'Liver Transplant'],
     highlights: [
+      'Max liver transplant program: 2,600+ transplants since 2001 with 95%+ one-year survival rate',
       'Max Institute of Cancer Care — comprehensive medical, surgical, and radiation oncology',
-      'High-volume liver transplant program with NOTTO compliance',
-      'Joint replacement and sports medicine center with U.S.-trained orthopedic surgeons',
-      'Dedicated international patient services department',
+      'Led by Dr. Subhash Gupta — liver transplant surgeon with 38+ years of experience',
+      'Dedicated international patient services department with 12 modular operation theatres',
     ],
-    doctors: '800+ specialists',
+    doctors: '500+ specialists',
     color: 'from-cyan-600 to-teal-500',
     initials: 'MS',
   },
   {
-    name: 'Global Hospitals',
+    name: 'Gleneagles Global Hospitals',
     city: 'Mumbai',
     location: 'Parel, Mumbai',
     accreditation: 'NABH Accredited',
     accreditationColor: 'bg-emerald-100 text-emerald-700',
-    beds: '300+ Beds',
+    beds: '200+ Beds',
     established: '1998',
     mou: false,
+    img: null,
     specialties: ['Liver Transplant', 'Kidney Transplant', 'Multi-Organ Transplant', 'Hepatobiliary Surgery', 'Gastroenterology'],
     highlights: [
-      'Specialized in living donor liver transplant — 95%+ graft survival rate',
-      'Multi-organ transplant capability including simultaneous liver-kidney',
-      'NOTTO-compliant transplant program with full donor ethics committee',
-      'Dr. Mohamed Rela performed landmark pediatric liver transplants here',
+      'Western India\'s foremost center for multi-organ transplants — liver, kidney, heart, and lung',
+      'Performed Asia\'s first Pediatric Auxiliary Liver Transplant and India\'s first Swap Liver Transplant',
+      'Dedicated transplant ICUs: Liver ICU, Renal ICU, Cardiac ICU, and Post-Transplant ICU',
+      'NOTTO-compliant transplant program with full donor ethics committee oversight',
     ],
     doctors: '300+ specialists',
     color: 'from-green-600 to-emerald-500',
@@ -227,37 +237,39 @@ const HOSPITALS = [
     name: 'MIOT International',
     city: 'Chennai',
     location: 'Manapakkam, Chennai',
-    accreditation: 'NABH Accredited',
+    accreditation: 'NABH & NABL',
     accreditationColor: 'bg-emerald-100 text-emerald-700',
     beds: '1,000+ Beds',
-    established: '2007',
+    established: '1999',
     mou: false,
+    img: null,
     specialties: ['Orthopaedics & Joint Replacement', 'Spine Surgery', 'Cardiology', 'Neurosciences', 'Urology'],
     highlights: [
-      'One of India\'s most specialized orthopaedic hospitals — complex joint revision and limb reconstruction',
-      'Navigation-assisted and robotic-assisted knee replacement',
-      'Quaternary referral center for complex spine and trauma cases',
-      'Strong international patient program with dedicated coordinators',
+      'Performed India\'s first hip joint replacement surgery — a pioneer in Indian orthopaedics',
+      'Computer-navigated and robotic-assisted joint replacement with laminar airflow OTs for 99.9% infection-free environments',
+      'Quaternary referral center for complex spine, trauma, and limb reconstruction cases',
+      'Strong international patient program serving 5 lakh+ international patients across 63+ specialties',
     ],
-    doctors: '450+ specialists',
+    doctors: '250+ specialists',
     color: 'from-amber-600 to-yellow-500',
     initials: 'MI',
   },
   {
-    name: 'Asian Institute of Gastroenterology',
+    name: 'AIG Hospitals (Asian Institute of Gastroenterology)',
     city: 'Hyderabad',
     location: 'Somajiguda, Hyderabad',
-    accreditation: 'NABH Accredited',
-    accreditationColor: 'bg-emerald-100 text-emerald-700',
-    beds: '500+ Beds',
+    accreditation: 'JCI & NABH',
+    accreditationColor: 'bg-blue-100 text-blue-700',
+    beds: '750+ Beds',
     established: '2004',
     mou: false,
+    img: null,
     specialties: ['Gastroenterology', 'Hepatology', 'GI Oncology', 'Endoscopy', 'Liver Disease', 'IBD'],
     highlights: [
-      'One of Asia\'s largest dedicated GI hospitals — 150,000+ endoscopies/year',
-      'Capsule endoscopy, double balloon enteroscopy, EUS, and EMR/ESD for complex lesions',
-      'Advanced IBD center — biologics program with infliximab, vedolizumab, ustekinumab',
-      'Recognized as a Center of Excellence by international GI societies',
+      'Recognized as the world\'s largest gastroenterology hospital and Asia\'s leading therapeutic endoscopy center',
+      'Performs the highest volume of ERCP procedures globally — a world record in advanced GI endoscopy',
+      'Capsule endoscopy, double balloon enteroscopy, EUS, EMR/ESD for complex GI lesions',
+      'Advanced IBD center — biologics program with infliximab, vedolizumab, and ustekinumab',
     ],
     doctors: '200+ specialists',
     color: 'from-lime-600 to-green-500',
@@ -266,20 +278,21 @@ const HOSPITALS = [
   {
     name: 'Yashoda Hospitals',
     city: 'Hyderabad',
-    location: 'Secunderabad & Malakpet, Hyderabad',
+    location: 'Somajiguda, Secunderabad & Malakpet, Hyderabad',
     accreditation: 'NABH Accredited',
     accreditationColor: 'bg-emerald-100 text-emerald-700',
-    beds: '1,500+ Beds (network)',
+    beds: '2,756 Beds (network)',
     established: '1989',
     mou: false,
+    img: null,
     specialties: ['Cardiology', 'Neurosciences', 'Oncology', 'Transplant', 'Orthopaedics', 'Bariatric Surgery'],
     highlights: [
-      'High-volume cardiac catheterization and interventional cardiology program',
-      'Dedicated kidney transplant and dialysis center',
-      'Advanced neurosciences including epilepsy surgery and DBS for Parkinson\'s',
-      'Affordable pricing with strong international patient services',
+      'Performed the first combined heart and lung transplant in Andhra Pradesh and Telangana (2017)',
+      'Four dedicated Cancer Institutes and four Heart Institutes across the Hyderabad network',
+      'Advanced neurosciences including epilepsy surgery and Deep Brain Stimulation for Parkinson\'s',
+      '646+ specialist doctors across four independent hospitals with round-the-clock critical care',
     ],
-    doctors: '600+ specialists',
+    doctors: '646+ specialists',
     color: 'from-fuchsia-600 to-purple-500',
     initials: 'YH',
   },
@@ -396,46 +409,69 @@ export default function HospitalsIndiaPage() {
             </p>
           </div>
 
-          <div className="space-y-8">
-            {HOSPITALS.map((h, i) => (
-              <div key={h.name} className="bg-white rounded-3xl border border-gray-200 shadow-sm overflow-hidden">
-                {/* Header bar */}
-                <div className={`bg-gradient-to-r ${h.color} p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center gap-4`}>
-                  <div className="w-14 h-14 rounded-2xl bg-white/20 flex items-center justify-center text-white text-xl font-black shrink-0">
-                    {h.initials}
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex flex-wrap items-center gap-2 mb-1">
-                      <h3 className="text-lg font-bold text-white">{h.name}</h3>
-                      {h.mou && (
-                        <span className="text-xs bg-white text-teal-700 font-bold px-2.5 py-0.5 rounded-full">
-                          MOU Partner
-                        </span>
-                      )}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {HOSPITALS.map((h) => (
+              <div key={h.name} className="bg-white rounded-3xl border border-gray-200 shadow-sm hover:shadow-md hover:border-gray-300 transition-all duration-300 overflow-hidden flex flex-col">
+                {/* Card header — image when available, gradient fallback */}
+                <div className={`relative overflow-hidden h-56 bg-gradient-to-br ${h.color}`}>
+                  {h.img && (
+                    <Image
+                      src={h.img}
+                      alt={h.name}
+                      fill
+                      className="object-cover"
+                    />
+                  )}
+                  {/* Overlay — always present so text is readable */}
+                  <div className={`absolute inset-0 ${h.img ? 'bg-gradient-to-t from-black/75 via-black/30 to-transparent' : ''}`} />
+
+                  {/* Content */}
+                  <div className="relative p-6 flex flex-col justify-end h-full">
+                    {!h.img && (
+                      <div className="w-12 h-12 rounded-xl bg-white/25 flex items-center justify-center text-white text-lg font-black mb-3">
+                        {h.initials}
+                      </div>
+                    )}
+                    <div className="flex items-start justify-between gap-3">
+                      <div>
+                        <h3 className="text-base font-bold text-white leading-snug">{h.name}</h3>
+                        <p className="flex items-center gap-1 text-white/75 text-xs mt-0.5">
+                          <MapPin size={10} />{h.location}
+                        </p>
+                      </div>
+                      <span className={`text-[10px] font-bold px-2.5 py-1 rounded-full shrink-0 ${h.accreditationColor}`}>
+                        {h.accreditation}
+                      </span>
                     </div>
-                    <div className="flex flex-wrap items-center gap-3 text-white/80 text-xs">
-                      <span className="flex items-center gap-1"><MapPin size={11} />{h.location}</span>
-                      <span>·</span>
-                      <span>{h.beds}</span>
-                      <span>·</span>
-                      <span>{h.doctors}</span>
-                      <span>·</span>
-                      <span>Est. {h.established}</span>
+
+                    {/* Stats strip */}
+                    <div className="flex items-center gap-4 mt-3 pt-3 border-t border-white/20">
+                      <div className="flex items-center gap-1.5 text-white/80 text-xs">
+                        <BedDouble size={12} />
+                        <span>{h.beds}</span>
+                      </div>
+                      <div className="w-px h-3 bg-white/25" />
+                      <div className="flex items-center gap-1.5 text-white/80 text-xs">
+                        <Stethoscope size={12} />
+                        <span>{h.doctors}</span>
+                      </div>
+                      <div className="w-px h-3 bg-white/25" />
+                      <div className="flex items-center gap-1.5 text-white/80 text-xs">
+                        <CalendarDays size={12} />
+                        <span>Est. {h.established}</span>
+                      </div>
                     </div>
                   </div>
-                  <span className={`text-xs font-bold px-3 py-1.5 rounded-full shrink-0 ${h.accreditationColor}`}>
-                    {h.accreditation}
-                  </span>
                 </div>
 
                 {/* Body */}
-                <div className="p-6 sm:p-8 grid lg:grid-cols-2 gap-8">
+                <div className="p-6 flex flex-col flex-1 gap-5">
                   {/* Specialties */}
                   <div>
-                    <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">Key Specialties</p>
-                    <div className="flex flex-wrap gap-2">
+                    <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2.5">Key Specialties</p>
+                    <div className="flex flex-wrap gap-1.5">
                       {h.specialties.map(s => (
-                        <span key={s} className="text-xs bg-gray-100 text-gray-700 px-3 py-1.5 rounded-full font-medium">
+                        <span key={s} className="text-xs bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-medium">
                           {s}
                         </span>
                       ))}
@@ -443,28 +479,27 @@ export default function HospitalsIndiaPage() {
                   </div>
 
                   {/* Highlights */}
-                  <div>
-                    <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">Why Sultan GHC Refers Patients Here</p>
+                  <div className="flex-1">
+                    <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2.5">Why Sultan GHC Refers Patients Here</p>
                     <ul className="space-y-2">
                       {h.highlights.map(pt => (
                         <li key={pt} className="flex items-start gap-2 text-xs text-gray-600 leading-relaxed">
-                          <CheckCircle2 size={13} className="text-primary shrink-0 mt-0.5" />
+                          <CheckCircle2 size={12} className="text-primary shrink-0 mt-0.5" />
                           {pt}
                         </li>
                       ))}
                     </ul>
                   </div>
-                </div>
 
-                {/* CTA strip */}
-                <div className="border-t border-gray-100 px-6 sm:px-8 py-4 bg-gray-50 flex flex-col sm:flex-row sm:items-center gap-3">
-                  <p className="text-xs text-gray-500 flex-1">Interested in treatment at {h.name}? Sultan GHC handles hospital selection, appointment scheduling, and full coordination.</p>
-                  <Link
-                    href="/free-consultation"
-                    className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary hover:underline shrink-0"
-                  >
-                    Request a Match <ArrowRight size={12} />
-                  </Link>
+                  {/* CTA */}
+                  <div className="pt-4 border-t border-gray-100">
+                    <Link
+                      href="/free-consultation"
+                      className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary hover:gap-2.5 transition-all"
+                    >
+                      Request treatment at {h.name} <ArrowRight size={12} />
+                    </Link>
+                  </div>
                 </div>
               </div>
             ))}

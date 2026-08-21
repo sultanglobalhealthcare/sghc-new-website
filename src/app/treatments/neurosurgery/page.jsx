@@ -1,8 +1,9 @@
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 import Link from 'next/link'
 import {
   ChevronRight, ArrowRight, Phone, MessageCircle,
   CheckCircle2, Activity, AlertCircle,
-  DollarSign, Shield, Users, ImageIcon, Zap,
+  DollarSign, Shield, Users, Zap
 } from 'lucide-react'
 
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
@@ -33,15 +34,15 @@ export const metadata = {
       'Brain tumor surgery, aneurysm clipping, Gamma Knife, and spine surgery at JCI-accredited neurosurgery centers in India and Türkiye. Verified cost data. Free consultation.',
     url: 'https://www.sultanghc.com/treatments/neurosurgery',
     siteName: 'Sultan Global Health Care',
-    type: 'website',
+    type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Neurosurgery Abroad | Brain Surgery India & Türkiye | Sultan GHC',
     description:
-      'Brain tumor removal, aneurysm surgery, Gamma Knife, spine surgery — 80–90% less than U.S. costs at JCI hospitals.',
+      'Brain tumor removal, aneurysm surgery, Gamma Knife, spine surgery — 80–90% less than U.S. costs at JCI hospitals.'
   },
-  alternates: { canonical: 'https://www.sultanghc.com/treatments/neurosurgery' },
+  alternates: { canonical: 'https://www.sultanghc.com/treatments/neurosurgery' }
 }
 
 // ─── JSON-LD Schemas ──────────────────────────────────────────────────────────
@@ -53,7 +54,7 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 1, name: 'Home',         item: 'https://www.sultanghc.com' },
     { '@type': 'ListItem', position: 2, name: 'Treatments',   item: 'https://www.sultanghc.com/treatments' },
     { '@type': 'ListItem', position: 3, name: 'Neurosurgery', item: 'https://www.sultanghc.com/treatments/neurosurgery' },
-  ],
+  ]
 }
 
 const medicalSchema = {
@@ -67,8 +68,8 @@ const medicalSchema = {
     '@type': 'MedicalSpecialty',
     name: 'Neurosurgery',
     alternateName: ['Brain Surgery', 'Neurological Surgery', 'Spine Neurosurgery'],
-    relevantSpecialty: 'Neurosurgery',
-  },
+    relevantSpecialty: 'Neurosurgery'
+  }
 }
 
 const faqSchema = {
@@ -80,50 +81,50 @@ const faqSchema = {
       name: 'How much does brain tumor surgery (craniotomy) cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Brain tumor surgery (craniotomy) in the U.S. typically costs $100,000–$300,000 including hospital, surgeon, and ICU fees. At a JCI-accredited neurosurgery center in India, the same procedure costs $8,000–$18,000 — a saving of over 90%. Türkiye offers craniotomy for $12,000–$25,000. Sultan GHC provides a personalised cost estimate within 24 hours based on your MRI reports and surgical plan, at no charge.',
-      },
+        text: 'Brain tumor surgery (craniotomy) in the U.S. typically costs $100,000–$300,000 including hospital, surgeon, and ICU fees. At a JCI-accredited neurosurgery center in India, the same procedure costs $8,000–$18,000 — a saving of over 90%. Türkiye offers craniotomy for $12,000–$25,000. Sultan GHC provides a personalised cost estimate within 24 hours based on your MRI reports and surgical plan, at no charge.'
+      }
     },
     {
       '@type': 'Question',
       name: 'How safe is brain surgery in India and Türkiye?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Neurosurgery safety is determined by surgeon experience, hospital infrastructure, and ICU capability — not geography. Our partner JCI-accredited hospitals in India (Apollo, Fortis, Medanta) and Türkiye (Acibadem, Memorial) have dedicated neurosurgery units with intraoperative MRI (iMRI), neuronavigation systems, neurophysiology monitoring, and Level-1 NeuroICUs. Neurosurgeons at these centers perform 500–1,500 cranial and spine operations annually and hold international qualifications including FRCS (Neurosurgery), American board training, and EANS (European Association of Neurosurgical Societies) fellowships.',
-      },
+        text: 'Neurosurgery safety is determined by surgeon experience, hospital infrastructure, and ICU capability — not geography. Our partner JCI-accredited hospitals in India (Apollo, Fortis, Medanta) and Türkiye (Acibadem, Memorial) have dedicated neurosurgery units with intraoperative MRI (iMRI), neuronavigation systems, neurophysiology monitoring, and Level-1 NeuroICUs. Neurosurgeons at these centers perform 500–1,500 cranial and spine operations annually and hold international qualifications including FRCS (Neurosurgery), American board training, and EANS (European Association of Neurosurgical Societies) fellowships.'
+      }
     },
     {
       '@type': 'Question',
       name: 'What is Gamma Knife radiosurgery and is it available in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Gamma Knife radiosurgery (stereotactic radiosurgery) is a non-invasive procedure that delivers highly focused radiation beams to destroy brain tumors, arteriovenous malformations (AVMs), or metastatic lesions — without a surgical incision. It is available at select Apollo and Fortis partner hospitals in India and at Acibadem and Memorial Hospital Istanbul in Türkiye. Cost in the U.S. is $20,000–$50,000. India costs $4,000–$10,000. Türkiye costs $6,000–$14,000.',
-      },
+        text: 'Gamma Knife radiosurgery (stereotactic radiosurgery) is a non-invasive procedure that delivers highly focused radiation beams to destroy brain tumors, arteriovenous malformations (AVMs), or metastatic lesions — without a surgical incision. It is available at select Apollo and Fortis partner hospitals in India and at Acibadem and Memorial Hospital Istanbul in Türkiye. Cost in the U.S. is $20,000–$50,000. India costs $4,000–$10,000. Türkiye costs $6,000–$14,000.'
+      }
     },
     {
       '@type': 'Question',
       name: 'How long will I need to stay in India after brain surgery?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Most craniotomy patients require 14–21 days in-country. This includes 2–3 days of pre-surgical evaluation (MRI review, anesthesia assessment, blood work), 1–2 days pre-surgery admission, 2–4 days in NeuroICU, 5–7 days in the general neurosurgery ward, and a final surgical review before flying clearance. Minimally invasive spine procedures may allow discharge in 5–10 days. Sultan GHC\'s Case Managers plan your full itinerary and discharge schedule.',
-      },
+        text: 'Most craniotomy patients require 14–21 days in-country. This includes 2–3 days of pre-surgical evaluation (MRI review, anesthesia assessment, blood work), 1–2 days pre-surgery admission, 2–4 days in NeuroICU, 5–7 days in the general neurosurgery ward, and a final surgical review before flying clearance. Minimally invasive spine procedures may allow discharge in 5–10 days. Sultan GHC\'s Case Managers plan your full itinerary and discharge schedule.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Can Sultan GHC arrange a second neurosurgical opinion before I commit to surgery?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes — and it is strongly recommended for brain surgery. Sultan GHC arranges a complimentary remote second opinion from a senior neurosurgeon within 24–48 hours. Upload your MRI with contrast, CT scans, biopsy reports (if available), and current medications. The neurosurgeon will review your case and provide a written recommendation including surgical approach, implant choices, and recovery expectations. There is no cost and no obligation.',
-      },
+        text: 'Yes — and it is strongly recommended for brain surgery. Sultan GHC arranges a complimentary remote second opinion from a senior neurosurgeon within 24–48 hours. Upload your MRI with contrast, CT scans, biopsy reports (if available), and current medications. The neurosurgeon will review your case and provide a written recommendation including surgical approach, implant choices, and recovery expectations. There is no cost and no obligation.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Are neurosurgeons in India and Türkiye as experienced as U.S. neurosurgeons?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Many neurosurgeons at our partner JCI hospitals trained at or did fellowships at institutions including Johns Hopkins, Cleveland Clinic, Mayo Clinic, Karolinska Institute, and UK NHS neurosurgery centers. They hold FRCS (Neurosurgery), MCh (Neurosurgery), or DM Neurosurgery credentials and operate within JCIA-accredited hospital systems with the same international clinical protocols used in U.S. academic medical centers. Volume is also high — surgeons perform 400–1,500 neurosurgical cases annually.',
-      },
+        text: 'Many neurosurgeons at our partner JCI hospitals trained at or did fellowships at institutions including Johns Hopkins, Cleveland Clinic, Mayo Clinic, Karolinska Institute, and UK NHS neurosurgery centers. They hold FRCS (Neurosurgery), MCh (Neurosurgery), or DM Neurosurgery credentials and operate within JCIA-accredited hospital systems with the same international clinical protocols used in U.S. academic medical centers. Volume is also high — surgeons perform 400–1,500 neurosurgical cases annually.'
+      }
     },
-  ],
+  ]
 }
 
 // ─── Page Data ────────────────────────────────────────────────────────────────
@@ -146,43 +147,43 @@ const CONDITIONS = [
 const TREATMENTS = [
   {
     title: 'Craniotomy — Brain Tumor Removal',
-    desc: 'Open and minimally invasive craniotomy for the surgical resection of gliomas, meningiomas, metastatic brain tumors, and other intracranial lesions — performed with intraoperative MRI (iMRI) and neuronavigation at select partner hospitals.',
+    desc: 'Open and minimally invasive craniotomy for the surgical resection of gliomas, meningiomas, metastatic brain tumors, and other intracranial lesions — performed with intraoperative MRI (iMRI) and neuronavigation at select partner hospitals.'
   },
   {
     title: 'Gamma Knife & CyberKnife Radiosurgery',
-    desc: 'Non-invasive stereotactic radiosurgery delivering focused radiation to brain tumors, AVMs, trigeminal neuralgia, and acoustic neuromas — without a surgical incision. No general anesthesia. Day procedure in most cases.',
+    desc: 'Non-invasive stereotactic radiosurgery delivering focused radiation to brain tumors, AVMs, trigeminal neuralgia, and acoustic neuromas — without a surgical incision. No general anesthesia. Day procedure in most cases.'
   },
   {
     title: 'Cerebral Aneurysm — Clipping & Coiling',
-    desc: 'Both microsurgical clipping (open craniotomy) and endovascular coiling (minimally invasive, catheter-based) are available for unruptured and ruptured cerebral aneurysms — matched to aneurysm anatomy and patient risk profile.',
+    desc: 'Both microsurgical clipping (open craniotomy) and endovascular coiling (minimally invasive, catheter-based) are available for unruptured and ruptured cerebral aneurysms — matched to aneurysm anatomy and patient risk profile.'
   },
   {
     title: 'Endoscopic Pituitary Surgery (Transsphenoidal)',
-    desc: 'Minimally invasive endoscopic transsphenoidal surgery to remove pituitary adenomas through the nasal passage — no external incision, shorter hospital stay (2–4 days), and faster recovery than traditional open craniotomy.',
+    desc: 'Minimally invasive endoscopic transsphenoidal surgery to remove pituitary adenomas through the nasal passage — no external incision, shorter hospital stay (2–4 days), and faster recovery than traditional open craniotomy.'
   },
   {
     title: 'AVM Embolization & Surgical Resection',
-    desc: 'Arteriovenous malformation (AVM) management combining endovascular embolization, microsurgical resection, and/or stereotactic radiosurgery — determined by AVM grade (Spetzler-Martin) and patient risk factors.',
+    desc: 'Arteriovenous malformation (AVM) management combining endovascular embolization, microsurgical resection, and/or stereotactic radiosurgery — determined by AVM grade (Spetzler-Martin) and patient risk factors.'
   },
   {
     title: 'VP Shunt Surgery (Hydrocephalus)',
-    desc: 'Ventriculoperitoneal (VP) shunt implantation for the treatment of hydrocephalus — both programmable valve shunts and endoscopic third ventriculostomy (ETV) are available as indicated.',
+    desc: 'Ventriculoperitoneal (VP) shunt implantation for the treatment of hydrocephalus — both programmable valve shunts and endoscopic third ventriculostomy (ETV) are available as indicated.'
   },
   {
     title: 'Minimally Invasive Spine Neurosurgery (MISS)',
-    desc: 'Microdiscectomy, laminectomy, foraminotomy, and spinal fusion using minimally invasive techniques — smaller incisions, reduced blood loss, shorter hospital stays, and faster return to activity compared to open spine surgery.',
+    desc: 'Microdiscectomy, laminectomy, foraminotomy, and spinal fusion using minimally invasive techniques — smaller incisions, reduced blood loss, shorter hospital stays, and faster return to activity compared to open spine surgery.'
   },
   {
     title: 'Deep Brain Stimulation (DBS) — Surgical Implantation',
-    desc: 'Surgical implantation of Medtronic or Abbott DBS electrode systems for Parkinson\'s disease, essential tremor, and dystonia — performed by neurosurgeons and movement disorder neurologists working as an integrated team. Post-surgical programming included.',
+    desc: 'Surgical implantation of Medtronic or Abbott DBS electrode systems for Parkinson\'s disease, essential tremor, and dystonia — performed by neurosurgeons and movement disorder neurologists working as an integrated team. Post-surgical programming included.'
   },
   {
     title: 'Microvascular Decompression (MVD)',
-    desc: 'Microsurgical decompression of cranial nerves — the standard surgical treatment for trigeminal neuralgia (TN), hemifacial spasm, and glossopharyngeal neuralgia. High success rate for appropriately selected candidates.',
+    desc: 'Microsurgical decompression of cranial nerves — the standard surgical treatment for trigeminal neuralgia (TN), hemifacial spasm, and glossopharyngeal neuralgia. High success rate for appropriately selected candidates.'
   },
   {
     title: 'Epilepsy Surgery',
-    desc: 'Surgical resection of epileptic foci for drug-resistant focal epilepsy — including temporal lobectomy, lesionectomy, corpus callosotomy, and SEEG-guided resective surgery following thorough pre-surgical evaluation.',
+    desc: 'Surgical resection of epileptic foci for drug-resistant focal epilepsy — including temporal lobectomy, lesionectomy, corpus callosotomy, and SEEG-guided resective surgery following thorough pre-surgical evaluation.'
   },
 ]
 
@@ -202,27 +203,27 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does brain tumor surgery (craniotomy) cost in India compared to the U.S.?',
-    a: 'Craniotomy in the U.S. typically costs $100,000–$300,000. At a JCI-accredited hospital in India, the same procedure costs $8,000–$18,000 — a saving of over 90%. Türkiye costs $12,000–$25,000. Sultan GHC provides a personalised estimate within 24 hours based on your MRI and surgical plan, at no charge.',
+    a: 'Craniotomy in the U.S. typically costs $100,000–$300,000. At a JCI-accredited hospital in India, the same procedure costs $8,000–$18,000 — a saving of over 90%. Türkiye costs $12,000–$25,000. Sultan GHC provides a personalised estimate within 24 hours based on your MRI and surgical plan, at no charge.'
   },
   {
     q: 'How safe is brain surgery in India and Türkiye?',
-    a: 'Safety is determined by surgeon experience, hospital infrastructure, and ICU capability — not location. Our partner JCI hospitals have intraoperative MRI (iMRI), neuronavigation, neurophysiology monitoring, and Level-1 NeuroICUs. Neurosurgeons perform 500–1,500 cranial and spine operations annually and hold international qualifications including FRCS (Neurosurgery) and EANS fellowships.',
+    a: 'Safety is determined by surgeon experience, hospital infrastructure, and ICU capability — not location. Our partner JCI hospitals have intraoperative MRI (iMRI), neuronavigation, neurophysiology monitoring, and Level-1 NeuroICUs. Neurosurgeons perform 500–1,500 cranial and spine operations annually and hold international qualifications including FRCS (Neurosurgery) and EANS fellowships.'
   },
   {
     q: 'What is Gamma Knife radiosurgery and is it available in India?',
-    a: 'Gamma Knife is a non-invasive procedure that delivers focused radiation to destroy brain tumors or AVMs without a surgical incision. Available at Apollo and Fortis partner hospitals in India, and at Acibadem and Memorial Hospital Istanbul. India cost: $4,000–$10,000 vs $20,000–$50,000 in the U.S.',
+    a: 'Gamma Knife is a non-invasive procedure that delivers focused radiation to destroy brain tumors or AVMs without a surgical incision. Available at Apollo and Fortis partner hospitals in India, and at Acibadem and Memorial Hospital Istanbul. India cost: $4,000–$10,000 vs $20,000–$50,000 in the U.S.'
   },
   {
     q: 'How long will I need to stay in India after brain surgery?',
-    a: 'Most craniotomy patients need 14–21 days in-country: 2–3 days pre-surgical evaluation, 1–2 days pre-op admission, 2–4 days NeuroICU, 5–7 days general ward, then a final surgical review before flying clearance. Minimally invasive spine procedures may allow discharge in 5–10 days.',
+    a: 'Most craniotomy patients need 14–21 days in-country: 2–3 days pre-surgical evaluation, 1–2 days pre-op admission, 2–4 days NeuroICU, 5–7 days general ward, then a final surgical review before flying clearance. Minimally invasive spine procedures may allow discharge in 5–10 days.'
   },
   {
     q: 'Can Sultan GHC arrange a second neurosurgical opinion before surgery?',
-    a: 'Yes — and it is strongly recommended for brain surgery. Sultan GHC arranges a complimentary remote second opinion from a senior neurosurgeon within 24–48 hours. Upload your MRI with contrast, CT scans, biopsy reports, and current medications. The neurosurgeon provides a written recommendation including surgical approach, implant choices, and recovery expectations. No cost, no obligation.',
+    a: 'Yes — and it is strongly recommended for brain surgery. Sultan GHC arranges a complimentary remote second opinion from a senior neurosurgeon within 24–48 hours. Upload your MRI with contrast, CT scans, biopsy reports, and current medications. The neurosurgeon provides a written recommendation including surgical approach, implant choices, and recovery expectations. No cost, no obligation.'
   },
   {
     q: 'Are neurosurgeons in India and Türkiye as experienced as U.S. neurosurgeons?',
-    a: 'Many of our partner neurosurgeons trained at Johns Hopkins, Cleveland Clinic, Mayo Clinic, Karolinska Institute, and UK NHS neurosurgery centers. They hold FRCS (Neurosurgery) or MCh Neurosurgery credentials and work in JCIA-accredited hospitals with the same international clinical protocols. Volume is high — 400–1,500 neurosurgical cases per surgeon per year.',
+    a: 'Many of our partner neurosurgeons trained at Johns Hopkins, Cleveland Clinic, Mayo Clinic, Karolinska Institute, and UK NHS neurosurgery centers. They hold FRCS (Neurosurgery) or MCh Neurosurgery credentials and work in JCIA-accredited hospitals with the same international clinical protocols. Volume is high — 400–1,500 neurosurgical cases per surgeon per year.'
   },
 ]
 
@@ -246,7 +247,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
       role="img"
     >
       <div className="flex items-center gap-2 w-full shrink-0">
-        <ImageIcon size={16} className="text-blue-400 shrink-0" />
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400 shrink-0"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
         <span className="text-[10px] font-bold text-blue-500 uppercase tracking-widest">Image Placeholder</span>
       </div>
       <div className="bg-white/70 rounded-lg px-3 py-1.5 w-full shrink-0">
@@ -265,6 +266,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
     </div>
   )
 }
+
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
@@ -671,7 +673,6 @@ export default function NeurosurgeryPage() {
             </h2>
             <p className="text-gray-500 text-sm">
               Sourced from real patient questions handled by Sultan GHC&apos;s medical and patient care team.
-import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
             </p>
           </div>
           <div className="space-y-4">

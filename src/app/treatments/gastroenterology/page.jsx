@@ -1,8 +1,9 @@
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 import Link from 'next/link'
 import {
   ChevronRight, ArrowRight, Phone, MessageCircle,
   CheckCircle2, Activity, AlertCircle,
-  Shield, Users, ImageIcon,
+  Shield, Users
 } from 'lucide-react'
 
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
@@ -33,15 +34,15 @@ export const metadata = {
       'Colonoscopy, ERCP, endoscopy, IBD biologics, and advanced GI procedures at 70–90% less than U.S. prices. JCI-accredited gastroenterology hospitals in India and Türkiye.',
     url: 'https://www.sultanghc.com/treatments/gastroenterology',
     siteName: 'Sultan Global Health Care',
-    type: 'website',
+    type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Gastroenterology Abroad | India & Türkiye | Sultan GHC',
     description:
-      'Colonoscopy, ERCP, IBD treatment, Crohn\'s disease care in India & Türkiye at 70–90% less than U.S. costs.',
+      'Colonoscopy, ERCP, IBD treatment, Crohn\'s disease care in India & Türkiye at 70–90% less than U.S. costs.'
   },
-  alternates: { canonical: 'https://www.sultanghc.com/treatments/gastroenterology' },
+  alternates: { canonical: 'https://www.sultanghc.com/treatments/gastroenterology' }
 }
 
 // ─── JSON-LD Schemas ──────────────────────────────────────────────────────────
@@ -53,7 +54,7 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 1, name: 'Home',              item: 'https://www.sultanghc.com' },
     { '@type': 'ListItem', position: 2, name: 'Treatments',        item: 'https://www.sultanghc.com/treatments' },
     { '@type': 'ListItem', position: 3, name: 'Gastroenterology',  item: 'https://www.sultanghc.com/treatments/gastroenterology' },
-  ],
+  ]
 }
 
 const medicalSchema = {
@@ -67,8 +68,8 @@ const medicalSchema = {
     '@type': 'MedicalSpecialty',
     name: 'Gastroenterology',
     alternateName: ['Digestive Disease Medicine', 'GI Medicine', 'Gastrointestinal Endoscopy'],
-    relevantSpecialty: 'Gastroenterology',
-  },
+    relevantSpecialty: 'Gastroenterology'
+  }
 }
 
 const faqSchema = {
@@ -80,50 +81,50 @@ const faqSchema = {
       name: 'How much does a colonoscopy cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A colonoscopy in the U.S. costs $2,750–$9,000 on average for self-pay patients (source: FAIR Health Consumer 2024). At a JCI-accredited hospital in India, the same procedure costs $150–$500 including sedation and pathology review — a saving of 90–95%. Türkiye costs $200–$700. Sultan GHC provides a personalised cost estimate at no charge based on your specific case and preferred hospital.',
-      },
+        text: 'A colonoscopy in the U.S. costs $2,750–$9,000 on average for self-pay patients (source: FAIR Health Consumer 2024). At a JCI-accredited hospital in India, the same procedure costs $150–$500 including sedation and pathology review — a saving of 90–95%. Türkiye costs $200–$700. Sultan GHC provides a personalised cost estimate at no charge based on your specific case and preferred hospital.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Is ERCP available in India and Türkiye? How much does it cost?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'ERCP (Endoscopic Retrograde Cholangiopancreatography) is fully available at our JCI-accredited partner hospitals in India and Türkiye, performed by fellowship-trained therapeutic endoscopists. ERCP in the U.S. costs $5,000–$20,000 for self-pay patients. India costs $500–$1,500. Türkiye costs $700–$2,500. Sultan GHC provides a cost estimate based on your diagnosis (gallstones, bile duct obstruction, pancreatitis) within 24 hours.',
-      },
+        text: 'ERCP (Endoscopic Retrograde Cholangiopancreatography) is fully available at our JCI-accredited partner hospitals in India and Türkiye, performed by fellowship-trained therapeutic endoscopists. ERCP in the U.S. costs $5,000–$20,000 for self-pay patients. India costs $500–$1,500. Türkiye costs $700–$2,500. Sultan GHC provides a cost estimate based on your diagnosis (gallstones, bile duct obstruction, pancreatitis) within 24 hours.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Can I get IBD treatment (Crohn\'s disease or ulcerative colitis) in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Our partner hospitals in India and Türkiye have dedicated IBD clinics managed by gastroenterologists with sub-specialty training in inflammatory bowel disease. Treatment includes biologic infusion therapy (infliximab, adalimumab, vedolizumab, ustekinumab), small molecule therapy (tofacitinib), and structured endoscopic monitoring. Biologic infusion costs in India are 70–85% lower than U.S. prices. India sources biologics from WHO-prequalified manufacturers including biosimilar brands approved under Indian regulators (CDSCO).',
-      },
+        text: 'Yes. Our partner hospitals in India and Türkiye have dedicated IBD clinics managed by gastroenterologists with sub-specialty training in inflammatory bowel disease. Treatment includes biologic infusion therapy (infliximab, adalimumab, vedolizumab, ustekinumab), small molecule therapy (tofacitinib), and structured endoscopic monitoring. Biologic infusion costs in India are 70–85% lower than U.S. prices. India sources biologics from WHO-prequalified manufacturers including biosimilar brands approved under Indian regulators (CDSCO).'
+      }
     },
     {
       '@type': 'Question',
       name: 'How long do I need to stay in India for GI treatment?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Diagnostic procedures such as colonoscopy, upper endoscopy, and capsule endoscopy can be completed in 3–5 days including pre-procedure workup and recovery. Therapeutic procedures like ERCP or endoscopic mucosal resection typically require 5–7 days. IBD evaluation and treatment initiation requires 7–10 days for a full workup, biologic initiation, and monitoring. Sultan GHC\'s Case Managers plan your full itinerary.',
-      },
+        text: 'Diagnostic procedures such as colonoscopy, upper endoscopy, and capsule endoscopy can be completed in 3–5 days including pre-procedure workup and recovery. Therapeutic procedures like ERCP or endoscopic mucosal resection typically require 5–7 days. IBD evaluation and treatment initiation requires 7–10 days for a full workup, biologic initiation, and monitoring. Sultan GHC\'s Case Managers plan your full itinerary.'
+      }
     },
     {
       '@type': 'Question',
       name: 'How much does hepatitis C treatment cost in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Hepatitis C direct-acting antiviral (DAA) treatment (12-week course) in the U.S. costs $20,000–$84,000 at list price. Generic DAA regimens (sofosbuvir/velpatasvir, sofosbuvir/daclatasvir) approved in India cost $400–$1,500 for a full 12-week course — representing a saving of 95–99%. These are not counterfeit drugs — they are generic equivalents produced under compulsory license, the same active molecules used in Harvoni and Epclusa, with equivalent efficacy proven in clinical trials. Sultan GHC coordinates hepatologist consultation and DAA prescription.',
-      },
+        text: 'Hepatitis C direct-acting antiviral (DAA) treatment (12-week course) in the U.S. costs $20,000–$84,000 at list price. Generic DAA regimens (sofosbuvir/velpatasvir, sofosbuvir/daclatasvir) approved in India cost $400–$1,500 for a full 12-week course — representing a saving of 95–99%. These are not counterfeit drugs — they are generic equivalents produced under compulsory license, the same active molecules used in Harvoni and Epclusa, with equivalent efficacy proven in clinical trials. Sultan GHC coordinates hepatologist consultation and DAA prescription.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Are gastroenterology endoscopes in India the same quality as U.S. hospitals?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Our JCI-accredited partner hospitals use Olympus, Fujifilm, and Pentax endoscopy systems — the same manufacturers used in U.S. academic medical centers. All endoscopes are processed through automated reprocessors following ASGE (American Society for Gastrointestinal Endoscopy) or ESGE (European Society of Gastrointestinal Endoscopy) disinfection protocols. JCI accreditation specifically audits infection prevention and endoscope reprocessing standards.',
-      },
+        text: 'Yes. Our JCI-accredited partner hospitals use Olympus, Fujifilm, and Pentax endoscopy systems — the same manufacturers used in U.S. academic medical centers. All endoscopes are processed through automated reprocessors following ASGE (American Society for Gastrointestinal Endoscopy) or ESGE (European Society of Gastrointestinal Endoscopy) disinfection protocols. JCI accreditation specifically audits infection prevention and endoscope reprocessing standards.'
+      }
     },
-  ],
+  ]
 }
 
 // ─── Page Data ────────────────────────────────────────────────────────────────
@@ -146,43 +147,43 @@ const CONDITIONS = [
 const TREATMENTS = [
   {
     title: 'Colonoscopy & Colorectal Screening',
-    desc: 'Diagnostic and therapeutic colonoscopy using high-definition Olympus and Fujifilm scopes — with polypectomy, biopsy, and chromoendoscopy. JCI hospitals follow ASGE quality indicators including adenoma detection rate (ADR) standards.',
+    desc: 'Diagnostic and therapeutic colonoscopy using high-definition Olympus and Fujifilm scopes — with polypectomy, biopsy, and chromoendoscopy. JCI hospitals follow ASGE quality indicators including adenoma detection rate (ADR) standards.'
   },
   {
     title: 'Upper GI Endoscopy (EGD)',
-    desc: 'Esophagogastroduodenoscopy (EGD) for diagnosis of GERD, peptic ulcer, Barrett\'s esophagus, and esophageal stricture — with biopsy, H. pylori testing, and therapeutic interventions (banding, hemostasis) in the same session.',
+    desc: 'Esophagogastroduodenoscopy (EGD) for diagnosis of GERD, peptic ulcer, Barrett\'s esophagus, and esophageal stricture — with biopsy, H. pylori testing, and therapeutic interventions (banding, hemostasis) in the same session.'
   },
   {
     title: 'ERCP — Bile Duct & Pancreatic Procedures',
-    desc: 'Endoscopic Retrograde Cholangiopancreatography for gallstone removal, bile duct stenting, sphincterotomy, and management of biliary obstruction and chronic pancreatitis — performed by fellowship-trained therapeutic endoscopists.',
+    desc: 'Endoscopic Retrograde Cholangiopancreatography for gallstone removal, bile duct stenting, sphincterotomy, and management of biliary obstruction and chronic pancreatitis — performed by fellowship-trained therapeutic endoscopists.'
   },
   {
     title: 'Endoscopic Ultrasound (EUS)',
-    desc: 'EUS for staging pancreatic cancer, assessing submucosal lesions, sampling lymph nodes, draining pancreatic cysts, and evaluating bile duct pathology. Combined EUS-FNA (fine needle aspiration) for tissue diagnosis in the same session.',
+    desc: 'EUS for staging pancreatic cancer, assessing submucosal lesions, sampling lymph nodes, draining pancreatic cysts, and evaluating bile duct pathology. Combined EUS-FNA (fine needle aspiration) for tissue diagnosis in the same session.'
   },
   {
     title: 'Capsule Endoscopy (Small Bowel)',
-    desc: 'Wireless capsule endoscopy for visualization of the entire small intestine — the gold standard for diagnosing obscure GI bleeding, small bowel Crohn\'s disease, and small bowel tumors not accessible by standard endoscopy.',
+    desc: 'Wireless capsule endoscopy for visualization of the entire small intestine — the gold standard for diagnosing obscure GI bleeding, small bowel Crohn\'s disease, and small bowel tumors not accessible by standard endoscopy.'
   },
   {
     title: 'IBD Biologic Therapy & Management',
-    desc: 'Comprehensive IBD management including biologic infusion therapy (infliximab, adalimumab, vedolizumab, ustekinumab) and small molecule therapy (tofacitinib) — at 70–85% lower cost than U.S. infusion center prices. WHO-prequalified biosimilars available.',
+    desc: 'Comprehensive IBD management including biologic infusion therapy (infliximab, adalimumab, vedolizumab, ustekinumab) and small molecule therapy (tofacitinib) — at 70–85% lower cost than U.S. infusion center prices. WHO-prequalified biosimilars available.'
   },
   {
     title: 'Hepatitis B & C Treatment',
-    desc: 'Specialist hepatologist-supervised hepatitis C treatment with direct-acting antivirals (DAAs) — sofosbuvir/velpatasvir and sofosbuvir/daclatasvir — at a fraction of U.S. list prices. Hepatitis B management with antiviral suppression and monitoring.',
+    desc: 'Specialist hepatologist-supervised hepatitis C treatment with direct-acting antivirals (DAAs) — sofosbuvir/velpatasvir and sofosbuvir/daclatasvir — at a fraction of U.S. list prices. Hepatitis B management with antiviral suppression and monitoring.'
   },
   {
     title: 'Endoscopic Mucosal Resection (EMR) & ESD',
-    desc: 'Minimally invasive endoscopic removal of early-stage colorectal and gastric polyps and superficial cancers — avoiding open surgery. EMR and Endoscopic Submucosal Dissection (ESD) are performed by advanced therapeutic endoscopists at select partner hospitals.',
+    desc: 'Minimally invasive endoscopic removal of early-stage colorectal and gastric polyps and superficial cancers — avoiding open surgery. EMR and Endoscopic Submucosal Dissection (ESD) are performed by advanced therapeutic endoscopists at select partner hospitals.'
   },
   {
     title: 'Manometry & pH Studies',
-    desc: 'High-resolution esophageal manometry and 24-hour pH/impedance monitoring for GERD, achalasia, esophageal dysmotility, and post-fundoplication evaluation — with expert gastroenterologist interpretation.',
+    desc: 'High-resolution esophageal manometry and 24-hour pH/impedance monitoring for GERD, achalasia, esophageal dysmotility, and post-fundoplication evaluation — with expert gastroenterologist interpretation.'
   },
   {
     title: 'Pancreatic Cyst & Tumor Evaluation',
-    desc: 'Comprehensive workup of pancreatic lesions using EUS, CT pancreas protocol, MRCP, and serum tumor markers — with multidisciplinary review by gastroenterology, radiology, and surgical oncology teams.',
+    desc: 'Comprehensive workup of pancreatic lesions using EUS, CT pancreas protocol, MRCP, and serum tumor markers — with multidisciplinary review by gastroenterology, radiology, and surgical oncology teams.'
   },
 ]
 
@@ -201,27 +202,27 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does a colonoscopy cost in India compared to the U.S.?',
-    a: 'Colonoscopy in the U.S. costs $2,750–$9,000 for self-pay patients (FAIR Health 2024). At a JCI-accredited hospital in India, the same procedure costs $150–$500 including sedation and pathology — a 90–95% saving. Türkiye costs $200–$700. Sultan GHC provides a personalised estimate at no charge.',
+    a: 'Colonoscopy in the U.S. costs $2,750–$9,000 for self-pay patients (FAIR Health 2024). At a JCI-accredited hospital in India, the same procedure costs $150–$500 including sedation and pathology — a 90–95% saving. Türkiye costs $200–$700. Sultan GHC provides a personalised estimate at no charge.'
   },
   {
     q: 'Is ERCP available in India and Türkiye? How much does it cost?',
-    a: 'ERCP is fully available at JCI-accredited partner hospitals, performed by fellowship-trained therapeutic endoscopists. U.S. cost: $5,000–$20,000. India: $500–$1,500. Türkiye: $700–$2,500. We provide a cost estimate based on your diagnosis within 24 hours.',
+    a: 'ERCP is fully available at JCI-accredited partner hospitals, performed by fellowship-trained therapeutic endoscopists. U.S. cost: $5,000–$20,000. India: $500–$1,500. Türkiye: $700–$2,500. We provide a cost estimate based on your diagnosis within 24 hours.'
   },
   {
     q: 'Can I get IBD treatment (Crohn\'s or UC) in India?',
-    a: 'Yes. Partner hospitals have dedicated IBD clinics with biologic infusion therapy (infliximab, vedolizumab, ustekinumab) and small molecule therapy (tofacitinib) at 70–85% lower cost than U.S. infusion centers. India sources biologics from WHO-prequalified manufacturers.',
+    a: 'Yes. Partner hospitals have dedicated IBD clinics with biologic infusion therapy (infliximab, vedolizumab, ustekinumab) and small molecule therapy (tofacitinib) at 70–85% lower cost than U.S. infusion centers. India sources biologics from WHO-prequalified manufacturers.'
   },
   {
     q: 'How long do I need to stay in India for GI treatment?',
-    a: 'Diagnostic procedures (colonoscopy, EGD, capsule endoscopy) take 3–5 days. Therapeutic ERCP or EMR typically 5–7 days. IBD evaluation and biologic initiation: 7–10 days. Sultan GHC Case Managers plan your full itinerary.',
+    a: 'Diagnostic procedures (colonoscopy, EGD, capsule endoscopy) take 3–5 days. Therapeutic ERCP or EMR typically 5–7 days. IBD evaluation and biologic initiation: 7–10 days. Sultan GHC Case Managers plan your full itinerary.'
   },
   {
     q: 'How much does hepatitis C treatment cost in India?',
-    a: 'Hepatitis C DAA treatment (12-week course) costs $20,000–$84,000 in the U.S. Generic DAA regimens in India (sofosbuvir/velpatasvir) cost $400–$1,500 — a saving of 95–99%. These are generic equivalents produced under compulsory license with equivalent clinical efficacy proven in trials.',
+    a: 'Hepatitis C DAA treatment (12-week course) costs $20,000–$84,000 in the U.S. Generic DAA regimens in India (sofosbuvir/velpatasvir) cost $400–$1,500 — a saving of 95–99%. These are generic equivalents produced under compulsory license with equivalent clinical efficacy proven in trials.'
   },
   {
     q: 'Are endoscopes in India the same quality as U.S. hospitals?',
-    a: 'Yes. Our partner hospitals use Olympus, Fujifilm, and Pentax endoscopy systems — the same manufacturers as leading U.S. academic centers. All scopes are processed following ASGE/ESGE disinfection protocols. JCI accreditation specifically audits endoscope reprocessing standards.',
+    a: 'Yes. Our partner hospitals use Olympus, Fujifilm, and Pentax endoscopy systems — the same manufacturers as leading U.S. academic centers. All scopes are processed following ASGE/ESGE disinfection protocols. JCI accreditation specifically audits endoscope reprocessing standards.'
   },
 ]
 
@@ -245,7 +246,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
       role="img"
     >
       <div className="flex items-center gap-2 w-full shrink-0">
-        <ImageIcon size={16} className="text-blue-400 shrink-0" />
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400 shrink-0"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
         <span className="text-[10px] font-bold text-blue-500 uppercase tracking-widest">Image Placeholder</span>
       </div>
       <div className="bg-white/70 rounded-lg px-3 py-1.5 w-full shrink-0">
@@ -264,6 +265,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
     </div>
   )
 }
+
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
@@ -508,7 +510,6 @@ export default function GastroenterologyPage() {
                 {[
                   'Asian Institute of Gastroenterology (Hyderabad) — one of Asia\'s largest dedicated GI centers',
                   'Rela Institute & Medical Centre Chennai — advanced hepatobiliary and GI surgery center; Sultan GHC MOU partner',
-import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
                   'High-definition colonoscopy with NBI (Narrow Band Imaging) for polyp detection at all partner hospitals',
                   'ERCP performed by therapeutic endoscopists trained at Mayo Clinic and UK tertiary GI centers',
                   'IBD biologics including infliximab, vedolizumab, and ustekinumab biosimilars at WHO-prequalified quality',

@@ -1,8 +1,9 @@
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 import Link from 'next/link'
 import {
   ChevronRight, ArrowRight, Phone, MessageCircle,
   CheckCircle2, Activity, AlertCircle,
-  Shield, Users, ImageIcon, TrendingDown,
+  Shield, Users, TrendingDown
 } from 'lucide-react'
 
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
@@ -33,15 +34,15 @@ export const metadata = {
       'Liver transplant, TACE, RFA, cirrhosis management, and hepatitis C treatment at JCI-accredited liver centers in India and Türkiye. Real cost data. Free consultation.',
     url: 'https://www.sultanghc.com/treatments/hepatology-liver-care',
     siteName: 'Sultan Global Health Care',
-    type: 'website',
+    type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Hepatology & Liver Care Abroad | Sultan GHC',
     description:
-      'Liver transplant in India costs $22K–$40K vs $878K–$1M in the U.S. TACE, RFA, cirrhosis, HCV treatment at JCI hospitals.',
+      'Liver transplant in India costs $22K–$40K vs $878K–$1M in the U.S. TACE, RFA, cirrhosis, HCV treatment at JCI hospitals.'
   },
-  alternates: { canonical: 'https://www.sultanghc.com/treatments/hepatology-liver-care' },
+  alternates: { canonical: 'https://www.sultanghc.com/treatments/hepatology-liver-care' }
 }
 
 // ─── JSON-LD Schemas ──────────────────────────────────────────────────────────
@@ -53,7 +54,7 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 1, name: 'Home',                   item: 'https://www.sultanghc.com' },
     { '@type': 'ListItem', position: 2, name: 'Treatments',             item: 'https://www.sultanghc.com/treatments' },
     { '@type': 'ListItem', position: 3, name: 'Hepatology & Liver Care',item: 'https://www.sultanghc.com/treatments/hepatology-liver-care' },
-  ],
+  ]
 }
 
 const medicalSchema = {
@@ -67,8 +68,8 @@ const medicalSchema = {
     '@type': 'MedicalSpecialty',
     name: 'Hepatology',
     alternateName: ['Liver Medicine', 'Transplant Hepatology', 'Liver Disease'],
-    relevantSpecialty: 'Gastroenterology',
-  },
+    relevantSpecialty: 'Gastroenterology'
+  }
 }
 
 const faqSchema = {
@@ -80,50 +81,50 @@ const faqSchema = {
       name: 'How much does a liver transplant cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A liver transplant in the U.S. costs $878,000–$1,017,000 on average (source: Milliman 2025 actuarial report — total billed before insurance). At a JCI-accredited liver transplant center in India, the same procedure — deceased donor or living donor — costs $22,000–$40,000 including surgery, organ procurement, ICU, and 30 days of post-transplant monitoring. That represents a saving of 95–97%. Sultan GHC works with NABH- and NABL-accredited transplant programs with internationally trained hepatobiliary surgeons.',
-      },
+        text: 'A liver transplant in the U.S. costs $878,000–$1,017,000 on average (source: Milliman 2025 actuarial report — total billed before insurance). At a JCI-accredited liver transplant center in India, the same procedure — deceased donor or living donor — costs $22,000–$40,000 including surgery, organ procurement, ICU, and 30 days of post-transplant monitoring. That represents a saving of 95–97%. Sultan GHC works with NABH- and NABL-accredited transplant programs with internationally trained hepatobiliary surgeons.'
+      }
     },
     {
       '@type': 'Question',
       name: 'What is TACE and how much does it cost in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'TACE (Trans-Arterial Chemoembolization) is an image-guided interventional radiology procedure used to treat hepatocellular carcinoma (HCC / liver cancer) by delivering chemotherapy directly into the tumor\'s blood supply while blocking it. TACE in the U.S. costs $10,000–$30,000 per session. At partner hospitals in India, TACE costs $1,500–$5,000 per session — a saving of 83–90%. Türkiye costs $2,000–$7,000. Multiple sessions may be required depending on tumor response.',
-      },
+        text: 'TACE (Trans-Arterial Chemoembolization) is an image-guided interventional radiology procedure used to treat hepatocellular carcinoma (HCC / liver cancer) by delivering chemotherapy directly into the tumor\'s blood supply while blocking it. TACE in the U.S. costs $10,000–$30,000 per session. At partner hospitals in India, TACE costs $1,500–$5,000 per session — a saving of 83–90%. Türkiye costs $2,000–$7,000. Multiple sessions may be required depending on tumor response.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Can I get living donor liver transplant in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Living donor liver transplant (LDLT) is well-established in India and is in fact performed more frequently there than deceased donor transplant due to organ availability constraints. India\'s top liver transplant centers (Medanta Gurugram, Global Hospitals Mumbai, Fortis, Apollo) perform 300–500 living donor liver transplants per year each. The donor (usually a blood-related family member with compatible blood type) can accompany the patient. Donor surgery, recipient surgery, and post-transplant care are all included in the package quoted by Sultan GHC partner hospitals.',
-      },
+        text: 'Yes. Living donor liver transplant (LDLT) is well-established in India and is in fact performed more frequently there than deceased donor transplant due to organ availability constraints. India\'s top liver transplant centers (Medanta Gurugram, Global Hospitals Mumbai, Fortis, Apollo) perform 300–500 living donor liver transplants per year each. The donor (usually a blood-related family member with compatible blood type) can accompany the patient. Donor surgery, recipient surgery, and post-transplant care are all included in the package quoted by Sultan GHC partner hospitals.'
+      }
     },
     {
       '@type': 'Question',
       name: 'How much does hepatitis C treatment cost in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Hepatitis C direct-acting antiviral (DAA) treatment in the U.S. costs $20,000–$84,000 at list price for a 12-week course. Generic DAA regimens in India — sofosbuvir/velpatasvir (pan-genotypic) or sofosbuvir/daclatasvir — cost $400–$1,500 for a full 12-week course, achieving SVR12 (cure) rates of 95–99% equivalent to brand-name products. These are not counterfeit medications — they are generic equivalents produced under Indian patent law with CDSCO approval, the same active molecules as Harvoni and Epclusa.',
-      },
+        text: 'Hepatitis C direct-acting antiviral (DAA) treatment in the U.S. costs $20,000–$84,000 at list price for a 12-week course. Generic DAA regimens in India — sofosbuvir/velpatasvir (pan-genotypic) or sofosbuvir/daclatasvir — cost $400–$1,500 for a full 12-week course, achieving SVR12 (cure) rates of 95–99% equivalent to brand-name products. These are not counterfeit medications — they are generic equivalents produced under Indian patent law with CDSCO approval, the same active molecules as Harvoni and Epclusa.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Are liver transplant surgeons in India as qualified as U.S. transplant surgeons?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Several of India\'s leading liver transplant surgeons trained at top U.S. and UK programs including Mayo Clinic, University of Pittsburgh Medical Center (UPMC), King\'s College London, and Cambridge. India performs more than 2,500 liver transplants annually — among the highest volumes globally. Volume matters in transplant outcomes: high-volume centers consistently demonstrate lower mortality and higher graft survival rates. Sultan GHC partners with India\'s highest-volume, JCI-accredited liver transplant programs.',
-      },
+        text: 'Several of India\'s leading liver transplant surgeons trained at top U.S. and UK programs including Mayo Clinic, University of Pittsburgh Medical Center (UPMC), King\'s College London, and Cambridge. India performs more than 2,500 liver transplants annually — among the highest volumes globally. Volume matters in transplant outcomes: high-volume centers consistently demonstrate lower mortality and higher graft survival rates. Sultan GHC partners with India\'s highest-volume, JCI-accredited liver transplant programs.'
+      }
     },
     {
       '@type': 'Question',
       name: 'How long will I need to stay in India after a liver transplant?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Liver transplant patients typically require 45–60 days in India: 5–7 days pre-transplant evaluation, 1–2 days for donor assessment (if living donor), transplant surgery, 10–14 days ICU, 10–14 days general ward, and 14–21 days of outpatient monitoring before flying clearance. Your Sultan GHC Case Manager coordinates accommodation for patients and family, hospital-to-hotel transport, interpreter support, and follow-up scheduling.',
-      },
+        text: 'Liver transplant patients typically require 45–60 days in India: 5–7 days pre-transplant evaluation, 1–2 days for donor assessment (if living donor), transplant surgery, 10–14 days ICU, 10–14 days general ward, and 14–21 days of outpatient monitoring before flying clearance. Your Sultan GHC Case Manager coordinates accommodation for patients and family, hospital-to-hotel transport, interpreter support, and follow-up scheduling.'
+      }
     },
-  ],
+  ]
 }
 
 // ─── Page Data ────────────────────────────────────────────────────────────────
@@ -146,43 +147,43 @@ const CONDITIONS = [
 const TREATMENTS = [
   {
     title: 'Liver Transplant — Living Donor & Deceased Donor',
-    desc: 'Full liver transplant program for end-stage liver disease and hepatocellular carcinoma within Milan criteria. Living donor liver transplant (LDLT) is extensively performed at India\'s partner centers — 300–500 cases per year at each major center. Includes donor workup, recipient surgery, ICU, and 30-day post-transplant monitoring.',
+    desc: 'Full liver transplant program for end-stage liver disease and hepatocellular carcinoma within Milan criteria. Living donor liver transplant (LDLT) is extensively performed at India\'s partner centers — 300–500 cases per year at each major center. Includes donor workup, recipient surgery, ICU, and 30-day post-transplant monitoring.'
   },
   {
     title: 'TACE — Trans-Arterial Chemoembolization',
-    desc: 'Interventional radiology-guided delivery of chemotherapy (doxorubicin, cisplatin) directly into hepatic artery branches supplying liver tumors, followed by embolization to cut off blood supply. First-line non-surgical treatment for unresectable HCC (BCLC Stage B). Drug-eluting bead TACE (DEB-TACE) is available at select partner centers.',
+    desc: 'Interventional radiology-guided delivery of chemotherapy (doxorubicin, cisplatin) directly into hepatic artery branches supplying liver tumors, followed by embolization to cut off blood supply. First-line non-surgical treatment for unresectable HCC (BCLC Stage B). Drug-eluting bead TACE (DEB-TACE) is available at select partner centers.'
   },
   {
     title: 'RFA — Radiofrequency Ablation of Liver Tumors',
-    desc: 'Image-guided thermal ablation of liver tumors ≤5 cm using radiofrequency energy — a curative intent procedure for small HCC and colorectal liver metastases. Performed percutaneously or laparoscopically. Microwave ablation (MWA) is also available and may be preferred for larger lesions.',
+    desc: 'Image-guided thermal ablation of liver tumors ≤5 cm using radiofrequency energy — a curative intent procedure for small HCC and colorectal liver metastases. Performed percutaneously or laparoscopically. Microwave ablation (MWA) is also available and may be preferred for larger lesions.'
   },
   {
     title: 'TIPS — Transjugular Intrahepatic Portosystemic Shunt',
-    desc: 'Interventional radiology procedure creating a channel between portal and hepatic veins to reduce portal hypertension — used for refractory ascites, variceal bleeding, and hepatic hydrothorax. Covered stent TIPS (e-PTFE) performed at partner centers.',
+    desc: 'Interventional radiology procedure creating a channel between portal and hepatic veins to reduce portal hypertension — used for refractory ascites, variceal bleeding, and hepatic hydrothorax. Covered stent TIPS (e-PTFE) performed at partner centers.'
   },
   {
     title: 'Variceal Banding & Sclerotherapy',
-    desc: 'Endoscopic band ligation (EBL) and sclerotherapy for esophageal and gastric varices — for both active variceal bleeding and secondary prevention. Performed in dedicated endoscopy units with ICU backup in high-risk patients.',
+    desc: 'Endoscopic band ligation (EBL) and sclerotherapy for esophageal and gastric varices — for both active variceal bleeding and secondary prevention. Performed in dedicated endoscopy units with ICU backup in high-risk patients.'
   },
   {
     title: 'Hepatitis C — Direct-Acting Antiviral (DAA) Treatment',
-    desc: 'Curative hepatitis C treatment with pan-genotypic direct-acting antivirals (sofosbuvir/velpatasvir or sofosbuvir/daclatasvir) at 95–99% SVR12 rates. Generic equivalent regimens in India cost $400–$1,500 for a full 12-week course — the same molecules as U.S. brand-name Epclusa and Harvoni, produced under CDSCO approval.',
+    desc: 'Curative hepatitis C treatment with pan-genotypic direct-acting antivirals (sofosbuvir/velpatasvir or sofosbuvir/daclatasvir) at 95–99% SVR12 rates. Generic equivalent regimens in India cost $400–$1,500 for a full 12-week course — the same molecules as U.S. brand-name Epclusa and Harvoni, produced under CDSCO approval.'
   },
   {
     title: 'Hepatitis B — Antiviral Suppression & Monitoring',
-    desc: 'Long-term hepatitis B management with tenofovir alafenamide (TAF) or entecavir — with structured viral load monitoring, HBsAg quantification, and HCC surveillance via 6-monthly ultrasound and AFP. Hepatologists monitor for fibrosis progression using FibroScan (transient elastography).',
+    desc: 'Long-term hepatitis B management with tenofovir alafenamide (TAF) or entecavir — with structured viral load monitoring, HBsAg quantification, and HCC surveillance via 6-monthly ultrasound and AFP. Hepatologists monitor for fibrosis progression using FibroScan (transient elastography).'
   },
   {
     title: 'FibroScan & Liver Biopsy',
-    desc: 'Non-invasive liver fibrosis assessment using transient elastography (FibroScan) — to stage cirrhosis without a biopsy in most cases. When a biopsy is required (autoimmune hepatitis, NASH staging, post-transplant rejection), image-guided percutaneous liver biopsy is performed with same-day histopathology.',
+    desc: 'Non-invasive liver fibrosis assessment using transient elastography (FibroScan) — to stage cirrhosis without a biopsy in most cases. When a biopsy is required (autoimmune hepatitis, NASH staging, post-transplant rejection), image-guided percutaneous liver biopsy is performed with same-day histopathology.'
   },
   {
     title: 'Ascites Management & Paracentesis',
-    desc: 'Medical management of ascites (diuretics, dietary sodium restriction, albumin infusion) and large-volume paracentesis for tense or refractory ascites — with comprehensive renal and electrolyte monitoring. TIPS evaluation for recurrent cases.',
+    desc: 'Medical management of ascites (diuretics, dietary sodium restriction, albumin infusion) and large-volume paracentesis for tense or refractory ascites — with comprehensive renal and electrolyte monitoring. TIPS evaluation for recurrent cases.'
   },
   {
     title: 'Liver Cancer MDT & Surgical Resection',
-    desc: 'Multidisciplinary team (MDT) review of all liver cancer cases — hepatologist, hepatobiliary surgeon, interventional radiologist, and medical oncologist — to determine resectability, transplant eligibility, or locoregional therapy. Liver resection (hepatectomy) performed at partner centers with hepatobiliary surgical expertise.',
+    desc: 'Multidisciplinary team (MDT) review of all liver cancer cases — hepatologist, hepatobiliary surgeon, interventional radiologist, and medical oncologist — to determine resectability, transplant eligibility, or locoregional therapy. Liver resection (hepatectomy) performed at partner centers with hepatobiliary surgical expertise.'
   },
 ]
 
@@ -202,27 +203,27 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does a liver transplant cost in India compared to the U.S.?',
-    a: 'A liver transplant in the U.S. costs $878,000–$1,017,000 (Milliman 2025 actuarial report — total billed before insurance). At a JCI-accredited liver transplant center in India, the same procedure costs $22,000–$40,000 including surgery, ICU, and 30 days post-transplant monitoring — a saving of 95–97%.',
+    a: 'A liver transplant in the U.S. costs $878,000–$1,017,000 (Milliman 2025 actuarial report — total billed before insurance). At a JCI-accredited liver transplant center in India, the same procedure costs $22,000–$40,000 including surgery, ICU, and 30 days post-transplant monitoring — a saving of 95–97%.'
   },
   {
     q: 'What is TACE and how much does it cost in India?',
-    a: 'TACE (Trans-Arterial Chemoembolization) delivers chemotherapy directly into liver tumor blood supply while blocking it — first-line non-surgical treatment for unresectable HCC. U.S. cost: $10,000–$30,000 per session. India: $1,500–$5,000. Türkiye: $2,000–$7,000. Multiple sessions may be needed based on tumor response.',
+    a: 'TACE (Trans-Arterial Chemoembolization) delivers chemotherapy directly into liver tumor blood supply while blocking it — first-line non-surgical treatment for unresectable HCC. U.S. cost: $10,000–$30,000 per session. India: $1,500–$5,000. Türkiye: $2,000–$7,000. Multiple sessions may be needed based on tumor response.'
   },
   {
     q: 'Can I get a living donor liver transplant in India?',
-    a: 'Yes. Living donor liver transplant (LDLT) is extensively performed in India — 300–500 cases per year at each major partner center. The donor (blood-related family member with compatible blood type) can accompany the patient. Donor surgery, recipient surgery, and post-transplant care are all included in the quoted package.',
+    a: 'Yes. Living donor liver transplant (LDLT) is extensively performed in India — 300–500 cases per year at each major partner center. The donor (blood-related family member with compatible blood type) can accompany the patient. Donor surgery, recipient surgery, and post-transplant care are all included in the quoted package.'
   },
   {
     q: 'How much does hepatitis C treatment cost in India?',
-    a: 'Hepatitis C DAA treatment in the U.S. costs $20,000–$84,000 at list price. Generic DAAs in India (sofosbuvir/velpatasvir) cost $400–$1,500 for a full 12-week course — achieving SVR12 cure rates of 95–99%, equivalent to brand-name products. These are CDSCO-approved generics of the same active molecules as Harvoni and Epclusa.',
+    a: 'Hepatitis C DAA treatment in the U.S. costs $20,000–$84,000 at list price. Generic DAAs in India (sofosbuvir/velpatasvir) cost $400–$1,500 for a full 12-week course — achieving SVR12 cure rates of 95–99%, equivalent to brand-name products. These are CDSCO-approved generics of the same active molecules as Harvoni and Epclusa.'
   },
   {
     q: 'Are liver transplant surgeons in India as qualified as U.S. transplant surgeons?',
-    a: 'Several of India\'s leading liver transplant surgeons trained at Mayo Clinic, UPMC, King\'s College London, and Cambridge. India performs 2,500+ liver transplants annually — among the highest volumes globally. High-volume centers consistently demonstrate lower mortality and higher graft survival. Sultan GHC partners with India\'s highest-volume JCI-accredited transplant programs.',
+    a: 'Several of India\'s leading liver transplant surgeons trained at Mayo Clinic, UPMC, King\'s College London, and Cambridge. India performs 2,500+ liver transplants annually — among the highest volumes globally. High-volume centers consistently demonstrate lower mortality and higher graft survival. Sultan GHC partners with India\'s highest-volume JCI-accredited transplant programs.'
   },
   {
     q: 'How long will I need to stay in India after a liver transplant?',
-    a: 'Liver transplant patients typically need 45–60 days in India: 5–7 days pre-transplant evaluation, transplant surgery, 10–14 days ICU, 10–14 days general ward, and 14–21 days outpatient monitoring before flying clearance. Sultan GHC coordinates accommodation, hospital transport, interpreter support, and follow-up scheduling for you and your family.',
+    a: 'Liver transplant patients typically need 45–60 days in India: 5–7 days pre-transplant evaluation, transplant surgery, 10–14 days ICU, 10–14 days general ward, and 14–21 days outpatient monitoring before flying clearance. Sultan GHC coordinates accommodation, hospital transport, interpreter support, and follow-up scheduling for you and your family.'
   },
 ]
 
@@ -246,7 +247,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
       role="img"
     >
       <div className="flex items-center gap-2 w-full shrink-0">
-        <ImageIcon size={16} className="text-blue-400 shrink-0" />
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400 shrink-0"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
         <span className="text-[10px] font-bold text-blue-500 uppercase tracking-widest">Image Placeholder</span>
       </div>
       <div className="bg-white/70 rounded-lg px-3 py-1.5 w-full shrink-0">
@@ -265,6 +266,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
     </div>
   )
 }
+
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
@@ -368,7 +370,6 @@ export default function HepatologyPage() {
             <AlertCircle size={20} className="text-primary shrink-0 mt-0.5" />
             <p className="text-sm text-gray-700 leading-relaxed">
               <strong className="text-gray-900">Digestive tract conditions?</strong> Hepatology covers liver, bile duct, and pancreas disease. For colonoscopy, ERCP, IBD (Crohn&apos;s / ulcerative colitis), and GI endoscopy, see our{' '}
-import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
               <Link href="/treatments/gastroenterology" className="text-primary font-semibold hover:underline">
                 Gastroenterology page →
               </Link>

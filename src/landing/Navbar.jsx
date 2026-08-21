@@ -105,9 +105,18 @@ const Navbar = () => {
     return () => { document.body.style.overflow = '' }
   }, [mobileOpen])
 
+  // Close desktop menu when clicking outside
+  useEffect(() => {
+    const handler = (e) => {
+      if (!e.target.closest('[data-nav-item]')) setActiveMenu(null)
+    }
+    document.addEventListener('mousedown', handler)
+    return () => document.removeEventListener('mousedown', handler)
+  }, [])
+
   // Desktop hover helpers — small delay prevents flickering when moving between trigger and menu
   const openMenu      = (label) => { clearTimeout(closeTimer.current); setActiveMenu(label) }
-  const scheduleClose = ()      => { closeTimer.current = setTimeout(() => setActiveMenu(null), 160) }
+  const scheduleClose = ()      => { closeTimer.current = setTimeout(() => setActiveMenu(null), 350) }
   const cancelClose   = ()      => clearTimeout(closeTimer.current)
 
   const closeMobile   = ()      => { setMobileOpen(false); setMobileExpanded(null) }
@@ -207,13 +216,15 @@ const Navbar = () => {
               return (
                 <div
                   key={item.label}
-                  className="relative"
+                  data-nav-item
+                  className="relative group"
                   onMouseEnter={() => openMenu(item.label)}
                   onMouseLeave={scheduleClose}
                 >
                   <button
                     aria-haspopup="true"
                     aria-expanded={activeMenu === item.label}
+                    onClick={() => activeMenu === item.label ? setActiveMenu(null) : openMenu(item.label)}
                     className={`flex items-center gap-0.5 px-3 py-2 rounded-lg text-[13px] font-medium transition-colors ${
                       activeMenu === item.label
                         ? 'text-primary bg-blue-50'
@@ -230,13 +241,16 @@ const Navbar = () => {
                   </button>
 
                   {/* ── Treatments Mega Menu ── */}
-                  {item.mega && activeMenu === item.label && (
+                  {item.mega && (
                     <div
                       role="menu"
-                      className="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-[700px] bg-white rounded-2xl shadow-2xl border border-gray-100 p-6 z-50"
+                      className={`absolute top-full left-1/2 -translate-x-1/2 w-[700px] pt-3 z-50 transition-all duration-150 ${
+                        activeMenu === item.label ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto'
+                      }`}
                       onMouseEnter={cancelClose}
                       onMouseLeave={scheduleClose}
                     >
+                    <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 p-6">
                       <p className="text-[11px] font-semibold text-primary uppercase tracking-widest mb-4 pb-3 border-b border-gray-100">
                         Treatment Categories
                       </p>
@@ -270,16 +284,20 @@ const Navbar = () => {
                         </Link>
                       </div>
                     </div>
+                    </div>
                   )}
 
                   {/* ── Our Network Mega Menu ── */}
-                  {item.megaNetwork && activeMenu === item.label && (
+                  {item.megaNetwork && (
                     <div
                       role="menu"
-                      className="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-[560px] bg-white rounded-2xl shadow-2xl border border-gray-100 p-6 z-50"
+                      className={`absolute top-full left-1/2 -translate-x-1/2 w-[560px] pt-3 z-50 transition-all duration-150 ${
+                        activeMenu === item.label ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto'
+                      }`}
                       onMouseEnter={cancelClose}
                       onMouseLeave={scheduleClose}
                     >
+                    <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 p-6">
                       <p className="text-[11px] font-semibold text-primary uppercase tracking-widest mb-4 pb-3 border-b border-gray-100">
                         Our Healthcare Destinations
                       </p>
@@ -319,16 +337,20 @@ const Navbar = () => {
                         </Link>
                       </div>
                     </div>
+                    </div>
                   )}
 
                   {/* ── Simple Dropdown (Why Sultan GHC) ── */}
-                  {item.items && !item.mega && activeMenu === item.label && (
+                  {item.items && !item.mega && (
                     <div
                       role="menu"
-                      className="absolute top-full right-0 mt-3 min-w-[230px] bg-white rounded-xl shadow-2xl border border-gray-100 py-2 z-50"
+                      className={`absolute top-full right-0 pt-3 min-w-[230px] z-50 transition-all duration-150 ${
+                        activeMenu === item.label ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none group-hover:opacity-100 group-hover:pointer-events-auto'
+                      }`}
                       onMouseEnter={cancelClose}
                       onMouseLeave={scheduleClose}
                     >
+                    <div className="bg-white rounded-xl shadow-2xl border border-gray-100 py-2">
                       {item.items.map((sub) => (
                         <Link
                           key={sub.href}
@@ -340,6 +362,7 @@ const Navbar = () => {
                           {sub.name}
                         </Link>
                       ))}
+                    </div>
                     </div>
                   )}
                 </div>

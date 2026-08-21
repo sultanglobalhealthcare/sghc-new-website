@@ -1,10 +1,10 @@
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 import Link from 'next/link'
 import {
   ChevronRight, ArrowRight, Phone, MessageCircle,
   CheckCircle2, Brain, Activity, AlertCircle,
-  DollarSign, Shield, Users, ImageIcon,
+  DollarSign, Shield, Users
 } from 'lucide-react'
-import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
@@ -34,15 +34,15 @@ export const metadata = {
       'World-class neurology care at 70–90% lower than U.S. prices. JCI-accredited neurology hospitals in India and Türkiye matched to your diagnosis.',
     url: 'https://www.sultanghc.com/treatments/neurology',
     siteName: 'Sultan Global Health Care',
-    type: 'website',
+    type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Neurology Treatment Abroad | Sultan GHC',
     description:
-      'Stroke, Parkinson\'s, epilepsy, MS care in India & Türkiye at 70–90% less than U.S. costs. JCI-accredited hospitals.',
+      'Stroke, Parkinson\'s, epilepsy, MS care in India & Türkiye at 70–90% less than U.S. costs. JCI-accredited hospitals.'
   },
-  alternates: { canonical: 'https://www.sultanghc.com/treatments/neurology' },
+  alternates: { canonical: 'https://www.sultanghc.com/treatments/neurology' }
 }
 
 // ─── JSON-LD Schemas ──────────────────────────────────────────────────────────
@@ -54,7 +54,7 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 1, name: 'Home',       item: 'https://www.sultanghc.com' },
     { '@type': 'ListItem', position: 2, name: 'Treatments', item: 'https://www.sultanghc.com/treatments' },
     { '@type': 'ListItem', position: 3, name: 'Neurology',  item: 'https://www.sultanghc.com/treatments/neurology' },
-  ],
+  ]
 }
 
 const medicalSchema = {
@@ -68,8 +68,8 @@ const medicalSchema = {
     '@type': 'MedicalSpecialty',
     name: 'Neurology',
     alternateName: ['Brain & Nervous System Medicine', 'Clinical Neurology'],
-    relevantSpecialty: 'Neurology',
-  },
+    relevantSpecialty: 'Neurology'
+  }
 }
 
 const faqSchema = {
@@ -81,50 +81,50 @@ const faqSchema = {
       name: 'How much does deep brain stimulation (DBS) cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Deep brain stimulation (DBS) for Parkinson\'s disease in the U.S. typically costs $80,000–$150,000 including device and surgery. At a JCI-accredited hospital in India, the same procedure — using FDA-approved Medtronic or Abbott devices — costs $15,000–$28,000, a saving of 80–85%. Türkiye offers DBS for $20,000–$35,000. Sultan GHC provides a personalised cost estimate at no charge.',
-      },
+        text: 'Deep brain stimulation (DBS) for Parkinson\'s disease in the U.S. typically costs $80,000–$150,000 including device and surgery. At a JCI-accredited hospital in India, the same procedure — using FDA-approved Medtronic or Abbott devices — costs $15,000–$28,000, a saving of 80–85%. Türkiye offers DBS for $20,000–$35,000. Sultan GHC provides a personalised cost estimate at no charge.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Are neurologists in India trained to U.S. or European standards?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Many neurologists at our partner JCI-accredited hospitals completed their fellowships and sub-specialty training in the United States, United Kingdom, or Germany. They hold board certifications from international bodies including the American Board of Psychiatry and Neurology (ABPN) equivalent, Royal College of Physicians (UK), and the European Academy of Neurology. They regularly publish in peer-reviewed journals and attend international neurology conferences.',
-      },
+        text: 'Many neurologists at our partner JCI-accredited hospitals completed their fellowships and sub-specialty training in the United States, United Kingdom, or Germany. They hold board certifications from international bodies including the American Board of Psychiatry and Neurology (ABPN) equivalent, Royal College of Physicians (UK), and the European Academy of Neurology. They regularly publish in peer-reviewed journals and attend international neurology conferences.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Can I travel to India or Türkiye after a stroke?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Travel after a stroke depends on neurological stability. Most neurologists recommend waiting a minimum of 4–6 weeks after an ischemic stroke before long-haul air travel, subject to individual clinical assessment. Sultan GHC\'s medical team reviews your imaging, current medications, and neurological status before making a travel recommendation. For sub-acute rehabilitation rather than acute care, travel is often safe and beneficial.',
-      },
+        text: 'Travel after a stroke depends on neurological stability. Most neurologists recommend waiting a minimum of 4–6 weeks after an ischemic stroke before long-haul air travel, subject to individual clinical assessment. Sultan GHC\'s medical team reviews your imaging, current medications, and neurological status before making a travel recommendation. For sub-acute rehabilitation rather than acute care, travel is often safe and beneficial.'
+      }
     },
     {
       '@type': 'Question',
       name: 'What neurology tests are available in India and Türkiye?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Our partner hospitals offer the full range of diagnostic neurology: 3T MRI brain and spine, CT angiography, EEG (routine and long-term), video EEG epilepsy monitoring, nerve conduction studies (NCS), electromyography (EMG), evoked potentials (VEP, BAEP, SSEP), PET-CT for dementia workup, neuropsychological testing, and CSF analysis. Turnaround times are typically 24–48 hours for routine studies.',
-      },
+        text: 'Our partner hospitals offer the full range of diagnostic neurology: 3T MRI brain and spine, CT angiography, EEG (routine and long-term), video EEG epilepsy monitoring, nerve conduction studies (NCS), electromyography (EMG), evoked potentials (VEP, BAEP, SSEP), PET-CT for dementia workup, neuropsychological testing, and CSF analysis. Turnaround times are typically 24–48 hours for routine studies.'
+      }
     },
     {
       '@type': 'Question',
       name: 'How long will I need to stay for neurology treatment in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Stay duration depends on the procedure. Diagnostic evaluations take 3–7 days. Epilepsy monitoring unit stays are typically 5–10 days. Deep brain stimulation surgery requires 7–14 days in-country including pre-operative assessment, surgery, and post-operative programming. Stroke rehabilitation stays vary from 3 to 8 weeks depending on deficit severity. Sultan GHC\'s Case Managers plan your full itinerary.',
-      },
+        text: 'Stay duration depends on the procedure. Diagnostic evaluations take 3–7 days. Epilepsy monitoring unit stays are typically 5–10 days. Deep brain stimulation surgery requires 7–14 days in-country including pre-operative assessment, surgery, and post-operative programming. Stroke rehabilitation stays vary from 3 to 8 weeks depending on deficit severity. Sultan GHC\'s Case Managers plan your full itinerary.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Does Sultan GHC arrange a second opinion from a neurologist before treatment?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes — and we encourage it. Sultan GHC arranges a complimentary remote second opinion from our network neurologists within 24–48 hours. Upload your MRI scans, EEG reports, genetic tests, and medication history. Our specialists review your case and provide a written recommendation. There is no cost and no obligation for the first opinion.',
-      },
+        text: 'Yes — and we encourage it. Sultan GHC arranges a complimentary remote second opinion from our network neurologists within 24–48 hours. Upload your MRI scans, EEG reports, genetic tests, and medication history. Our specialists review your case and provide a written recommendation. There is no cost and no obligation for the first opinion.'
+      }
     },
-  ],
+  ]
 }
 
 // ─── Page Data ────────────────────────────────────────────────────────────────
@@ -147,35 +147,35 @@ const CONDITIONS = [
 const TREATMENTS = [
   {
     title: 'Stroke Management & Thrombolysis',
-    desc: 'IV tPA (thrombolysis) and mechanical thrombectomy for acute ischemic stroke — performed in dedicated stroke units with 24/7 neuro-intervention teams. Post-stroke rehabilitation is integrated from day one.',
+    desc: 'IV tPA (thrombolysis) and mechanical thrombectomy for acute ischemic stroke — performed in dedicated stroke units with 24/7 neuro-intervention teams. Post-stroke rehabilitation is integrated from day one.'
   },
   {
     title: 'Deep Brain Stimulation (DBS)',
-    desc: 'FDA-approved Medtronic and Abbott DBS systems implanted by internationally trained neurosurgeons for Parkinson\'s disease, essential tremor, and dystonia. Post-implant programming by specialist neurologists included.',
+    desc: 'FDA-approved Medtronic and Abbott DBS systems implanted by internationally trained neurosurgeons for Parkinson\'s disease, essential tremor, and dystonia. Post-implant programming by specialist neurologists included.'
   },
   {
     title: 'Epilepsy & Long-Term Video EEG Monitoring',
-    desc: 'Dedicated epilepsy monitoring units (EMU) with continuous video-EEG recording to accurately classify seizures and determine surgical candidacy — essential for patients with drug-resistant epilepsy.',
+    desc: 'Dedicated epilepsy monitoring units (EMU) with continuous video-EEG recording to accurately classify seizures and determine surgical candidacy — essential for patients with drug-resistant epilepsy.'
   },
   {
     title: 'Multiple Sclerosis Disease Management',
-    desc: 'Neurologist-led MS management including disease-modifying therapies (DMTs), infusion therapy (natalizumab, ocrelizumab), and structured MRI monitoring. Second opinions for MS diagnosis are frequently requested.',
+    desc: 'Neurologist-led MS management including disease-modifying therapies (DMTs), infusion therapy (natalizumab, ocrelizumab), and structured MRI monitoring. Second opinions for MS diagnosis are frequently requested.'
   },
   {
     title: 'Botulinum Toxin Therapy',
-    desc: 'Botox injections for movement disorders, spasticity, cervical dystonia, chronic migraine, and hemifacial spasm — administered by movement disorder specialists with clinical follow-up.',
+    desc: 'Botox injections for movement disorders, spasticity, cervical dystonia, chronic migraine, and hemifacial spasm — administered by movement disorder specialists with clinical follow-up.'
   },
   {
     title: 'Neurophysiology — EEG, EMG & NCS',
-    desc: 'Full neurophysiology laboratory services: EEG, nerve conduction studies (NCS), electromyography (EMG), evoked potentials. Available in 24–48 hours with expert interpretation by consultant neurophysiologists.',
+    desc: 'Full neurophysiology laboratory services: EEG, nerve conduction studies (NCS), electromyography (EMG), evoked potentials. Available in 24–48 hours with expert interpretation by consultant neurophysiologists.'
   },
   {
     title: 'Memory & Dementia Clinic',
-    desc: 'Comprehensive cognitive assessment, neuropsychological testing, biomarker analysis (CSF tau, amyloid), and PET-CT dementia workup. Specialist memory clinics at partner hospitals in India offer structured diagnostic pathways.',
+    desc: 'Comprehensive cognitive assessment, neuropsychological testing, biomarker analysis (CSF tau, amyloid), and PET-CT dementia workup. Specialist memory clinics at partner hospitals in India offer structured diagnostic pathways.'
   },
   {
     title: 'Neuro-Rehabilitation',
-    desc: 'Multidisciplinary neuro-rehabilitation for stroke, TBI, spinal cord injury, and Guillain-Barré — combining physiotherapy, speech & language therapy, occupational therapy, and neuropsychology under one care team.',
+    desc: 'Multidisciplinary neuro-rehabilitation for stroke, TBI, spinal cord injury, and Guillain-Barré — combining physiotherapy, speech & language therapy, occupational therapy, and neuropsychology under one care team.'
   },
 ]
 
@@ -193,27 +193,27 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does deep brain stimulation (DBS) cost in India compared to the U.S.?',
-    a: 'DBS in the U.S. typically costs $80,000–$150,000. At a JCI-accredited hospital in India using FDA-approved Medtronic or Abbott devices, the same procedure costs $15,000–$28,000 — a saving of 80–85%. Türkiye costs $20,000–$35,000. Sultan GHC provides a personalised cost estimate at no charge.',
+    a: 'DBS in the U.S. typically costs $80,000–$150,000. At a JCI-accredited hospital in India using FDA-approved Medtronic or Abbott devices, the same procedure costs $15,000–$28,000 — a saving of 80–85%. Türkiye costs $20,000–$35,000. Sultan GHC provides a personalised cost estimate at no charge.'
   },
   {
     q: 'Are neurologists in India trained to U.S. or European standards?',
-    a: 'Many neurologists at our partner hospitals completed fellowship and sub-specialty training in the U.S., UK, or Germany. They hold international certifications (ABPN equivalent, Royal College of Physicians UK, European Academy of Neurology) and publish regularly in peer-reviewed journals.',
+    a: 'Many neurologists at our partner hospitals completed fellowship and sub-specialty training in the U.S., UK, or Germany. They hold international certifications (ABPN equivalent, Royal College of Physicians UK, European Academy of Neurology) and publish regularly in peer-reviewed journals.'
   },
   {
     q: 'Can I travel to India or Türkiye after a stroke?',
-    a: 'Travel after a stroke depends on neurological stability. Most neurologists recommend waiting at least 4–6 weeks after an ischemic stroke before long-haul travel, subject to individual assessment. Sultan GHC\'s medical team reviews your imaging and clinical status before advising on travel. For sub-acute rehab, travel is often safe and highly beneficial.',
+    a: 'Travel after a stroke depends on neurological stability. Most neurologists recommend waiting at least 4–6 weeks after an ischemic stroke before long-haul travel, subject to individual assessment. Sultan GHC\'s medical team reviews your imaging and clinical status before advising on travel. For sub-acute rehab, travel is often safe and highly beneficial.'
   },
   {
     q: 'What neurology tests are available in India and Türkiye?',
-    a: 'Partner hospitals offer the full diagnostic range: 3T MRI brain and spine, CT angiography, EEG (routine and long-term), video EEG, nerve conduction studies, EMG, evoked potentials, PET-CT for dementia workup, neuropsychological testing, and CSF analysis. Turnaround is typically 24–48 hours.',
+    a: 'Partner hospitals offer the full diagnostic range: 3T MRI brain and spine, CT angiography, EEG (routine and long-term), video EEG, nerve conduction studies, EMG, evoked potentials, PET-CT for dementia workup, neuropsychological testing, and CSF analysis. Turnaround is typically 24–48 hours.'
   },
   {
     q: 'How long will I need to stay for neurology treatment in India?',
-    a: 'Diagnostic evaluations take 3–7 days. Epilepsy monitoring unit stays are 5–10 days. Deep brain stimulation requires 7–14 days (assessment, surgery, programming). Stroke rehabilitation varies from 3–8 weeks. Your Sultan GHC Case Manager coordinates the full itinerary.',
+    a: 'Diagnostic evaluations take 3–7 days. Epilepsy monitoring unit stays are 5–10 days. Deep brain stimulation requires 7–14 days (assessment, surgery, programming). Stroke rehabilitation varies from 3–8 weeks. Your Sultan GHC Case Manager coordinates the full itinerary.'
   },
   {
     q: 'Does Sultan GHC arrange a second opinion from a neurologist before treatment?',
-    a: 'Yes — and we encourage it. Sultan GHC arranges a complimentary remote second opinion within 24–48 hours. Upload your MRI scans, EEG reports, and medication history. Our specialists review your case and provide a written recommendation. The first opinion is at no cost and no obligation.',
+    a: 'Yes — and we encourage it. Sultan GHC arranges a complimentary remote second opinion within 24–48 hours. Upload your MRI scans, EEG reports, and medication history. Our specialists review your case and provide a written recommendation. The first opinion is at no cost and no obligation.'
   },
 ]
 
@@ -237,7 +237,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
       role="img"
     >
       <div className="flex items-center gap-2 w-full shrink-0">
-        <ImageIcon size={16} className="text-blue-400 shrink-0" />
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400 shrink-0"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
         <span className="text-[10px] font-bold text-blue-500 uppercase tracking-widest">Image Placeholder</span>
       </div>
       <div className="bg-white/70 rounded-lg px-3 py-1.5 w-full shrink-0">
@@ -256,6 +256,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
     </div>
   )
 }
+
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
 

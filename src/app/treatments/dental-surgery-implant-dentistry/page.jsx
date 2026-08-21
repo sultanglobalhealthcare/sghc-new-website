@@ -1,3 +1,4 @@
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 import Link from 'next/link'
 import {
   ChevronRight,
@@ -10,10 +11,9 @@ import {
   Shield,
   Star,
   Smile,
-  ImageIcon,
   Stethoscope,
   Users,
-  Sparkles,
+  Sparkles
 } from 'lucide-react'
 
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
@@ -51,19 +51,19 @@ export const metadata = {
         url: 'https://www.sultanghc.com/api/og?title=Dental+Surgery+%26+Implants+Abroad&desc=Dental+implants%2C+full-arch+restoration%2C+veneers+in+India+%26+Türkiye.+Save+60-80%25.&cat=Dental+Surgery',
         width: 1200,
         height: 630,
-        alt: 'Dental Implants & Smile Makeover Abroad — Sultan GHC',
+        alt: 'Dental Implants & Smile Makeover Abroad — Sultan GHC'
       },
-    ],
+    ]
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Dental Implants & Smile Makeover Abroad | Sultan GHC',
     description:
-      'World-class dental care at 60–80% lower than U.S. prices. Internationally accredited dental clinics in India and Türkiye.',
+      'World-class dental care at 60–80% lower than U.S. prices. Internationally accredited dental clinics in India and Türkiye.'
   },
   alternates: {
-    canonical: 'https://www.sultanghc.com/treatments/dental-surgery-implant-dentistry',
-  },
+    canonical: 'https://www.sultanghc.com/treatments/dental-surgery-implant-dentistry'
+  }
 }
 
 // ─── JSON-LD Schemas ──────────────────────────────────────────────────────────
@@ -75,7 +75,7 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 1, name: 'Home',       item: 'https://www.sultanghc.com' },
     { '@type': 'ListItem', position: 2, name: 'Treatments', item: 'https://www.sultanghc.com/treatments' },
     { '@type': 'ListItem', position: 3, name: 'Dental Surgery & Implant Dentistry', item: 'https://www.sultanghc.com/treatments/dental-surgery-implant-dentistry' },
-  ],
+  ]
 }
 
 const medicalSchema = {
@@ -96,8 +96,8 @@ const medicalSchema = {
       { '@type': 'MedicalTherapy', name: 'Porcelain Veneers' },
       { '@type': 'MedicalTherapy', name: 'Full Mouth Rehabilitation' },
       { '@type': 'MedicalTherapy', name: 'Dental Crowns and Bridges' },
-    ],
-  },
+    ]
+  }
 }
 
 const faqSchema = {
@@ -109,58 +109,58 @@ const faqSchema = {
       name: 'How much do dental implants cost in India and Türkiye compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A single dental implant in the U.S. typically costs $3,000–$6,000. The same procedure at an internationally accredited clinic in India costs $500–$1,000, and in Türkiye $600–$1,200 — savings of 70–85%. For full-mouth restorations like All-on-4 or All-on-6, U.S. costs of $20,000–$50,000 compare to $4,000–$9,000 abroad. Sultan GHC provides a personalised cost estimate at no charge.',
-      },
+        text: 'A single dental implant in the U.S. typically costs $3,000–$6,000. The same procedure at an internationally accredited clinic in India costs $500–$1,000, and in Türkiye $600–$1,200 — savings of 70–85%. For full-mouth restorations like All-on-4 or All-on-6, U.S. costs of $20,000–$50,000 compare to $4,000–$9,000 abroad. Sultan GHC provides a personalised cost estimate at no charge.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Are dental clinics in India and Türkiye safe and accredited?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Our partner dental clinics use internationally certified equipment, sterilisation protocols meeting ISO and JCI standards, and materials sourced from globally recognised brands including Straumann, Nobel Biocare, and Osstem. Many of our partner dentists completed postgraduate training in Europe or the United States.',
-      },
+        text: 'Yes. Our partner dental clinics use internationally certified equipment, sterilisation protocols meeting ISO and JCI standards, and materials sourced from globally recognised brands including Straumann, Nobel Biocare, and Osstem. Many of our partner dentists completed postgraduate training in Europe or the United States.'
+      }
     },
     {
       '@type': 'Question',
       name: 'How long do I need to stay for dental implants abroad?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'For a single implant with immediate loading, a stay of 5–7 days is typically sufficient. For All-on-4 or All-on-6 full-arch restorations, 7–10 days is recommended. Complex full mouth rehabilitation may require two visits — an initial treatment trip and a follow-up 3–6 months later for final crowns. Your Sultan GHC Case Manager plans the full treatment timeline before your arrival.',
-      },
+        text: 'For a single implant with immediate loading, a stay of 5–7 days is typically sufficient. For All-on-4 or All-on-6 full-arch restorations, 7–10 days is recommended. Complex full mouth rehabilitation may require two visits — an initial treatment trip and a follow-up 3–6 months later for final crowns. Your Sultan GHC Case Manager plans the full treatment timeline before your arrival.'
+      }
     },
     {
       '@type': 'Question',
       name: 'What implant brands are used at your partner clinics?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Our partner clinics use internationally recognised implant systems including Straumann (Switzerland), Nobel Biocare (Sweden), Osstem (South Korea), and Zimmer Biomet (U.S.). All systems are CE-certified and carry international quality guarantees. You can specify your preferred brand when requesting a cost estimate.',
-      },
+        text: 'Our partner clinics use internationally recognised implant systems including Straumann (Switzerland), Nobel Biocare (Sweden), Osstem (South Korea), and Zimmer Biomet (U.S.). All systems are CE-certified and carry international quality guarantees. You can specify your preferred brand when requesting a cost estimate.'
+      }
     },
     {
       '@type': 'Question',
       name: 'What is the difference between All-on-4 and All-on-6 dental implants?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'All-on-4 uses four implants to support a full arch of teeth (upper or lower), while All-on-6 uses six implants for additional stability and load distribution — particularly recommended for patients with more bone loss. Both provide a fixed, permanent set of teeth on the same day as surgery in most cases. Your partner dentist will recommend the appropriate option based on your bone density scans.',
-      },
+        text: 'All-on-4 uses four implants to support a full arch of teeth (upper or lower), while All-on-6 uses six implants for additional stability and load distribution — particularly recommended for patients with more bone loss. Both provide a fixed, permanent set of teeth on the same day as surgery in most cases. Your partner dentist will recommend the appropriate option based on your bone density scans.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Can I combine dental treatment with a holiday?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Absolutely — and many patients do. Türkiye is one of the world\'s top dental tourism destinations, with cities like Istanbul and Antalya offering world-class clinics alongside exceptional cultural experiences. India\'s dental hubs in Delhi, Mumbai, and Chennai are equally well-suited for combining treatment with travel. Sultan GHC can help arrange accommodation, transport, and sightseeing around your appointment schedule.',
-      },
+        text: 'Absolutely — and many patients do. Türkiye is one of the world\'s top dental tourism destinations, with cities like Istanbul and Antalya offering world-class clinics alongside exceptional cultural experiences. India\'s dental hubs in Delhi, Mumbai, and Chennai are equally well-suited for combining treatment with travel. Sultan GHC can help arrange accommodation, transport, and sightseeing around your appointment schedule.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Does Sultan GHC offer a free first consultation for dental cases?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Share your dental X-rays, OPG (panoramic scan), and any existing reports, and our partner dental specialist will review your case and provide a recommended treatment plan with a personalised cost estimate — completely free, with no obligation.',
-      },
+        text: 'Yes. Share your dental X-rays, OPG (panoramic scan), and any existing reports, and our partner dental specialist will review your case and provide a recommended treatment plan with a personalised cost estimate — completely free, with no obligation.'
+      }
     },
-  ],
+  ]
 }
 
 // ─── Page Data ────────────────────────────────────────────────────────────────
@@ -183,35 +183,35 @@ const DENTAL_CONDITIONS = [
 const TREATMENTS = [
   {
     title: 'Single & Multiple Dental Implants',
-    desc: 'Titanium root implants fused to the jawbone — the gold standard for replacing missing teeth. Permanent, natural-looking, and designed to last a lifetime.',
+    desc: 'Titanium root implants fused to the jawbone — the gold standard for replacing missing teeth. Permanent, natural-looking, and designed to last a lifetime.'
   },
   {
     title: 'All-on-4 Dental Implants',
-    desc: 'Full arch of fixed teeth supported by just four strategically placed implants. Same-day teeth possible. Ideal for patients with significant tooth loss or failing teeth.',
+    desc: 'Full arch of fixed teeth supported by just four strategically placed implants. Same-day teeth possible. Ideal for patients with significant tooth loss or failing teeth.'
   },
   {
     title: 'All-on-6 Dental Implants',
-    desc: 'Six-implant full-arch restoration offering greater stability and load distribution. Recommended for patients with lower bone density or requiring a stronger bite.',
+    desc: 'Six-implant full-arch restoration offering greater stability and load distribution. Recommended for patients with lower bone density or requiring a stronger bite.'
   },
   {
     title: 'Porcelain Veneers & Smile Design',
-    desc: 'Ultra-thin porcelain shells bonded to the front surface of teeth — transforming colour, shape, and alignment for a complete smile makeover in as few as 5 days.',
+    desc: 'Ultra-thin porcelain shells bonded to the front surface of teeth — transforming colour, shape, and alignment for a complete smile makeover in as few as 5 days.'
   },
   {
     title: 'Full Mouth Rehabilitation',
-    desc: 'Comprehensive restoration combining implants, crowns, bridges, and veneers to rebuild an entire smile. Treatment-planned by a specialist team over one or two visits.',
+    desc: 'Comprehensive restoration combining implants, crowns, bridges, and veneers to rebuild an entire smile. Treatment-planned by a specialist team over one or two visits.'
   },
   {
     title: 'Dental Crowns & Bridges',
-    desc: 'Zirconia and porcelain-fused-to-metal crowns for damaged teeth, and fixed bridges replacing missing teeth — manufactured to precise shade-matching standards.',
+    desc: 'Zirconia and porcelain-fused-to-metal crowns for damaged teeth, and fixed bridges replacing missing teeth — manufactured to precise shade-matching standards.'
   },
   {
     title: 'Root Canal Treatment',
-    desc: 'Expert endodontic treatment saving infected teeth from extraction. Same-day root canal procedures available with digital X-ray and rotary instrumentation.',
+    desc: 'Expert endodontic treatment saving infected teeth from extraction. Same-day root canal procedures available with digital X-ray and rotary instrumentation.'
   },
   {
     title: 'Orthodontics & Clear Aligners',
-    desc: 'Traditional braces and invisible aligner systems (Invisalign-compatible) for correcting bite, crowding, and spacing — with remote monitoring options for returning patients.',
+    desc: 'Traditional braces and invisible aligner systems (Invisalign-compatible) for correcting bite, crowding, and spacing — with remote monitoring options for returning patients.'
   },
 ]
 
@@ -229,32 +229,31 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much do dental implants cost in India and Türkiye compared to the U.S.?',
-    a: 'A single dental implant in the U.S. typically costs $3,000–$6,000. The same procedure at an internationally accredited clinic in India costs $500–$1,000, and in Türkiye $600–$1,200 — savings of 70–85%. For All-on-4 or All-on-6, U.S. costs of $20,000–$50,000 compare to $4,000–$9,000 abroad. Sultan GHC provides a personalised estimate at no charge.',
+    a: 'A single dental implant in the U.S. typically costs $3,000–$6,000. The same procedure at an internationally accredited clinic in India costs $500–$1,000, and in Türkiye $600–$1,200 — savings of 70–85%. For All-on-4 or All-on-6, U.S. costs of $20,000–$50,000 compare to $4,000–$9,000 abroad. Sultan GHC provides a personalised estimate at no charge.'
   },
   {
     q: 'Are dental clinics in India and Türkiye safe and accredited?',
-    a: 'Yes. Our partner clinics use internationally certified equipment, ISO and JCI-standard sterilisation protocols, and materials from globally recognised brands including Straumann, Nobel Biocare, and Osstem. Many partner dentists completed postgraduate training in Europe or the U.S.',
+    a: 'Yes. Our partner clinics use internationally certified equipment, ISO and JCI-standard sterilisation protocols, and materials from globally recognised brands including Straumann, Nobel Biocare, and Osstem. Many partner dentists completed postgraduate training in Europe or the U.S.'
   },
   {
     q: 'How long do I need to stay for dental implants abroad?',
-    a: 'For a single implant with immediate loading, 5–7 days is typically sufficient. For All-on-4 or All-on-6, 7–10 days is recommended. Complex full mouth rehabilitation may require two visits 3–6 months apart. Your Case Manager plans the full timeline before your arrival.',
+    a: 'For a single implant with immediate loading, 5–7 days is typically sufficient. For All-on-4 or All-on-6, 7–10 days is recommended. Complex full mouth rehabilitation may require two visits 3–6 months apart. Your Case Manager plans the full timeline before your arrival.'
   },
   {
     q: 'What implant brands are used at your partner clinics?',
-    a: 'Our partner clinics use Straumann (Switzerland), Nobel Biocare (Sweden), Osstem (South Korea), and Zimmer Biomet (U.S.) — all CE-certified with international quality guarantees. You can specify your preferred brand when requesting a cost estimate.',
+    a: 'Our partner clinics use Straumann (Switzerland), Nobel Biocare (Sweden), Osstem (South Korea), and Zimmer Biomet (U.S.) — all CE-certified with international quality guarantees. You can specify your preferred brand when requesting a cost estimate.'
   },
   {
     q: 'What is the difference between All-on-4 and All-on-6?',
-    a: 'All-on-4 uses four implants to support a full arch; All-on-6 uses six for added stability — particularly recommended for patients with more bone loss. Both provide fixed, permanent teeth. Your dentist will recommend the right option based on your bone density scans.',
-import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
+    a: 'All-on-4 uses four implants to support a full arch; All-on-6 uses six for added stability — particularly recommended for patients with more bone loss. Both provide fixed, permanent teeth. Your dentist will recommend the right option based on your bone density scans.'
   },
   {
     q: 'Can I combine dental treatment with a holiday?',
-    a: "Many patients do. Türkiye's Istanbul and Antalya, and India's Delhi, Mumbai, and Chennai are world-class dental tourism destinations. Sultan GHC helps arrange accommodation, transport, and sightseeing around your appointment schedule.",
+    a: "Many patients do. Türkiye's Istanbul and Antalya, and India's Delhi, Mumbai, and Chennai are world-class dental tourism destinations. Sultan GHC helps arrange accommodation, transport, and sightseeing around your appointment schedule."
   },
   {
     q: 'Does Sultan GHC offer a free first consultation for dental cases?',
-    a: 'Yes. Share your dental X-rays and OPG scan, and our partner dental specialist will review your case and provide a recommended treatment plan with a personalised cost estimate — free, no obligation.',
+    a: 'Yes. Share your dental X-rays and OPG scan, and our partner dental specialist will review your case and provide a recommended treatment plan with a personalised cost estimate — free, no obligation.'
   },
 ]
 
@@ -270,7 +269,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
       role="img"
     >
       <div className="flex items-center gap-2 w-full shrink-0">
-        <ImageIcon size={16} className="text-blue-400 shrink-0" />
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400 shrink-0"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
         <span className="text-[10px] font-bold text-blue-500 uppercase tracking-widest">Image Placeholder</span>
       </div>
       <div className="bg-white/70 rounded-lg px-3 py-1.5 w-full shrink-0">
@@ -289,6 +288,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
     </div>
   )
 }
+
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
@@ -738,22 +738,22 @@ export default function DentalSurgeryPage() {
             {
               step: '01',
               title: 'Share Your X-Rays',
-              desc: 'Upload your dental X-rays or OPG panoramic scan. Our partner dental specialist reviews your case and responds with a recommended treatment plan within 24 hours.',
+              desc: 'Upload your dental X-rays or OPG panoramic scan. Our partner dental specialist reviews your case and responds with a recommended treatment plan within 24 hours.'
             },
             {
               step: '02',
               title: 'Free First Consultation',
-              desc: 'Receive a detailed treatment recommendation, implant brand options, estimated timeline, and personalised cost estimate — completely free, no obligation.',
+              desc: 'Receive a detailed treatment recommendation, implant brand options, estimated timeline, and personalised cost estimate — completely free, no obligation.'
             },
             {
               step: '03',
               title: 'Travel & Treatment',
-              desc: 'Sultan GHC coordinates your airport pickup, hotel, clinic appointments, and any additional scans needed on arrival. Your Case Manager is reachable throughout.',
+              desc: 'Sultan GHC coordinates your airport pickup, hotel, clinic appointments, and any additional scans needed on arrival. Your Case Manager is reachable throughout.'
             },
             {
               step: '04',
               title: 'Smile & Return Home',
-              desc: 'Leave with your new smile, detailed treatment records, and a follow-up care plan. Sultan GHC helps arrange any local dental follow-ups you need back in the U.S.',
+              desc: 'Leave with your new smile, detailed treatment records, and a follow-up care plan. Sultan GHC helps arrange any local dental follow-ups you need back in the U.S.'
             },
           ].map(({ step, title, desc }) => (
             <div key={step} className="bg-white rounded-2xl p-6 border border-gray-200 hover:border-primary hover:shadow-md transition-all">
@@ -788,17 +788,17 @@ export default function DentalSurgeryPage() {
               {
                 href: '/treatments/cosmetic-hair-transplant-plastic-surgery',
                 title: 'Cosmetic & Reconstructive Surgery',
-                desc: 'Rhinoplasty, facelifts, hair transplants, and full reconstructive plastic surgery abroad.',
+                desc: 'Rhinoplasty, facelifts, hair transplants, and full reconstructive plastic surgery abroad.'
               },
               {
                 href: '/treatments/ophthalmology',
                 title: 'Ophthalmology & Eye Surgery',
-                desc: 'LASIK, cataract surgery, glaucoma treatment, and retinal procedures in India and Türkiye.',
+                desc: 'LASIK, cataract surgery, glaucoma treatment, and retinal procedures in India and Türkiye.'
               },
               {
                 href: '/treatments/bariatric-metabolic-surgery',
                 title: 'Bariatric & Metabolic Surgery',
-                desc: 'Gastric sleeve, bypass, and metabolic surgery for sustainable weight loss abroad.',
+                desc: 'Gastric sleeve, bypass, and metabolic surgery for sustainable weight loss abroad.'
               },
             ].map(({ href, title, desc }) => (
               <Link

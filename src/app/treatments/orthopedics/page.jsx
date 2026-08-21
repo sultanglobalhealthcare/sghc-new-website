@@ -1,3 +1,4 @@
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 import Link from 'next/link'
 import {
   ChevronRight,
@@ -10,11 +11,9 @@ import {
   Shield,
   Activity,
   Bone,
-  ImageIcon,
   Stethoscope,
-  Users,
+  Users
 } from 'lucide-react'
-import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
@@ -50,19 +49,19 @@ export const metadata = {
         url: 'https://www.sultanghc.com/api/og?title=Orthopaedics+%26+Joint+Replacement+Abroad&desc=Knee+%26+hip+replacement%2C+spine+surgery+in+India+%26+Türkiye.+Save+80-85%25+vs+U.S.&cat=Orthopaedics',
         width: 1200,
         height: 630,
-        alt: 'Knee & Hip Replacement Surgery Abroad — Sultan GHC',
+        alt: 'Knee & Hip Replacement Surgery Abroad — Sultan GHC'
       },
-    ],
+    ]
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Knee & Hip Replacement Surgery Abroad | Sultan GHC',
     description:
-      'World-class joint replacement at 70–80% lower than U.S. prices. JCI-accredited orthopedic hospitals in India and Türkiye.',
+      'World-class joint replacement at 70–80% lower than U.S. prices. JCI-accredited orthopedic hospitals in India and Türkiye.'
   },
   alternates: {
-    canonical: 'https://www.sultanghc.com/treatments/orthopedics',
-  },
+    canonical: 'https://www.sultanghc.com/treatments/orthopedics'
+  }
 }
 
 // ─── JSON-LD Schemas ──────────────────────────────────────────────────────────
@@ -74,7 +73,7 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 1, name: 'Home',       item: 'https://www.sultanghc.com' },
     { '@type': 'ListItem', position: 2, name: 'Treatments', item: 'https://www.sultanghc.com/treatments' },
     { '@type': 'ListItem', position: 3, name: 'Orthopedics & Joint Surgery', item: 'https://www.sultanghc.com/treatments/orthopedics' },
-  ],
+  ]
 }
 
 const medicalSchema = {
@@ -95,8 +94,8 @@ const medicalSchema = {
       { '@type': 'MedicalTherapy', name: 'ACL Reconstruction' },
       { '@type': 'MedicalTherapy', name: 'Hip Resurfacing' },
       { '@type': 'MedicalTherapy', name: 'Arthroscopy' },
-    ],
-  },
+    ]
+  }
 }
 
 const faqSchema = {
@@ -108,58 +107,58 @@ const faqSchema = {
       name: 'How much does knee replacement surgery cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Knee replacement surgery in the U.S. typically costs $30,000–$70,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$8,000 — a saving of 75–85%. Türkiye offers similar procedures for $6,000–$10,000. Sultan GHC provides a personalised cost estimate based on your specific case at no charge.',
-      },
+        text: 'Knee replacement surgery in the U.S. typically costs $30,000–$70,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$8,000 — a saving of 75–85%. Türkiye offers similar procedures for $6,000–$10,000. Sultan GHC provides a personalised cost estimate based on your specific case at no charge.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Are orthopedic surgeons in India and Türkiye as qualified as U.S. surgeons?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Many of our partner orthopedic surgeons completed fellowships and postgraduate training in the United States, United Kingdom, Germany, or Australia. They perform thousands of joint replacements annually, with outcomes and infection rates comparable to leading U.S. orthopedic centers.',
-      },
+        text: 'Yes. Many of our partner orthopedic surgeons completed fellowships and postgraduate training in the United States, United Kingdom, Germany, or Australia. They perform thousands of joint replacements annually, with outcomes and infection rates comparable to leading U.S. orthopedic centers.'
+      }
     },
     {
       '@type': 'Question',
       name: 'How long will I need to stay in India or Türkiye after joint replacement?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Most knee and hip replacement patients require 14–21 days in-country. This includes pre-operative evaluation (2–3 days), surgery and hospital stay (5–7 days), and an in-country physiotherapy and recovery period before clearance to fly. Your Case Manager plans the full itinerary.',
-      },
+        text: 'Most knee and hip replacement patients require 14–21 days in-country. This includes pre-operative evaluation (2–3 days), surgery and hospital stay (5–7 days), and an in-country physiotherapy and recovery period before clearance to fly. Your Case Manager plans the full itinerary.'
+      }
     },
     {
       '@type': 'Question',
       name: 'What implants are used for joint replacement abroad?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Our partner hospitals use internationally recognized implant brands including Zimmer Biomet, Stryker, DePuy Synthes, and Smith+Nephew — the same brands used in U.S. hospitals. All implants carry CE and international quality certifications.',
-      },
+        text: 'Our partner hospitals use internationally recognized implant brands including Zimmer Biomet, Stryker, DePuy Synthes, and Smith+Nephew — the same brands used in U.S. hospitals. All implants carry CE and international quality certifications.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Can I get physiotherapy after my joint replacement abroad?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Physiotherapy begins on the day after surgery at all our partner hospitals. Your in-country recovery program is structured and supervised by certified physiotherapists. Sultan GHC also helps you arrange follow-up physiotherapy with a provider near your home in the U.S. after you return.',
-      },
+        text: 'Yes. Physiotherapy begins on the day after surgery at all our partner hospitals. Your in-country recovery program is structured and supervised by certified physiotherapists. Sultan GHC also helps you arrange follow-up physiotherapy with a provider near your home in the U.S. after you return.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Is it safe to fly after knee or hip replacement surgery?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Flying too early after joint replacement carries a small risk of deep vein thrombosis (DVT). Sultan GHC works with your surgical team to ensure you are medically cleared for the return journey — typically after 10–14 days. Blood thinners and compression stockings are prescribed for the flight. Your Case Manager coordinates all pre-departure health checks.',
-      },
+        text: 'Flying too early after joint replacement carries a small risk of deep vein thrombosis (DVT). Sultan GHC works with your surgical team to ensure you are medically cleared for the return journey — typically after 10–14 days. Blood thinners and compression stockings are prescribed for the flight. Your Case Manager coordinates all pre-departure health checks.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Does Sultan GHC offer a free first consultation for orthopedic cases?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Your first consultation with a specialist from our orthopedic network is completely free. Share your X-rays, MRI reports, and current diagnosis, and our partner surgeon will review your case and provide a recommended treatment plan and cost estimate — with no obligation.',
-      },
+        text: 'Yes. Your first consultation with a specialist from our orthopedic network is completely free. Share your X-rays, MRI reports, and current diagnosis, and our partner surgeon will review your case and provide a recommended treatment plan and cost estimate — with no obligation.'
+      }
     },
-  ],
+  ]
 }
 
 // ─── Page Data ────────────────────────────────────────────────────────────────
@@ -182,35 +181,35 @@ const ORTHO_CONDITIONS = [
 const TREATMENTS = [
   {
     title: 'Total Knee Replacement',
-    desc: 'Complete resurfacing of the knee joint using internationally certified implants (Zimmer, Stryker, DePuy). Computer-assisted and robotic-arm-assisted options available at select centers.',
+    desc: 'Complete resurfacing of the knee joint using internationally certified implants (Zimmer, Stryker, DePuy). Computer-assisted and robotic-arm-assisted options available at select centers.'
   },
   {
     title: 'Total Hip Replacement',
-    desc: 'Damaged hip joint replaced with a prosthetic implant — restoring mobility and eliminating chronic pain. Both cemented and cementless techniques available.',
+    desc: 'Damaged hip joint replaced with a prosthetic implant — restoring mobility and eliminating chronic pain. Both cemented and cementless techniques available.'
   },
   {
     title: 'Partial Knee Replacement',
-    desc: 'Unicompartmental knee replacement targeting only the damaged compartment — shorter recovery and more natural feel for appropriate candidates.',
+    desc: 'Unicompartmental knee replacement targeting only the damaged compartment — shorter recovery and more natural feel for appropriate candidates.'
   },
   {
     title: 'Hip Resurfacing',
-    desc: 'Bone-conserving alternative to total hip replacement — ideal for younger, active patients where preserving bone stock is a priority.',
+    desc: 'Bone-conserving alternative to total hip replacement — ideal for younger, active patients where preserving bone stock is a priority.'
   },
   {
     title: 'Shoulder Replacement',
-    desc: 'Total and reverse shoulder replacement for advanced arthritis, rotator cuff arthropathy, and complex fractures — restoring full arm function.',
+    desc: 'Total and reverse shoulder replacement for advanced arthritis, rotator cuff arthropathy, and complex fractures — restoring full arm function.'
   },
   {
     title: 'ACL & Ligament Reconstruction',
-    desc: 'Arthroscopic ACL reconstruction using autograft or allograft — minimally invasive, with a structured post-operative physiotherapy program from day one.',
+    desc: 'Arthroscopic ACL reconstruction using autograft or allograft — minimally invasive, with a structured post-operative physiotherapy program from day one.'
   },
   {
     title: 'Arthroscopy (Knee, Hip, Shoulder)',
-    desc: 'Minimally invasive camera-guided surgery for meniscus tears, labral repairs, cartilage damage, and loose body removal — day surgery with rapid recovery.',
+    desc: 'Minimally invasive camera-guided surgery for meniscus tears, labral repairs, cartilage damage, and loose body removal — day surgery with rapid recovery.'
   },
   {
     title: 'Cartilage Restoration',
-    desc: 'Advanced techniques including microfracture, OATS (osteochondral autograft), and ACI (autologous chondrocyte implantation) for cartilage repair in younger patients.',
+    desc: 'Advanced techniques including microfracture, OATS (osteochondral autograft), and ACI (autologous chondrocyte implantation) for cartilage repair in younger patients.'
   },
 ]
 
@@ -227,31 +226,31 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does knee replacement surgery cost in India compared to the U.S.?',
-    a: 'Knee replacement surgery in the U.S. typically costs $30,000–$70,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$8,000 — a saving of 75–85%. Türkiye offers similar procedures for $6,000–$10,000. Sultan GHC provides a personalised cost estimate at no charge.',
+    a: 'Knee replacement surgery in the U.S. typically costs $30,000–$70,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$8,000 — a saving of 75–85%. Türkiye offers similar procedures for $6,000–$10,000. Sultan GHC provides a personalised cost estimate at no charge.'
   },
   {
     q: 'Are orthopedic surgeons in India and Türkiye as qualified as U.S. surgeons?',
-    a: 'Yes. Many of our partner orthopedic surgeons completed fellowships in the United States, UK, Germany, or Australia. They perform thousands of joint replacements annually with outcomes comparable to leading U.S. orthopedic centers.',
+    a: 'Yes. Many of our partner orthopedic surgeons completed fellowships in the United States, UK, Germany, or Australia. They perform thousands of joint replacements annually with outcomes comparable to leading U.S. orthopedic centers.'
   },
   {
     q: 'How long will I need to stay after joint replacement?',
-    a: 'Most knee and hip replacement patients require 14–21 days in-country — pre-op evaluation (2–3 days), surgery and hospital stay (5–7 days), and supervised physiotherapy before flying clearance. Your Case Manager coordinates the full itinerary.',
+    a: 'Most knee and hip replacement patients require 14–21 days in-country — pre-op evaluation (2–3 days), surgery and hospital stay (5–7 days), and supervised physiotherapy before flying clearance. Your Case Manager coordinates the full itinerary.'
   },
   {
     q: 'What implants are used for joint replacement abroad?',
-    a: 'Our partner hospitals use internationally recognized implant brands including Zimmer Biomet, Stryker, DePuy Synthes, and Smith+Nephew — the same brands used in U.S. hospitals. All implants carry CE and international quality certifications.',
+    a: 'Our partner hospitals use internationally recognized implant brands including Zimmer Biomet, Stryker, DePuy Synthes, and Smith+Nephew — the same brands used in U.S. hospitals. All implants carry CE and international quality certifications.'
   },
   {
     q: 'Can I get physiotherapy after joint replacement abroad?',
-    a: 'Yes. Physiotherapy begins the day after surgery. Your in-country recovery is supervised by certified physiotherapists. Sultan GHC also helps arrange follow-up physiotherapy near your home in the U.S. after you return.',
+    a: 'Yes. Physiotherapy begins the day after surgery. Your in-country recovery is supervised by certified physiotherapists. Sultan GHC also helps arrange follow-up physiotherapy near your home in the U.S. after you return.'
   },
   {
     q: 'Is it safe to fly after knee or hip replacement?',
-    a: 'Flying too early carries a small DVT risk. Sultan GHC ensures you are medically cleared before travel — typically after 10–14 days. Blood thinners and compression stockings are prescribed for the flight. Your Case Manager coordinates all pre-departure health checks.',
+    a: 'Flying too early carries a small DVT risk. Sultan GHC ensures you are medically cleared before travel — typically after 10–14 days. Blood thinners and compression stockings are prescribed for the flight. Your Case Manager coordinates all pre-departure health checks.'
   },
   {
     q: 'Does Sultan GHC offer a free first consultation for orthopedic cases?',
-    a: 'Yes. Your first consultation with a specialist from our network is free. Share your X-rays and MRI reports, and our partner surgeon will review your case and provide a recommended treatment plan and cost estimate — no obligation.',
+    a: 'Yes. Your first consultation with a specialist from our network is free. Share your X-rays and MRI reports, and our partner surgeon will review your case and provide a recommended treatment plan and cost estimate — no obligation.'
   },
 ]
 
@@ -267,7 +266,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
       role="img"
     >
       <div className="flex items-center gap-2 w-full shrink-0">
-        <ImageIcon size={16} className="text-blue-400 shrink-0" />
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400 shrink-0"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
         <span className="text-[10px] font-bold text-blue-500 uppercase tracking-widest">Image Placeholder</span>
       </div>
       <div className="bg-white/70 rounded-lg px-3 py-1.5 w-full shrink-0">
@@ -286,6 +285,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
     </div>
   )
 }
+
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
@@ -733,22 +733,22 @@ export default function OrthopedicsPage() {
             {
               step: '01',
               title: 'Share Your Case',
-              desc: 'Upload your X-rays, MRI reports, and diagnosis. Our team reviews your case and connects you with a matched orthopedic specialist within 24 hours.',
+              desc: 'Upload your X-rays, MRI reports, and diagnosis. Our team reviews your case and connects you with a matched orthopedic specialist within 24 hours.'
             },
             {
               step: '02',
               title: 'Free First Consultation',
-              desc: 'Receive a detailed surgical recommendation, implant selection guidance, and a personalised cost estimate — at no charge, with no obligation.',
+              desc: 'Receive a detailed surgical recommendation, implant selection guidance, and a personalised cost estimate — at no charge, with no obligation.'
             },
             {
               step: '03',
               title: 'Travel & Surgery',
-              desc: 'Sultan GHC handles airport pickup, hospital admission, pre-operative tests, and surgery coordination. Your Case Manager is reachable 24/7.',
+              desc: 'Sultan GHC handles airport pickup, hospital admission, pre-operative tests, and surgery coordination. Your Case Manager is reachable 24/7.'
             },
             {
               step: '04',
               title: 'Recovery & Return',
-              desc: 'In-hospital physiotherapy begins the day after surgery. When you are cleared to fly, we coordinate your return journey and follow-up care back home.',
+              desc: 'In-hospital physiotherapy begins the day after surgery. When you are cleared to fly, we coordinate your return journey and follow-up care back home.'
             },
           ].map(({ step, title, desc }) => (
             <div key={step} className="relative bg-white rounded-2xl p-6 border border-gray-200 hover:border-primary hover:shadow-md transition-all">
@@ -783,17 +783,17 @@ export default function OrthopedicsPage() {
               {
                 href: '/treatments/spine-sports-injury',
                 title: 'Spine & Sports Injury Surgery',
-                desc: 'Disc replacement, spinal fusion, and minimally invasive spine procedures in India and Türkiye.',
+                desc: 'Disc replacement, spinal fusion, and minimally invasive spine procedures in India and Türkiye.'
               },
               {
                 href: '/treatments/cardiology',
                 title: 'Cardiology',
-                desc: 'Heart bypass surgery, valve replacement, and advanced cardiac care at JCI-accredited centers.',
+                desc: 'Heart bypass surgery, valve replacement, and advanced cardiac care at JCI-accredited centers.'
               },
               {
                 href: '/treatments/oncology',
                 title: 'Oncology',
-                desc: 'Cancer diagnosis, chemotherapy, targeted therapy, and surgical oncology abroad.',
+                desc: 'Cancer diagnosis, chemotherapy, targeted therapy, and surgical oncology abroad.'
               },
             ].map(({ href, title, desc }) => (
               <Link

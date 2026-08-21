@@ -177,8 +177,8 @@ const TEAM = [
         ghcRole: 'Pediatric Dental Case Coordination & Counseling',
         organization: 'International Practice — Saudi Arabia, India & Malaysia',
         previousOrg: 'Royal College of Surgeons of Edinburgh | FAIMER Fellow',
-        country: 'India',
-        flag: 'in',
+        country: 'Malaysia',
+        flag: 'my',
         degree: 'BDS, MPH, MDS | FAIMER Fellow',
         specialty: 'Child-Friendly Dental Care & Advanced Pediatric Dental Treatments',
         expertise: [
@@ -709,7 +709,12 @@ function inputCls(error) {
 const COUNTRY_FLAG_CODE = {
   'India':         'in',
   'United States': 'us',
-  'Türkiye':        'tr',
+  'Türkiye':       'tr',
+  'Malaysia':      'my',
+  'Pakistan':      'pk',
+  'UAE':           'ae',
+  'Saudi Arabia':  'sa',
+  'United Kingdom':'gb',
 }
 
 // ─── Team Card ────────────────────────────────────────────────────────────────

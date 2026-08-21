@@ -15,9 +15,7 @@ import {
   HeartPulse,
   Activity,
   Users,
-
-  ImageIcon,
-  Stethoscope,
+  Stethoscope
 } from 'lucide-react'
 
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
@@ -54,19 +52,19 @@ export const metadata = {
         url: 'https://www.sultanghc.com/api/og?title=Cardiology+%26+Cardiac+Surgery+Abroad&desc=Heart+bypass%2C+valve+replacement%2C+angioplasty+in+India+%26+Türkiye.+Save+75-90%25+vs+U.S.&cat=Cardiology',
         width: 1200,
         height: 630,
-        alt: 'Heart Surgery & Cardiology Treatment Abroad — Sultan GHC',
+        alt: 'Heart Surgery & Cardiology Treatment Abroad — Sultan GHC'
       },
-    ],
+    ]
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Heart Surgery & Cardiology Abroad | Sultan GHC',
     description:
-      'World-class cardiac care at 60–80% lower than U.S. prices. JCI-accredited heart hospitals in India and Türkiye.',
+      'World-class cardiac care at 60–80% lower than U.S. prices. JCI-accredited heart hospitals in India and Türkiye.'
   },
   alternates: {
-    canonical: 'https://www.sultanghc.com/treatments/cardiology',
-  },
+    canonical: 'https://www.sultanghc.com/treatments/cardiology'
+  }
 }
 
 // ─── JSON-LD Schemas ──────────────────────────────────────────────────────────
@@ -78,7 +76,7 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.sultanghc.com' },
     { '@type': 'ListItem', position: 2, name: 'Treatments', item: 'https://www.sultanghc.com/treatments' },
     { '@type': 'ListItem', position: 3, name: 'Cardiology & Heart Surgery', item: 'https://www.sultanghc.com/treatments/cardiology' },
-  ],
+  ]
 }
 
 const medicalSchema = {
@@ -99,8 +97,8 @@ const medicalSchema = {
       { '@type': 'MedicalTherapy', name: 'Heart Transplant' },
       { '@type': 'MedicalTherapy', name: 'TAVR — Transcatheter Aortic Valve Replacement' },
       { '@type': 'MedicalTherapy', name: 'Cardiac Electrophysiology & Ablation' },
-    ],
-  },
+    ]
+  }
 }
 
 const faqSchema = {
@@ -112,50 +110,50 @@ const faqSchema = {
       name: 'How much does open heart surgery cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Open heart surgery in the U.S. typically costs $80,000–$200,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$12,000 — a saving of 85–95%. Türkiye offers similar procedures for $7,000–$15,000. Sultan GHC provides a personalised cost estimate based on your specific case at no charge.',
-      },
+        text: 'Open heart surgery in the U.S. typically costs $80,000–$200,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$12,000 — a saving of 85–95%. Türkiye offers similar procedures for $7,000–$15,000. Sultan GHC provides a personalised cost estimate based on your specific case at no charge.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Are cardiac surgeons in India and Türkiye as qualified as U.S. surgeons?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Many of our partner cardiac surgeons completed their fellowships and postgraduate training in the United States, United Kingdom, or Germany. They regularly operate on international patients and publish in peer-reviewed journals. Our hospitals perform thousands of cardiac surgeries annually with outcomes comparable to top U.S. centers.',
-      },
+        text: 'Yes. Many of our partner cardiac surgeons completed their fellowships and postgraduate training in the United States, United Kingdom, or Germany. They regularly operate on international patients and publish in peer-reviewed journals. Our hospitals perform thousands of cardiac surgeries annually with outcomes comparable to top U.S. centers.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Is it safe to travel for heart surgery?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Safety depends on your current cardiac stability. Sultan GHC works with your U.S. cardiologist and our partner hospital to determine whether air travel is medically appropriate for your condition. For stable patients, travel is typically safe. For urgent cases, we can sometimes arrange air ambulance coordination. A pre-travel clearance review is included in our case management service.',
-      },
+        text: 'Safety depends on your current cardiac stability. Sultan GHC works with your U.S. cardiologist and our partner hospital to determine whether air travel is medically appropriate for your condition. For stable patients, travel is typically safe. For urgent cases, we can sometimes arrange air ambulance coordination. A pre-travel clearance review is included in our case management service.'
+      }
     },
     {
       '@type': 'Question',
       name: 'How long will I need to stay in India or Türkiye after heart surgery?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Most cardiac surgery patients require 14–21 days in-country. This includes pre-operative evaluation (2–3 days), the surgery, ICU monitoring (2–4 days), general ward recovery (5–7 days), and a post-operative review before clearance to fly. Your Case Manager will plan your full itinerary and coordinate with your surgeon.',
-      },
+        text: 'Most cardiac surgery patients require 14–21 days in-country. This includes pre-operative evaluation (2–3 days), the surgery, ICU monitoring (2–4 days), general ward recovery (5–7 days), and a post-operative review before clearance to fly. Your Case Manager will plan your full itinerary and coordinate with your surgeon.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Does Sultan GHC arrange companions or family members to travel with me?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Absolutely. We help coordinate flights, hotel accommodation, and local transport for one or more companions. Most hospitals have dedicated international patient lounges and guest rooms near cardiac wards. Your companion will have full access throughout your stay.',
-      },
+        text: 'Absolutely. We help coordinate flights, hotel accommodation, and local transport for one or more companions. Most hospitals have dedicated international patient lounges and guest rooms near cardiac wards. Your companion will have full access throughout your stay.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Can I get a second cardiology opinion before deciding on surgery?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes — and we strongly encourage it. Sultan GHC arranges a complimentary first remote consultation from our network cardiologists within 24–48 hours. Submit your echocardiogram, angiography reports, and recent blood work, and our specialists will review them and recommend a treatment path. Your first consultation is at no cost and no obligation.',
-      },
+        text: 'Yes — and we strongly encourage it. Sultan GHC arranges a complimentary first remote consultation from our network cardiologists within 24–48 hours. Submit your echocardiogram, angiography reports, and recent blood work, and our specialists will review them and recommend a treatment path. Your first consultation is at no cost and no obligation.'
+      }
     },
-  ],
+  ]
 }
 
 // ─── Page Data ────────────────────────────────────────────────────────────────
@@ -178,35 +176,35 @@ const CARDIAC_CONDITIONS = [
 const TREATMENTS = [
   {
     title: 'Coronary Artery Bypass (CABG)',
-    desc: 'Open heart bypass surgery restoring blood flow to the heart muscle — performed by internationally trained cardiac surgeons using the same protocols as leading U.S. hospitals.',
+    desc: 'Open heart bypass surgery restoring blood flow to the heart muscle — performed by internationally trained cardiac surgeons using the same protocols as leading U.S. hospitals.'
   },
   {
     title: 'Heart Valve Replacement & Repair',
-    desc: 'Mechanical and biological valve replacements including minimally invasive options — for aortic, mitral, tricuspid, and pulmonary valve disease.',
+    desc: 'Mechanical and biological valve replacements including minimally invasive options — for aortic, mitral, tricuspid, and pulmonary valve disease.'
   },
   {
     title: 'Angioplasty & Coronary Stenting',
-    desc: 'Catheter-based procedures to open blocked coronary arteries, often without the need for open surgery — shorter recovery, lower cost.',
+    desc: 'Catheter-based procedures to open blocked coronary arteries, often without the need for open surgery — shorter recovery, lower cost.'
   },
   {
     title: 'TAVR (Transcatheter Aortic Valve Replacement)',
-    desc: 'Minimally invasive aortic valve replacement without open heart surgery — available at select partner centers for high-surgical-risk patients.',
+    desc: 'Minimally invasive aortic valve replacement without open heart surgery — available at select partner centers for high-surgical-risk patients.'
   },
   {
     title: 'Cardiac Electrophysiology & Ablation',
-    desc: 'Diagnosis and treatment of heart rhythm disorders (AFib, SVT, ventricular tachycardia) using catheter ablation, pacemaker implantation, and ICD placement.',
+    desc: 'Diagnosis and treatment of heart rhythm disorders (AFib, SVT, ventricular tachycardia) using catheter ablation, pacemaker implantation, and ICD placement.'
   },
   {
     title: 'Heart Transplant',
-    desc: 'End-stage heart failure patients can access heart transplant programs at our partner hospitals with internationally trained transplant teams and post-operative support.',
+    desc: 'End-stage heart failure patients can access heart transplant programs at our partner hospitals with internationally trained transplant teams and post-operative support.'
   },
   {
     title: 'Aortic Aneurysm Repair (EVAR / Open)',
-    desc: 'Both endovascular (EVAR) and open surgical repair of aortic aneurysms — performed in dedicated vascular surgery units with cardiac ICU backup.',
+    desc: 'Both endovascular (EVAR) and open surgical repair of aortic aneurysms — performed in dedicated vascular surgery units with cardiac ICU backup.'
   },
   {
     title: 'Cardiac Rehabilitation',
-    desc: 'Structured post-cardiac event recovery programs including physiotherapy, nutrition counseling, and monitored exercise — ideal for post-surgery or post-MI patients.',
+    desc: 'Structured post-cardiac event recovery programs including physiotherapy, nutrition counseling, and monitored exercise — ideal for post-surgery or post-MI patients.'
   },
 ]
 
@@ -222,27 +220,27 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does open heart surgery cost in India compared to the U.S.?',
-    a: 'Open heart surgery in the U.S. typically costs $80,000–$200,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$12,000 — a saving of 85–95%. Türkiye offers similar procedures for $7,000–$15,000. Sultan GHC provides a personalised cost estimate based on your specific case at no charge.',
+    a: 'Open heart surgery in the U.S. typically costs $80,000–$200,000. The same procedure at a JCI-accredited hospital in India costs $5,000–$12,000 — a saving of 85–95%. Türkiye offers similar procedures for $7,000–$15,000. Sultan GHC provides a personalised cost estimate based on your specific case at no charge.'
   },
   {
     q: 'Are cardiac surgeons in India and Türkiye as qualified as U.S. surgeons?',
-    a: 'Yes. Many of our partner cardiac surgeons completed fellowships and postgraduate training in the United States, United Kingdom, or Germany. They regularly operate on international patients and publish in peer-reviewed journals. Our hospitals perform thousands of cardiac surgeries annually with outcomes comparable to top U.S. centers.',
+    a: 'Yes. Many of our partner cardiac surgeons completed fellowships and postgraduate training in the United States, United Kingdom, or Germany. They regularly operate on international patients and publish in peer-reviewed journals. Our hospitals perform thousands of cardiac surgeries annually with outcomes comparable to top U.S. centers.'
   },
   {
     q: 'Is it safe to travel for heart surgery?',
-    a: 'Safety depends on your current cardiac stability. Sultan GHC works with your U.S. cardiologist and our partner hospital to determine whether air travel is medically appropriate. For stable patients, travel is typically safe. A pre-travel clearance review is included in our case management service.',
+    a: 'Safety depends on your current cardiac stability. Sultan GHC works with your U.S. cardiologist and our partner hospital to determine whether air travel is medically appropriate. For stable patients, travel is typically safe. A pre-travel clearance review is included in our case management service.'
   },
   {
     q: 'How long will I need to stay after heart surgery?',
-    a: 'Most cardiac surgery patients require 14–21 days in-country — pre-op evaluation (2–3 days), surgery, ICU monitoring (2–4 days), general ward recovery (5–7 days), and a post-op review before flying clearance. Your Case Manager coordinates the full itinerary.',
+    a: 'Most cardiac surgery patients require 14–21 days in-country — pre-op evaluation (2–3 days), surgery, ICU monitoring (2–4 days), general ward recovery (5–7 days), and a post-op review before flying clearance. Your Case Manager coordinates the full itinerary.'
   },
   {
     q: 'Does Sultan GHC help with companions traveling with me?',
-    a: 'Absolutely. We coordinate flights, hotels, and local transport for one or more companions. Most hospitals have international patient lounges and guest rooms near cardiac wards, so your companion can be by your side throughout your stay.',
+    a: 'Absolutely. We coordinate flights, hotels, and local transport for one or more companions. Most hospitals have international patient lounges and guest rooms near cardiac wards, so your companion can be by your side throughout your stay.'
   },
   {
     q: 'Can I get a second cardiology opinion before deciding on surgery?',
-    a: 'Yes — and we strongly encourage it. Sultan GHC arranges a complimentary first remote consultation from our network cardiologists within 24–48 hours. Submit your echocardiogram, angiography reports, and recent labs. Our specialists review your case and recommend a treatment path. Your first review is at no cost, no obligation.',
+    a: 'Yes — and we strongly encourage it. Sultan GHC arranges a complimentary first remote consultation from our network cardiologists within 24–48 hours. Submit your echocardiogram, angiography reports, and recent labs. Our specialists review your case and recommend a treatment path. Your first review is at no cost, no obligation.'
   },
 ]
 
@@ -257,28 +255,19 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
       aria-label={label}
       role="img"
     >
-      {/* Header row */}
       <div className="flex items-center gap-2 w-full shrink-0">
-        <ImageIcon size={16} className="text-blue-400 shrink-0" />
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400 shrink-0"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
         <span className="text-[10px] font-bold text-blue-500 uppercase tracking-widest">Image Placeholder</span>
       </div>
-
-      {/* Filename */}
       <div className="bg-white/70 rounded-lg px-3 py-1.5 w-full shrink-0">
         <p className="text-[9px] font-semibold text-gray-400 uppercase tracking-wider mb-0.5">SEO Filename</p>
         <p className="text-[10px] font-bold text-blue-600 break-all leading-snug">📁 {filename}</p>
       </div>
-
-      {/* Size */}
       <div className="flex items-center gap-1.5 shrink-0">
         <span className="text-[9px] font-semibold text-gray-400 uppercase tracking-wider">Size:</span>
         <span className="text-[10px] font-bold text-gray-600">{width} × {height} px</span>
       </div>
-
-      {/* Label */}
       <p className="text-[10px] font-semibold text-blue-500 leading-snug shrink-0">{label}</p>
-
-      {/* AI Prompt */}
       <div className="bg-amber-50/80 border border-amber-200 rounded-lg px-3 py-2 w-full overflow-y-auto flex-1">
         <p className="text-[9px] font-bold text-amber-600 uppercase tracking-wider mb-1">AI Image Prompt</p>
         <p className="text-[9px] text-gray-600 leading-relaxed">{aiPrompt}</p>
@@ -286,6 +275,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
     </div>
   )
 }
+
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
@@ -753,32 +743,32 @@ export default function CardiologyPage() {
               {
                 step: '01',
                 title: 'Submit Your Cardiac Reports',
-                body: 'Share your echocardiogram, angiography, ECG, and medical history through our secure portal. No obligation — this is simply to evaluate your case.',
+                body: 'Share your echocardiogram, angiography, ECG, and medical history through our secure portal. No obligation — this is simply to evaluate your case.'
               },
               {
                 step: '02',
                 title: 'Free First Cardiologist Opinion',
-                body: 'Our network cardiologists review your case within 24–48 hours and provide a complimentary first opinion, treatment recommendation, and hospital options best suited to your condition.',
+                body: 'Our network cardiologists review your case within 24–48 hours and provide a complimentary first opinion, treatment recommendation, and hospital options best suited to your condition.'
               },
               {
                 step: '03',
                 title: 'Transparent Cost Estimate',
-                body: 'Receive a detailed, itemised cost breakdown including surgery, ICU, hospital stay, anesthesia, implants, and post-op care. No hidden fees. No surprises.',
+                body: 'Receive a detailed, itemised cost breakdown including surgery, ICU, hospital stay, anesthesia, implants, and post-op care. No hidden fees. No surprises.'
               },
               {
                 step: '04',
                 title: 'Medical Visa & Travel Support',
-                body: 'We issue your medical visa invitation letter and guide you through the complete visa application. We also assist with flight bookings and airport-to-hospital transfer.',
+                body: 'We issue your medical visa invitation letter and guide you through the complete visa application. We also assist with flight bookings and airport-to-hospital transfer.'
               },
               {
                 step: '05',
                 title: 'In-Hospital Care & Coordination',
-                body: 'Our on-ground team is with you from arrival through discharge — accompanying you to pre-op consultations, surgery day, ICU, ward recovery, and final surgeon review.',
+                body: 'Our on-ground team is with you from arrival through discharge — accompanying you to pre-op consultations, surgery day, ICU, ward recovery, and final surgeon review.'
               },
               {
                 step: '06',
                 title: 'Follow-Up After You Return Home',
-                body: 'Your cardiac surgeon continues remote consultations via video after you return home. We coordinate with your local cardiologist to share records and ensure continuity of care.',
+                body: 'Your cardiac surgeon continues remote consultations via video after you return home. We coordinate with your local cardiologist to share records and ensure continuity of care.'
               },
             ].map(({ step, title, body }) => (
               <div

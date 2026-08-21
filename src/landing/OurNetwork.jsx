@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const INDIA_HOSPITALS = [
   {
-    name: 'Medanta – The Medicity',
+    name: 'Medanta — The Medicity',
     city: 'Gurugram, NCR',
     specialties: ['Cardiology', 'Oncology', 'Neurosurgery'],
     accreditation: 'JCI Accredited',
@@ -13,6 +13,17 @@ const INDIA_HOSPITALS = [
     initials: 'ME',
     color: 'from-blue-100 to-sky-50',
     textColor: 'text-blue-600',
+  },
+  {
+    name: 'Rela Institute & Medical Centre',
+    city: 'Chennai',
+    specialties: ['Liver Transplant', 'GI Surgery', 'Hepatology'],
+    accreditation: 'NABH Accredited',
+    beds: '400+ Beds',
+    img: '/rela-hospital.webp',
+    initials: 'RI',
+    color: 'from-teal-100 to-cyan-50',
+    textColor: 'text-teal-600',
   },
   {
     name: 'Apollo Hospitals',
@@ -35,17 +46,6 @@ const INDIA_HOSPITALS = [
     initials: 'FM',
     color: 'from-emerald-100 to-green-50',
     textColor: 'text-emerald-600',
-  },
-  {
-    name: 'Rela Hospital',
-    city: 'Chennai',
-    specialties: ['Liver Transplant', 'GI Surgery', 'Hepatology'],
-    accreditation: 'NABH Accredited',
-    beds: '400 Beds',
-    img: '/rela-hospital.webp',
-    initials: 'RH',
-    color: 'from-teal-100 to-cyan-50',
-    textColor: 'text-teal-600',
   },
 ]
 

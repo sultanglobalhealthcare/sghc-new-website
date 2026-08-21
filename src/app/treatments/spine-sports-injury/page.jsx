@@ -1,3 +1,4 @@
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 import Link from 'next/link'
 import {
   ChevronRight,
@@ -9,11 +10,9 @@ import {
   DollarSign,
   Shield,
   Activity,
-  ImageIcon,
   Stethoscope,
-  Zap,
+  Zap
 } from 'lucide-react'
-import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 
@@ -50,19 +49,19 @@ export const metadata = {
         url: 'https://www.sultanghc.com/api/og?title=Spine+%26+Sports+Injury+Surgery+Abroad&desc=Disc+replacement%2C+TLIF%2C+spinal+fusion+in+India+%26+Türkiye.+Save+75-85%25+vs+U.S.&cat=Spine+Surgery',
         width: 1200,
         height: 630,
-        alt: 'Spine Surgery & Sports Injury Treatment Abroad — Sultan GHC',
+        alt: 'Spine Surgery & Sports Injury Treatment Abroad — Sultan GHC'
       },
-    ],
+    ]
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Spine Surgery & Sports Injury Treatment Abroad | Sultan GHC',
     description:
-      'World-class spine and sports injury care at 70–85% lower than U.S. prices. Internationally accredited centers in India and Türkiye.',
+      'World-class spine and sports injury care at 70–85% lower than U.S. prices. Internationally accredited centers in India and Türkiye.'
   },
   alternates: {
-    canonical: 'https://www.sultanghc.com/treatments/spine-sports-injury',
-  },
+    canonical: 'https://www.sultanghc.com/treatments/spine-sports-injury'
+  }
 }
 
 // ─── JSON-LD Schemas ──────────────────────────────────────────────────────────
@@ -74,7 +73,7 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 1, name: 'Home',       item: 'https://www.sultanghc.com' },
     { '@type': 'ListItem', position: 2, name: 'Treatments', item: 'https://www.sultanghc.com/treatments' },
     { '@type': 'ListItem', position: 3, name: 'Spine & Sports Injury Surgery', item: 'https://www.sultanghc.com/treatments/spine-sports-injury' },
-  ],
+  ]
 }
 
 const medicalSchema = {
@@ -95,8 +94,8 @@ const medicalSchema = {
       { '@type': 'MedicalTherapy', name: 'Laminectomy' },
       { '@type': 'MedicalTherapy', name: 'Scoliosis Correction' },
       { '@type': 'MedicalTherapy', name: 'ACL Reconstruction' },
-    ],
-  },
+    ]
+  }
 }
 
 const faqSchema = {
@@ -108,58 +107,58 @@ const faqSchema = {
       name: 'How much does spinal fusion surgery cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Spinal fusion surgery in the U.S. typically costs $50,000–$100,000 or more. The same procedure at an internationally accredited hospital in India costs $7,000–$12,000 — a saving of 80–90%. Türkiye offers similar procedures for $9,000–$15,000. Sultan GHC provides a personalised cost estimate based on your MRI reports and diagnosis at no charge.',
-      },
+        text: 'Spinal fusion surgery in the U.S. typically costs $50,000–$100,000 or more. The same procedure at an internationally accredited hospital in India costs $7,000–$12,000 — a saving of 80–90%. Türkiye offers similar procedures for $9,000–$15,000. Sultan GHC provides a personalised cost estimate based on your MRI reports and diagnosis at no charge.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Are spine surgeons in India and Türkiye as qualified as U.S. surgeons?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Many of our partner spine surgeons completed fellowships in the United States, United Kingdom, Germany, or South Korea. They perform hundreds of complex spinal procedures annually using the same implant systems, navigation technology, and surgical protocols as leading U.S. spine centers.',
-      },
+        text: 'Yes. Many of our partner spine surgeons completed fellowships in the United States, United Kingdom, Germany, or South Korea. They perform hundreds of complex spinal procedures annually using the same implant systems, navigation technology, and surgical protocols as leading U.S. spine centers.'
+      }
     },
     {
       '@type': 'Question',
       name: 'How long will I need to stay after spine surgery?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Recovery timelines vary by procedure. For minimally invasive procedures like microdiscectomy, patients typically stay 7–10 days in-country. For spinal fusion or disc replacement, 14–21 days is recommended, including pre-operative evaluation, surgery, hospital recovery, and physiotherapy before flying clearance. Your Case Manager coordinates the full itinerary.',
-      },
+        text: 'Recovery timelines vary by procedure. For minimally invasive procedures like microdiscectomy, patients typically stay 7–10 days in-country. For spinal fusion or disc replacement, 14–21 days is recommended, including pre-operative evaluation, surgery, hospital recovery, and physiotherapy before flying clearance. Your Case Manager coordinates the full itinerary.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Is minimally invasive spine surgery available in India and Türkiye?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Our partner hospitals offer the full range of minimally invasive spine techniques including tubular retractor discectomy, percutaneous pedicle screw fixation, endoscopic spine surgery, and robotic-assisted spinal navigation. These approaches mean smaller incisions, less blood loss, shorter hospital stays, and faster recovery.',
-      },
+        text: 'Yes. Our partner hospitals offer the full range of minimally invasive spine techniques including tubular retractor discectomy, percutaneous pedicle screw fixation, endoscopic spine surgery, and robotic-assisted spinal navigation. These approaches mean smaller incisions, less blood loss, shorter hospital stays, and faster recovery.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Can Sultan GHC help with sports injury surgery like ACL reconstruction?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Our partner hospitals have dedicated sports medicine and arthroscopy units staffed by orthopaedic surgeons with sports medicine fellowships. Procedures available include ACL and PCL reconstruction, rotator cuff repair, meniscus repair, shoulder labrum stabilisation, and Achilles tendon repair — all performed arthroscopically where possible.',
-      },
+        text: 'Yes. Our partner hospitals have dedicated sports medicine and arthroscopy units staffed by orthopaedic surgeons with sports medicine fellowships. Procedures available include ACL and PCL reconstruction, rotator cuff repair, meniscus repair, shoulder labrum stabilisation, and Achilles tendon repair — all performed arthroscopically where possible.'
+      }
     },
     {
       '@type': 'Question',
       name: 'What spinal implants are used in India and Türkiye?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Our partner spine centers use internationally certified implant systems from Medtronic, DePuy Synthes, Stryker, NuVasive, and Globus Medical — the same systems used in leading U.S. spine centers. All implants carry CE and international quality certifications.',
-      },
+        text: 'Our partner spine centers use internationally certified implant systems from Medtronic, DePuy Synthes, Stryker, NuVasive, and Globus Medical — the same systems used in leading U.S. spine centers. All implants carry CE and international quality certifications.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Does Sultan GHC offer a free first consultation for spine cases?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Share your MRI scans, X-rays, and current diagnosis, and our partner spine specialist will review your case and provide a recommended treatment plan with a personalised cost estimate — completely free, no obligation. Most spine case reviews are completed within 24–48 hours.',
-      },
+        text: 'Yes. Share your MRI scans, X-rays, and current diagnosis, and our partner spine specialist will review your case and provide a recommended treatment plan with a personalised cost estimate — completely free, no obligation. Most spine case reviews are completed within 24–48 hours.'
+      }
     },
-  ],
+  ]
 }
 
 // ─── Page Data ────────────────────────────────────────────────────────────────
@@ -182,35 +181,35 @@ const SPINE_CONDITIONS = [
 const TREATMENTS = [
   {
     title: 'Spinal Disc Replacement',
-    desc: 'Artificial disc replacement (ADR) for the cervical and lumbar spine — preserving motion and eliminating the drawbacks of fusion for appropriate candidates.',
+    desc: 'Artificial disc replacement (ADR) for the cervical and lumbar spine — preserving motion and eliminating the drawbacks of fusion for appropriate candidates.'
   },
   {
     title: 'Spinal Fusion (TLIF / PLIF / ALIF)',
-    desc: 'Single and multi-level spinal fusion using internationally certified pedicle screw and rod systems — stabilising the spine and eliminating instability-related pain.',
+    desc: 'Single and multi-level spinal fusion using internationally certified pedicle screw and rod systems — stabilising the spine and eliminating instability-related pain.'
   },
   {
     title: 'Microdiscectomy',
-    desc: 'Minimally invasive removal of herniated disc material compressing spinal nerves — typically returning patients to mobility within days, with a short hospital stay.',
+    desc: 'Minimally invasive removal of herniated disc material compressing spinal nerves — typically returning patients to mobility within days, with a short hospital stay.'
   },
   {
     title: 'Laminectomy & Laminoplasty',
-    desc: 'Surgical decompression of the spinal canal for stenosis — relieving pressure on the spinal cord and nerves, reducing pain and restoring function.',
+    desc: 'Surgical decompression of the spinal canal for stenosis — relieving pressure on the spinal cord and nerves, reducing pain and restoring function.'
   },
   {
     title: 'Endoscopic Spine Surgery',
-    desc: 'Ultra-minimally invasive endoscopic approach to discectomy and foraminal decompression — smaller than a 1 cm incision, local anaesthesia option, same-day discharge possible.',
+    desc: 'Ultra-minimally invasive endoscopic approach to discectomy and foraminal decompression — smaller than a 1 cm incision, local anaesthesia option, same-day discharge possible.'
   },
   {
     title: 'Scoliosis Correction',
-    desc: 'Corrective surgery for adolescent and adult scoliosis using modern spinal instrumentation — including minimally invasive and robotic-assisted techniques at select centers.',
+    desc: 'Corrective surgery for adolescent and adult scoliosis using modern spinal instrumentation — including minimally invasive and robotic-assisted techniques at select centers.'
   },
   {
     title: 'ACL & Sports Ligament Reconstruction',
-    desc: 'Arthroscopic ACL, PCL, and multi-ligament reconstruction for active patients — performed by sports medicine fellowship-trained orthopedic surgeons.',
+    desc: 'Arthroscopic ACL, PCL, and multi-ligament reconstruction for active patients — performed by sports medicine fellowship-trained orthopedic surgeons.'
   },
   {
     title: 'Rotator Cuff & Shoulder Repair',
-    desc: 'Arthroscopic rotator cuff repair, SLAP labrum repair, and shoulder stabilisation surgery — minimally invasive techniques with structured sports rehabilitation from day one.',
+    desc: 'Arthroscopic rotator cuff repair, SLAP labrum repair, and shoulder stabilisation surgery — minimally invasive techniques with structured sports rehabilitation from day one.'
   },
 ]
 
@@ -228,31 +227,31 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does spinal fusion surgery cost in India compared to the U.S.?',
-    a: 'Spinal fusion in the U.S. typically costs $50,000–$100,000. The same procedure at an accredited hospital in India costs $7,000–$12,000 — a saving of 80–90%. Türkiye offers $9,000–$15,000. Sultan GHC provides a personalised estimate based on your MRI at no charge.',
+    a: 'Spinal fusion in the U.S. typically costs $50,000–$100,000. The same procedure at an accredited hospital in India costs $7,000–$12,000 — a saving of 80–90%. Türkiye offers $9,000–$15,000. Sultan GHC provides a personalised estimate based on your MRI at no charge.'
   },
   {
     q: 'Are spine surgeons in India and Türkiye as qualified as U.S. surgeons?',
-    a: 'Yes. Many of our partner spine surgeons completed fellowships in the U.S., UK, Germany, or South Korea. They perform hundreds of complex procedures annually using the same implant systems and navigation technology as leading U.S. spine centers.',
+    a: 'Yes. Many of our partner spine surgeons completed fellowships in the U.S., UK, Germany, or South Korea. They perform hundreds of complex procedures annually using the same implant systems and navigation technology as leading U.S. spine centers.'
   },
   {
     q: 'How long will I need to stay after spine surgery?',
-    a: 'For microdiscectomy, 7–10 days in-country is typical. For spinal fusion or disc replacement, 14–21 days is recommended — including pre-op evaluation, surgery, hospital recovery, and physiotherapy before flying clearance. Your Case Manager coordinates the full itinerary.',
+    a: 'For microdiscectomy, 7–10 days in-country is typical. For spinal fusion or disc replacement, 14–21 days is recommended — including pre-op evaluation, surgery, hospital recovery, and physiotherapy before flying clearance. Your Case Manager coordinates the full itinerary.'
   },
   {
     q: 'Is minimally invasive spine surgery available in India and Türkiye?',
-    a: 'Yes. Our partner hospitals offer tubular retractor discectomy, percutaneous pedicle screw fixation, endoscopic spine surgery, and robotic-assisted navigation — resulting in smaller incisions, less blood loss, shorter stays, and faster recovery.',
+    a: 'Yes. Our partner hospitals offer tubular retractor discectomy, percutaneous pedicle screw fixation, endoscopic spine surgery, and robotic-assisted navigation — resulting in smaller incisions, less blood loss, shorter stays, and faster recovery.'
   },
   {
     q: 'Can Sultan GHC help with sports injury surgery like ACL reconstruction?',
-    a: 'Yes. Our partner hospitals have dedicated sports medicine and arthroscopy units. Procedures include ACL/PCL reconstruction, rotator cuff repair, meniscus repair, shoulder labrum stabilisation, and Achilles tendon repair — all arthroscopic where possible.',
+    a: 'Yes. Our partner hospitals have dedicated sports medicine and arthroscopy units. Procedures include ACL/PCL reconstruction, rotator cuff repair, meniscus repair, shoulder labrum stabilisation, and Achilles tendon repair — all arthroscopic where possible.'
   },
   {
     q: 'What spinal implants are used in India and Türkiye?',
-    a: 'Our partner spine centers use internationally certified systems from Medtronic, DePuy Synthes, Stryker, NuVasive, and Globus Medical — the same brands used in leading U.S. spine centers. All implants carry CE and international quality certifications.',
+    a: 'Our partner spine centers use internationally certified systems from Medtronic, DePuy Synthes, Stryker, NuVasive, and Globus Medical — the same brands used in leading U.S. spine centers. All implants carry CE and international quality certifications.'
   },
   {
     q: 'Does Sultan GHC offer a free first consultation for spine cases?',
-    a: 'Yes. Share your MRI scans, X-rays, and diagnosis, and our partner spine specialist will review your case and provide a recommended treatment plan and cost estimate — free, no obligation. Most spine reviews are completed within 24–48 hours.',
+    a: 'Yes. Share your MRI scans, X-rays, and diagnosis, and our partner spine specialist will review your case and provide a recommended treatment plan and cost estimate — free, no obligation. Most spine reviews are completed within 24–48 hours.'
   },
 ]
 
@@ -268,7 +267,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
       role="img"
     >
       <div className="flex items-center gap-2 w-full shrink-0">
-        <ImageIcon size={16} className="text-blue-400 shrink-0" />
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400 shrink-0"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
         <span className="text-[10px] font-bold text-blue-500 uppercase tracking-widest">Image Placeholder</span>
       </div>
       <div className="bg-white/70 rounded-lg px-3 py-1.5 w-full shrink-0">
@@ -287,6 +286,7 @@ function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRati
     </div>
   )
 }
+
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
@@ -734,22 +734,22 @@ export default function SpineSportsInjuryPage() {
             {
               step: '01',
               title: 'Share Your MRI',
-              desc: 'Upload your MRI scans, X-rays, and any surgical reports. Our partner spine specialist reviews your case and responds with a recommended surgical plan within 24–48 hours.',
+              desc: 'Upload your MRI scans, X-rays, and any surgical reports. Our partner spine specialist reviews your case and responds with a recommended surgical plan within 24–48 hours.'
             },
             {
               step: '02',
               title: 'Free First Consultation',
-              desc: 'Receive a detailed surgical recommendation, implant options, recovery timeline, and a personalised cost estimate — completely free, no obligation.',
+              desc: 'Receive a detailed surgical recommendation, implant options, recovery timeline, and a personalised cost estimate — completely free, no obligation.'
             },
             {
               step: '03',
               title: 'Travel & Surgery',
-              desc: 'Sultan GHC coordinates airport pickup, hotel, hospital admission, and pre-operative scans. Your Case Manager is reachable 24/7 throughout your stay.',
+              desc: 'Sultan GHC coordinates airport pickup, hotel, hospital admission, and pre-operative scans. Your Case Manager is reachable 24/7 throughout your stay.'
             },
             {
               step: '04',
               title: 'Rehabilitation & Return',
-              desc: 'In-hospital physiotherapy begins post-surgery. When medically cleared to fly, we coordinate your return journey and assist with follow-up physiotherapy back home.',
+              desc: 'In-hospital physiotherapy begins post-surgery. When medically cleared to fly, we coordinate your return journey and assist with follow-up physiotherapy back home.'
             },
           ].map(({ step, title, desc }) => (
             <div key={step} className="bg-white rounded-2xl p-6 border border-gray-200 hover:border-primary hover:shadow-md transition-all">
@@ -784,17 +784,17 @@ export default function SpineSportsInjuryPage() {
               {
                 href: '/treatments/orthopedics',
                 title: 'Orthopaedics & Joint Replacement',
-                desc: 'Knee replacement, hip replacement, shoulder surgery, and joint care at 75–85% less than U.S. costs.',
+                desc: 'Knee replacement, hip replacement, shoulder surgery, and joint care at 75–85% less than U.S. costs.'
               },
               {
                 href: '/treatments/neurosurgery',
                 title: 'Neurosurgery',
-                desc: 'Brain tumor surgery, complex spinal cord procedures, and advanced neurosurgical care abroad.',
+                desc: 'Brain tumor surgery, complex spinal cord procedures, and advanced neurosurgical care abroad.'
               },
               {
                 href: '/treatments/robotic-minimally-invasive',
                 title: 'Robotic & Minimally Invasive Surgery',
-                desc: 'Robotic-assisted procedures available across spine, orthopedics, and other specialties at our partner hospitals.',
+                desc: 'Robotic-assisted procedures available across spine, orthopedics, and other specialties at our partner hospitals.'
               },
             ].map(({ href, title, desc }) => (
               <Link

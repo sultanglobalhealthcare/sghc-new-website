@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { CheckCircle2, MapPin, Star, Shield, ArrowRight } from 'lucide-react'
+import Image from 'next/image'
+import { CheckCircle2, MapPin, Star, Shield, ArrowRight, BedDouble, Stethoscope, CalendarDays } from 'lucide-react'
 
 export const metadata = {
   title: 'Partner Hospitals in Türkiye | JCI Accredited Istanbul | Sultan GHC',
@@ -47,14 +48,15 @@ const HOSPITALS = [
     location: 'Multiple locations — Istanbul, Ankara, Bursa',
     accreditation: 'JCI Accredited',
     accreditationColor: 'bg-blue-100 text-blue-700',
-    beds: '4,000+ Beds (network)',
+    beds: '3,300+ Beds (network)',
     established: '1991',
+    img: null,
     specialties: ['Oncology', 'Cardiology', 'Orthopaedics', 'Neurosurgery', 'Robotic Surgery', 'Bone Marrow Transplant'],
     highlights: [
-      'Multiple JCI-accredited hospitals across Istanbul — the largest private hospital group in Türkiye',
-      'da Vinci Xi robotic surgery for urology, gynecology, and thoracic surgery',
-      'Gamma Knife and CyberKnife stereotactic radiosurgery for brain and spine tumors',
-      'Acibadem Altunizade & Maslak — premier hospitals for international patients with dedicated coordinators',
+      'Türkiye\'s largest private hospital group — 11 hospitals in Istanbul serving 5 million+ patients annually with 22,500 medical professionals',
+      'da Vinci Xi robotic surgery for urology, gynecology, and thoracic surgery across multiple JCI-accredited campuses',
+      'Gamma Knife stereotactic radiosurgery for brain and spine tumors — FIFA-certified sports medicine center',
+      'Acibadem Altunizade & Maslak: dedicated international patient coordinators and English-language care',
     ],
     doctors: '7,000+ specialists',
     color: 'from-blue-700 to-sky-600',
@@ -68,12 +70,13 @@ const HOSPITALS = [
     accreditationColor: 'bg-blue-100 text-blue-700',
     beds: '1,200+ Beds (network)',
     established: '1999',
+    img: null,
     specialties: ['IVF & Fertility', 'Neurosurgery', 'Bariatric Surgery', 'Oncology', 'Cardiology', 'Robotic Surgery'],
     highlights: [
-      'JCI-accredited across multiple Istanbul campuses including Memorial Şişli and Bahçelievler',
-      'Memorial IVF: one of Türkiye\'s highest-volume fertility centers with advanced PGT-A and donor egg programs',
-      'Gamma Knife Icon for non-invasive brain tumor treatment',
-      'High-volume bariatric surgery center — sleeve gastrectomy, RYGB, and revisional bariatric procedures',
+      'First hospital group in Türkiye to receive JCI accreditation — Memorial Şişli was the 21st JCI-accredited hospital in the world',
+      '75,000+ international patients annually from 167 countries — serving over 2.5 million patients per year across 12 hospitals',
+      'Memorial IVF: 9,000 IVF cycles per year — first IVF center in Türkiye accredited by the American Embryology Society',
+      'Gamma Knife Icon for non-invasive brain tumor treatment and high-volume bariatric surgery',
     ],
     doctors: '1,500+ specialists',
     color: 'from-violet-700 to-purple-600',
@@ -85,14 +88,15 @@ const HOSPITALS = [
     location: 'Beylikdüzü & Çamlıca, Istanbul',
     accreditation: 'JCI Accredited',
     accreditationColor: 'bg-blue-100 text-blue-700',
-    beds: '700+ Beds (network)',
+    beds: '191 Beds',
     established: '1992',
+    img: null,
     specialties: ['Orthopaedics & Joint Replacement', 'Cardiology', 'Hair Transplant', 'IVF', 'Oncology', 'Bariatric Surgery'],
     highlights: [
-      'JCI-accredited Medicana International Istanbul — a top destination for U.S. orthopedic patients',
-      'High-volume joint replacement (hip, knee) with robotic-assisted and navigation systems',
-      'Hair transplant center with FUE, DHI, and sapphire blade techniques',
-      'Transparent international pricing with all-inclusive treatment packages',
+      'JCI accredited since 2010 — purpose-built 30,000 m² facility designed to international healthcare standards',
+      'High-volume joint replacement (hip, knee, shoulder) with robotic-assisted and navigation-guided systems',
+      'Hair transplant center offering FUE, DHI, and sapphire blade techniques for international patients',
+      'Transparent all-inclusive international pricing across 50+ medical and surgical specialties',
     ],
     doctors: '800+ specialists',
     color: 'from-emerald-700 to-green-600',
@@ -104,14 +108,15 @@ const HOSPITALS = [
     location: 'Ulus & Vadistanbul, Istanbul',
     accreditation: 'JCI Accredited',
     accreditationColor: 'bg-blue-100 text-blue-700',
-    beds: '400+ Beds',
+    beds: '154 Beds',
     established: '2013',
+    img: null,
     specialties: ['Cardiology & Cardiac Surgery', 'Oncology', 'Orthopaedics', 'Liver Transplant', 'Neurology', 'Robotic Surgery'],
     highlights: [
-      'JCI-accredited — among Istanbul\'s newest and most modern hospital facilities',
-      'Liver transplant program with experienced HPB surgical team',
-      'Advanced cardiac surgery including TAVI (transcatheter aortic valve implantation)',
-      'Da Vinci robotic surgery available for oncological and urological procedures',
+      'JCI & SRC (Bariatric Surgery Center of Excellence) accredited — 50 specialized departments including oncology and transplantology',
+      '1,000+ successful liver transplants performed — living and cadaveric donor programs for adults and children',
+      'Advanced cardiac surgery: 1,400+ cardiac operations per year including TAVI (transcatheter aortic valve implantation)',
+      'da Vinci robotic surgery for oncological and urological procedures',
     ],
     doctors: '500+ specialists',
     color: 'from-rose-700 to-pink-600',
@@ -123,14 +128,15 @@ const HOSPITALS = [
     location: 'Şişli, Istanbul',
     accreditation: 'JCI Accredited',
     accreditationColor: 'bg-blue-100 text-blue-700',
-    beds: '270+ Beds',
+    beds: '251 Beds',
     established: '1993',
+    img: null,
     specialties: ['Cardiology', 'Neurology & Neurosurgery', 'Oncology', 'Orthopaedics', 'Spine Surgery', 'Urology'],
     highlights: [
-      'One of Istanbul\'s longest-established JCI-accredited hospitals — 30+ years of international patient care',
-      'Advanced cardiac electrophysiology and arrhythmia program',
-      'Dedicated spine surgery program — minimally invasive and endoscopic spine techniques',
-      'Strong international patient relations with English-speaking patient coordinators',
+      'First hospital in Türkiye to be accredited under the 8th Edition JCI standards — continuously accredited since 2013',
+      'Türkiye\'s first Smart & Green Hospital — advanced digital infrastructure with AI-assisted diagnostics',
+      'First EOS low-dose imaging system in Türkiye — used for precise orthopaedic and spine assessment',
+      'Cardiac success rate of 99% in heart and vascular surgeries — 11 laminar airflow operating theatres',
     ],
     doctors: '400+ specialists',
     color: 'from-amber-700 to-orange-600',
@@ -140,16 +146,17 @@ const HOSPITALS = [
     name: 'Medical Park Hospitals',
     city: 'Istanbul',
     location: 'Multiple — Istanbul, Ankara, Izmir, Antalya',
-    accreditation: 'TEMOS Accredited',
+    accreditation: 'TEMOS & JCI',
     accreditationColor: 'bg-purple-100 text-purple-700',
     beds: '3,500+ Beds (network)',
     established: '1995',
+    img: null,
     specialties: ['Hair Transplant', 'Dental & Cosmetic', 'Bariatric Surgery', 'Orthopaedics', 'IVF', 'Cardiology'],
     highlights: [
-      'Türkiye\'s largest private hospital group by total bed capacity — 50+ hospitals nationwide',
-      'TEMOS-certified for medical tourism — specialized in international patient services',
-      'Leading hair transplant destination: FUE, DHI, and Sapphire techniques at Medical Park Istanbul',
-      'Comprehensive dental tourism packages including full-mouth restoration and Hollywood smile',
+      'Türkiye\'s largest private hospital group — 30+ hospitals in 17 provinces with 14,000+ employees',
+      'TEMOS-certified and JCI-accredited facilities — specialized in international patient services from 100+ countries',
+      'Leading hair transplant destination: FUE, DHI, and Sapphire techniques with all-inclusive 5-star packages',
+      'US Bariatric Surgery Center of Excellence certificate — gastric sleeve, bypass, and adjustable banding',
     ],
     doctors: '5,000+ specialists',
     color: 'from-indigo-700 to-blue-600',
@@ -158,17 +165,18 @@ const HOSPITALS = [
   {
     name: 'BHT CLINIC Istanbul Tema Hospital',
     city: 'Istanbul',
-    location: 'Başakşehir, Istanbul',
+    location: 'Küçükçekmece, Istanbul',
     accreditation: 'JCI Accredited',
     accreditationColor: 'bg-blue-100 text-blue-700',
-    beds: '200+ Beds',
+    beds: '450 Beds',
     established: '2015',
-    specialties: ['Bariatric Surgery', 'Metabolic Surgery', 'General Surgery', 'Orthopaedics', 'Obesity Medicine'],
+    img: null,
+    specialties: ['Bariatric Surgery', 'Metabolic Surgery', 'Oncology', 'Cardiology', 'Neurosurgery', 'Orthopaedics'],
     highlights: [
-      'JCI-accredited bariatric surgery center — among Istanbul\'s highest-volume sleeve gastrectomy programs',
-      'Sleeve gastrectomy, RYGB, mini gastric bypass, and revisional bariatric surgery',
-      'Comprehensive metabolic surgery program including diabetes remission surgery',
-      'All-inclusive international patient packages with airport transfer, accommodation, and follow-up',
+      'First Turkish general medical center to be JCI certified under 7th Edition standards — passed at the very first audit',
+      '450 beds across a 19-storey building with 18 state-of-the-art operating rooms and 3D laparoscopic visualization',
+      'Comprehensive bariatric program: sleeve gastrectomy, RYGB, mini bypass, and diabetes remission surgery',
+      'Pre-surgery evaluation by nutritionists, psychologists, and endocrinologists — all-inclusive international packages',
     ],
     doctors: '150+ specialists',
     color: 'from-teal-700 to-cyan-600',
@@ -287,65 +295,97 @@ export default function HospitalsTurkeyPage() {
             </p>
           </div>
 
-          <div className="space-y-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {HOSPITALS.map((h) => (
-              <div key={h.name} className="bg-white rounded-3xl border border-gray-200 shadow-sm overflow-hidden">
-                {/* Header bar */}
-                <div className={`bg-gradient-to-r ${h.color} p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center gap-4`}>
-                  <div className="w-14 h-14 rounded-2xl bg-white/20 flex items-center justify-center text-white text-xl font-black shrink-0">
-                    {h.initials}
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-lg font-bold text-white mb-1">{h.name}</h3>
-                    <div className="flex flex-wrap items-center gap-3 text-white/80 text-xs">
-                      <span className="flex items-center gap-1"><MapPin size={11} />{h.location}</span>
-                      <span>·</span>
-                      <span>{h.beds}</span>
-                      <span>·</span>
-                      <span>{h.doctors}</span>
-                      <span>·</span>
-                      <span>Est. {h.established}</span>
+              <div key={h.name} className="bg-white rounded-3xl border border-gray-200 shadow-sm hover:shadow-md hover:border-gray-300 transition-all duration-300 overflow-hidden flex flex-col">
+                {/* Card header — image when available, gradient fallback */}
+                <div className={`relative overflow-hidden h-56 bg-gradient-to-br ${h.color}`}>
+                  {h.img && (
+                    <Image
+                      src={h.img}
+                      alt={h.name}
+                      fill
+                      className="object-cover"
+                    />
+                  )}
+                  {/* Overlay */}
+                  <div className={`absolute inset-0 ${h.img ? 'bg-gradient-to-t from-black/75 via-black/30 to-transparent' : ''}`} />
+
+                  {/* Content */}
+                  <div className="relative p-6 flex flex-col justify-end h-full">
+                    {!h.img && (
+                      <div className="w-12 h-12 rounded-xl bg-white/25 flex items-center justify-center text-white text-lg font-black mb-3">
+                        {h.initials}
+                      </div>
+                    )}
+                    <div className="flex items-start justify-between gap-3">
+                      <div>
+                        <h3 className="text-base font-bold text-white leading-snug">{h.name}</h3>
+                        <p className="flex items-center gap-1 text-white/75 text-xs mt-0.5">
+                          <MapPin size={10} />{h.location}
+                        </p>
+                      </div>
+                      <span className={`text-[10px] font-bold px-2.5 py-1 rounded-full shrink-0 ${h.accreditationColor}`}>
+                        {h.accreditation}
+                      </span>
+                    </div>
+
+                    {/* Stats strip */}
+                    <div className="flex items-center gap-4 mt-3 pt-3 border-t border-white/20">
+                      <div className="flex items-center gap-1.5 text-white/80 text-xs">
+                        <BedDouble size={12} />
+                        <span>{h.beds}</span>
+                      </div>
+                      <div className="w-px h-3 bg-white/25" />
+                      <div className="flex items-center gap-1.5 text-white/80 text-xs">
+                        <Stethoscope size={12} />
+                        <span>{h.doctors}</span>
+                      </div>
+                      <div className="w-px h-3 bg-white/25" />
+                      <div className="flex items-center gap-1.5 text-white/80 text-xs">
+                        <CalendarDays size={12} />
+                        <span>Est. {h.established}</span>
+                      </div>
                     </div>
                   </div>
-                  <span className={`text-xs font-bold px-3 py-1.5 rounded-full shrink-0 ${h.accreditationColor}`}>
-                    {h.accreditation}
-                  </span>
                 </div>
 
                 {/* Body */}
-                <div className="p-6 sm:p-8 grid lg:grid-cols-2 gap-8">
+                <div className="p-6 flex flex-col flex-1 gap-5">
+                  {/* Specialties */}
                   <div>
-                    <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">Key Specialties</p>
-                    <div className="flex flex-wrap gap-2">
+                    <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2.5">Key Specialties</p>
+                    <div className="flex flex-wrap gap-1.5">
                       {h.specialties.map(s => (
-                        <span key={s} className="text-xs bg-gray-100 text-gray-700 px-3 py-1.5 rounded-full font-medium">
+                        <span key={s} className="text-xs bg-gray-100 text-gray-700 px-2.5 py-1 rounded-full font-medium">
                           {s}
                         </span>
                       ))}
                     </div>
                   </div>
-                  <div>
-                    <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">Why Sultan GHC Refers Patients Here</p>
+
+                  {/* Highlights */}
+                  <div className="flex-1">
+                    <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2.5">Why Sultan GHC Refers Patients Here</p>
                     <ul className="space-y-2">
                       {h.highlights.map(pt => (
                         <li key={pt} className="flex items-start gap-2 text-xs text-gray-600 leading-relaxed">
-                          <CheckCircle2 size={13} className="text-primary shrink-0 mt-0.5" />
+                          <CheckCircle2 size={12} className="text-primary shrink-0 mt-0.5" />
                           {pt}
                         </li>
                       ))}
                     </ul>
                   </div>
-                </div>
 
-                {/* CTA strip */}
-                <div className="border-t border-gray-100 px-6 sm:px-8 py-4 bg-gray-50 flex flex-col sm:flex-row sm:items-center gap-3">
-                  <p className="text-xs text-gray-500 flex-1">Interested in treatment at {h.name}? Sultan GHC handles hospital selection, appointment scheduling, and full coordination.</p>
-                  <Link
-                    href="/free-consultation"
-                    className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary hover:underline shrink-0"
-                  >
-                    Request a Match <ArrowRight size={12} />
-                  </Link>
+                  {/* CTA */}
+                  <div className="pt-4 border-t border-gray-100">
+                    <Link
+                      href="/free-consultation"
+                      className="inline-flex items-center gap-1.5 text-xs font-semibold text-primary hover:gap-2.5 transition-all"
+                    >
+                      Request treatment at {h.name} <ArrowRight size={12} />
+                    </Link>
+                  </div>
                 </div>
               </div>
             ))}

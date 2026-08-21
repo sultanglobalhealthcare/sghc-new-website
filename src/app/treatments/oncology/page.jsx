@@ -1,3 +1,4 @@
+import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection"
 import Link from 'next/link'
 import {
   ChevronRight,
@@ -13,8 +14,7 @@ import {
   Microscope,
   HeartPulse,
   Users,
-  Globe2,
-  ImageIcon,
+  Globe2
 } from 'lucide-react'
 
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
@@ -48,19 +48,19 @@ export const metadata = {
         url: 'https://www.sultanghc.com/api/og?title=Oncology+%26+Cancer+Care+Abroad&desc=Chemotherapy%2C+radiation%2C+robotic+surgery+%26+immunotherapy+in+India+%26+Türkiye.+Save+60-80%25.&cat=Oncology',
         width: 1200,
         height: 630,
-        alt: 'Oncology Cancer Treatment Abroad — Sultan GHC',
+        alt: 'Oncology Cancer Treatment Abroad — Sultan GHC'
       },
-    ],
+    ]
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Cancer Treatment Abroad — Oncology | Sultan GHC',
     description:
-      'World-class cancer care at 60–80% lower than U.S. prices. JCI-accredited hospitals in India and Türkiye.',
+      'World-class cancer care at 60–80% lower than U.S. prices. JCI-accredited hospitals in India and Türkiye.'
   },
   alternates: {
-    canonical: 'https://www.sultanghc.com/treatments/oncology',
-  },
+    canonical: 'https://www.sultanghc.com/treatments/oncology'
+  }
 }
 
 // ─── JSON-LD Schemas ──────────────────────────────────────────────────────────
@@ -72,7 +72,7 @@ const breadcrumbSchema = {
     { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.sultanghc.com' },
     { '@type': 'ListItem', position: 2, name: 'Treatments', item: 'https://www.sultanghc.com/treatments' },
     { '@type': 'ListItem', position: 3, name: 'Oncology (Cancer Care)', item: 'https://www.sultanghc.com/treatments/oncology' },
-  ],
+  ]
 }
 
 const medicalSchema = {
@@ -93,8 +93,8 @@ const medicalSchema = {
       { '@type': 'MedicalTherapy', name: 'Targeted Therapy' },
       { '@type': 'MedicalTherapy', name: 'Bone Marrow Transplant' },
       { '@type': 'MedicalTherapy', name: 'Surgical Oncology' },
-    ],
-  },
+    ]
+  }
 }
 
 const faqSchema = {
@@ -106,50 +106,50 @@ const faqSchema = {
       name: 'How much does cancer treatment cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Cancer treatment in India typically costs 60–80% less than in the United States. For example, a full chemotherapy cycle that costs $50,000–$100,000 in the U.S. can be completed in India for $8,000–$20,000, including travel and accommodation.',
-      },
+        text: 'Cancer treatment in India typically costs 60–80% less than in the United States. For example, a full chemotherapy cycle that costs $50,000–$100,000 in the U.S. can be completed in India for $8,000–$20,000, including travel and accommodation.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Are Indian and Turkish cancer hospitals safe and accredited?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Every hospital in our oncology network holds JCI (Joint Commission International) accreditation — the same global standard used to evaluate U.S. hospitals. Many of our partner cancer centers also hold NABH accreditation and ISO certifications.',
-      },
+        text: 'Yes. Every hospital in our oncology network holds JCI (Joint Commission International) accreditation — the same global standard used to evaluate U.S. hospitals. Many of our partner cancer centers also hold NABH accreditation and ISO certifications.'
+      }
     },
     {
       '@type': 'Question',
       name: 'Can I get a second opinion from an oncologist abroad before committing to treatment?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Absolutely. Sultan GHC facilitates a complimentary first medical opinion from our network oncologists. Simply submit your medical reports, scans, and biopsy results, and we will arrange a remote review within 24–48 hours — your first consultation is at no cost and no obligation.',
-      },
+        text: 'Absolutely. Sultan GHC facilitates a complimentary first medical opinion from our network oncologists. Simply submit your medical reports, scans, and biopsy results, and we will arrange a remote review within 24–48 hours — your first consultation is at no cost and no obligation.'
+      }
     },
     {
       '@type': 'Question',
       name: 'What types of cancer are treated at your partner hospitals?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Our partner hospitals treat all major cancer types including breast, lung, colorectal, prostate, blood cancers (leukemia, lymphoma, myeloma), liver, cervical, stomach, brain tumors, thyroid, pancreatic, and many others. Rare and complex cancers are evaluated on a case-by-case basis.',
-      },
+        text: 'Our partner hospitals treat all major cancer types including breast, lung, colorectal, prostate, blood cancers (leukemia, lymphoma, myeloma), liver, cervical, stomach, brain tumors, thyroid, pancreatic, and many others. Rare and complex cancers are evaluated on a case-by-case basis.'
+      }
     },
     {
       '@type': 'Question',
       name: 'How long will I need to stay in India or Türkiye for cancer treatment?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: "Length of stay depends on the type and stage of cancer and the treatment protocol. Surgical oncology procedures typically require 2–4 weeks. Chemotherapy and radiation therapy protocols may require multiple visits or extended stays. Your dedicated Case Manager will provide a personalised itinerary based on your oncologist's treatment plan.",
-      },
+        text: "Length of stay depends on the type and stage of cancer and the treatment protocol. Surgical oncology procedures typically require 2–4 weeks. Chemotherapy and radiation therapy protocols may require multiple visits or extended stays. Your dedicated Case Manager will provide a personalised itinerary based on your oncologist's treatment plan."
+      }
     },
     {
       '@type': 'Question',
       name: 'Is chemotherapy quality the same as in the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Our partner hospitals use the same FDA-approved and internationally certified chemotherapy drugs and protocols as U.S. oncology centers. Many oncologists at these hospitals trained in the U.S., UK, or Europe and are internationally published researchers.',
-      },
+        text: 'Yes. Our partner hospitals use the same FDA-approved and internationally certified chemotherapy drugs and protocols as U.S. oncology centers. Many oncologists at these hospitals trained in the U.S., UK, or Europe and are internationally published researchers.'
+      }
     },
-  ],
+  ]
 }
 
 // ─── Page Data ────────────────────────────────────────────────────────────────
@@ -172,35 +172,35 @@ const CANCER_TYPES = [
 const TREATMENTS = [
   {
     title: 'Chemotherapy',
-    desc: 'Systemic drug therapy using the same FDA-approved protocols as U.S. centers, administered by board-certified oncologists in modern infusion suites.',
+    desc: 'Systemic drug therapy using the same FDA-approved protocols as U.S. centers, administered by board-certified oncologists in modern infusion suites.'
   },
   {
     title: 'Radiation Therapy',
-    desc: 'Advanced radiotherapy including IMRT, IGRT, Stereotactic Radiosurgery (SRS), and CyberKnife — with precision targeting to protect healthy tissue.',
+    desc: 'Advanced radiotherapy including IMRT, IGRT, Stereotactic Radiosurgery (SRS), and CyberKnife — with precision targeting to protect healthy tissue.'
   },
   {
     title: 'Surgical Oncology',
-    desc: 'Minimally invasive and robotic tumor resections performed by internationally trained surgeons, with significantly shorter recovery times.',
+    desc: 'Minimally invasive and robotic tumor resections performed by internationally trained surgeons, with significantly shorter recovery times.'
   },
   {
     title: 'Immunotherapy',
-    desc: 'Cutting-edge immune checkpoint inhibitors and monoclonal antibody therapies available at our partner hospitals for eligible patients.',
+    desc: 'Cutting-edge immune checkpoint inhibitors and monoclonal antibody therapies available at our partner hospitals for eligible patients.'
   },
   {
     title: 'Targeted Therapy',
-    desc: 'Precision medicine targeting specific genetic mutations in tumors — including EGFR, HER2, BRAF, and ALK-positive cancers.',
+    desc: 'Precision medicine targeting specific genetic mutations in tumors — including EGFR, HER2, BRAF, and ALK-positive cancers.'
   },
   {
     title: 'Bone Marrow Transplant',
-    desc: 'Autologous and allogeneic stem cell transplants for blood cancers, performed in dedicated BMT units with full isolation protocols.',
+    desc: 'Autologous and allogeneic stem cell transplants for blood cancers, performed in dedicated BMT units with full isolation protocols.'
   },
   {
     title: 'CAR-T Cell Therapy',
-    desc: 'Available at select partner hospitals for eligible hematologic malignancies — a breakthrough treatment at a fraction of U.S. costs.',
+    desc: 'Available at select partner hospitals for eligible hematologic malignancies — a breakthrough treatment at a fraction of U.S. costs.'
   },
   {
     title: 'Palliative & Supportive Care',
-    desc: 'Comprehensive pain management, nutrition support, and psychological care alongside active cancer treatment.',
+    desc: 'Comprehensive pain management, nutrition support, and psychological care alongside active cancer treatment.'
   },
 ]
 
@@ -216,48 +216,62 @@ const COST_COMPARISON = [
 const FAQS = [
   {
     q: 'How much does cancer treatment cost in India compared to the U.S.?',
-    a: 'Cancer treatment in India typically costs 60–80% less than in the United States. For example, a full chemotherapy cycle that costs $50,000–$100,000 in the U.S. can be completed in India for $8,000–$20,000, including travel and accommodation.',
+    a: 'Cancer treatment in India typically costs 60–80% less than in the United States. For example, a full chemotherapy cycle that costs $50,000–$100,000 in the U.S. can be completed in India for $8,000–$20,000, including travel and accommodation.'
   },
   {
     q: 'Are Indian and Turkish cancer hospitals safe and accredited?',
-    a: 'Yes. Every hospital in our oncology network holds JCI (Joint Commission International) accreditation — the same global standard used to evaluate U.S. hospitals. Many of our partner cancer centers also hold NABH accreditation and ISO certifications.',
+    a: 'Yes. Every hospital in our oncology network holds JCI (Joint Commission International) accreditation — the same global standard used to evaluate U.S. hospitals. Many of our partner cancer centers also hold NABH accreditation and ISO certifications.'
   },
   {
     q: 'Can I get a second opinion from an oncologist abroad before committing to treatment?',
-    a: 'Absolutely. Sultan GHC facilitates a complimentary first medical opinion from our network oncologists. Simply submit your medical reports, scans, and biopsy results, and we will arrange a remote review within 24–48 hours — your first consultation is at no cost, no obligation.',
+    a: 'Absolutely. Sultan GHC facilitates a complimentary first medical opinion from our network oncologists. Simply submit your medical reports, scans, and biopsy results, and we will arrange a remote review within 24–48 hours — your first consultation is at no cost, no obligation.'
   },
   {
     q: 'What types of cancer are treated at your partner hospitals?',
-    a: 'Our partner hospitals treat all major cancer types including breast, lung, colorectal, prostate, blood cancers (leukemia, lymphoma, myeloma), liver, cervical, stomach, brain tumors, thyroid, pancreatic, and many others. Rare and complex cancers are evaluated on a case-by-case basis.',
+    a: 'Our partner hospitals treat all major cancer types including breast, lung, colorectal, prostate, blood cancers (leukemia, lymphoma, myeloma), liver, cervical, stomach, brain tumors, thyroid, pancreatic, and many others. Rare and complex cancers are evaluated on a case-by-case basis.'
   },
   {
     q: 'How long will I need to stay in India or Türkiye for cancer treatment?',
-    a: 'Length of stay depends on the type and stage of cancer and the treatment protocol. Surgical procedures typically require 2–4 weeks. Chemotherapy and radiation protocols may require multiple visits. Your Case Manager will provide a personalised itinerary based on your treatment plan.',
+    a: 'Length of stay depends on the type and stage of cancer and the treatment protocol. Surgical procedures typically require 2–4 weeks. Chemotherapy and radiation protocols may require multiple visits. Your Case Manager will provide a personalised itinerary based on your treatment plan.'
   },
   {
     q: 'Is chemotherapy quality the same as in the U.S.?',
-    a: 'Yes. Our partner hospitals use the same FDA-approved and internationally certified chemotherapy drugs and protocols as U.S. oncology centers. Many oncologists trained in the U.S., UK, or Europe and are internationally published researchers.',
+    a: 'Yes. Our partner hospitals use the same FDA-approved and internationally certified chemotherapy drugs and protocols as U.S. oncology centers. Many oncologists trained in the U.S., UK, or Europe and are internationally published researchers.'
   },
 ]
 
 // ─── Reusable Components ──────────────────────────────────────────────────────
 
-function ImagePlaceholder({ width, height, label, className = '' }) {
+function ImagePlaceholder({ filename, width, height, label, aiPrompt, aspectRatio, className = '' }) {
+  const ratio = aspectRatio || `${width}/${height}`
   return (
     <div
-      className={`relative bg-gradient-to-br from-blue-50 to-slate-100 border-2 border-dashed border-blue-200 rounded-2xl flex flex-col items-center justify-center gap-3 text-center p-6 ${className}`}
-      style={{ aspectRatio: `${width}/${height}` }}
+      className={`relative bg-gradient-to-br from-blue-50 to-slate-100 border-2 border-dashed border-blue-200 rounded-2xl flex flex-col items-start justify-start gap-2 text-left p-5 overflow-hidden ${className}`}
+      style={{ aspectRatio: ratio }}
       aria-label={label}
       role="img"
     >
-      <ImageIcon size={32} className="text-blue-300" />
-      <div>
-        <p className="text-xs font-semibold text-blue-400 uppercase tracking-wider">{label}</p>
-        <p className="text-[11px] text-blue-300 mt-0.5">{width} × {height}px</p>
+      <div className="flex items-center gap-2 w-full shrink-0">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400 shrink-0"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><circle cx="9" cy="9" r="2"/><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/></svg>
+        <span className="text-[10px] font-bold text-blue-500 uppercase tracking-widest">Image Placeholder</span>
+      </div>
+      <div className="bg-white/70 rounded-lg px-3 py-1.5 w-full shrink-0">
+        <p className="text-[9px] font-semibold text-gray-400 uppercase tracking-wider mb-0.5">SEO Filename</p>
+        <p className="text-[10px] font-bold text-blue-600 break-all leading-snug">📁 {filename}</p>
+      </div>
+      <div className="flex items-center gap-1.5 shrink-0">
+        <span className="text-[9px] font-semibold text-gray-400 uppercase tracking-wider">Size:</span>
+        <span className="text-[10px] font-bold text-gray-600">{width} × {height} px</span>
+      </div>
+      <p className="text-[10px] font-semibold text-blue-500 leading-snug shrink-0">{label}</p>
+      <div className="bg-amber-50/80 border border-amber-200 rounded-lg px-3 py-2 w-full overflow-y-auto flex-1">
+        <p className="text-[9px] font-bold text-amber-600 uppercase tracking-wider mb-1">AI Image Prompt</p>
+        <p className="text-[9px] text-gray-600 leading-relaxed">{aiPrompt}</p>
       </div>
     </div>
   )
 }
+
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
@@ -655,43 +669,43 @@ export default function OncologyPage() {
                 country: 'India',
                 name: 'Apollo Cancer Centres',
                 location: 'Chennai, Mumbai, Delhi',
-                spec: 'Bone Marrow Transplant, Surgical Oncology, CAR-T',
+                spec: 'Bone Marrow Transplant, Surgical Oncology, CAR-T'
               },
               {
                 country: 'India',
                 name: 'Fortis Memorial Research Institute',
                 location: 'Gurugram, Delhi NCR',
-                spec: 'Robotic Surgery, Radiation Oncology, Immunotherapy',
+                spec: 'Robotic Surgery, Radiation Oncology, Immunotherapy'
               },
               {
                 country: 'India',
                 name: 'Manipal Hospitals',
                 location: 'Bangalore, Kolkata, Vijayawada',
-                spec: 'Medical Oncology, Targeted Therapy, Hematology',
+                spec: 'Medical Oncology, Targeted Therapy, Hematology'
               },
               {
                 country: 'India',
                 name: 'Rela Institute & Medical Centre',
                 location: 'Chennai',
-                spec: 'Hepatobiliary Oncology, GI Cancer Surgery, Robotic Resection',
+                spec: 'Hepatobiliary Oncology, GI Cancer Surgery, Robotic Resection'
               },
               {
                 country: 'Türkiye',
                 name: 'Memorial Hospital Group',
                 location: 'Istanbul, Ankara',
-                spec: 'Gamma Knife, CyberKnife, Surgical Oncology',
+                spec: 'Gamma Knife, CyberKnife, Surgical Oncology'
               },
               {
                 country: 'Türkiye',
                 name: 'Acibadem Healthcare Group',
                 location: 'Istanbul, Izmir',
-                spec: 'PET-CT, IMRT Radiation, Chemotherapy Suites',
+                spec: 'PET-CT, IMRT Radiation, Chemotherapy Suites'
               },
               {
                 country: 'Türkiye',
                 name: 'Medipol Mega Hospital',
                 location: 'Istanbul',
-                spec: 'Proton Therapy, Stem Cell, Integrative Oncology',
+                spec: 'Proton Therapy, Stem Cell, Integrative Oncology'
               },
             ].map((hospital) => (
               <div key={hospital.name} className="bg-white rounded-2xl overflow-hidden border border-blue-100 shadow-sm hover:shadow-md transition-shadow">
@@ -776,6 +790,8 @@ export default function OncologyPage() {
           </Link>
         </div>
       </section>
+
+      <PartnerHospitalsSection title="Internationally Accredited Cancer Centers" />
 
       {/* ── FAQ ── */}
       <section className="bg-gray-50 border-y border-gray-100">
