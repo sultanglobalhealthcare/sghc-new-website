@@ -606,7 +606,7 @@ export default function OrthopedicsPage() {
                 'Zimmer Biomet, Stryker, DePuy, and Smith+Nephew implants used throughout',
                 'Physiotherapy and rehabilitation programs supervised by certified specialists',
                 'English-speaking surgical and nursing teams at all partner centers',
-                'Medanta — The Medicity, Gurugram — Newsweek Top 250 World's Best Hospitals; 800+ multi-disciplinary specialists',
+                'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ multi-disciplinary specialists',
               ].map((pt) => (
                 <div key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                   <CheckCircle2 size={15} className="text-primary mt-0.5 shrink-0" />
