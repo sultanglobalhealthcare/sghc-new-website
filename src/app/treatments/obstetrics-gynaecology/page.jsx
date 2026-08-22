@@ -567,7 +567,7 @@ export default function ObstetricsGynaecologyPage() {
                 <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Gynaecology in Türkiye</h3>
-                  <p className="text-sm text-gray-500">Acibadem, Memorial, Koç University Hospital</p>
+                  <p className="text-sm text-gray-500">Acibadem, Memorial, Koç University Hospital, Medicana</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -579,6 +579,7 @@ export default function ObstetricsGynaecologyPage() {
                   'Turkish gynaecologists extensively trained in Europe (Germany, France, UK) — many hold dual European and Turkish board certifications',
                   'U.S. citizens visa-free for Türkiye; Turkish Airlines nonstop from 7 U.S. cities; 90-minute flights from Istanbul to most Turkish cities',
                   'All-inclusive packages covering hospital, accommodation, airport transfer, and interpreter — often combined with IVF cycle abroad',
+                  'Medicana International, Istanbul — JCI-accredited since 2010; 191-bed purpose-built facility; full international patient support program',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

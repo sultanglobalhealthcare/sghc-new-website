@@ -613,6 +613,8 @@ export default function DentalSurgeryPage() {
                 'All-on-4 and All-on-6 specialists performing hundreds of cases annually',
                 'Straumann and Nobel Biocare implants widely available at all partner clinics',
                 'English-speaking dental coordinators guiding you from arrival to departure',
+                'Medicana International, Istanbul — JCI-accredited since 2010; full international patient support program',
+                'Koç University Hospital, Istanbul — JCI-accredited academic hospital; 240+ specialists; transplant led by Prof. Kalayoğlu (UW-Madison)',
               ].map((pt) => (
                 <div key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                   <CheckCircle2 size={15} className="text-primary mt-0.5 shrink-0" />
@@ -680,6 +682,7 @@ export default function DentalSurgeryPage() {
                   'Osstem, Straumann, Nobel Biocare, and Zimmer Biomet implant systems',
                   'Oral and maxillofacial surgeons for complex extractions and jaw surgery',
                   'Orthodontists with Invisalign certification for clear aligner treatment',
+                'Medanta — The Medicity, Gurugram — Newsweek Top 250 World's Best Hospitals; 800+ multi-disciplinary specialists',
                 ].map((pt) => (
                   <div key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary mt-0.5 shrink-0" />

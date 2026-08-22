@@ -27,6 +27,7 @@ import {
   Star,
   Smile,
   Dna,
+  Leaf,
 } from 'lucide-react'
 
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
@@ -271,6 +272,14 @@ const TREATMENTS = [
     desc: 'Dental implants, All-on-4, All-on-6, veneers, full mouth rehabilitation, smile makeovers, and orthodontics.',
     saving: 'Save up to 80%',
     tag: 'Surgical',
+  },
+  {
+    title: 'Wellness & Ayurveda',
+    href: '/treatments/wellness-ayurveda',
+    Icon: Leaf,
+    desc: 'Panchakarma detox, Shirodhara, yoga therapy, naturopathy, and holistic wellness programs at Kerala\'s NABH-accredited Ayurveda hospitals.',
+    saving: 'Save up to 85%',
+    tag: 'Wellness',
   },
 ]
 

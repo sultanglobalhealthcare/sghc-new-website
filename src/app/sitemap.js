@@ -23,6 +23,7 @@ const TREATMENTS = [
   'organ-bone-marrow-transplant',
   'cosmetic-hair-transplant-plastic-surgery',
   'dental-surgery-implant-dentistry',
+  'wellness-ayurveda',
 ]
 
 export default function sitemap() {

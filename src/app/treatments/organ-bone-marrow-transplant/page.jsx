@@ -354,6 +354,10 @@ export default function OrganBoneMarrowTransplantPage() {
           <div className="flex items-start gap-4">
             <AlertCircle size={22} className="text-amber-500 shrink-0 mt-0.5" />
             <div>
+              <p className="text-sm font-semibold text-amber-800 mb-2">Liver Transplant — Important Medical Notice</p>
+              <p className="text-sm text-amber-700 leading-relaxed mb-4">
+                Liver transplantation requires thorough pre-transplant evaluation including cardiopulmonary assessment, psychological screening, and transplant committee review. Not all patients are eligible for transplant and medical candidacy is determined by the receiving hospital&apos;s multidisciplinary transplant team — not by Sultan GHC. Our role is to facilitate access to evaluation, help you understand your options, and coordinate your complete journey. We do not guarantee transplant eligibility or outcomes.
+              </p>
               <p className="text-sm font-semibold text-amber-800 mb-2">Transplant Candidacy & Legal Framework — Important Notice</p>
               <p className="text-sm text-amber-700 leading-relaxed">
                 Transplant candidacy is determined solely by the hospital's multidisciplinary transplant team — not by Sultan GHC. In India, living donor transplants for foreign nationals are permitted under the{' '}
@@ -455,7 +459,7 @@ export default function OrganBoneMarrowTransplantPage() {
                 <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Transplant in Türkiye</h3>
-                  <p className="text-sm text-gray-500">Acibadem, Memorial, Koç University, Florence Nightingale</p>
+                  <p className="text-sm text-gray-500">Acibadem, Memorial, Koç University, Florence Nightingale, Medicana</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -467,6 +471,7 @@ export default function OrganBoneMarrowTransplantPage() {
                   'Türkiye performs 3,500+ kidney and 700+ liver transplants annually — among Europe\'s highest volumes',
                   'U.S. citizens are visa-free for Türkiye; Turkish Airlines nonstop from 7 U.S. cities',
                   'Post-transplant immunosuppressants (tacrolimus, mycophenolate) significantly cheaper than U.S. prices',
+                  'Medicana International, Istanbul — JCI-accredited since 2010; 191-bed purpose-built facility; full international patient support program',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

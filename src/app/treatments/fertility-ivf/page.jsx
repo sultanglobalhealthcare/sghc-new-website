@@ -584,7 +584,7 @@ export default function FertilityIVFPage() {
                 <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">IVF in India</h3>
-                  <p className="text-sm text-gray-500">Nova IVF, Cloudnine, Apollo Fertility, Milann, Indira IVF</p>
+                  <p className="text-sm text-gray-500">Nova IVF, Cloudnine, Apollo Fertility, Milann, Indira IVF, Medanta</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -596,6 +596,7 @@ export default function FertilityIVFPage() {
                   'IVF medications (FSH, GnRH analogues) available as Indian generic equivalents at 60–75% lower cost than U.S. branded medications',
                   'ART (Regulation) Act 2021 — national fertility law regulating donor programs, sperm banks, and patient rights; all partner centers are ICMR-registered',
                   'India Medical e-Visa issued in 3–5 business days; cycle can be partially managed remotely from the U.S. with timed India trip for retrieval and transfer',
+                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ specialists across all major disciplines',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

@@ -420,7 +420,7 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
                 <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Cosmetic Surgery in India</h3>
-                  <p className="text-sm text-gray-500">Apollo, Fortis, Manipal Hospitals — Plastic Surgery Departments</p>
+                  <p className="text-sm text-gray-500">Apollo, Fortis, Manipal Hospitals — Plastic Surgery Departments, Medanta</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -432,6 +432,7 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
                   'Post-bariatric body contouring (after weight loss surgery) — comprehensive lower body lift programs',
                   'Very low pricing for reconstructive procedures — breast reconstruction, scar surgery, flap surgery',
                   'India Medical e-Visa in 3–5 business days; recovery-friendly serviced apartments near hospitals',
+                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ specialists across all major disciplines',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}
@@ -445,7 +446,7 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
                 <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Cosmetic Surgery in Türkiye</h3>
-                  <p className="text-sm text-gray-500">Istanbul — Rhinoplasty & Hair Transplant Capital of the World</p>
+                  <p className="text-sm text-gray-500">Istanbul — Rhinoplasty & Hair Transplant Capital of the World, Medicana</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -457,6 +458,7 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
                   'Facelift and blepharoplasty — high-volume Turkish surgeons with strong natural-result reputations',
                   'U.S. citizens visa-free for Türkiye; Turkish Airlines nonstop from 7 U.S. cities',
                   'All-inclusive recovery packages — airport transfer, hotel, post-op check-ups, translation included',
+                  'Medicana International, Istanbul — JCI-accredited since 2010; 191-bed purpose-built facility; full international patient support program',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

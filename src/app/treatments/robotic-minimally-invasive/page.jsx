@@ -487,7 +487,7 @@ export default function RoboticMinimallyInvasivePage() {
                 <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Robotic Surgery Centers in Türkiye</h3>
-                  <p className="text-sm text-gray-500">Istanbul — JCI-Accredited Programs</p>
+                  <p className="text-sm text-gray-500">Istanbul — JCI-Accredited Programs, Koç University Hospital</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -498,6 +498,7 @@ export default function RoboticMinimallyInvasivePage() {
                   'American Hospital Istanbul — established 1920; da Vinci robotic surgery; most U.S.-aligned hospital experience in Türkiye',
                   'Türkiye benefits for U.S. patients: no visa required, Turkish Airlines nonstop from New York, Los Angeles, Chicago, Houston, Boston, Washington D.C., Miami',
                   'Comparable costs to India for robotic procedures, with shorter travel time from U.S. East Coast cities',
+                  'Koç University Hospital, Istanbul — JCI-accredited academic hospital; 240+ specialists, 50 departments; transplant program led by Prof. Münci Kalayoğlu (former UW-Madison)',
                 ].map(pt => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

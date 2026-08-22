@@ -607,6 +607,7 @@ export default function SpineSportsInjuryPage() {
                 'Dedicated spine ICUs with 24/7 neurocritical care teams',
                 'Medtronic, DePuy Synthes, Stryker, and NuVasive implant systems throughout',
                 'Sports medicine arthroscopy units at all major partner hospitals',
+                'Medanta — The Medicity, Gurugram — Newsweek Top 250 World's Best Hospitals; 800+ multi-disciplinary specialists',
               ].map((pt) => (
                 <div key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                   <CheckCircle2 size={15} className="text-primary mt-0.5 shrink-0" />
@@ -676,6 +677,8 @@ export default function SpineSportsInjuryPage() {
                   'Endoscopic and minimally invasive spine surgery at all partner centers',
                   'Sports medicine departments treating ACL, rotator cuff, and meniscus injuries',
                   'English-speaking patient coordinators and international patient departments',
+                'Medicana International, Istanbul — JCI-accredited since 2010; full international patient support program',
+                'Koç University Hospital, Istanbul — JCI-accredited academic hospital; 240+ specialists; transplant led by Prof. Kalayoğlu (UW-Madison)',
                 ].map((pt) => (
                   <div key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary mt-0.5 shrink-0" />

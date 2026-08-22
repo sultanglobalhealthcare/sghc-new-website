@@ -163,6 +163,26 @@ const HOSPITALS = [
     initials: 'MP',
   },
   {
+    name: 'Koç University Hospital',
+    city: 'Istanbul',
+    location: 'Topkapı, Istanbul',
+    accreditation: 'JCI Accredited',
+    accreditationColor: 'bg-blue-100 text-blue-700',
+    beds: '400+ Beds',
+    established: '2014',
+    img: null,
+    specialties: ['Organ Transplant', 'Oncology', 'Cardiology', 'Orthopedics', 'Neurosurgery', 'IVF'],
+    highlights: [
+      'JCI-accredited private non-profit academic research hospital — 50 departments, 33 specialties, 322 procedures',
+      'Organ Transplant Center led by Prof. Münci Kalayoğlu, former chief of University of Wisconsin Liver Transplant Center',
+      '240+ specialized doctors; 404 single inpatient rooms and 73 ICU beds',
+      'Comprehensive cancer center, advanced IVF program, and full orthopedic & spine surgery unit',
+    ],
+    doctors: '240+ specialists',
+    color: 'from-sky-700 to-blue-600',
+    initials: 'KU',
+  },
+  {
     name: 'BHT CLINIC Istanbul Tema Hospital',
     city: 'Istanbul',
     location: 'Küçükçekmece, Istanbul',
@@ -185,7 +205,7 @@ const HOSPITALS = [
 ]
 
 const STATS = [
-  { value: '7+',       label: 'Partner Hospitals in Türkiye' },
+  { value: '8+',       label: 'Partner Hospitals in Türkiye' },
   { value: 'Istanbul', label: 'Primary treatment hub' },
   { value: 'JCI',      label: 'Primary accreditation standard' },
   { value: '0',        label: 'Visa required for U.S. passport' },

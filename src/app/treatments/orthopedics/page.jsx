@@ -606,6 +606,7 @@ export default function OrthopedicsPage() {
                 'Zimmer Biomet, Stryker, DePuy, and Smith+Nephew implants used throughout',
                 'Physiotherapy and rehabilitation programs supervised by certified specialists',
                 'English-speaking surgical and nursing teams at all partner centers',
+                'Medanta — The Medicity, Gurugram — Newsweek Top 250 World's Best Hospitals; 800+ multi-disciplinary specialists',
               ].map((pt) => (
                 <div key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                   <CheckCircle2 size={15} className="text-primary mt-0.5 shrink-0" />
@@ -675,6 +676,8 @@ export default function OrthopedicsPage() {
                   'Istanbul hospitals within easy international flight reach from the U.S.',
                   'Dedicated international patient coordinators at all partner hospitals',
                   'Full recovery and rehabilitation support before return travel',
+                'Medicana International, Istanbul — JCI-accredited since 2010; full international patient support program',
+                'Koç University Hospital, Istanbul — JCI-accredited academic hospital; 240+ specialists; transplant led by Prof. Kalayoğlu (UW-Madison)',
                 ].map((pt) => (
                   <div key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary mt-0.5 shrink-0" />

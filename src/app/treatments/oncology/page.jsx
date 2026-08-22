@@ -537,6 +537,7 @@ export default function OncologyPage() {
                   'CAR-T cell therapy available at select centers',
                   'U.S.-trained oncologists with international publications',
                   'Ayurvedic and integrative supportive care available',
+                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ specialists across all major disciplines',
                 ].map((p) => (
                   <li key={p} className="flex items-start gap-2.5 text-sm text-gray-300">
                     <CheckCircle2 size={14} className="text-primary mt-0.5 shrink-0" />
@@ -581,6 +582,8 @@ export default function OncologyPage() {
                   'Advanced CyberKnife and Gamma Knife radiosurgery centers',
                   'Growing expertise in immunotherapy and targeted therapy',
                   'Excellent post-treatment tourism and recovery facilities',
+                  'Koç University Hospital, Istanbul — JCI-accredited academic hospital; 240+ specialists, 50 departments; transplant program led by Prof. Münci Kalayoğlu (former UW-Madison)',
+                  'Medicana International, Istanbul — JCI-accredited since 2010; 191-bed purpose-built facility; comprehensive international patient program',
                 ].map((p) => (
                   <li key={p} className="flex items-start gap-2.5 text-sm text-gray-300">
                     <CheckCircle2 size={14} className="text-primary mt-0.5 shrink-0" />

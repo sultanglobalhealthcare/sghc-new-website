@@ -557,7 +557,7 @@ export default function HepatologyPage() {
                 <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Liver Care in Türkiye</h3>
-                  <p className="text-sm text-gray-500">Acibadem, Memorial, Koc University Hospital</p>
+                  <p className="text-sm text-gray-500">Acibadem, Memorial, Koc University Hospital, Medicana</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -569,6 +569,7 @@ export default function HepatologyPage() {
                   'MDT liver tumor board (hepatology, hepatobiliary surgery, oncology, radiology) meets weekly',
                   'U.S. citizens visa-free for Türkiye — no pre-approval required (effective January 2024)',
                   'Istanbul hospitals accessible on Turkish Airlines nonstop from 7 U.S. cities',
+                  'Medicana International, Istanbul — JCI-accredited since 2010; 191-bed purpose-built facility; full international patient support program',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />
