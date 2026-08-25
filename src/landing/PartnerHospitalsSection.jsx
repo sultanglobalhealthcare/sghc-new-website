@@ -85,6 +85,32 @@ const HOSPITALS = [
     img: null,
     specialties: ['IVF & Fertility', 'Neurosurgery', 'Bariatric Surgery', 'Oncology'],
   },
+  {
+    country: 'Türkiye',
+    flag: 'https://flagcdn.com/w20/tr.png',
+    name: 'Koç University Hospital',
+    city: 'Istanbul',
+    beds: '400+ Beds',
+    accreditation: 'JCI Accredited',
+    initials: 'KU',
+    color: 'from-sky-100 to-blue-50',
+    textColor: 'text-sky-700',
+    img: null,
+    specialties: ['Organ Transplant', 'Oncology', 'Cardiology', 'Neurosurgery', 'IVF'],
+  },
+  {
+    country: 'Türkiye',
+    flag: 'https://flagcdn.com/w20/tr.png',
+    name: 'Medicana International',
+    city: 'Istanbul',
+    beds: '191 Beds',
+    accreditation: 'JCI Accredited',
+    initials: 'MC',
+    color: 'from-indigo-100 to-violet-50',
+    textColor: 'text-indigo-700',
+    img: null,
+    specialties: ['Bariatric Surgery', 'Orthopedics', 'Cardiology', 'Hair Transplant'],
+  },
 ]
 
 // ── Card ─────────────────────────────────────────────────────────────────────
