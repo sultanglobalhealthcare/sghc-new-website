@@ -87,7 +87,7 @@ const faqSchema = {
       name: 'Can I get VATS (Video-Assisted Thoracic Surgery) for lung cancer in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. VATS lobectomy and VATS wedge resection are performed at multiple JCI-accredited partner hospitals in India — Apollo, Medanta, Fortis — by thoracic surgeons with fellowship training from U.S. and UK programs. VATS lobectomy in the U.S. costs $50,000–$120,000. In India, the same minimally invasive lung cancer resection costs $7,000–$16,000. Türkiye costs $10,000–$22,000. Recovery time and complication profiles are equivalent to procedures performed in the U.S.',
+        text: 'Yes. VATS lobectomy and VATS wedge resection are performed at multiple JCI-accredited partner hospitals in India — Apollo, Medanta, Fortis, Rela Institute — by thoracic surgeons with fellowship training from U.S. and UK programs. VATS lobectomy in the U.S. costs $50,000–$120,000. In India, the same minimally invasive lung cancer resection costs $7,000–$16,000. Türkiye costs $10,000–$22,000. Recovery time and complication profiles are equivalent to procedures performed in the U.S.',
       },
     },
     {

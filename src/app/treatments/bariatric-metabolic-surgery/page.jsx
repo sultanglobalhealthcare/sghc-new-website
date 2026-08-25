@@ -77,7 +77,7 @@ const faqSchema = {
       name: 'How much does gastric bypass surgery cost in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Roux-en-Y gastric bypass (RYGB) in the U.S. costs $20,000–$45,000 for self-pay patients. In India: $5,000–$9,000 — a saving of 75–80%. Mini gastric bypass (MGB / one-anastomosis gastric bypass / OAGB) costs $4,500–$7,500 in India. Both RYGB and MGB are available at Apollo, Fortis, and Medanta bariatric programs. Türkiye: $5,000–$9,000 for RYGB.',
+        text: 'Roux-en-Y gastric bypass (RYGB) in the U.S. costs $20,000–$45,000 for self-pay patients. In India: $5,000–$9,000 — a saving of 75–80%. Mini gastric bypass (MGB / one-anastomosis gastric bypass / OAGB) costs $4,500–$7,500 in India. Both RYGB and MGB are available at Apollo, Fortis, Medanta, and Rela Institute bariatric programs. Türkiye: $5,000–$9,000 for RYGB.',
       },
     },
     {
@@ -117,7 +117,7 @@ const faqSchema = {
       name: 'Is revision bariatric surgery available in India for failed sleeve gastrectomy or gastric band?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Revision bariatric surgery — sleeve-to-bypass conversion (for GERD, inadequate weight loss, or weight regain), band removal and conversion to sleeve or bypass, and SADI-S (Single Anastomosis Duodeno-Ileal Bypass with Sleeve) for super-obesity — is available at Apollo, Fortis, and Medanta bariatric centers. Revision surgery requires more detailed pre-operative assessment including upper GI endoscopy and barium swallow. India revision bariatric cost: $5,500–$10,000 vs $15,000–$50,000 U.S.',
+        text: 'Yes. Revision bariatric surgery — sleeve-to-bypass conversion (for GERD, inadequate weight loss, or weight regain), band removal and conversion to sleeve or bypass, and SADI-S (Single Anastomosis Duodeno-Ileal Bypass with Sleeve) for super-obesity — is available at Apollo, Fortis, Medanta, and Rela Institute bariatric centers. Revision surgery requires more detailed pre-operative assessment including upper GI endoscopy and barium swallow. India revision bariatric cost: $5,500–$10,000 vs $15,000–$50,000 U.S.',
       },
     },
   ],

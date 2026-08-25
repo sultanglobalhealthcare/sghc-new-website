@@ -79,7 +79,7 @@ const faqSchema = {
       name: 'How much does robot-assisted prostatectomy (RALP) cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Robot-assisted radical prostatectomy (RALP) using the da Vinci Surgical System in the U.S. costs $15,000–$50,000 for self-pay patients. At JCI-accredited hospitals in India (Apollo, Fortis, Medanta), which operate da Vinci systems, the same procedure costs $5,000–$12,000 — a saving of 75–90%. Türkiye costs $7,000–$18,000. Sultan GHC provides a personalised cost estimate within 24 hours.',
+        text: 'Robot-assisted radical prostatectomy (RALP) using the da Vinci Surgical System in the U.S. costs $15,000–$50,000 for self-pay patients. At JCI-accredited hospitals in India (Apollo, Fortis, Medanta, Rela Institute), which operate da Vinci systems, the same procedure costs $5,000–$12,000 — a saving of 75–90%. Türkiye costs $7,000–$18,000. Sultan GHC provides a personalised cost estimate within 24 hours.',
       },
     },
     {

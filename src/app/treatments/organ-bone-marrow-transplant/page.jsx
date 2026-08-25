@@ -79,7 +79,7 @@ const faqSchema = {
       name: 'How much does a kidney transplant cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A kidney transplant in the U.S. costs $150,000–$400,000 for self-pay patients (FAIR Health, Milliman 2025). At JCI-accredited hospitals in India (Apollo, Fortis, Manipal), the same procedure costs $13,000–$22,000 — a saving of over 90%. India performs thousands of kidney transplants annually, primarily living donor. All partner programs are NOTTO-compliant. Sultan GHC covers the entire journey — donor workup, surgery, and 30-day post-transplant monitoring.',
+        text: 'A kidney transplant in the U.S. costs $150,000–$400,000 for self-pay patients (FAIR Health, Milliman 2025). At JCI-accredited hospitals in India (Apollo, Fortis, Manipal, Rela Institute), the same procedure costs $13,000–$22,000 — a saving of over 90%. India performs thousands of kidney transplants annually, primarily living donor. All partner programs are NOTTO-compliant. Sultan GHC covers the entire journey — donor workup, surgery, and 30-day post-transplant monitoring.',
       },
     },
     {
@@ -87,7 +87,7 @@ const faqSchema = {
       name: 'How much does a liver transplant cost in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A liver transplant in the U.S. costs $878,000–$1,017,000 (Milliman 2025 Actuarial Report). Living donor liver transplant (LDLT) at JCI-accredited Indian hospitals costs $20,000–$38,000, and deceased donor liver transplant costs $22,000–$40,000. India is globally recognized for LDLT expertise — Medanta performs 400+ liver transplants annually, India overall 2,500+ per year. Sultan GHC coordinates the full journey.',
+        text: 'A liver transplant in the U.S. costs $878,000–$1,017,000 (Milliman 2025 Actuarial Report). Living donor liver transplant (LDLT) at JCI-accredited Indian hospitals costs $20,000–$38,000, and deceased donor liver transplant costs $22,000–$40,000. India is globally recognized for LDLT expertise — Medanta performs 400+ liver transplants annually; Rela Institute Chennai is also a leading LDLT center. India overall 2,500+ per year. Sultan GHC coordinates the full journey.',
       },
     },
     {
@@ -119,7 +119,7 @@ const faqSchema = {
       name: 'What is the survival rate for bone marrow transplant in India vs the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Leading Indian transplant centers — AIIMS Delhi, Tata Memorial Mumbai, Apollo, Fortis — report 5-year overall survival rates for matched sibling allogeneic BMT that are broadly comparable to international benchmarks for standard-risk diseases. However, outcomes depend heavily on disease type, stage, donor match, and center volume. Sultan GHC facilitates an independent second opinion from the transplant team before any commitment is made.',
+        text: 'Leading Indian transplant centers — AIIMS Delhi, Tata Memorial Mumbai, Apollo, Fortis, Rela Institute — report 5-year overall survival rates for matched sibling allogeneic BMT that are broadly comparable to international benchmarks for standard-risk diseases. However, outcomes depend heavily on disease type, stage, donor match, and center volume. Sultan GHC facilitates an independent second opinion from the transplant team before any commitment is made.',
       },
     },
   ],

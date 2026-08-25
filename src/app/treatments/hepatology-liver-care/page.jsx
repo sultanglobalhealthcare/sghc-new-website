@@ -97,7 +97,7 @@ const faqSchema = {
       name: 'Can I get living donor liver transplant in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Living donor liver transplant (LDLT) is well-established in India and is in fact performed more frequently there than deceased donor transplant due to organ availability constraints. India\'s top liver transplant centers (Medanta Gurugram, Global Hospitals Mumbai, Fortis, Apollo) perform 300–500 living donor liver transplants per year each. The donor (usually a blood-related family member with compatible blood type) can accompany the patient. Donor surgery, recipient surgery, and post-transplant care are all included in the package quoted by Sultan GHC partner hospitals.'
+        text: 'Yes. Living donor liver transplant (LDLT) is well-established in India and is in fact performed more frequently there than deceased donor transplant due to organ availability constraints. India\'s top liver transplant centers (Medanta Gurugram, Rela Institute Chennai, Global Hospitals Mumbai, Fortis, Apollo) perform 300–500 living donor liver transplants per year each. The donor (usually a blood-related family member with compatible blood type) can accompany the patient. Donor surgery, recipient surgery, and post-transplant care are all included in the package quoted by Sultan GHC partner hospitals.'
       }
     },
     {

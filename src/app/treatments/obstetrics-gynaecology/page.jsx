@@ -80,7 +80,7 @@ const faqSchema = {
       name: 'How much does a laparoscopic hysterectomy cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A laparoscopic hysterectomy in the U.S. costs $15,000–$50,000 for self-pay patients (FAIR Health Consumer 2024, including surgeon, anesthesia, and 1–2 night hospital stay). At JCI-accredited hospitals in India such as Apollo, Fortis, and Manipal, laparoscopic hysterectomy costs $2,500–$6,000 — a saving of 80–88%. Robotic hysterectomy using the da Vinci system is available at select partner hospitals for $4,000–$8,000 India vs $20,000–$70,000 U.S.',
+        text: 'A laparoscopic hysterectomy in the U.S. costs $15,000–$50,000 for self-pay patients (FAIR Health Consumer 2024, including surgeon, anesthesia, and 1–2 night hospital stay). At JCI-accredited hospitals in India such as Apollo, Fortis, Manipal, and Rela Institute, laparoscopic hysterectomy costs $2,500–$6,000 — a saving of 80–88%. Robotic hysterectomy using the da Vinci system is available at select partner hospitals for $4,000–$8,000 India vs $20,000–$70,000 U.S.',
       },
     },
     {
@@ -88,7 +88,7 @@ const faqSchema = {
       name: 'How much does fibroid surgery (myomectomy) cost in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Laparoscopic myomectomy for uterine fibroids costs $10,000–$40,000 in the U.S. (FAIR Health 2024). In India at JCI-accredited hospitals: $2,000–$5,000. Hysteroscopic myomectomy for submucosal fibroids costs $1,000–$3,000 in India vs $5,000–$15,000 in the U.S. Robot-assisted myomectomy is available at Apollo and Fortis for $3,000–$6,000.',
+        text: 'Laparoscopic myomectomy for uterine fibroids costs $10,000–$40,000 in the U.S. (FAIR Health 2024). In India at JCI-accredited hospitals: $2,000–$5,000. Hysteroscopic myomectomy for submucosal fibroids costs $1,000–$3,000 in India vs $5,000–$15,000 in the U.S. Robot-assisted myomectomy is available at Apollo, Fortis, and Rela Institute for $3,000–$6,000.',
       },
     },
     {
@@ -104,7 +104,7 @@ const faqSchema = {
       name: 'Can American women get gynecological cancer surgery in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Sultan GHC coordinates gynecological oncology care — including surgery, chemotherapy, and radiation — for U.S. patients at JCI-accredited hospitals in India and Türkiye. Procedures include radical hysterectomy (Wertheim\'s) for cervical cancer, staging laparotomy and debulking for ovarian cancer, and hysteroscopic resection + staging for uterine/endometrial cancer. Robotic radical hysterectomy (RARP-gynae) is available at Apollo and Fortis. A second opinion from a gynecological oncologist can be arranged within 24–48 hours.',
+        text: 'Yes. Sultan GHC coordinates gynecological oncology care — including surgery, chemotherapy, and radiation — for U.S. patients at JCI-accredited hospitals in India and Türkiye. Procedures include radical hysterectomy (Wertheim\'s) for cervical cancer, staging laparotomy and debulking for ovarian cancer, and hysteroscopic resection + staging for uterine/endometrial cancer. Robotic radical hysterectomy (RARP-gynae) is available at Apollo, Fortis, and Rela Institute. A second opinion from a gynecological oncologist can be arranged within 24–48 hours.',
       },
     },
     {
@@ -128,7 +128,7 @@ const faqSchema = {
       name: 'What is the difference between laparoscopic and robotic hysterectomy, and which is available in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Both laparoscopic hysterectomy (surgeon directly controls instruments) and robotic-assisted hysterectomy (da Vinci system — surgeon controls via console with 3D magnification and tremor filtering) are available in India. Robotic hysterectomy offers better visualization in complex cases such as extensive adhesions, large fibroids, or narrow pelvis, and is often preferred for obese patients or prior abdominal surgery. Apollo Hospitals and Fortis operate da Vinci Si and Xi systems. The cost difference is approximately $1,500–$3,000 more for robotic vs standard laparoscopic.',
+        text: 'Both laparoscopic hysterectomy (surgeon directly controls instruments) and robotic-assisted hysterectomy (da Vinci system — surgeon controls via console with 3D magnification and tremor filtering) are available in India. Robotic hysterectomy offers better visualization in complex cases such as extensive adhesions, large fibroids, or narrow pelvis, and is often preferred for obese patients or prior abdominal surgery. Apollo Hospitals, Fortis, and Rela Institute operate da Vinci Si and Xi systems. The cost difference is approximately $1,500–$3,000 more for robotic vs standard laparoscopic.',
       },
     },
     {
@@ -136,7 +136,7 @@ const faqSchema = {
       name: 'Is pelvic floor surgery (prolapse repair) available in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Laparoscopic sacrocolpopexy (mesh-based vault suspension for vaginal vault prolapse), anterior/posterior colporrhaphy, and mid-urethral sling procedures (TOT, TVT) for stress urinary incontinence are fully available at partner hospitals in India and Türkiye. Pelvic floor repair in the U.S. costs $10,000–$30,000; India costs $1,500–$4,500. Urogynaecology subspecialists are available at Apollo, Fortis, and Manipal.',
+        text: 'Yes. Laparoscopic sacrocolpopexy (mesh-based vault suspension for vaginal vault prolapse), anterior/posterior colporrhaphy, and mid-urethral sling procedures (TOT, TVT) for stress urinary incontinence are fully available at partner hospitals in India and Türkiye. Pelvic floor repair in the U.S. costs $10,000–$30,000; India costs $1,500–$4,500. Urogynaecology subspecialists are available at Apollo, Fortis, Manipal, and Rela Institute.',
       },
     },
   ],

@@ -119,7 +119,7 @@ const faqSchema = {
       name: 'What is reconstructive plastic surgery and is it available in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Reconstructive plastic surgery repairs form and function after cancer, trauma, burn injury, or congenital conditions — including breast reconstruction after mastectomy, scar revision, flap surgery, and cleft lip/palate repair. Sultan GHC\'s partner hospitals in India (Apollo, Fortis, Manipal, Tata Memorial) have plastic surgery departments that perform post-oncology breast reconstruction, microsurgical free flap reconstruction, and complex scar management. Reconstructive procedures are priced significantly lower than in the U.S.',
+        text: 'Reconstructive plastic surgery repairs form and function after cancer, trauma, burn injury, or congenital conditions — including breast reconstruction after mastectomy, scar revision, flap surgery, and cleft lip/palate repair. Sultan GHC\'s partner hospitals in India (Apollo, Fortis, Manipal, Tata Memorial, Rela Institute) have plastic surgery departments that perform post-oncology breast reconstruction, microsurgical free flap reconstruction, and complex scar management. Reconstructive procedures are priced significantly lower than in the U.S.',
       },
     },
   ],

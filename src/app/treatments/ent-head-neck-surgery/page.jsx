@@ -69,7 +69,7 @@ const faqSchema = {
       name: 'How much does a cochlear implant cost in India compared to the U.S.?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'A cochlear implant (device + surgery + audiological programming) in the U.S. costs $80,000–$150,000 per ear without insurance (NIH, NIDCD data). In India at JCI-accredited hospitals such as Apollo, Fortis, and Manipal, a cochlear implant costs $15,000–$25,000 per ear including the implant device (Cochlear Nucleus, Med-El, Advanced Bionics), surgery, and initial programming sessions — a saving of 80–85%. Sultan GHC coordinates the complete cochlear implant journey: audiological assessment, device selection, surgery, and programming follow-up.',
+        text: 'A cochlear implant (device + surgery + audiological programming) in the U.S. costs $80,000–$150,000 per ear without insurance (NIH, NIDCD data). In India at JCI-accredited hospitals such as Apollo, Fortis, Manipal, and Rela Institute, a cochlear implant costs $15,000–$25,000 per ear including the implant device (Cochlear Nucleus, Med-El, Advanced Bionics), surgery, and initial programming sessions — a saving of 80–85%. Sultan GHC coordinates the complete cochlear implant journey: audiological assessment, device selection, surgery, and programming follow-up.',
       },
     },
     {
@@ -85,7 +85,7 @@ const faqSchema = {
       name: 'How much does thyroidectomy cost in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Total thyroidectomy in the U.S. costs $10,000–$35,000 for self-pay patients. In India: $1,500–$4,000. Hemithyroidectomy (lobectomy) costs $1,000–$2,500 India. Minimally invasive video-assisted thyroidectomy (MIVAT) and robotic thyroidectomy (via axillary or areolar approach — no neck scar) are also available at Apollo and Fortis. Türkiye: $2,500–$6,000.',
+        text: 'Total thyroidectomy in the U.S. costs $10,000–$35,000 for self-pay patients. In India: $1,500–$4,000. Hemithyroidectomy (lobectomy) costs $1,000–$2,500 India. Minimally invasive video-assisted thyroidectomy (MIVAT) and robotic thyroidectomy (via axillary or areolar approach — no neck scar) are also available at Apollo, Fortis, and Rela Institute. Türkiye: $2,500–$6,000.',
       },
     },
     {
@@ -93,7 +93,7 @@ const faqSchema = {
       name: 'Is head and neck cancer surgery available in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. Sultan GHC coordinates comprehensive head and neck oncology at Tata Memorial Hospital Mumbai (one of Asia\'s premier cancer centers), Apollo Cancer Centre, and Acibadem (Türkiye). Available procedures include total laryngectomy, partial laryngectomy, glossectomy (tongue cancer), parotidectomy, radical and modified radical neck dissection, mandibulectomy, and reconstructive free flap surgery. All cases are reviewed by a multidisciplinary tumor board.',
+        text: 'Yes. Sultan GHC coordinates comprehensive head and neck oncology at Tata Memorial Hospital Mumbai (one of Asia\'s premier cancer centers), Apollo Cancer Centre, Rela Institute Chennai, and Acibadem (Türkiye). Available procedures include total laryngectomy, partial laryngectomy, glossectomy (tongue cancer), parotidectomy, radical and modified radical neck dissection, mandibulectomy, and reconstructive free flap surgery. All cases are reviewed by a multidisciplinary tumor board.',
       },
     },
     {

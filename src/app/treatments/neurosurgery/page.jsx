@@ -89,7 +89,7 @@ const faqSchema = {
       name: 'How safe is brain surgery in India and Türkiye?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Neurosurgery safety is determined by surgeon experience, hospital infrastructure, and ICU capability — not geography. Our partner JCI-accredited hospitals in India (Apollo, Fortis, Medanta) and Türkiye (Acibadem, Memorial) have dedicated neurosurgery units with intraoperative MRI (iMRI), neuronavigation systems, neurophysiology monitoring, and Level-1 NeuroICUs. Neurosurgeons at these centers perform 500–1,500 cranial and spine operations annually and hold international qualifications including FRCS (Neurosurgery), American board training, and EANS (European Association of Neurosurgical Societies) fellowships.'
+        text: 'Neurosurgery safety is determined by surgeon experience, hospital infrastructure, and ICU capability — not geography. Our partner JCI-accredited hospitals in India (Apollo, Fortis, Medanta, Rela Institute) and Türkiye (Acibadem, Memorial) have dedicated neurosurgery units with intraoperative MRI (iMRI), neuronavigation systems, neurophysiology monitoring, and Level-1 NeuroICUs. Neurosurgeons at these centers perform 500–1,500 cranial and spine operations annually and hold international qualifications including FRCS (Neurosurgery), American board training, and EANS (European Association of Neurosurgical Societies) fellowships.'
       }
     },
     {
@@ -97,7 +97,7 @@ const faqSchema = {
       name: 'What is Gamma Knife radiosurgery and is it available in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Gamma Knife radiosurgery (stereotactic radiosurgery) is a non-invasive procedure that delivers highly focused radiation beams to destroy brain tumors, arteriovenous malformations (AVMs), or metastatic lesions — without a surgical incision. It is available at select Apollo and Fortis partner hospitals in India and at Acibadem and Memorial Hospital Istanbul in Türkiye. Cost in the U.S. is $20,000–$50,000. India costs $4,000–$10,000. Türkiye costs $6,000–$14,000.'
+        text: 'Gamma Knife radiosurgery (stereotactic radiosurgery) is a non-invasive procedure that delivers highly focused radiation beams to destroy brain tumors, arteriovenous malformations (AVMs), or metastatic lesions — without a surgical incision. It is available at select Apollo, Fortis, and Rela Institute partner hospitals in India and at Acibadem and Memorial Hospital Istanbul in Türkiye. Cost in the U.S. is $20,000–$50,000. India costs $4,000–$10,000. Türkiye costs $6,000–$14,000.'
       }
     },
     {
@@ -211,7 +211,7 @@ const FAQS = [
   },
   {
     q: 'What is Gamma Knife radiosurgery and is it available in India?',
-    a: 'Gamma Knife is a non-invasive procedure that delivers focused radiation to destroy brain tumors or AVMs without a surgical incision. Available at Apollo and Fortis partner hospitals in India, and at Acibadem and Memorial Hospital Istanbul. India cost: $4,000–$10,000 vs $20,000–$50,000 in the U.S.'
+    a: 'Gamma Knife is a non-invasive procedure that delivers focused radiation to destroy brain tumors or AVMs without a surgical incision. Available at Apollo, Fortis, and Rela Institute partner hospitals in India, and at Acibadem and Memorial Hospital Istanbul. India cost: $4,000–$10,000 vs $20,000–$50,000 in the U.S.'
   },
   {
     q: 'How long will I need to stay in India after brain surgery?',

@@ -85,7 +85,7 @@ const faqSchema = {
       name: 'How much does robotic hysterectomy cost in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Robotic hysterectomy (total robotic hysterectomy / robotic-assisted TLH) in the U.S. costs $15,000–$40,000. In India: $3,000–$7,000 — a saving of 75–85%. Available at Apollo, Fortis, and Medanta robotic gynecology programs. Sultan GHC coordinates pre-operative gynecology workup, robotic hysterectomy, and post-operative follow-up for American women traveling to India for this procedure.',
+        text: 'Robotic hysterectomy (total robotic hysterectomy / robotic-assisted TLH) in the U.S. costs $15,000–$40,000. In India: $3,000–$7,000 — a saving of 75–85%. Available at Apollo, Fortis, Medanta, and Rela Institute robotic gynecology programs. Sultan GHC coordinates pre-operative gynecology workup, robotic hysterectomy, and post-operative follow-up for American women traveling to India for this procedure.',
       },
     },
     {
@@ -109,7 +109,7 @@ const faqSchema = {
       name: 'How much does robotic nephrectomy (kidney removal) cost in India?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Robotic partial nephrectomy in the U.S. costs $15,000–$45,000. In India: $4,000–$8,000. Robotic radical nephrectomy: $3,500–$7,000 India vs $12,000–$40,000 U.S. Apollo Chennai and Medanta Gurugram are leading centers for robotic renal surgery.',
+        text: 'Robotic partial nephrectomy in the U.S. costs $15,000–$45,000. In India: $4,000–$8,000. Robotic radical nephrectomy: $3,500–$7,000 India vs $12,000–$40,000 U.S. Apollo Chennai, Medanta Gurugram, and Rela Institute Chennai are leading centers for robotic renal surgery.',
       },
     },
     {
