@@ -678,7 +678,6 @@ export default function SpineSportsInjuryPage() {
                   'Endoscopic and minimally invasive spine surgery at all partner centers',
                   'Sports medicine departments treating ACL, rotator cuff, and meniscus injuries',
                   'English-speaking patient coordinators and international patient departments',
-                'Medicana International, Istanbul — JCI-accredited since 2010; full international patient support program',
                 'Koç University Hospital, Istanbul — JCI-accredited academic hospital; 240+ specialists; transplant led by Prof. Kalayoğlu (UW-Madison)',
                 ].map((pt) => (
                   <div key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">

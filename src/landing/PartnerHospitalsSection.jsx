@@ -69,7 +69,7 @@ const HOSPITALS = [
     initials: 'AC',
     color: 'from-rose-100 to-pink-50',
     textColor: 'text-rose-600',
-    img: null,
+    img: '/hospitals/acibadem-healthcare-group-istanbul-jci-accredited-turkey.jpg',
     specialties: ['Oncology', 'Cardiology', 'Orthopaedics', 'Robotic Surgery'],
   },
   {
@@ -82,7 +82,7 @@ const HOSPITALS = [
     initials: 'MH',
     color: 'from-amber-100 to-orange-50',
     textColor: 'text-amber-700',
-    img: null,
+    img: '/hospitals/memorial-hospital-group-istanbul-jci-accredited-turkey.jpg',
     specialties: ['IVF & Fertility', 'Neurosurgery', 'Bariatric Surgery', 'Oncology'],
   },
   {
@@ -95,21 +95,8 @@ const HOSPITALS = [
     initials: 'KU',
     color: 'from-sky-100 to-blue-50',
     textColor: 'text-sky-700',
-    img: null,
+    img: '/hospitals/koc-university-hospital-istanbul-jci-accredited-turkey.jpg',
     specialties: ['Organ Transplant', 'Oncology', 'Cardiology', 'Neurosurgery', 'IVF'],
-  },
-  {
-    country: 'Türkiye',
-    flag: 'https://flagcdn.com/w20/tr.png',
-    name: 'Medicana International',
-    city: 'Istanbul',
-    beds: '191 Beds',
-    accreditation: 'JCI Accredited',
-    initials: 'MC',
-    color: 'from-indigo-100 to-violet-50',
-    textColor: 'text-indigo-700',
-    img: null,
-    specialties: ['Bariatric Surgery', 'Orthopedics', 'Cardiology', 'Hair Transplant'],
   },
 ]
 

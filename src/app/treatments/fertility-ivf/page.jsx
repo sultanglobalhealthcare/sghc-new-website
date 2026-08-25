@@ -611,7 +611,7 @@ export default function FertilityIVFPage() {
                 <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">IVF in Türkiye</h3>
-                  <p className="text-sm text-gray-500">Acibadem Sistina, Memorial IVF, Medicana, Clinic Eurofertil</p>
+                  <p className="text-sm text-gray-500">Acibadem Sistina, Memorial IVF, Clinic Eurofertil</p>
                 </div>
               </div>
               <ul className="space-y-3">

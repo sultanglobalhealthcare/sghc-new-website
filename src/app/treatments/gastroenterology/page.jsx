@@ -535,7 +535,7 @@ export default function GastroenterologyPage() {
                 <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Gastroenterology in Türkiye</h3>
-                  <p className="text-sm text-gray-500">Acibadem, Memorial, Koc University Hospital, Medicana</p>
+                  <p className="text-sm text-gray-500">Acibadem, Memorial, Koc University Hospital</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -547,7 +547,6 @@ export default function GastroenterologyPage() {
                   'Multidisciplinary GI oncology board (colorectal, pancreatic, esophageal cancer) meets weekly',
                   'U.S. citizens visa-free for Türkiye — no pre-approval, no fee (effective January 2024)',
                   'Turkish Airlines nonstop from 7 U.S. cities — direct to Istanbul for GI treatment',
-                  'Medicana International, Istanbul — JCI-accredited since 2010; 191-bed purpose-built facility; full international patient support program',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />

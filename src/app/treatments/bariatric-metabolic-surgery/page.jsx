@@ -474,7 +474,7 @@ export default function BariatricMetabolicSurgeryPage() {
                 <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Bariatric Surgery in Türkiye</h3>
-                  <p className="text-sm text-gray-500">Acibadem, Memorial, Medicana, Private Bariatric Clinics, Koç University Hospital</p>
+                  <p className="text-sm text-gray-500">Acibadem, Memorial, Private Bariatric Clinics, Koç University Hospital</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -482,7 +482,6 @@ export default function BariatricMetabolicSurgeryPage() {
                   'Türkiye is one of Europe\'s most popular bariatric destinations — particularly for sleeve gastrectomy and gastric bypass for European and Middle Eastern patients',
                   'Acibadem — JCI-accredited with dedicated bariatric units performing thousands of procedures annually across Istanbul, Ankara, and Izmir',
                   'Memorial Hospital Istanbul — comprehensive bariatric program with full pre-operative multidisciplinary team and post-operative nutrition support',
-                  'Medicana International — high-volume sleeve gastrectomy center; all-inclusive packages covering hospital, hotel, transfers, and nutritionist follow-up',
                   'Turkish bariatric surgeons trained in Germany, France, and the U.S. — many IFSO Executive Council members',
                   'U.S. citizens visa-free for Türkiye; Turkish Airlines nonstop from 7 U.S. cities; all-inclusive 10–14 day packages widely available',
                   'Koç University Hospital, Istanbul — JCI-accredited academic hospital; 240+ specialists, 50 departments; transplant program led by Prof. Münci Kalayoğlu (former UW-Madison)',

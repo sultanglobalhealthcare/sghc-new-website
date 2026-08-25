@@ -677,7 +677,6 @@ export default function OrthopedicsPage() {
                   'Istanbul hospitals within easy international flight reach from the U.S.',
                   'Dedicated international patient coordinators at all partner hospitals',
                   'Full recovery and rehabilitation support before return travel',
-                'Medicana International, Istanbul — JCI-accredited since 2010; full international patient support program',
                 'Koç University Hospital, Istanbul — JCI-accredited academic hospital; 240+ specialists; transplant led by Prof. Kalayoğlu (UW-Madison)',
                 ].map((pt) => (
                   <div key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">

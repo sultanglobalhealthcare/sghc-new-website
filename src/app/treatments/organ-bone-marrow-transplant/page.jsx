@@ -459,7 +459,7 @@ export default function OrganBoneMarrowTransplantPage() {
                 <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Transplant in Türkiye</h3>
-                  <p className="text-sm text-gray-500">Acibadem, Memorial, Koç University, Florence Nightingale, Medicana</p>
+                  <p className="text-sm text-gray-500">Acibadem, Memorial, Koç University</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -467,11 +467,9 @@ export default function OrganBoneMarrowTransplantPage() {
                   'Acibadem Transplant Centers — kidney and liver transplant with living donor program, multi-city network',
                   'Memorial Hospital Istanbul — dedicated BMT unit for allogeneic and autologous hematopoietic transplant',
                   'Koç University Hospital — academic transplant program, EFI/FACT-accredited bone marrow unit',
-                  'Florence Nightingale — experienced renal transplant program with 24-hour nephrology ICU support',
                   'Türkiye performs 3,500+ kidney and 700+ liver transplants annually — among Europe\'s highest volumes',
                   'U.S. citizens are visa-free for Türkiye; Turkish Airlines nonstop from 7 U.S. cities',
                   'Post-transplant immunosuppressants (tacrolimus, mycophenolate) significantly cheaper than U.S. prices',
-                  'Medicana International, Istanbul — JCI-accredited since 2010; 191-bed purpose-built facility; full international patient support program',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

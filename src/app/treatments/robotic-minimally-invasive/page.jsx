@@ -494,7 +494,6 @@ export default function RoboticMinimallyInvasivePage() {
                 {[
                   'Acibadem Healthcare Group — multiple JCI-accredited hospitals across Istanbul and Ankara; da Vinci Xi for urology, gynecology, and thoracic surgery',
                   'Memorial Hospital Istanbul — da Vinci Xi; high-volume robotic prostatectomy and robotic hysterectomy; English-speaking robotic surgical team',
-                  'Medicana International Istanbul — da Vinci robotic program; popular for international patients with English patient coordinator support',
                   'American Hospital Istanbul — established 1920; da Vinci robotic surgery; most U.S.-aligned hospital experience in Türkiye',
                   'Türkiye benefits for U.S. patients: no visa required, Turkish Airlines nonstop from New York, Los Angeles, Chicago, Houston, Boston, Washington D.C., Miami',
                   'Comparable costs to India for robotic procedures, with shorter travel time from U.S. East Coast cities',

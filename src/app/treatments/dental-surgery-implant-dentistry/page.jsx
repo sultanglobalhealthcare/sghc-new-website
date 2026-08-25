@@ -613,7 +613,6 @@ export default function DentalSurgeryPage() {
                 'All-on-4 and All-on-6 specialists performing hundreds of cases annually',
                 'Straumann and Nobel Biocare implants widely available at all partner clinics',
                 'English-speaking dental coordinators guiding you from arrival to departure',
-                'Medicana International, Istanbul — JCI-accredited since 2010; full international patient support program',
                 'Koç University Hospital, Istanbul — JCI-accredited academic hospital; 240+ specialists; transplant led by Prof. Kalayoğlu (UW-Madison)',
               ].map((pt) => (
                 <div key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">

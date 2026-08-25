@@ -467,7 +467,7 @@ export default function OphthalmologyPage() {
                 <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Eye Care in Türkiye</h3>
-                  <p className="text-sm text-gray-500">Dunya Eye Hospital, Acibadem, Memorial Eye Units, Koç University Hospital, Medicana</p>
+                  <p className="text-sm text-gray-500">Dunya Eye Hospital, Acibadem, Memorial Eye Units, Koç University Hospital</p>
                 </div>
               </div>
               <ul className="space-y-3">

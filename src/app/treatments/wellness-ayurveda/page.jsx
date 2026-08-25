@@ -525,7 +525,7 @@ export default function WellnessAyurvedaPage() {
                 <img src="https://flagcdn.com/40x30/tr.png" width={40} height={30} alt="Türkiye" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Wellness & Thermal Spas in Türkiye</h3>
-                  <p className="text-sm text-gray-500">Acibadem, Medicana, Koç University Hospital</p>
+                  <p className="text-sm text-gray-500">Acibadem, Koç University Hospital</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -533,7 +533,6 @@ export default function WellnessAyurvedaPage() {
                   'Türkiye has over 1,500 natural thermal springs — the highest concentration in Europe',
                   'Pamukkale (UNESCO World Heritage Site) — travertine thermal pools with calcium-rich waters for skin and joint health',
                   'Acibadem Wellness — comprehensive preventive health check packages combined with Istanbul city experience',
-                  'Medicana International, Istanbul — JCI-accredited since 2010; preventive health and medical wellness packages for international patients',
                   'Koç University Hospital, Istanbul — JCI-accredited academic hospital; preventive health screening and integrative care',
                   'Antalya and Bodrum coastal resorts with medical spa and thalassotherapy programs',
                   'U.S. citizens visa-free for Türkiye; Turkish Airlines nonstop from 7 U.S. cities',
