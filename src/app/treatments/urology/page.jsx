@@ -441,7 +441,7 @@ export default function UrologyPage() {
                 <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Urology in India</h3>
-                  <p className="text-sm text-gray-500">Apollo, Fortis, Medanta, Manipal Hospitals</p>
+                  <p className="text-sm text-gray-500">Apollo, Fortis, Medanta, Rela Institute, Manipal Hospitals</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -452,7 +452,8 @@ export default function UrologyPage() {
                   'NOTTO-compliant kidney transplant programs with full donor ethics board oversight',
                   'Reconstructive urology — urethroplasty and buccal mucosal graft — at select centers',
                   'Urologists trained at Cleveland Clinic, Mayo Clinic, AIIMS, and UK Royal College of Surgeons',
-                  'India Medical e-Visa in 3–5 business days — extendable to 6 months for transplant patients',
+                                    'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
+'India Medical e-Visa in 3–5 business days — extendable to 6 months for transplant patients',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

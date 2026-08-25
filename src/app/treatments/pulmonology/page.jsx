@@ -437,7 +437,7 @@ export default function PulmonologyPage() {
                 <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Pulmonology in India</h3>
-                  <p className="text-sm text-gray-500">Apollo, Medanta, Fortis, Narayana Health</p>
+                  <p className="text-sm text-gray-500">Apollo, Medanta, Fortis, Rela Institute, Narayana Health</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -448,7 +448,8 @@ export default function PulmonologyPage() {
                   'Generic antifibrotic therapy (pirfenidone, nintedanib) available at 85–95% lower cost than U.S. list price',
                   'Sleep medicine centers with full Level I polysomnography and CPAP titration facilities',
                   'Pulmonologists with training from AIIMS, post-doctoral fellowships from UK and U.S. institutions',
-                  'India Medical e-Visa in 3–5 business days; extendable to 6 months for long-term treatment',
+                                    'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
+'India Medical e-Visa in 3–5 business days; extendable to 6 months for long-term treatment',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

@@ -449,7 +449,7 @@ export default function BariatricMetabolicSurgeryPage() {
                 <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Bariatric Surgery in India</h3>
-                  <p className="text-sm text-gray-500">Apollo, Saifee Mumbai, Vikram Bengaluru, Medanta</p>
+                  <p className="text-sm text-gray-500">Apollo, Saifee Mumbai, Vikram Bengaluru, Medanta, Rela Institute</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -460,6 +460,7 @@ export default function BariatricMetabolicSurgeryPage() {
                   'Vikram Hospital Bengaluru — IFSO member; high-volume sleeve gastrectomy, bypass, and SADI-S with published outcomes data',
                   'Medanta Medicity — advanced bariatric program including revision surgery, SADI-S, and robotic-assisted bariatric for complex cases',
                   'All programs include: pre-op upper GI endoscopy, sleep study, cardiac clearance, dietitian, psychologist, and 3-week post-op teleconsult',
+                  'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
                   'Bariatric-specific vitamin and supplement packs (Indian equivalents of Celebrate or Bariatric Advantage) available at pharmacies',
                 ].map(pt => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">

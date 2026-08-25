@@ -442,7 +442,7 @@ export default function OphthalmologyPage() {
                 <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Eye Care in India</h3>
-                  <p className="text-sm text-gray-500">Sankara Nethralaya, LV Prasad, Aravind, Apollo Eye, Medanta</p>
+                  <p className="text-sm text-gray-500">Sankara Nethralaya, LV Prasad, Aravind, Apollo Eye, Medanta, Rela Institute</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -453,7 +453,8 @@ export default function OphthalmologyPage() {
                   'Aravind Eye Hospital — 400,000+ surgeries/year with published clinical outcomes data; world benchmark for high-quality affordable eye care',
                   'Narayana Nethralaya (Bengaluru) — advanced refractive surgery, oculoplastics, and retina center',
                   'ZEISS VisuMax 800 SMILE, Alcon LenSx FLACS, and CONSTELLATION vitrectomy at partner hospitals',
-                  'India Medical e-Visa in 3–5 days; 3–5 day LASIK/cataract trips fully coordinated by Sultan GHC',
+                                    'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
+'India Medical e-Visa in 3–5 days; 3–5 day LASIK/cataract trips fully coordinated by Sultan GHC',
                 ].map(pt => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

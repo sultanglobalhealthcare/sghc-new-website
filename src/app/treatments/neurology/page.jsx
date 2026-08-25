@@ -513,7 +513,7 @@ export default function NeurologyPage() {
                 <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Neurology in India</h3>
-                  <p className="text-sm text-gray-500">Apollo, Fortis, Medanta, NIMHANS</p>
+                  <p className="text-sm text-gray-500">Apollo, Fortis, Medanta, Rela Institute, NIMHANS</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -524,7 +524,8 @@ export default function NeurologyPage() {
                   'Epilepsy monitoring units (EMU) at multiple partner centers with video-EEG',
                   'Stroke units with 24/7 neuro-intervention and thrombolysis capability',
                   'Neurologists with training from UCSF, Mayo Clinic, Johns Hopkins, and UK Royal Colleges',
-                  'India Medical e-Visa processed in 3–5 business days for U.S. citizens',
+                                    'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
+'India Medical e-Visa processed in 3–5 business days for U.S. citizens',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />

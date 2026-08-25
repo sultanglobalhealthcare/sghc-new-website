@@ -609,6 +609,7 @@ export default function CardiologyPage() {
                   'Fortis Escorts, Apollo, Medanta — among the world\'s top heart hospitals',
                   'U.S.-trained cardiac surgeons performing 10,000+ cases annually',
                   'Most affordable TAVR and complex congenital repairs globally',
+                  'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
                   'Ayurvedic cardiac rehabilitation programs available',
                 ].map((p) => (
                   <li key={p} className="flex items-start gap-2.5 text-sm text-gray-300">

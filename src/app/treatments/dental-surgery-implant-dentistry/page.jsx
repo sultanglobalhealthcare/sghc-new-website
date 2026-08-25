@@ -683,6 +683,7 @@ export default function DentalSurgeryPage() {
                   'Oral and maxillofacial surgeons for complex extractions and jaw surgery',
                   'Orthodontists with Invisalign certification for clear aligner treatment',
                 'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ multi-disciplinary specialists',
+                'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
                 ].map((pt) => (
                   <div key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary mt-0.5 shrink-0" />

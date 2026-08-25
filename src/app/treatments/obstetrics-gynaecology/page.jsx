@@ -537,7 +537,7 @@ export default function ObstetricsGynaecologyPage() {
                 <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Gynaecology in India</h3>
-                  <p className="text-sm text-gray-500">Apollo, Fortis, Manipal, Cloudnine, Medanta</p>
+                  <p className="text-sm text-gray-500">Apollo, Fortis, Manipal, Cloudnine, Medanta, Rela Institute</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -548,7 +548,8 @@ export default function ObstetricsGynaecologyPage() {
                   'Manipal Hospitals — gynaecological oncology center with robotic radical hysterectomy and debulking for ovarian cancer',
                   'Gynaecologists trained at AIIMS Delhi, CMC Vellore, NIMHANS, and international programs (UK, USA, Germany)',
                   'NABH / JCI accreditation — international patient departments with English-speaking coordinators and 24-hour nursing',
-                  'India Medical e-Visa in 3–5 business days; recovery accommodation near partner hospitals arranged by Sultan GHC',
+                                    'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
+'India Medical e-Visa in 3–5 business days; recovery accommodation near partner hospitals arranged by Sultan GHC',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

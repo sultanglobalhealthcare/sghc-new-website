@@ -420,7 +420,7 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
                 <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Cosmetic Surgery in India</h3>
-                  <p className="text-sm text-gray-500">Apollo, Fortis, Manipal Hospitals — Plastic Surgery Departments, Medanta</p>
+                  <p className="text-sm text-gray-500">Apollo, Fortis, Manipal Hospitals — Plastic Surgery Departments, Medanta, Rela Institute</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -431,7 +431,8 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
                   'Cleft and craniofacial surgery centers with high volume pediatric reconstruction experience',
                   'Post-bariatric body contouring (after weight loss surgery) — comprehensive lower body lift programs',
                   'Very low pricing for reconstructive procedures — breast reconstruction, scar surgery, flap surgery',
-                  'India Medical e-Visa in 3–5 business days; recovery-friendly serviced apartments near hospitals',
+                                    'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
+'India Medical e-Visa in 3–5 business days; recovery-friendly serviced apartments near hospitals',
                   'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ specialists across all major disciplines',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">

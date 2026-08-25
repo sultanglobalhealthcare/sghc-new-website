@@ -424,7 +424,7 @@ export default function ENTHeadNeckSurgeryPage() {
                 <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">ENT in India</h3>
-                  <p className="text-sm text-gray-500">Apollo, Fortis, Manipal, Tata Memorial, Medanta</p>
+                  <p className="text-sm text-gray-500">Apollo, Fortis, Manipal, Tata Memorial, Medanta, Rela Institute</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -434,7 +434,8 @@ export default function ENTHeadNeckSurgeryPage() {
                   'Fortis Memorial Gurugram — high-volume otology unit (tympanoplasty, stapedotomy, mastoidectomy, BAHA) and robotic thyroidectomy program',
                   'Manipal Hospital Bengaluru — comprehensive sleep medicine and surgery unit; DISE-guided sleep apnea surgical planning',
                   'ENT surgeons trained at AIIMS Delhi, CMC Vellore, and international programs (UK, USA, Germany) — many hold European fellowship qualifications',
-                  'India Medical e-Visa in 3–5 business days; FESS and sinus procedures can be completed in 5–7 day trip',
+                                    'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
+'India Medical e-Visa in 3–5 business days; FESS and sinus procedures can be completed in 5–7 day trip',
                 ].map(pt => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

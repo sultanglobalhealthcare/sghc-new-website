@@ -522,7 +522,7 @@ export default function NeurosurgeryPage() {
                 <img src="https://flagcdn.com/40x30/in.png" width={40} height={30} alt="India" className="rounded shadow-sm" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Neurosurgery in India</h3>
-                  <p className="text-sm text-gray-500">Apollo, Fortis, Medanta, AIIMS-affiliated centers</p>
+                  <p className="text-sm text-gray-500">Apollo, Fortis, Medanta, Rela Institute, AIIMS-affiliated centers</p>
                 </div>
               </div>
               <ul className="space-y-3">
@@ -533,6 +533,7 @@ export default function NeurosurgeryPage() {
                   'SEEG (Stereo-EEG) guided epilepsy surgery — available in India since 2019',
                   'Endoscopic pituitary surgery with neuroendoscopy units led by fellowship-trained surgeons',
                   'Neurosurgeons with MCh / FRCS credentials and training at UK NHS, Cleveland Clinic, and Mayo Clinic',
+                  'Rela Institute, Chennai — NABH-accredited multi-organ specialty hospital; 450 beds; advanced neuro-critical care',
                   'India Medical e-Visa processed in 3–5 business days — valid for up to 6 months',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
