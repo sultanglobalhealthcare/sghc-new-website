@@ -53,7 +53,7 @@ const HOSPITALS = [
     beds: '1,600+ Beds',
     established: '2009',
     mou: true,
-    img: null,
+    img: '/hospitals/medanta-medicity-gurugram-jci-accredited-india.jpg',
     specialties: ['Cardiology & Cardiac Surgery', 'Oncology', 'Neurosurgery', 'Orthopaedics', 'Liver Transplant', 'Robotic Surgery'],
     highlights: [
       'Ranked Best Private Hospital in India for 6 consecutive years (2020–2025) and Newsweek Top 250 World\'s Best Hospitals 2024',
@@ -74,7 +74,7 @@ const HOSPITALS = [
     beds: '10,000+ Beds (network)',
     established: '1983',
     mou: false,
-    img: null,
+    img: '/hospitals/apollo-hospitals-chennai-jci-accredited-india.jpg',
     specialties: ['Cancer Care', 'Organ Transplant', 'Spine Surgery', 'Robotic Surgery', 'Cardiology', 'Fertility'],
     highlights: [
       'JCI accredited seven times — one of the longest-standing JCI-certified hospital networks in Asia',
@@ -116,7 +116,7 @@ const HOSPITALS = [
     beds: '310 Beds',
     established: '2013',
     mou: false,
-    img: null,
+    img: '/hospitals/fortis-memorial-research-institute-gurugram-india.jpg',
     specialties: ['Robotic Surgery', 'Neurology & Neurosurgery', 'Bone Marrow Transplant', 'Bariatric Surgery', 'Cardiology', 'Fertility'],
     highlights: [
       'First hospital in India to perform robotic-assisted joint replacement surgery',
@@ -137,7 +137,7 @@ const HOSPITALS = [
     beds: '750+ Beds',
     established: '2009',
     mou: false,
-    img: null,
+    img: '/hospitals/kokilaben-dhirubhai-ambani-hospital-mumbai-india.avif',
     specialties: ['Robotic Surgery', 'Oncology', 'Cardiology', 'Neurosurgery', 'Orthopaedics', 'Urology'],
     highlights: [
       'Only hospital in Mumbai with all four accreditations: JCI, NABH, NABL, and CAP (College of American Pathology)',
@@ -158,7 +158,7 @@ const HOSPITALS = [
     beds: '5,000+ Beds (network)',
     established: '1991',
     mou: false,
-    img: null,
+    img: '/hospitals/manipal-hospitals-bengaluru-nabh-accredited-india.jpg',
     specialties: ['Oncology', 'Robotic Surgery', 'Orthopaedics', 'Neurology', 'Fertility', 'Cardiology'],
     highlights: [
       'Robotic oncology program — da Vinci Xi for gynecological, GI, oesophageal, thyroid, and urological cancers',

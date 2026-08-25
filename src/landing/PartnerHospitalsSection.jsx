@@ -17,7 +17,7 @@ const HOSPITALS = [
     initials: 'ME',
     color: 'from-blue-100 to-sky-50',
     textColor: 'text-blue-600',
-    img: null,
+    img: '/hospitals/medanta-medicity-gurugram-jci-accredited-india.jpg',
     specialties: ['Cardiology', 'Oncology', 'Neurosurgery', 'Liver Transplant', 'Robotic Surgery'],
   },
   {
@@ -43,7 +43,7 @@ const HOSPITALS = [
     initials: 'AP',
     color: 'from-violet-100 to-purple-50',
     textColor: 'text-violet-600',
-    img: null,
+    img: '/hospitals/apollo-hospitals-chennai-jci-accredited-india.jpg',
     specialties: ['Cancer Care', 'Organ Transplant', 'Spine Surgery', 'Cardiology'],
   },
   {
@@ -56,7 +56,7 @@ const HOSPITALS = [
     initials: 'FM',
     color: 'from-emerald-100 to-green-50',
     textColor: 'text-emerald-600',
-    img: null,
+    img: '/hospitals/fortis-memorial-research-institute-gurugram-india.jpg',
     specialties: ['Robotic Surgery', 'Neurology', 'Bariatric Surgery', 'Cardiology'],
   },
   {
