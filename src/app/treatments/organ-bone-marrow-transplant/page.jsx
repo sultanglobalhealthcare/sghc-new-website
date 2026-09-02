@@ -359,8 +359,12 @@ export default function OrganBoneMarrowTransplantPage() {
                 Liver transplantation requires thorough pre-transplant evaluation including cardiopulmonary assessment, psychological screening, and transplant committee review. Not all patients are eligible for transplant and medical candidacy is determined by the receiving hospital&apos;s multidisciplinary transplant team — not by Sultan GHC. Our role is to facilitate access to evaluation, help you understand your options, and coordinate your complete journey. We do not guarantee transplant eligibility or outcomes.
               </p>
               <p className="text-sm font-semibold text-amber-800 mb-2">Transplant Candidacy & Legal Framework — Important Notice</p>
+              <p className="text-sm text-amber-700 leading-relaxed mb-4">
+                Transplant candidacy is determined solely by the hospital's multidisciplinary transplant team — not by Sultan GHC.
+              </p>
+              <p className="text-sm font-semibold text-amber-800 mb-2">India — Transplant Legal Framework</p>
               <p className="text-sm text-amber-700 leading-relaxed">
-                Transplant candidacy is determined solely by the hospital's multidisciplinary transplant team — not by Sultan GHC. In India, living donor transplants for foreign nationals are permitted under the{' '}
+                In India, living donor transplants for foreign nationals are permitted under the{' '}
                 <strong>Transplantation of Human Organs and Tissues Act (THOTA)</strong> when the donor is a blood relative or spouse, and all cases go through a state-mandated Authorization Committee. Deceased donor organs are generally not available to foreign nationals under Indian law. Sultan GHC provides complete legal and ethical guidance and works exclusively with NOTTO-compliant programs. We do not facilitate any commercial organ trade.
               </p>
               <p className="text-sm font-semibold text-amber-800 mb-2 mt-5">Türkiye — Transplant Legal Framework</p>
