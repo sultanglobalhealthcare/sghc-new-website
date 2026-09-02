@@ -524,14 +524,11 @@ export default function OncologyPage() {
               </div>
 
               {/* Destination image */}
-              <div className="mb-6 rounded-xl overflow-hidden">
-                <ImagePlaceholder
-                  filename="best-cancer-hospital-india-oncology-center-jci-accredited.jpg"
-                  width={600}
-                  height={280}
-                  label="Cancer hospital exterior — India flagship oncology center"
-                  aiPrompt="Exterior of a modern, world-class cancer hospital in India — gleaming architecture, green landscaping, international signage in English. Conveys quality, trust, and scale. Photorealistic, wide angle, daylight."
-                  className="rounded-xl"
+              <div className="mb-6 relative w-full rounded-xl overflow-hidden" style={{ aspectRatio: '16/7' }}>
+                <img
+                  src="/hospital-india-cancer-treatment-oncology-jci-accredited.png"
+                  alt="World-class cancer hospital in India for international patients — Sultan GHC partner"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
 
@@ -571,14 +568,11 @@ export default function OncologyPage() {
               </div>
 
               {/* Destination image */}
-              <div className="mb-6 rounded-xl overflow-hidden">
-                <ImagePlaceholder
-                  filename="best-cancer-hospital-istanbul-turkey-oncology-center-jci-accredited.jpg"
-                  width={600}
-                  height={280}
-                  label="Modern oncology center exterior — Istanbul Türkiye"
-                  aiPrompt="Exterior of a premium, modern oncology hospital in Istanbul, Turkey — sleek contemporary architecture, glass facade, international patient signage. European skyline in background. Photorealistic, wide angle, daytime."
-                  className="rounded-xl"
+              <div className="mb-6 relative w-full rounded-xl overflow-hidden" style={{ aspectRatio: '16/7' }}>
+                <img
+                  src="/hospital-istanbul-turkey-cancer-treatment-oncology-jci-accredited.png"
+                  alt="World-class cancer hospital in Istanbul, Turkey for international patients — Sultan GHC partner"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
 
