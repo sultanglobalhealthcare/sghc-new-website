@@ -356,12 +356,9 @@ export default function OrganBoneMarrowTransplantPage() {
             <div>
               <p className="text-sm font-semibold text-amber-800 mb-2">Liver Transplant — Important Medical Notice</p>
               <p className="text-sm text-amber-700 leading-relaxed mb-4">
-                Liver transplantation requires thorough pre-transplant evaluation including cardiopulmonary assessment, psychological screening, and transplant committee review. Not all patients are eligible for transplant and medical candidacy is determined by the receiving hospital&apos;s multidisciplinary transplant team — not by Sultan GHC. Our role is to facilitate access to evaluation, help you understand your options, and coordinate your complete journey. We do not guarantee transplant eligibility or outcomes.
+                Liver transplantation requires thorough pre-transplant evaluation including cardiopulmonary assessment, psychological screening, and transplant committee review. <strong className="text-red-700">Not all patients are eligible for transplant and medical candidacy is determined by the receiving hospital&apos;s multidisciplinary transplant team — not by Sultan GHC.</strong> Our role is to facilitate access to evaluation, help you understand your options, and coordinate your complete journey. We do not guarantee transplant eligibility or outcomes.
               </p>
               <p className="text-sm font-semibold text-amber-800 mb-2">Transplant Candidacy & Legal Framework — Important Notice</p>
-              <p className="text-sm text-amber-700 leading-relaxed mb-4">
-                <strong className="text-red-700">Not all patients are eligible for transplant and medical candidacy is determined by the receiving hospital's multidisciplinary transplant team — not by Sultan GHC.</strong>
-</p>
               <p className="text-sm font-semibold text-amber-800 mb-2">India — Transplant Legal Framework</p>
               <p className="text-sm text-amber-700 leading-relaxed">
                 In India, living donor transplants for foreign nationals are permitted under the{' '}
