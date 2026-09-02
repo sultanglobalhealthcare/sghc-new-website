@@ -360,8 +360,8 @@ export default function OrganBoneMarrowTransplantPage() {
               </p>
               <p className="text-sm font-semibold text-amber-800 mb-2">Transplant Candidacy & Legal Framework — Important Notice</p>
               <p className="text-sm text-amber-700 leading-relaxed mb-4">
-                Transplant candidacy is determined solely by the hospital's multidisciplinary transplant team — not by Sultan GHC.
-              </p>
+                <strong className="text-red-700">Not all patients are eligible for transplant and medical candidacy is determined by the receiving hospital's multidisciplinary transplant team — not by Sultan GHC.</strong>
+</p>
               <p className="text-sm font-semibold text-amber-800 mb-2">India — Transplant Legal Framework</p>
               <p className="text-sm text-amber-700 leading-relaxed">
                 In India, living donor transplants for foreign nationals are permitted under the{' '}
