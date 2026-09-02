@@ -343,13 +343,13 @@ export default function OncologyPage() {
 
             {/* Right — Hero image */}
             <div className="flex-1 w-full max-w-lg">
-              <ImagePlaceholder
-                filename="oncology-cancer-treatment-india-turkey-us-patients-sultan-ghc.jpg"
-                width={800}
-                height={600}
-                label="Hero — Oncologist reviewing cancer scans with patient"
-                aiPrompt="A warm, professional consultation scene: a compassionate oncologist in white coat reviewing digital cancer scans on a large monitor with a patient and family member seated across. Modern hospital setting, natural light, reassuring atmosphere. Photorealistic, 4K. No text overlays."
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/oncology-cancer-treatment-india-turkey-us-patients-sultan-ghc.png"
+                  alt="Oncologist reviewing cancer scans with patient — Sultan GHC"
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -384,13 +384,13 @@ export default function OncologyPage() {
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           {/* Image */}
           <div className="flex-1 w-full max-w-lg">
-            <ImagePlaceholder
-              filename="cancer-patient-oncologist-consultation-medical-tourism-india.jpg"
-              width={700}
-              height={520}
-              label="Patient in consultation with oncologist — supportive care setting"
-              aiPrompt="A patient seated comfortably with a specialist oncologist in a modern, well-lit clinic. The doctor is explaining a treatment plan with empathy and clarity. Clean, premium medical environment. Warm tones, photorealistic, 4K. No text overlays."
-            />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/cancer-patient-oncologist-consultation-medical-tourism-india.png"
+                  alt="Patient in consultation with oncologist — supportive care setting"
+                  className="w-full h-full object-cover"
+                />
+              </div>
           </div>
 
           {/* Content */}
