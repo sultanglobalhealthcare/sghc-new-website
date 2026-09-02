@@ -317,33 +317,14 @@ export default function OphthalmologyPage() {
               </div>
             </div>
             <div className="w-full lg:w-[420px] shrink-0">
-              <ImagePlaceholder
-                filename="ophthalmology-lasik-cataract-retina-surgery-india-us-patients.jpg"
-                width={840} height={630} aspectRatio="4/3"
-                label="Ophthalmic surgical suite — LASIK laser system at world-class Indian eye hospital"
-                aiPrompt="A modern LASIK laser suite at a premier Indian eye hospital. A patient reclined under a LASIK laser machine, surgeon seated at controls. Clean, bright, professional environment. Photorealistic, 4K, no text overlays. Conveys precision, safety, and care."
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Indian eye hospital spotlight */}
-      <section className="bg-white py-12 border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
-          <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest text-center mb-6">India&apos;s World-Renowned Eye Hospitals — Sultan GHC Partner Network</p>
-          <div className="grid sm:grid-cols-3 gap-5">
-            {[
-              { name: 'Sankara Nethralaya', city: 'Chennai', note: 'Founded by Dr. S.S. Badrinath. Globally recognized for corneal, vitreoretinal, and pediatric eye care. Trains ophthalmologists from 40+ countries.' },
-              { name: 'LV Prasad Eye Institute', city: 'Hyderabad', note: 'JCI-accredited. WHO Collaborating Centre for Prevention of Blindness. World leader in corneal transplant, glaucoma, and retinal diseases.' },
-              { name: 'Aravind Eye Hospital', city: 'Madurai / Multi-city', note: '400,000+ eye surgeries/year. Outcomes data published in international journals. Benchmark for high-volume, high-quality affordable eye care.' },
-            ].map(({ name, city, note }) => (
-              <div key={name} className="bg-primary/5 border border-primary/15 rounded-2xl p-5">
-                <h3 className="text-sm font-bold text-gray-900 mb-0.5">{name}</h3>
-                <p className="text-xs text-primary font-semibold mb-2">{city}</p>
-                <p className="text-xs text-gray-600 leading-relaxed">{note}</p>
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/ophthalmology-lasik-cataract-retina-surgery-india-us-patients.png"
+                  alt="Ophthalmic surgical suite — LASIK laser system at world-class Indian eye hospital"
+                  className="w-full h-full object-cover"
+                />
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </section>

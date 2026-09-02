@@ -344,9 +344,11 @@ export default function OncologyPage() {
             {/* Right — Hero image */}
             <div className="flex-1 w-full max-w-lg">
               <ImagePlaceholder
+                filename="oncology-cancer-treatment-india-turkey-us-patients-sultan-ghc.jpg"
                 width={800}
                 height={600}
                 label="Hero — Oncologist reviewing cancer scans with patient"
+                aiPrompt="A warm, professional consultation scene: a compassionate oncologist in white coat reviewing digital cancer scans on a large monitor with a patient and family member seated across. Modern hospital setting, natural light, reassuring atmosphere. Photorealistic, 4K. No text overlays."
               />
             </div>
           </div>
@@ -383,9 +385,11 @@ export default function OncologyPage() {
           {/* Image */}
           <div className="flex-1 w-full max-w-lg">
             <ImagePlaceholder
+              filename="cancer-patient-oncologist-consultation-medical-tourism-india.jpg"
               width={700}
               height={520}
               label="Patient in consultation with oncologist — supportive care setting"
+              aiPrompt="A patient seated comfortably with a specialist oncologist in a modern, well-lit clinic. The doctor is explaining a treatment plan with empathy and clarity. Clean, premium medical environment. Warm tones, photorealistic, 4K. No text overlays."
             />
           </div>
 
@@ -522,9 +526,11 @@ export default function OncologyPage() {
               {/* Destination image */}
               <div className="mb-6 rounded-xl overflow-hidden">
                 <ImagePlaceholder
+                  filename="best-cancer-hospital-india-oncology-center-jci-accredited.jpg"
                   width={600}
                   height={280}
                   label="Cancer hospital exterior — India flagship oncology center"
+                  aiPrompt="Exterior of a modern, world-class cancer hospital in India — gleaming architecture, green landscaping, international signage in English. Conveys quality, trust, and scale. Photorealistic, wide angle, daylight."
                   className="rounded-xl"
                 />
               </div>
@@ -567,9 +573,11 @@ export default function OncologyPage() {
               {/* Destination image */}
               <div className="mb-6 rounded-xl overflow-hidden">
                 <ImagePlaceholder
+                  filename="best-cancer-hospital-istanbul-turkey-oncology-center-jci-accredited.jpg"
                   width={600}
                   height={280}
                   label="Modern oncology center exterior — Istanbul Türkiye"
+                  aiPrompt="Exterior of a premium, modern oncology hospital in Istanbul, Turkey — sleek contemporary architecture, glass facade, international patient signage. European skyline in background. Photorealistic, wide angle, daytime."
                   className="rounded-xl"
                 />
               </div>
@@ -713,9 +721,11 @@ export default function OncologyPage() {
               <div key={hospital.name} className="bg-white rounded-2xl overflow-hidden border border-blue-100 shadow-sm hover:shadow-md transition-shadow">
                 {/* Hospital image placeholder */}
                 <ImagePlaceholder
+                  filename={`${hospital.name.toLowerCase().replace(/[\s,&]+/g, '-')}-oncology-cancer-hospital.jpg`}
                   width={400}
                   height={200}
                   label={`${hospital.name} — hospital building photo`}
+                  aiPrompt={`Professional exterior or lobby photo of ${hospital.name} — a world-class oncology hospital. Modern architecture, clean environment, international signage. Photorealistic, 4K.`}
                   className="rounded-none rounded-t-2xl border-0 border-b border-blue-100"
                 />
                 <div className="p-5">
