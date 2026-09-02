@@ -365,14 +365,13 @@ export default function OrthopedicsPage() {
 
             {/* Right — Hero image */}
             <div className="flex-1 w-full max-w-lg">
-              <ImagePlaceholder
-                filename="knee-hip-replacement-surgery-india-orthopedic-hospital-sultan-ghc.jpg"
-                width={1200}
-                height={900}
-                label="Orthopedic surgeon reviewing knee X-ray with patient at a JCI-accredited hospital — Sultan GHC"
-                aiPrompt="Professional medical photography: An experienced orthopedic surgeon in blue surgical scrubs reviewing a knee X-ray on a lightbox with an international patient at a modern, bright orthopedic clinic in India. Clean clinical environment, warm patient interaction, natural light. Shot on Canon R5, 50mm f/1.8. Photorealistic, not illustrated."
-                aspectRatio="4/3"
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3]">
+                <img
+                  src="/knee-hip-replacement-surgery-india-orthopedic-hospital-sultan-ghc.png"
+                  alt="Orthopedic surgeon reviewing knee X-ray with patient at a JCI-accredited hospital — Sultan GHC"
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -407,14 +406,13 @@ export default function OrthopedicsPage() {
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           {/* Image */}
           <div className="flex-1 w-full max-w-lg">
-            <ImagePlaceholder
-              filename="american-patient-orthopedic-consultation-joint-replacement-medical-tourism-india.jpg"
-              width={1200}
-              height={900}
-              label="American patient consulting with an orthopedic surgeon for joint replacement in India — Sultan GHC"
-              aiPrompt="Professional medical photography: A middle-aged American patient (50s, casual attire) in a consultation room with a confident Indian orthopedic surgeon pointing to a knee X-ray on a tablet. Modern hospital setting, clean background, warm lighting. Patient appears relieved and engaged. Photorealistic, Canon R5, natural colors."
-              aspectRatio="4/3"
-            />
+            <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3]">
+              <img
+                src="/american-patient-orthopedic-consultation-joint-replacement-medical-tourism-india.png"
+                alt="American patient consulting with an orthopedic surgeon for joint replacement in India — Sultan GHC"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
 
           {/* Content */}
