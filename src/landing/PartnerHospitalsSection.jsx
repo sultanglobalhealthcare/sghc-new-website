@@ -36,45 +36,6 @@ const HOSPITALS = [
   {
     country: 'India',
     flag: 'https://flagcdn.com/w20/in.png',
-    name: 'Sankara Nethralaya',
-    city: 'Chennai',
-    beds: '200+ Beds',
-    accreditation: 'NABH Accredited',
-    initials: 'SN',
-    color: 'from-sky-100 to-cyan-50',
-    textColor: 'text-sky-600',
-    img: '/hospitals/sankara-nethralaya-chennai-eye-hospital-india.jpg',
-    specialties: ['Ophthalmology', 'Vitreoretinal Surgery', 'Corneal Transplant', 'Paediatric Eye Care'],
-  },
-  {
-    country: 'India',
-    flag: 'https://flagcdn.com/w20/in.png',
-    name: 'LV Prasad Eye Institute',
-    city: 'Hyderabad',
-    beds: '150+ Beds',
-    accreditation: 'JCI Accredited',
-    initials: 'LV',
-    color: 'from-indigo-100 to-blue-50',
-    textColor: 'text-indigo-600',
-    img: '/hospitals/lv-prasad-eye-institute-hyderabad-jci-accredited-india.jpg',
-    specialties: ['Ophthalmology', 'Glaucoma', 'Corneal Transplant', 'Retina'],
-  },
-  {
-    country: 'India',
-    flag: 'https://flagcdn.com/w20/in.png',
-    name: 'Aravind Eye Hospital',
-    city: 'Madurai & Multi-city',
-    beds: '500+ Beds',
-    accreditation: 'NABH Accredited',
-    initials: 'AE',
-    color: 'from-amber-100 to-yellow-50',
-    textColor: 'text-amber-600',
-    img: '/hospitals/aravind-eye-hospital-madurai-india.webp',
-    specialties: ['Ophthalmology', 'Cataract Surgery', 'LASIK & SMILE', 'Retinal Surgery'],
-  },
-  {
-    country: 'India',
-    flag: 'https://flagcdn.com/w20/in.png',
     name: 'Apollo Hospitals',
     city: 'Chennai & Pan-India',
     beds: '10,000+ Beds',
@@ -181,14 +142,14 @@ function HospitalCard({ h }) {
 }
 
 // ── Slider ────────────────────────────────────────────────────────────────────
-function HospitalSlider() {
+function HospitalSlider({ hospitals }) {
   const [idx, setIdx] = useState(0)
   const [perView, setPerView] = useState(3)
   const intervalRef = useRef(null)
   const idxRef = useRef(0)
   const perViewRef = useRef(3)
 
-  const total = HOSPITALS.length
+  const total = hospitals.length
 
   // Keep refs in sync
   useEffect(() => { idxRef.current = idx }, [idx])
@@ -267,7 +228,7 @@ function HospitalSlider() {
             transition: 'transform 0.5s ease-in-out',
           }}
         >
-          {HOSPITALS.map((h) => (
+          {hospitals.map((h) => (
             <div
               key={h.name}
               className="px-2.5 flex-shrink-0"
@@ -323,7 +284,9 @@ function HospitalSlider() {
 // ── Section ───────────────────────────────────────────────────────────────────
 export default function PartnerHospitalsSection({
   title = 'Internationally Accredited Partner Hospitals',
+  additionalHospitals = [],
 }) {
+  const hospitals = [...HOSPITALS, ...additionalHospitals]
   return (
     <section className="py-14 lg:py-20 bg-[#F5F7FA] border-y border-gray-200">
       <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16">
@@ -352,7 +315,7 @@ export default function PartnerHospitalsSection({
         </div>
 
         {/* Slider */}
-        <HospitalSlider />
+        <HospitalSlider hospitals={hospitals} />
 
       </div>
     </section>

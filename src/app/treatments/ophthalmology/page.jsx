@@ -506,7 +506,50 @@ export default function OphthalmologyPage() {
         </div>
       </section>
 
-      <PartnerHospitalsSection title="Internationally Accredited Eye Care Centers" />
+      <PartnerHospitalsSection
+        title="Internationally Accredited Eye Care Centers"
+        additionalHospitals={[
+          {
+            country: 'India',
+            flag: 'https://flagcdn.com/w20/in.png',
+            name: 'Sankara Nethralaya',
+            city: 'Chennai',
+            beds: '200+ Beds',
+            accreditation: 'NABH Accredited',
+            initials: 'SN',
+            color: 'from-sky-100 to-cyan-50',
+            textColor: 'text-sky-600',
+            img: '/hospitals/sankara-nethralaya-chennai-eye-hospital-india.jpg',
+            specialties: ['Ophthalmology', 'Vitreoretinal Surgery', 'Corneal Transplant', 'Paediatric Eye Care'],
+          },
+          {
+            country: 'India',
+            flag: 'https://flagcdn.com/w20/in.png',
+            name: 'LV Prasad Eye Institute',
+            city: 'Hyderabad',
+            beds: '150+ Beds',
+            accreditation: 'JCI Accredited',
+            initials: 'LV',
+            color: 'from-indigo-100 to-blue-50',
+            textColor: 'text-indigo-600',
+            img: '/hospitals/lv-prasad-eye-institute-hyderabad-jci-accredited-india.jpg',
+            specialties: ['Ophthalmology', 'Glaucoma', 'Corneal Transplant', 'Retina'],
+          },
+          {
+            country: 'India',
+            flag: 'https://flagcdn.com/w20/in.png',
+            name: 'Aravind Eye Hospital',
+            city: 'Madurai & Multi-city',
+            beds: '500+ Beds',
+            accreditation: 'NABH Accredited',
+            initials: 'AE',
+            color: 'from-amber-100 to-yellow-50',
+            textColor: 'text-amber-600',
+            img: '/hospitals/aravind-eye-hospital-madurai-india.webp',
+            specialties: ['Ophthalmology', 'Cataract Surgery', 'LASIK & SMILE', 'Retinal Surgery'],
+          },
+        ]}
+      />
 
       {/* FAQ */}
       <section className="bg-gray-50 py-16 sm:py-20 border-t border-gray-100">
