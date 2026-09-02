@@ -267,9 +267,9 @@ const PRACTICAL = [
     icon: Plane,
     title: 'Flights from the United States',
     points: [
-      'U.S. East Coast to Istanbul: 10–11 hours nonstop (New York, DC, Miami, Chicago)',
+      'U.S. East Coast to Istanbul: 10–11 hours nonstop (New York JFK/EWR, Washington DC, Miami, Chicago)',
       'U.S. West Coast to Istanbul: 14–15 hours, typically one stop',
-      'Turkish Airlines operates direct services from JFK, IAD, ORD, MIA, LAX, SFO, and BOS',
+      'Turkish Airlines operates direct services from JFK, EWR, IAD, ORD, MIA, LAX, SFO, and BOS',
       'Istanbul Airport (IST) is the busiest airport in Europe — excellent connections and facilities',
     ],
   },

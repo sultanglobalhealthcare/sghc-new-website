@@ -267,10 +267,10 @@ const PRACTICAL = [
     icon: Plane,
     title: 'Flights from the United States',
     points: [
-      'U.S. East Coast to Delhi/Mumbai: 14–16 hours, typically one stop (via London, Dubai, or Doha)',
-      'U.S. West Coast to Delhi/Mumbai: 15–17 hours nonstop available (Air India, United)',
-      'Airlines: Air India, United, American, Emirates, Qatar Airways, Etihad, Turkish Airlines',
-      'Best practice: book flexible-date tickets; Sultan GHC helps plan your travel itinerary',
+      'U.S. East Coast to Delhi/Mumbai: 14–16 hours, typically one stop via London, Paris, Frankfurt, Dubai, Doha, Kuwait, Jeddah, or Istanbul',
+      'U.S. West Coast to Delhi/Mumbai: 15–17 hours — nonstop available on Air India and United',
+      'Airlines: American, Air India, Air France, British Airways, Emirates, Etihad, Lufthansa, Qatar, Saudi, Turkish, and United Airlines',
+      'Typical total travel time: 16–22 hours. Best practice: book flexible-date tickets; Sultan GHC helps plan your complete travel itinerary',
     ],
   },
   {

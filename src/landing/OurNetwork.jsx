@@ -72,6 +72,17 @@ const TURKEY_HOSPITALS = [
     color: 'from-amber-100 to-orange-50',
     textColor: 'text-amber-700',
   },
+  {
+    name: 'Koç University Hospital',
+    city: 'Istanbul',
+    specialties: ['Transplant', 'Oncology', 'Cardiac Surgery'],
+    accreditation: 'JCI Accredited',
+    beds: '400+ Beds',
+    img: '/hospitals/koc-university-hospital-istanbul-jci-accredited-turkey.jpg',
+    initials: 'KU',
+    color: 'from-sky-100 to-blue-50',
+    textColor: 'text-sky-700',
+  },
 ]
 
 function HospitalCard({ hospital }) {
@@ -161,9 +172,43 @@ const OurNetwork = () => {
             </div>
             <div className="flex-1 h-px bg-gray-200 ml-4" />
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 lg:max-w-2xl">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {TURKEY_HOSPITALS.map((h) => <HospitalCard key={h.name} hospital={h} />)}
           </div>
+        </div>
+
+        {/* Airlines */}
+        <div className="mt-14 pt-10 border-t border-gray-200">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-8 h-8 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+              <span className="text-primary text-lg">✈</span>
+            </div>
+            <div>
+              <h3 className="text-base font-bold text-gray-900">Airline Partners</h3>
+              <p className="text-sm text-gray-400">Major carriers flying U.S. patients to India and Türkiye</p>
+            </div>
+            <div className="flex-1 h-px bg-gray-200 ml-4" />
+          </div>
+          <div className="flex flex-wrap gap-3">
+            {[
+              'American Airlines',
+              'Air India',
+              'Air France',
+              'British Airways',
+              'Emirates',
+              'Etihad Airways',
+              'Lufthansa',
+              'Qatar Airways',
+              'Saudi Airlines',
+              'Turkish Airlines',
+              'United Airlines',
+            ].map((airline) => (
+              <span key={airline} className="inline-flex items-center gap-1.5 bg-white border border-gray-200 text-gray-700 text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+                {airline}
+              </span>
+            ))}
+          </div>
+          <p className="text-xs text-gray-400 mt-4">Sultan GHC helps plan your complete travel itinerary including flight recommendations, airport transfers, and accommodation near your treating hospital.</p>
         </div>
 
       </div>
