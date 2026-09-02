@@ -334,38 +334,14 @@ export default function OphthalmologyPage() {
           <p className="text-xs font-semibold text-gray-400 uppercase tracking-widest text-center mb-6">India&apos;s World-Renowned Eye Hospitals — Sultan GHC Partner Network</p>
           <div className="grid sm:grid-cols-3 gap-5">
             {[
-              {
-                name: 'Sankara Nethralaya',
-                city: 'Chennai',
-                note: 'Founded by Dr. S.S. Badrinath. Globally recognized for corneal, vitreoretinal, and pediatric eye care. Trains ophthalmologists from 40+ countries.',
-                img: '/hospitals/sankara-nethralaya-chennai-eye-hospital-india.jpg',
-              },
-              {
-                name: 'LV Prasad Eye Institute',
-                city: 'Hyderabad',
-                note: 'JCI-accredited. WHO Collaborating Centre for Prevention of Blindness. World leader in corneal transplant, glaucoma, and retinal diseases.',
-                img: '/hospitals/lv-prasad-eye-institute-hyderabad-jci-accredited-india.jpg',
-              },
-              {
-                name: 'Aravind Eye Hospital',
-                city: 'Madurai / Multi-city',
-                note: '400,000+ eye surgeries/year. Outcomes data published in international journals. Benchmark for high-volume, high-quality affordable eye care.',
-                img: '/hospitals/aravind-eye-hospital-madurai-india.jpg',
-              },
-            ].map(({ name, city, note, img }) => (
-              <div key={name} className="bg-primary/5 border border-primary/15 rounded-2xl overflow-hidden">
-                <div className="relative h-40 bg-gradient-to-br from-sky-100 to-blue-50 flex items-center justify-center">
-                  {img ? (
-                    <img src={img} alt={name} className="w-full h-full object-cover" />
-                  ) : (
-                    <span className="text-5xl font-black text-sky-300 select-none opacity-40">{name[0]}</span>
-                  )}
-                </div>
-                <div className="p-5">
-                  <h3 className="text-sm font-bold text-gray-900 mb-0.5">{name}</h3>
-                  <p className="text-xs text-primary font-semibold mb-2">{city}</p>
-                  <p className="text-xs text-gray-600 leading-relaxed">{note}</p>
-                </div>
+              { name: 'Sankara Nethralaya', city: 'Chennai', note: 'Founded by Dr. S.S. Badrinath. Globally recognized for corneal, vitreoretinal, and pediatric eye care. Trains ophthalmologists from 40+ countries.' },
+              { name: 'LV Prasad Eye Institute', city: 'Hyderabad', note: 'JCI-accredited. WHO Collaborating Centre for Prevention of Blindness. World leader in corneal transplant, glaucoma, and retinal diseases.' },
+              { name: 'Aravind Eye Hospital', city: 'Madurai / Multi-city', note: '400,000+ eye surgeries/year. Outcomes data published in international journals. Benchmark for high-volume, high-quality affordable eye care.' },
+            ].map(({ name, city, note }) => (
+              <div key={name} className="bg-primary/5 border border-primary/15 rounded-2xl p-5">
+                <h3 className="text-sm font-bold text-gray-900 mb-0.5">{name}</h3>
+                <p className="text-xs text-primary font-semibold mb-2">{city}</p>
+                <p className="text-xs text-gray-600 leading-relaxed">{note}</p>
               </div>
             ))}
           </div>
