@@ -632,14 +632,13 @@ export default function OrthopedicsPage() {
           </div>
 
           <div className="flex-1 w-full max-w-lg">
-            <ImagePlaceholder
-              filename="orthopedic-hospital-india-knee-replacement-jci-accredited-sultan-ghc.jpg"
-              width={1200}
-              height={900}
-              label="JCI-accredited orthopedic hospital operation theater in India — Sultan GHC"
-              aiPrompt="Professional medical photography: A state-of-the-art orthopedic operation theater in a modern Indian hospital. Surgical team in blue sterile gowns and masks preparing for a knee replacement procedure. Advanced imaging monitors, clean LED lighting, modern equipment. No blood or graphic content. Shot on Sony A7R IV, clinical and professional. Photorealistic."
-              aspectRatio="4/3"
-            />
+            <div className="relative w-full rounded-2xl overflow-hidden shadow-lg" style={{ aspectRatio: '4/3' }}>
+              <img
+                src="/rela-hospital.webp"
+                alt="Rela Institute & Medical Centre — JCI-accredited hospital in India for orthopedic patients"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -702,14 +701,13 @@ export default function OrthopedicsPage() {
             </div>
 
             <div className="flex-1 w-full max-w-lg">
-              <ImagePlaceholder
-                filename="orthopedic-hospital-turkey-joint-replacement-istanbul-sultan-ghc.jpg"
-                width={1200}
-                height={900}
-                label="Modern orthopedic hospital in Istanbul, Türkiye — Sultan GHC"
-                aiPrompt="Professional architectural and medical photography: The sleek, modern lobby and patient reception of a JCI-accredited hospital in Istanbul, Türkiye. Light marble floors, modern signage in English and Turkish, well-dressed hospital staff at reception. Large windows with natural light. Looks European, premium, and welcoming. Shot on Nikon Z9, wide angle, photorealistic."
-                aspectRatio="4/3"
-              />
+              <div className="relative w-full rounded-2xl overflow-hidden shadow-lg" style={{ aspectRatio: '4/3' }}>
+                <img
+                  src="/hospitals/acibadem-healthcare-group-istanbul-jci-accredited-turkey.jpg"
+                  alt="Acibadem Healthcare Group — JCI-accredited hospital in Istanbul, Türkiye for orthopedic patients"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
