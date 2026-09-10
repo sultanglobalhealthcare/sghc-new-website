@@ -554,13 +554,13 @@ export default function CardiologyPage() {
 
             {/* Image */}
             <div className="flex-1 w-full max-w-lg">
-              <ImagePlaceholder
-                filename="cardiac-catheterization-lab-jci-accredited-hospital-india-heart-surgery.jpg"
-                width={900}
-                height={675}
-                label="State-of-the-Art Cardiac Catheterization Lab"
-                aiPrompt="Professional wide-angle architectural/editorial photography of a state-of-the-art cardiac catheterization laboratory (cath lab) inside a modern JCI-accredited hospital. The room features: a large flat-panel biplane X-ray C-arm imaging system, adjustable radiolucent operating table, multiple high-resolution monitors displaying cardiac imaging and hemodynamic data, a glass-partitioned control room visible in background. Two or three medical professionals in blue surgical scrubs are visible — calibrating equipment or reviewing monitors (no active patient). Ceiling-mounted bright LED surgical lighting. Spotlessly clean, white-and-grey color scheme. High-tech equipment fills the frame. Wide shot showing the full room layout. Conveys precision, technological excellence, and world-class standards equal to or exceeding U.S. hospitals. 4:3 format, 900×675px."
-              />
+              <div className="relative w-full rounded-2xl overflow-hidden shadow-lg" style={{ aspectRatio: '4/3' }}>
+                <img
+                  src="/rela-hospital.webp"
+                  alt="Rela Institute & Medical Centre — JCI-accredited hospital in India for cardiac patients"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>

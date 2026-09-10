@@ -363,14 +363,13 @@ export default function SpineSportsInjuryPage() {
             </div>
 
             <div className="flex-1 w-full max-w-lg">
-              <ImagePlaceholder
-                filename="spine-surgery-sports-injury-india-turkey-hospital-sultan-ghc.jpg"
-                width={1200}
-                height={900}
-                label="Spine surgeon reviewing MRI scans with a patient at an internationally accredited hospital — Sultan GHC"
-                aiPrompt="Professional medical photography: An experienced spine surgeon in surgical scrubs reviewing detailed MRI spinal scans on a large diagnostic screen with an international patient at a modern hospital in India. Clean clinical environment, advanced imaging technology visible, warm patient interaction. Photorealistic, Canon R5, 50mm f/1.8, natural light, not illustrated."
-                aspectRatio="4/3"
-              />
+              <div className="relative w-full rounded-2xl overflow-hidden shadow-lg" style={{ aspectRatio: '4/3' }}>
+                <img
+                  src="/rela-hospital.webp"
+                  alt="Rela Institute & Medical Centre — JCI-accredited hospital in India for spine and sports injury patients"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -635,14 +634,13 @@ export default function SpineSportsInjuryPage() {
           </div>
 
           <div className="flex-1 w-full max-w-lg">
-            <ImagePlaceholder
-              filename="spine-surgery-india-hospital-operation-theater-sultan-ghc.jpg"
-              width={1200}
-              height={900}
-              label="Spine surgery operation theater at a JCI-accredited hospital in India — Sultan GHC"
-              aiPrompt="Professional medical photography: A state-of-the-art spine surgery operation theater in a modern Indian hospital. Surgical team in sterile blue gowns performing a minimally invasive spine procedure. Advanced O-arm imaging equipment visible, LED surgical lights overhead, clean environment. No graphic content. Shot on Sony A7R IV, clinical and professional. Photorealistic."
-              aspectRatio="4/3"
-            />
+            <div className="relative w-full rounded-2xl overflow-hidden shadow-lg" style={{ aspectRatio: '4/3' }}>
+              <img
+                src="/rela-hospital.webp"
+                alt="Rela Institute & Medical Centre — JCI-accredited hospital in India for spine surgery patients"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -705,14 +703,13 @@ export default function SpineSportsInjuryPage() {
             </div>
 
             <div className="flex-1 w-full max-w-lg">
-              <ImagePlaceholder
-                filename="spine-surgery-turkey-istanbul-hospital-international-patient-sultan-ghc.jpg"
-                width={1200}
-                height={900}
-                label="Modern spine surgery center in Istanbul, Türkiye — Sultan GHC"
-                aiPrompt="Professional architectural and medical photography: The modern, premium neurosurgery and spine department of a JCI-accredited hospital in Istanbul, Türkiye. Clean hallway with advanced diagnostic equipment visible through glass walls, hospital staff in professional attire, English and Turkish signage. Premium European aesthetic, natural light. Shot on Nikon Z9, wide angle, photorealistic."
-                aspectRatio="4/3"
-              />
+              <div className="relative w-full rounded-2xl overflow-hidden shadow-lg" style={{ aspectRatio: '4/3' }}>
+                <img
+                  src="/hospitals/acibadem-healthcare-group-istanbul-jci-accredited-turkey.jpg"
+                  alt="Acibadem Healthcare Group — JCI-accredited hospital in Istanbul, Türkiye for spine surgery patients"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
