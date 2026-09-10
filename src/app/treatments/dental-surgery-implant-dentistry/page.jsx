@@ -369,14 +369,13 @@ export default function DentalSurgeryPage() {
 
             {/* Right — Hero image */}
             <div className="flex-1 w-full max-w-lg">
-              <ImagePlaceholder
-                filename="dental-implants-smile-makeover-india-turkey-sultan-ghc.jpg"
-                width={1200}
-                height={900}
-                label="Patient smiling after dental implant procedure at an internationally accredited clinic — Sultan GHC"
-                aiPrompt="Professional dental clinic photography: A happy, confident patient (40s, American appearance) smiling brightly after a successful dental implant procedure at a modern dental clinic. Clean white clinic environment, warm lighting, the patient is relaxed and pleased. Dentist in background reviewing results on a tablet. Shot on Canon R5, 50mm, photorealistic, not illustrated."
-                aspectRatio="4/3"
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/dental-implants-smile-makeover-india-turkey-sultan-ghc.png"
+                  alt="Patient smiling after dental implant procedure at an internationally accredited clinic — Sultan GHC"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -411,14 +410,13 @@ export default function DentalSurgeryPage() {
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           {/* Image */}
           <div className="flex-1 w-full max-w-lg">
-            <ImagePlaceholder
-              filename="american-patient-dental-consultation-implant-dentistry-abroad-sultan-ghc.jpg"
-              width={1200}
-              height={900}
-              label="American patient consulting with a dental specialist for implant dentistry abroad — Sultan GHC"
-              aiPrompt="Professional dental photography: A middle-aged American patient (50s, casual clothes) sitting in a dental chair consulting with a confident dental specialist in white coat at a modern, bright dental clinic in India or Türkiye. The dentist is reviewing a dental X-ray on a large screen. Clean, premium clinic environment. Patient appears relieved and hopeful. Photorealistic, Canon R5, natural light."
-              aspectRatio="4/3"
-            />
+            <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+              <img
+                src="/american-patient-dental-consultation-implant-dentistry-abroad-sultan-ghc.png"
+                alt="American patient consulting with a dental specialist for implant dentistry abroad — Sultan GHC"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
           </div>
 
           {/* Content */}
@@ -640,14 +638,13 @@ export default function DentalSurgeryPage() {
           </div>
 
           <div className="flex-1 w-full max-w-lg">
-            <ImagePlaceholder
-              filename="dental-clinic-turkey-istanbul-implant-dentistry-sultan-ghc.jpg"
-              width={1200}
-              height={900}
-              label="Premium dental clinic in Istanbul, Türkiye — Sultan GHC"
-              aiPrompt="Professional dental clinic photography: The modern, sleek interior of a premium dental clinic in Istanbul, Türkiye. Bright white treatment room with a state-of-the-art dental chair, digital X-ray equipment, and large screens for imaging. A confident Turkish dentist in white coat standing beside the chair. Clean, minimalist, European-quality aesthetic. Shot on Sony A7R IV, wide angle, photorealistic."
-              aspectRatio="4/3"
-            />
+            <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+              <img
+                src="/dental-implants-smile-makeover-india-turkey-sultan-ghc.png"
+                alt="Premium dental clinic in Istanbul, Türkiye — Sultan GHC"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -709,14 +706,13 @@ export default function DentalSurgeryPage() {
             </div>
 
             <div className="flex-1 w-full max-w-lg">
-              <ImagePlaceholder
-                filename="dental-clinic-india-implant-dentistry-smile-makeover-sultan-ghc.jpg"
-                width={1200}
-                height={900}
-                label="Modern dental clinic in India — Sultan GHC"
-                aiPrompt="Professional dental clinic photography: A bright, modern dental clinic in India with a smiling Indian dental specialist in white coat and gloves examining a patient. State-of-the-art dental chair, digital X-ray viewer on a large screen showing dental scans. Clean clinical environment, warm but professional. Patient appears comfortable. Shot on Nikon Z9, photorealistic."
-                aspectRatio="4/3"
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/american-patient-dental-consultation-implant-dentistry-abroad-sultan-ghc.png"
+                  alt="Modern dental clinic in India — Sultan GHC"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
