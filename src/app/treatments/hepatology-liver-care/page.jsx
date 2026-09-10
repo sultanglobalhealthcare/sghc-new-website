@@ -350,14 +350,13 @@ export default function HepatologyPage() {
             </div>
 
             <div className="w-full lg:w-[420px] shrink-0">
-              <ImagePlaceholder
-                filename="hepatology-liver-transplant-india-turkey-us-patients.jpg"
-                width={840}
-                height={630}
-                aspectRatio="4/3"
-                label="Liver transplant team at a JCI-accredited partner hospital — India"
-                aiPrompt="A hepatobiliary surgical team in a state-of-the-art operating theatre performing a liver procedure. Clean surgical field, advanced laparoscopic monitors, warm overhead lighting. Professional, precise, reassuring atmosphere. Photorealistic, 4K quality, no text overlays."
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/hepatology-liver-transplant-india-turkey-us-patients.png"
+                  alt="Liver transplant team at a JCI-accredited partner hospital in India — Sultan GHC"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>

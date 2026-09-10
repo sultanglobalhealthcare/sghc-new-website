@@ -309,12 +309,13 @@ export default function PulmonologyPage() {
               </div>
             </div>
             <div className="w-full lg:w-[420px] shrink-0">
-              <ImagePlaceholder
-                filename="pulmonology-lung-care-india-turkey-us-patients.jpg"
-                width={840} height={630} aspectRatio="4/3"
-                label="Advanced pulmonology suite — Sultan GHC partner hospital, India"
-                aiPrompt="A pulmonologist reviewing high-resolution CT chest scans on large digital monitors in a modern respiratory medicine suite. Clean, professional, well-lit environment. Photorealistic, 4K quality, no text overlays."
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/pulmonology-lung-care-india-turkey-us-patients.png"
+                  alt="Advanced pulmonology suite at a Sultan GHC partner hospital in India"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
