@@ -26,6 +26,7 @@ const TREATMENTS = [
   { name: 'Organ & Bone Marrow Transplantation',                href: '/treatments/organ-bone-marrow-transplant' },
   { name: 'Cosmetic, Hair Transplant & Reconstructive Plastic Surgery', href: '/treatments/cosmetic-hair-transplant-plastic-surgery' },
   { name: 'Dental Surgery & Implant Dentistry',                 href: '/treatments/dental-surgery-implant-dentistry' },
+  { name: 'Wellness & Ayurveda',                                href: '/treatments/wellness-ayurveda' },
 ]
 
 // "Our Network" mega-menu data — geography first, hospitals + destination info per country
