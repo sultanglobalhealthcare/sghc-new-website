@@ -429,14 +429,13 @@ export default function IndiaDestinationPage() {
 
             {/* Hero image */}
             <div className="flex-1 w-full max-w-lg">
-              <ImagePlaceholder
-                filename="jci-accredited-hospital-india-international-patients-modern-interior.jpg"
-                width={1200}
-                height={900}
-                label="JCI-accredited hospital interior in India — modern, clean, internationally certified"
-                aiPrompt="Architectural photography of a premium, modern hospital lobby in India — gleaming marble floors, high ceilings, natural light through large windows, international signage in English, a reception desk staffed by professionals in uniforms. The space is indistinguishable from a top American hospital. Clean, minimal, reassuring. No religious imagery, no Taj Mahal, no stereotypical 'India' visual cues. Shot to inspire confidence in quality. Canon R5, wide angle, natural light."
-                aspectRatio="4/3"
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/rela-hospital.webp"
+                  alt="Rela Institute & Medical Centre — JCI-accredited hospital in Chennai, India"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>

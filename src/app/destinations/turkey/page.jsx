@@ -428,14 +428,13 @@ export default function TürkiyeDestinationPage() {
 
             {/* Hero image */}
             <div className="flex-1 w-full max-w-lg">
-              <ImagePlaceholder
-                filename="jci-accredited-hospital-istanbul-turkey-international-patients-modern.jpg"
-                width={1200}
-                height={900}
-                label="JCI-accredited hospital in Istanbul, Türkiye — modern, European-standard international facility"
-                aiPrompt="Architectural photography of a premium, modern hospital lobby in Istanbul, Türkiye — high ceilings with contemporary design, gleaming floors, natural light through floor-to-ceiling glass, bilingual (Turkish and English) signage, international patient reception desk. The space communicates European-standard quality and international sophistication. No tourist landmarks, no stereotypical Türkiye imagery. Shot to inspire confidence in clinical quality. Wide angle, Canon R5, natural light, photorealistic."
-                aspectRatio="4/3"
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/hospitals/acibadem-healthcare-group-istanbul-jci-accredited-turkey.jpg"
+                  alt="Acıbadem Healthcare Group — JCI-accredited hospital in Istanbul, Türkiye"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>

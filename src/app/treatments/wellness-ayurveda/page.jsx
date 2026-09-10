@@ -305,14 +305,13 @@ export default function WellnessAyurvedaPage() {
             </div>
 
             <div className="flex-1 w-full max-w-lg">
-              <ImagePlaceholder
-                filename="ayurveda-panchakarma-kerala-india-wellness-sultan-ghc.jpg"
-                width={1200}
-                height={900}
-                label="Ayurvedic Panchakarma treatment at a Kerala wellness hospital — Sultan GHC"
-                aiPrompt="Serene professional medical photography: A trained Ayurvedic therapist performing Shirodhara (warm oil poured over forehead) on a relaxed Western patient lying on a traditional wooden therapy table in a clean, modern Ayurveda treatment room in Kerala, India. Warm golden lighting, green plants, natural wood elements, white linen. The setting is clinical yet calming — not a spa, but a real Ayurveda hospital. Photorealistic, Canon R5."
-                aspectRatio="4/3"
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/ayurveda-panchakarma-kerala-india-wellness-sultan-ghc.png"
+                  alt="Ayurvedic Panchakarma treatment at a Kerala wellness hospital — Sultan GHC"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -427,14 +426,13 @@ export default function WellnessAyurvedaPage() {
             </div>
 
             <div className="flex-1 w-full max-w-lg">
-              <ImagePlaceholder
-                filename="kerala-ayurveda-hospital-india-wellness-sultan-ghc.jpg"
-                width={1200}
-                height={900}
-                label="NABH-accredited Ayurveda hospital in Kerala, India — Sultan GHC"
-                aiPrompt="Serene professional photography: A beautiful NABH-accredited Ayurveda wellness hospital in Kerala, India. Lush green tropical garden, traditional Kerala architecture with sloped red-tiled roof, clean modern reception area visible through open doors. Ayurvedic herbal garden in the foreground. Warm evening light. Photorealistic, wide angle, no people required."
-                aspectRatio="4/3"
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/kerala-ayurveda-hospital-india-wellness-sultan-ghc.png"
+                  alt="NABH-accredited Ayurveda hospital in Kerala, India — Sultan GHC"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
