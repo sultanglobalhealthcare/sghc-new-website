@@ -335,14 +335,13 @@ export default function GastroenterologyPage() {
             </div>
 
             <div className="w-full lg:w-[420px] shrink-0">
-              <ImagePlaceholder
-                filename="gastroenterology-treatment-india-turkey-us-patients.jpg"
-                width={840}
-                height={630}
-                aspectRatio="4/3"
-                label="Advanced GI endoscopy suite — Sultan GHC partner hospital, India"
-                aiPrompt="A gastroenterologist performing an endoscopic procedure in a modern, well-lit endoscopy suite. High-definition monitor showing clear GI tract imagery. Clean, professional, state-of-the-art environment. Photorealistic, 4K quality, no text overlays."
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/gastroenterology-treatment-india-turkey-us-patients.png"
+                  alt="Advanced GI endoscopy suite at a Sultan GHC partner hospital in India"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>

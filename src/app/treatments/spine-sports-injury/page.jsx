@@ -403,14 +403,13 @@ export default function SpineSportsInjuryPage() {
       <section className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-20">
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <div className="flex-1 w-full max-w-lg">
-            <ImagePlaceholder
-              filename="american-patient-spine-consultation-surgery-abroad-sultan-ghc.jpg"
-              width={1200}
-              height={900}
-              label="American patient consulting with a spine surgeon for treatment abroad — Sultan GHC"
-              aiPrompt="Professional medical photography: A middle-aged American patient (50s, sitting upright, casual attire) in a consultation room with a confident Indian spine surgeon pointing to a lumbar MRI scan on a backlit viewer. The patient looks hopeful and attentive. Modern hospital setting, clean background. Photorealistic, Canon R5, natural light."
-              aspectRatio="4/3"
-            />
+            <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+              <img
+                src="/american-patient-spine-consultation-surgery-abroad-sultan-ghc.png"
+                alt="American patient consulting with a spine surgeon for treatment abroad — Sultan GHC"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
           </div>
 
           <div className="flex-1">

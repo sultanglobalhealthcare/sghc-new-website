@@ -556,8 +556,8 @@ export default function CardiologyPage() {
             <div className="flex-1 w-full max-w-lg">
               <div className="relative w-full rounded-2xl overflow-hidden shadow-lg" style={{ aspectRatio: '4/3' }}>
                 <img
-                  src="/rela-hospital.webp"
-                  alt="Rela Institute & Medical Centre — JCI-accredited hospital in India for cardiac patients"
+                  src="/cardiac-catheterization-lab-jci-accredited-hospital-india-heart-surgery.png"
+                  alt="State-of-the-art cardiac catheterization lab at a JCI-accredited hospital in India — Sultan GHC"
                   className="w-full h-full object-cover object-center"
                 />
               </div>
