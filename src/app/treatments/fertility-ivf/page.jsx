@@ -406,12 +406,13 @@ export default function FertilityIVFPage() {
               </div>
             </div>
             <div className="w-full lg:w-[420px] shrink-0">
-              <ImagePlaceholder
-                filename="ivf-fertility-treatment-india-turkey-american-patients-embryo-lab.jpg"
-                width={840} height={630} aspectRatio="4/3"
-                label="IVF embryology laboratory — advanced ART center, India"
-                aiPrompt="An IVF embryology laboratory with advanced microscopes and incubators. Warm, professional lighting. Embryologist in scrubs working at a high-powered microscope. Clean, modern lab environment. Photorealistic, 4K, no text overlays. Conveys scientific precision, hope, and safety."
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/ivf-fertility-treatment-india-turkey-american-patients-embryo-lab.png"
+                  alt="IVF embryology laboratory at an advanced ART center in India — Sultan GHC"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>

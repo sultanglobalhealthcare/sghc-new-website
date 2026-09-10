@@ -314,12 +314,13 @@ export default function ENTHeadNeckSurgeryPage() {
               </div>
             </div>
             <div className="w-full lg:w-[420px] shrink-0">
-              <ImagePlaceholder
-                filename="ent-head-neck-surgery-cochlear-implant-india-turkey-us-patients.jpg"
-                width={840} height={630} aspectRatio="4/3"
-                label="ENT surgeon performing endoscopic sinus surgery — JCI-accredited hospital, India"
-                aiPrompt="An ENT surgeon performing functional endoscopic sinus surgery using a 4K endoscope in a modern operating room. Clean, professional surgical environment. Monitor showing endoscopic view. Photorealistic, 4K, no text overlays. Conveys precision and expertise."
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/ent-head-neck-surgery-cochlear-implant-india-turkey-us-patients.png"
+                  alt="ENT surgeon performing endoscopic sinus surgery at a JCI-accredited hospital in India — Sultan GHC"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
