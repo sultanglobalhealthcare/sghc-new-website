@@ -640,8 +640,8 @@ export default function DentalSurgeryPage() {
           <div className="flex-1 w-full max-w-lg">
             <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
               <img
-                src="/dental-implants-smile-makeover-india-turkey-sultan-ghc.png"
-                alt="Premium dental clinic in Istanbul, Türkiye — Sultan GHC"
+                src="/hospitals/koc-university-hospital-istanbul-jci-accredited-turkey.jpg"
+                alt="Koç University Hospital Istanbul — JCI-accredited partner hospital for dental patients — Sultan GHC"
                 className="w-full h-full object-cover object-center"
               />
             </div>
@@ -708,8 +708,8 @@ export default function DentalSurgeryPage() {
             <div className="flex-1 w-full max-w-lg">
               <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
                 <img
-                  src="/american-patient-dental-consultation-implant-dentistry-abroad-sultan-ghc.png"
-                  alt="Modern dental clinic in India — Sultan GHC"
+                  src="/hospitals/medanta-medicity-gurugram-jci-accredited-india.jpg"
+                  alt="Medanta — The Medicity, Gurugram — JCI-accredited partner hospital for dental patients in India — Sultan GHC"
                   className="w-full h-full object-cover object-center"
                 />
               </div>
