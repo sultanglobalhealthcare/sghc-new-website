@@ -303,12 +303,13 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
               </div>
             </div>
             <div className="w-full lg:w-[420px] shrink-0">
-              <ImagePlaceholder
-                filename="cosmetic-surgery-hair-transplant-india-turkey-us-patients.jpg"
-                width={840} height={630} aspectRatio="4/3"
-                label="Modern cosmetic surgery clinic — India or Türkiye, catering to international patients"
-                aiPrompt="A bright, modern cosmetic surgery consultation room. An elegant, well-lit clinical space with a mirror wall, professional lighting, and a welcoming atmosphere. Neutral tones, premium finishes. No people. Photorealistic, 4K, no text overlays. Conveys professionalism, safety, and quality."
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/cosmetic-surgery-hair-transplant-india-turkey-us-patients.png"
+                  alt="Modern cosmetic surgery clinic in India or Türkiye — Sultan GHC"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>

@@ -301,12 +301,13 @@ export default function OrganBoneMarrowTransplantPage() {
               </div>
             </div>
             <div className="w-full lg:w-[420px] shrink-0">
-              <ImagePlaceholder
-                filename="organ-bone-marrow-transplant-india-turkey-us-patients.jpg"
-                width={840} height={630} aspectRatio="4/3"
-                label="Transplant surgery team at JCI-accredited hospital, India"
-                aiPrompt="A transplant surgery team in a clean, modern operating room at a premier Indian hospital. Surgeons in scrubs working with precision. Warm, professional lighting. Photorealistic, 4K, no text overlays. Conveys expertise, trust, and safety."
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/organ-bone-marrow-transplant-india-turkey-us-patients.png"
+                  alt="Transplant surgery team at a JCI-accredited partner hospital in India — Sultan GHC"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
