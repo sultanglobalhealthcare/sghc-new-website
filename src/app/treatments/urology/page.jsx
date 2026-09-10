@@ -313,12 +313,13 @@ export default function UrologyPage() {
               </div>
             </div>
             <div className="w-full lg:w-[420px] shrink-0">
-              <ImagePlaceholder
-                filename="urology-kidney-prostate-surgery-india-turkey-us-patients.jpg"
-                width={840} height={630} aspectRatio="4/3"
-                label="Robotic urology suite — da Vinci system at JCI partner hospital, India"
-                aiPrompt="A urologist operating a da Vinci robotic surgical system in a modern, brightly lit operating room. Clean, precise environment with robotic arms over surgical table. Professional and reassuring atmosphere. Photorealistic, 4K quality, no text overlays."
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/urology-kidney-prostate-surgery-india-turkey-us-patients.png"
+                  alt="Robotic urology surgery at a JCI-accredited partner hospital in India — Sultan GHC"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>

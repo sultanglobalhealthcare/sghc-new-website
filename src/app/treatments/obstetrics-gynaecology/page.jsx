@@ -366,12 +366,13 @@ export default function ObstetricsGynaecologyPage() {
               </div>
             </div>
             <div className="w-full lg:w-[420px] shrink-0">
-              <ImagePlaceholder
-                filename="gynaecology-surgery-india-turkey-laparoscopic-hysterectomy-us-patients.jpg"
-                width={840} height={630} aspectRatio="4/3"
-                label="Minimally invasive gynaecological surgery — laparoscopic suite at JCI hospital, India"
-                aiPrompt="A bright, modern laparoscopic operating room at a premier Indian hospital. A female surgeon in scrubs operating laparoscopic instruments with a monitor showing endoscopic view. Clean, professional environment. Photorealistic, 4K, no text overlays. Conveys precision, care, and safety."
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/gynaecology-surgery-india-turkey-laparoscopic-hysterectomy-us-patients.png"
+                  alt="Minimally invasive laparoscopic gynaecological surgery at a JCI-accredited hospital in India — Sultan GHC"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
