@@ -303,12 +303,13 @@ export default function RoboticMinimallyInvasivePage() {
               </div>
             </div>
             <div className="w-full lg:w-[420px] shrink-0">
-              <ImagePlaceholder
-                filename="robotic-surgery-india-da-vinci-usa-patients-sultan-ghc.jpg"
-                width={840} height={630} aspectRatio="4/3"
-                label="da Vinci robotic surgery console — JCI-accredited hospital, India"
-                aiPrompt="A surgical team performing robotic surgery using a da Vinci Xi robotic system at a JCI-accredited Indian hospital. Surgeon at the console, 3D HD surgical view on monitor, robotic arms positioned over patient. Sterile, precision environment. Photorealistic, 4K. No text. Conveys cutting-edge technology and expert precision."
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/robotic-surgery-india-da-vinci-usa-patients-sultan-ghc.png"
+                  alt="da Vinci robotic surgery at a JCI-accredited hospital in India — Sultan GHC"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>

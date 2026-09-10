@@ -304,12 +304,13 @@ export default function BariatricMetabolicSurgeryPage() {
               </div>
             </div>
             <div className="w-full lg:w-[420px] shrink-0">
-              <ImagePlaceholder
-                filename="bariatric-weight-loss-surgery-india-turkey-sleeve-bypass-us-patients.jpg"
-                width={840} height={630} aspectRatio="4/3"
-                label="Laparoscopic bariatric surgery suite — accredited center, India"
-                aiPrompt="A laparoscopic bariatric surgery suite at a premier Indian hospital. Surgeon with laparoscopic instruments, 4K monitor showing minimally invasive procedure. Clean, modern environment. Photorealistic, 4K, no text overlays. Conveys precision, safety, and transformation."
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/bariatric-weight-loss-surgery-india-turkey-sleeve-bypass-us-patients.png"
+                  alt="Laparoscopic bariatric surgery at an accredited center in India — Sultan GHC"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
