@@ -192,11 +192,12 @@ export default function EnquiryPage() {
     return (
       <section className="min-h-[70vh] flex items-center justify-center px-6 py-24 bg-gradient-to-br from-[#EEF4FF] via-white to-white">
         <div className="max-w-lg text-center">
-          <div className="relative w-24 h-24 mx-auto mb-8">
-            <div className="absolute inset-0 rounded-full bg-green-100 animate-ping opacity-30" />
-            <div className="relative w-24 h-24 rounded-full bg-green-100 flex items-center justify-center">
-              <CheckCircle2 size={40} className="text-green-500" />
-            </div>
+          <div className="mx-auto mb-8 w-32">
+            <img
+              src="/sghc-new-logo.png"
+              alt="Sultan GHC"
+              className="w-full h-auto object-contain"
+            />
           </div>
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">Enquiry received!</h2>
           <p className="text-gray-500 leading-relaxed mb-3">
