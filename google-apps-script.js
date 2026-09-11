@@ -124,9 +124,10 @@ function sendNotificationEmail({ firstName, lastName, email, phone, treatmentInt
 <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;border-radius:12px;overflow:hidden;border:1px solid #e5e7eb;">
 
   <!-- Header -->
-  <div style="background:#1e40af;padding:24px 32px;">
-    <h2 style="color:#fff;margin:0;font-size:20px;font-weight:700;">New Patient Enquiry</h2>
-    <p style="color:#bfdbfe;margin:4px 0 0;font-size:13px;">Sultan GHC · Received ${received} EST</p>
+  <div style="background:#1e40af;padding:20px 32px;">
+    <img src="https://www.sultanghc.com/sghc-new-logo.png" alt="Sultan GHC" width="130" style="display:block;margin:0 0 10px;filter:brightness(0) invert(1);" />
+    <h2 style="color:#fff;margin:0;font-size:18px;font-weight:700;">New Patient Enquiry</h2>
+    <p style="color:#bfdbfe;margin:4px 0 0;font-size:13px;">Received ${received} EST</p>
   </div>
 
   <!-- Patient details -->
@@ -219,9 +220,9 @@ function sendThankYouEmail({ firstName, email }) {
 <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;border-radius:12px;overflow:hidden;border:1px solid #e5e7eb;">
 
   <!-- Header -->
-  <div style="background:#1e40af;padding:28px 32px;text-align:center;">
-    <h1 style="color:#fff;margin:0;font-size:22px;font-weight:700;letter-spacing:-0.3px;">Sultan Global Health Care</h1>
-    <p style="color:#bfdbfe;margin:6px 0 0;font-size:13px;">Your Trusted Global Healthcare Concierge</p>
+  <div style="background:#1e40af;padding:24px 32px;text-align:center;">
+    <img src="https://www.sultanghc.com/sghc-new-logo.png" alt="Sultan Global Health Care" width="160" style="display:block;margin:0 auto 10px;max-width:100%;filter:brightness(0) invert(1);" />
+    <p style="color:#bfdbfe;margin:0;font-size:13px;">Your Trusted Global Healthcare Concierge</p>
   </div>
 
   <!-- Body -->
