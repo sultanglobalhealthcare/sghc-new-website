@@ -5,10 +5,11 @@
 // Sheet: https://docs.google.com/spreadsheets/d/1hmAXxJSgEObOVmpLMD6PK5fnnRVzUvMLppDpy2g3SSs
 // ═══════════════════════════════════════════════════════════════════════════
 
-const SHEET_ID     = '1hmAXxJSgEObOVmpLMD6PK5fnnRVzUvMLppDpy2g3SSs';
-const SHEET_NAME   = 'Enquiries';
-const NOTIFY_EMAIL = 'sultanglobalhealthcare@gmail.com';
-const CC_EMAIL     = 'info@sultanghc.com';
+const SHEET_ID        = '1hmAXxJSgEObOVmpLMD6PK5fnnRVzUvMLppDpy2g3SSs';
+const SHEET_NAME      = 'Enquiries';
+const NOTIFY_EMAIL    = 'sultanglobalhealthcare@gmail.com';
+const CC_EMAIL        = 'info@sultanghc.com';
+const DRIVE_FOLDER_ID = ''; // Optional: paste a Google Drive folder ID to organise attachments
 
 // ── Entry points ─────────────────────────────────────────────────────────────
 
@@ -23,20 +24,25 @@ function doPost(e) {
   try {
     const data = JSON.parse(e.postData.contents);
 
-    const firstName = data.firstName || '';
-    const lastName  = data.lastName  || '';
-    const email     = data.email     || '';
-    const phone     = data.phone     || '';
-    const message   = data.message   || '';
-    const imageData = data.image     || ''; // base64 data URL (optional)
+    const firstName            = data.firstName            || '';
+    const lastName             = data.lastName             || '';
+    const email                = data.email                || '';
+    const phone                = data.phone                || '';
+    const treatmentInterest    = data.treatmentInterest    || '';
+    const preferredDestination = data.preferredDestination || '';
+    const message              = data.message              || '';
+    const imageData            = data.image                || ''; // base64 data URL (optional)
 
-    // 1. Save enquiry to Google Sheets
-    saveToSheet({ firstName, lastName, email, phone, message });
+    // 1. Upload attachment to Google Drive and get a shareable link
+    const attachmentLink = imageData ? uploadToDrive(imageData, firstName, lastName) : '';
 
-    // 2. Notify Sultan GHC team (with CC and attachment if provided)
-    sendNotificationEmail({ firstName, lastName, email, phone, message, imageData });
+    // 2. Save enquiry to Google Sheets (separate columns)
+    saveToSheet({ firstName, lastName, email, phone, treatmentInterest, preferredDestination, message, attachmentLink });
 
-    // 3. Send thank-you email to the patient
+    // 3. Notify Sultan GHC team (with CC and attachment if provided)
+    sendNotificationEmail({ firstName, lastName, email, phone, treatmentInterest, preferredDestination, message, imageData, attachmentLink });
+
+    // 4. Send thank-you email to the patient
     if (email) sendThankYouEmail({ firstName, email });
 
     return ContentService
@@ -51,16 +57,46 @@ function doPost(e) {
   }
 }
 
-// ── 1. Save to Google Sheets ─────────────────────────────────────────────────
+// ── 1. Upload attachment to Google Drive ─────────────────────────────────────
 
-function saveToSheet({ firstName, lastName, email, phone, message }) {
+function uploadToDrive(imageData, firstName, lastName) {
+  try {
+    const base64    = imageData.split(',')[1];
+    const mimeMatch = imageData.match(/data:([^;]+);/);
+    const mimeType  = mimeMatch ? mimeMatch[1] : 'application/octet-stream';
+    const ext       = mimeType.split('/')[1] || 'file';
+    const filename  = `${firstName}_${lastName}_medical_report.${ext}`;
+
+    const blob = Utilities.newBlob(Utilities.base64Decode(base64), mimeType, filename);
+
+    let folder;
+    if (DRIVE_FOLDER_ID) {
+      folder = DriveApp.getFolderById(DRIVE_FOLDER_ID);
+    } else {
+      // Save in a subfolder of My Drive called "Sultan GHC — Patient Reports"
+      const folders = DriveApp.getFoldersByName('Sultan GHC — Patient Reports');
+      folder = folders.hasNext() ? folders.next() : DriveApp.createFolder('Sultan GHC — Patient Reports');
+    }
+
+    const file = folder.createFile(blob);
+    file.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
+    return file.getUrl();
+  } catch (err) {
+    Logger.log('Drive upload error: ' + err.message);
+    return '';
+  }
+}
+
+// ── 2. Save to Google Sheets ─────────────────────────────────────────────────
+
+function saveToSheet({ firstName, lastName, email, phone, treatmentInterest, preferredDestination, message, attachmentLink }) {
   const ss    = SpreadsheetApp.openById(SHEET_ID);
   let   sheet = ss.getSheetByName(SHEET_NAME);
 
   // Create the sheet with headers if it doesn't exist yet
   if (!sheet) {
     sheet = ss.insertSheet(SHEET_NAME);
-    const headers = ['Timestamp (EST)', 'First Name', 'Last Name', 'Email', 'Phone', 'Message'];
+    const headers = ['Timestamp (EST)', 'First Name', 'Last Name', 'Email', 'Phone', 'Treatment Interest', 'Preferred Destination', 'Message', 'Attachment'];
     sheet.appendRow(headers);
     sheet.getRange(1, 1, 1, headers.length).setFontWeight('bold').setBackground('#1e40af').setFontColor('#ffffff');
     sheet.setFrozenRows(1);
@@ -68,14 +104,21 @@ function saveToSheet({ firstName, lastName, email, phone, message }) {
   }
 
   const timestamp = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
-  sheet.appendRow([timestamp, firstName, lastName, email, phone, message]);
+  sheet.appendRow([timestamp, firstName, lastName, email, phone, treatmentInterest, preferredDestination, message, attachmentLink]);
 }
 
-// ── 2. Notification email to Sultan GHC team ─────────────────────────────────
+// ── 3. Notification email to Sultan GHC team ─────────────────────────────────
 
-function sendNotificationEmail({ firstName, lastName, email, phone, message, imageData }) {
+function sendNotificationEmail({ firstName, lastName, email, phone, treatmentInterest, preferredDestination, message, imageData, attachmentLink }) {
   const subject  = `New Patient Enquiry — ${firstName} ${lastName}`;
   const received = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
+
+  const attachmentRow = attachmentLink
+    ? `<tr style="border-top:1px solid #f3f4f6;">
+        <td style="padding:10px 0;color:#6b7280;vertical-align:top;">Attachment</td>
+        <td style="padding:10px 0;"><a href="${attachmentLink}" style="color:#1e40af;font-weight:600;">View Medical Report →</a></td>
+       </tr>`
+    : '';
 
   const htmlBody = `
 <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;border-radius:12px;overflow:hidden;border:1px solid #e5e7eb;">
@@ -90,7 +133,7 @@ function sendNotificationEmail({ firstName, lastName, email, phone, message, ima
   <div style="padding:28px 32px;background:#fff;">
     <table style="width:100%;border-collapse:collapse;font-size:14px;">
       <tr>
-        <td style="padding:10px 0;color:#6b7280;width:130px;vertical-align:top;">Full Name</td>
+        <td style="padding:10px 0;color:#6b7280;width:160px;vertical-align:top;">Full Name</td>
         <td style="padding:10px 0;font-weight:700;color:#111827;">${firstName} ${lastName}</td>
       </tr>
       <tr style="border-top:1px solid #f3f4f6;">
@@ -101,6 +144,15 @@ function sendNotificationEmail({ firstName, lastName, email, phone, message, ima
         <td style="padding:10px 0;color:#6b7280;vertical-align:top;">Phone</td>
         <td style="padding:10px 0;"><a href="tel:${phone}" style="color:#1e40af;font-weight:600;">${phone}</a></td>
       </tr>
+      <tr style="border-top:1px solid #f3f4f6;">
+        <td style="padding:10px 0;color:#6b7280;vertical-align:top;">Treatment Interest</td>
+        <td style="padding:10px 0;color:#111827;">${escapeHtml(treatmentInterest) || '—'}</td>
+      </tr>
+      <tr style="border-top:1px solid #f3f4f6;">
+        <td style="padding:10px 0;color:#6b7280;vertical-align:top;">Preferred Destination</td>
+        <td style="padding:10px 0;color:#111827;">${escapeHtml(preferredDestination) || '—'}</td>
+      </tr>
+      ${attachmentRow}
     </table>
 
     <!-- Message block -->
@@ -110,13 +162,13 @@ function sendNotificationEmail({ firstName, lastName, email, phone, message, ima
     </div>
 
     <!-- Quick reply buttons -->
-    <div style="margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;">
+    <div style="margin-top:24px;">
       <a href="mailto:${email}?subject=Re: Your Sultan GHC Enquiry"
-         style="display:inline-block;background:#1e40af;color:#fff;font-size:13px;font-weight:700;padding:10px 24px;border-radius:50px;text-decoration:none;">
+         style="display:inline-block;background:#1e40af;color:#fff;font-size:13px;font-weight:700;padding:10px 24px;border-radius:50px;text-decoration:none;margin:4px 8px 4px 0;">
         Reply by Email
       </a>
       <a href="https://wa.me/${phone.replace(/\D/g, '')}"
-         style="display:inline-block;background:#22c55e;color:#fff;font-size:13px;font-weight:700;padding:10px 24px;border-radius:50px;text-decoration:none;">
+         style="display:inline-block;background:#22c55e;color:#fff;font-size:13px;font-weight:700;padding:10px 24px;border-radius:50px;text-decoration:none;margin:4px 0;">
         WhatsApp Patient
       </a>
     </div>
@@ -158,7 +210,7 @@ function sendNotificationEmail({ firstName, lastName, email, phone, message, ima
   MailApp.sendEmail(NOTIFY_EMAIL, subject, '', options);
 }
 
-// ── 3. Thank-you email to patient ────────────────────────────────────────────
+// ── 4. Thank-you email to patient ────────────────────────────────────────────
 
 function sendThankYouEmail({ firstName, email }) {
   const subject = 'We Have Received Your Enquiry — Sultan GHC';

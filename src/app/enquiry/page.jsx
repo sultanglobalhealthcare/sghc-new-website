@@ -130,28 +130,20 @@ export default function EnquiryPage() {
       }
       const imageDataUrl = file ? await fileToDataUrl(file) : ''
 
-      const extras = [
-        selectedTreatments.length
-          ? `Treatment Interest: ${selectedTreatments.join(', ')}`
-          : '',
-        selectedDest
-          ? `Preferred Destination: ${
-              selectedDest === 'best'
-                ? 'Best option (team to decide)'
-                : selectedDest.charAt(0).toUpperCase() + selectedDest.slice(1)
-            }`
-          : '',
-        data.message,
-      ]
-        .filter(Boolean)
-        .join('\n\n')
+      const destLabel = selectedDest === 'best'
+        ? 'Best option (team to decide)'
+        : selectedDest
+          ? selectedDest.charAt(0).toUpperCase() + selectedDest.slice(1)
+          : ''
 
       const payload = {
-        firstName: data.firstName || '',
-        lastName:  data.lastName  || '',
-        email:     data.email     || '',
-        phone:     data.phone     || '',
-        message:   extras,
+        firstName:            data.firstName || '',
+        lastName:             data.lastName  || '',
+        email:                data.email     || '',
+        phone:                data.phone     || '',
+        treatmentInterest:    selectedTreatments.join(', '),
+        preferredDestination: destLabel,
+        message:              data.message   || '',
         ...(imageDataUrl && { image: imageDataUrl }),
       }
 
