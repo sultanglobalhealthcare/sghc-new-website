@@ -17,8 +17,10 @@ export async function POST(req) {
       }
     );
 
+    const enquiryId = response.data?.enquiryId || null;
+
     return new Response(
-      JSON.stringify({ success: true, data: response.data }),
+      JSON.stringify({ success: true, enquiryId, data: response.data }),
       {
         status: 200,
         headers: { "Content-Type": "application/json" },

@@ -102,6 +102,7 @@ export default function EnquiryPage() {
 
   const [errMsg, setErrMsg]               = useState('')
   const [success, setSuccess]             = useState(false)
+  const [enquiryId, setEnquiryId]         = useState('')
   const [selectedTreatments, setSelected] = useState([])
   const [selectedDest, setDest]           = useState('')
   const [isDragging, setDragging]         = useState(false)
@@ -147,10 +148,11 @@ export default function EnquiryPage() {
         ...(imageDataUrl && { image: imageDataUrl }),
       }
 
-      await axios.post('/api/submit-enquiry', payload, {
+      const res = await axios.post('/api/submit-enquiry', payload, {
         headers: { 'Content-Type': 'application/json' },
       })
 
+      setEnquiryId(res.data?.enquiryId || '')
       setSuccess(true)
       reset()
       setSelected([])
@@ -184,22 +186,33 @@ export default function EnquiryPage() {
     return (
       <section className="min-h-[70vh] flex items-center justify-center px-6 py-24 bg-gradient-to-br from-[#EEF4FF] via-white to-white">
         <div className="max-w-lg text-center">
-          <div className="mx-auto mb-8 w-32">
-            <img
-              src="/sghc-new-logo.png"
-              alt="Sultan GHC"
-              className="w-full h-auto object-contain"
-            />
+
+          {/* Logo */}
+          <div className="mx-auto mb-6 w-32">
+            <img src="/sghc-new-logo.png" alt="Sultan GHC" className="w-full h-auto object-contain" />
           </div>
+
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">Enquiry received!</h2>
-          <p className="text-gray-500 leading-relaxed mb-3">
+          <p className="text-gray-500 leading-relaxed mb-5">
             A dedicated patient coordinator will reach out within{' '}
             <strong className="text-gray-700">24–48 hours</strong>.
             In the meantime you can chat with us instantly on WhatsApp.
           </p>
+
+          {/* Enquiry ID badge */}
+          {enquiryId && (
+            <div className="inline-block bg-white border border-blue-100 rounded-2xl px-6 py-4 mb-6 shadow-sm text-center">
+              <p className="text-[10px] font-bold text-blue-400 uppercase tracking-widest mb-1">Your Enquiry Reference</p>
+              <p className="text-xl font-extrabold text-primary tracking-wider">{enquiryId}</p>
+              <p className="text-[11px] text-gray-400 mt-1">Quote this in all correspondence with our team</p>
+            </div>
+          )}
+
           <p className="text-xs text-gray-400 mb-8">
-            Please also check your spam/junk folder for our email confirmation.
+            A confirmation email has been sent to your inbox.{' '}
+            Please check your spam/junk folder if you don't see it.
           </p>
+
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
               href="https://wa.me/16107870713"
@@ -211,7 +224,7 @@ export default function EnquiryPage() {
               Chat on WhatsApp
             </a>
             <button
-              onClick={() => setSuccess(false)}
+              onClick={() => { setSuccess(false); setEnquiryId('') }}
               className="inline-flex items-center justify-center gap-2 border border-gray-200 text-gray-600 font-semibold px-7 py-3.5 rounded-full hover:border-primary hover:text-primary transition-colors"
             >
               Submit Another Enquiry
