@@ -529,7 +529,7 @@ export default function HepatologyPage() {
               </div>
               <ul className="space-y-3">
                 {[
-                  'Medanta — The Medicity (Gurugram) performs 400+ liver transplants annually — one of Asia\'s highest volumes',
+                  'Medanta — The Medicity (Gurugram) performs 400+ liver transplants annually — one of Asia\'s highest volumes; MOU partner of Sultan GHC',
                   'Rela Institute & Medical Centre Chennai — Asia\'s largest liver transplant program by volume; founded by world-renowned HPB surgeon Dr. Mohamed Rela; Sultan GHC MOU partner',
                   'Global Hospitals Mumbai specializes in living donor liver transplant with 95%+ graft survival',
                   'Drug-eluting bead TACE (DEB-TACE) and Y-90 radioembolization available for HCC',

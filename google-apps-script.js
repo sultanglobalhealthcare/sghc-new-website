@@ -75,6 +75,8 @@ function doPost(e) {
 }
 
 // ── 1. Generate Enquiry ID (SGHC-YYYYMMDD-XXXX) ──────────────────────────────
+// Uses LockService + PropertiesService for atomic, collision-proof incrementing.
+// No two submissions can ever receive the same ID, even under concurrent load.
 
 function generateEnquiryId() {
   const now  = new Date();
@@ -84,21 +86,19 @@ function generateEnquiryId() {
   const month = now.toLocaleString('en-US', { timeZone: zone, month: '2-digit' });
   const day   = now.toLocaleString('en-US', { timeZone: zone, day:   '2-digit' });
   const dateStr = `${year}${month}${day}`; // e.g. 20260911
+  // Acquire exclusive script-level lock — waits up to 10 s, throws if not acquired
+  const lock = LockService.getScriptLock();
+  lock.waitLock(10000);
 
-  const prefix = `SGHC-${dateStr}-`;
-
-  // Count existing IDs for today to get the next sequence number
-  const ss    = SpreadsheetApp.openById(SHEET_ID);
-  const sheet = ss.getSheetByName(SHEET_NAME);
-  let   seq   = 1;
-
-  if (sheet && sheet.getLastRow() > 1) {
-    const ids = sheet.getRange(2, 1, sheet.getLastRow() - 1, 1).getValues().flat();
-    const todayIds = ids.filter(id => String(id).startsWith(prefix));
-    seq = todayIds.length + 1;
+  try {
+    const props = PropertiesService.getScriptProperties();
+    const current = parseInt(props.getProperty('ENQUIRY_COUNTER') || '0', 10);
+    const next = current + 1;
+    props.setProperty('ENQUIRY_COUNTER', String(next));
+    return `SGHC-${dateStr}-${String(next).padStart(4, '0')}`;
+  } finally {
+    lock.releaseLock();
   }
-
-  return `${prefix}${String(seq).padStart(4, '0')}`; // e.g. SGHC-20260911-0003
 }
 
 // ── 2. Upload attachment to Google Drive ─────────────────────────────────────
@@ -140,24 +140,25 @@ function saveToSheet({ enquiryId, firstName, lastName, email, phone, treatmentIn
     sheet = ss.insertSheet(SHEET_NAME);
   }
 
-  // Always reset headers to match current column structure
-  sheet.clearContents();
-  sheet.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS])
-    .setFontWeight('bold')
-    .setBackground('#1e40af')
-    .setFontColor('#ffffff')
-    .setFontSize(11);
-  sheet.setFrozenRows(1);
-  sheet.setColumnWidth(1, 200);  // Enquiry ID
-  sheet.setColumnWidth(2, 160);  // Timestamp
-  sheet.setColumnWidth(3, 130);  // First Name
-  sheet.setColumnWidth(4, 130);  // Last Name
-  sheet.setColumnWidth(5, 200);  // Email
-  sheet.setColumnWidth(6, 160);  // Phone
-  sheet.setColumnWidth(7, 220);  // Treatment Interest
-  sheet.setColumnWidth(8, 180);  // Preferred Destination
-  sheet.setColumnWidth(9, 300);  // Message
-  sheet.setColumnWidth(10, 200); // Attachment
+  // Only write headers if the sheet is brand new (no rows yet)
+  if (sheet.getLastRow() === 0) {
+    sheet.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS])
+      .setFontWeight('bold')
+      .setBackground('#1e40af')
+      .setFontColor('#ffffff')
+      .setFontSize(11);
+    sheet.setFrozenRows(1);
+    sheet.setColumnWidth(1, 200);  // Enquiry ID
+    sheet.setColumnWidth(2, 160);  // Timestamp
+    sheet.setColumnWidth(3, 130);  // First Name
+    sheet.setColumnWidth(4, 130);  // Last Name
+    sheet.setColumnWidth(5, 200);  // Email
+    sheet.setColumnWidth(6, 160);  // Phone
+    sheet.setColumnWidth(7, 220);  // Treatment Interest
+    sheet.setColumnWidth(8, 180);  // Preferred Destination
+    sheet.setColumnWidth(9, 300);  // Message
+    sheet.setColumnWidth(10, 200); // Attachment
+  }
 
   const timestamp = new Date().toLocaleString('en-US', { timeZone: 'America/New_York' });
   sheet.appendRow([enquiryId, timestamp, firstName, lastName, email, phone, treatmentInterest, preferredDestination, message, attachmentLink]);
@@ -179,13 +180,13 @@ function sendNotificationEmail({ enquiryId, firstName, lastName, email, phone, t
   const htmlBody = `
 <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;border-radius:12px;overflow:hidden;border:1px solid #e5e7eb;">
 
-  <div style="background:#1e40af;padding:20px 32px;">
-    <img src="https://www.sultanghc.com/sghc-new-logo.png" alt="Sultan GHC" width="130" style="display:block;margin:0 0 12px;filter:brightness(0) invert(1);" />
-    <div style="display:inline-block;background:rgba(255,255,255,0.15);border-radius:6px;padding:4px 12px;margin-bottom:8px;">
+  <div style="background:#eef4ff;padding:20px 32px;text-align:center;border-bottom:3px solid #1e40af;">
+    <img src="https://www.sultanghc.com/sghc-new-logo.png" alt="Sultan GHC" width="130" style="display:block;margin:0 auto 14px;" />
+    <div style="display:inline-block;background:#1e40af;border-radius:6px;padding:4px 14px;margin-bottom:8px;">
       <span style="color:#fff;font-size:12px;font-weight:700;letter-spacing:0.05em;">${enquiryId}</span>
     </div>
-    <h2 style="color:#fff;margin:0;font-size:18px;font-weight:700;">New Patient Enquiry</h2>
-    <p style="color:#bfdbfe;margin:4px 0 0;font-size:13px;">Received ${received} EST</p>
+    <h2 style="color:#1e3a8a;margin:0;font-size:18px;font-weight:700;">New Patient Enquiry</h2>
+    <p style="color:#6b7280;margin:4px 0 0;font-size:13px;">Received ${received} EST</p>
   </div>
 
   <div style="padding:28px 32px;background:#fff;">
@@ -277,9 +278,9 @@ function sendThankYouEmail({ enquiryId, firstName, email }) {
   const htmlBody = `
 <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;border-radius:12px;overflow:hidden;border:1px solid #e5e7eb;">
 
-  <div style="background:#1e40af;padding:24px 32px;text-align:center;">
-    <img src="https://www.sultanghc.com/sghc-new-logo.png" alt="Sultan Global Health Care" width="160" style="display:block;margin:0 auto 10px;max-width:100%;filter:brightness(0) invert(1);" />
-    <p style="color:#bfdbfe;margin:0;font-size:13px;">Your Trusted Global Healthcare Concierge</p>
+  <div style="background:#eef4ff;padding:24px 32px;text-align:center;border-bottom:3px solid #1e40af;">
+    <img src="https://www.sultanghc.com/sghc-new-logo.png" alt="Sultan Global Health Care" width="160" style="display:block;margin:0 auto 10px;max-width:100%;" />
+    <p style="color:#6b7280;margin:0;font-size:13px;">Your Trusted Global Healthcare Concierge</p>
   </div>
 
   <div style="padding:36px 32px;background:#fff;text-align:center;">

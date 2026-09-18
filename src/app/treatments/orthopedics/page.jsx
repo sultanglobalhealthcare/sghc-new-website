@@ -604,7 +604,7 @@ export default function OrthopedicsPage() {
                 'Zimmer Biomet, Stryker, DePuy, and Smith+Nephew implants used throughout',
                 'Physiotherapy and rehabilitation programs supervised by certified specialists',
                 'English-speaking surgical and nursing teams at all partner centers',
-                'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ multi-disciplinary specialists',
+                'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ multi-disciplinary specialists; MOU partner of Sultan GHC',
                 'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
               ].map((pt) => (
                 <div key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">

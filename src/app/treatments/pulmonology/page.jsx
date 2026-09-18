@@ -445,6 +445,7 @@ export default function PulmonologyPage() {
                 {[
                   'Apollo Hospitals runs dedicated ILD clinics with HRCT, DLCO, and multidisciplinary ILD boards',
                   'EBUS-TBNA performed by interventional pulmonologists trained at European and U.S. centers',
+                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; advanced thoracic and pulmonology unit; MOU partner of Sultan GHC',
                   'VATS thoracic surgery — lobectomy, segmentectomy, and pleural procedures — at Apollo and Medanta',
                   'Generic antifibrotic therapy (pirfenidone, nintedanib) available at 85–95% lower cost than U.S. list price',
                   'Sleep medicine centers with full Level I polysomnography and CPAP titration facilities',

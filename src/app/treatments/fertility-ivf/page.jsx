@@ -598,7 +598,7 @@ export default function FertilityIVFPage() {
                   'ART (Regulation) Act 2021 — national fertility law regulating donor programs, sperm banks, and patient rights; all partner centers are ICMR-registered',
                                     'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
 'India Medical e-Visa issued in 3–5 business days; cycle can be partially managed remotely from the U.S. with timed India trip for retrieval and transfer',
-                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ specialists across all major disciplines',
+                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ specialists across all major disciplines; MOU partner of Sultan GHC',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

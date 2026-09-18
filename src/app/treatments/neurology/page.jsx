@@ -523,6 +523,7 @@ export default function NeurologyPage() {
                   'Epilepsy monitoring units (EMU) at multiple partner centers with video-EEG',
                   'Stroke units with 24/7 neuro-intervention and thrombolysis capability',
                   'Neurologists with training from UCSF, Mayo Clinic, Johns Hopkins, and UK Royal Colleges',
+                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; advanced neurology and movement disorder center; MOU partner of Sultan GHC',
                                     'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
 'India Medical e-Visa processed in 3–5 business days for U.S. citizens',
                 ].map((pt) => (

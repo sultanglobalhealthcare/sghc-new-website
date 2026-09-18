@@ -401,7 +401,7 @@ export default function WellnessAyurvedaPage() {
                   'Pre-program health assessment including blood tests, blood pressure, and physician consultation',
                   'Kerala monsoon season (July–August) considered optimal for Panchakarma absorption',
                   'Rela Institute & Medical Centre, Chennai — Sultan GHC MOU partner with integrative medicine program',
-                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 hospital with integrative wellness and yoga center',
+                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 hospital with integrative wellness and yoga center; MOU partner of Sultan GHC',
                   'Kairali Ayurvedic Health Village, Palakkad — government-recognized heritage wellness resort',
                   'AyurVAID Hospitals, Bangalore & Kerala — India\'s first NABH-accredited classical Ayurveda hospital',
                   'Ananda in the Himalayas, Rishikesh — internationally acclaimed destination spa with Ayurveda programs',
@@ -501,7 +501,7 @@ export default function WellnessAyurvedaPage() {
                   'AyurVAID Hospitals — India\'s first NABH-accredited classical Ayurveda hospital; evidence-based protocols',
                   'Ananda in the Himalayas, Rishikesh — internationally awarded destination for Ayurveda and yoga therapy',
                   'Rela Institute & Medical Centre, Chennai — integrative medicine with Ayurvedic support programs; Sultan GHC MOU partner',
-                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 hospital with integrative wellness and mind-body programs',
+                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 hospital with integrative wellness and mind-body programs; MOU partner of Sultan GHC',
                   'Kairali Ayurvedic Health Village — heritage wellness resort in Palakkad; full Panchakarma residential programs',
                   'India Medical e-Visa in 3–5 business days — valid for wellness stays up to 6 months',
                 ].map((pt) => (

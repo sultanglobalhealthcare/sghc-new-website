@@ -508,6 +508,7 @@ export default function GastroenterologyPage() {
               <ul className="space-y-3">
                 {[
                   'Asian Institute of Gastroenterology (Hyderabad) — one of Asia\'s largest dedicated GI centers',
+                  'Medanta — The Medicity, Gurugram — advanced hepatobiliary and GI surgery center; MOU partner of Sultan GHC',
                   'Rela Institute & Medical Centre Chennai — advanced hepatobiliary and GI surgery center; Sultan GHC MOU partner',
                   'High-definition colonoscopy with NBI (Narrow Band Imaging) for polyp detection at all partner hospitals',
                   'ERCP performed by therapeutic endoscopists trained at Mayo Clinic and UK tertiary GI centers',

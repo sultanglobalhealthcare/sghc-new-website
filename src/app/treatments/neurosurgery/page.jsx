@@ -532,6 +532,7 @@ export default function NeurosurgeryPage() {
                   'SEEG (Stereo-EEG) guided epilepsy surgery — available in India since 2019',
                   'Endoscopic pituitary surgery with neuroendoscopy units led by fellowship-trained surgeons',
                   'Neurosurgeons with MCh / FRCS credentials and training at UK NHS, Cleveland Clinic, and Mayo Clinic',
+                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; dedicated neurosurgery unit with iMRI and neuronavigation; MOU partner of Sultan GHC',
                   'Rela Institute, Chennai — NABH-accredited multi-organ specialty hospital; 450 beds; advanced neuro-critical care',
                   'India Medical e-Visa processed in 3–5 business days — valid for up to 6 months',
                 ].map((pt) => (

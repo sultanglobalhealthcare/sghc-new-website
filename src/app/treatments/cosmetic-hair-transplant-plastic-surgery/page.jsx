@@ -434,7 +434,7 @@ export default function CosmeticHairTransplantPlasticSurgeryPage() {
                   'Very low pricing for reconstructive procedures — breast reconstruction, scar surgery, flap surgery',
                                     'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
 'India Medical e-Visa in 3–5 business days; recovery-friendly serviced apartments near hospitals',
-                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ specialists across all major disciplines',
+                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ specialists across all major disciplines; MOU partner of Sultan GHC',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

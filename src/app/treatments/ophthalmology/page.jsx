@@ -434,6 +434,7 @@ export default function OphthalmologyPage() {
                   'Aravind Eye Hospital — 400,000+ surgeries/year with published clinical outcomes data; world benchmark for high-quality affordable eye care',
                   'Narayana Nethralaya (Bengaluru) — advanced refractive surgery, oculoplastics, and retina center',
                   'ZEISS VisuMax 800 SMILE, Alcon LenSx FLACS, and CONSTELLATION vitrectomy at partner hospitals',
+                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ multi-disciplinary specialists; MOU partner of Sultan GHC',
                                     'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
 'India Medical e-Visa in 3–5 days; 3–5 day LASIK/cataract trips fully coordinated by Sultan GHC',
                 ].map(pt => (

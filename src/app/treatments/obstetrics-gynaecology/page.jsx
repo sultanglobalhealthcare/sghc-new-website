@@ -549,7 +549,8 @@ export default function ObstetricsGynaecologyPage() {
                   'Manipal Hospitals — gynaecological oncology center with robotic radical hysterectomy and debulking for ovarian cancer',
                   'Gynaecologists trained at AIIMS Delhi, CMC Vellore, NIMHANS, and international programs (UK, USA, Germany)',
                   'NABH / JCI accreditation — international patient departments with English-speaking coordinators and 24-hour nursing',
-                                    'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
+                                    'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ multi-disciplinary specialists; MOU partner of Sultan GHC',
+                  'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
 'India Medical e-Visa in 3–5 business days; recovery accommodation near partner hospitals arranged by Sultan GHC',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">

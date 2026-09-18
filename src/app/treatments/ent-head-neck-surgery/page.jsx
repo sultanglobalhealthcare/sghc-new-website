@@ -435,6 +435,7 @@ export default function ENTHeadNeckSurgeryPage() {
                   'Fortis Memorial Gurugram — high-volume otology unit (tympanoplasty, stapedotomy, mastoidectomy, BAHA) and robotic thyroidectomy program',
                   'Manipal Hospital Bengaluru — comprehensive sleep medicine and surgery unit; DISE-guided sleep apnea surgical planning',
                   'ENT surgeons trained at AIIMS Delhi, CMC Vellore, and international programs (UK, USA, Germany) — many hold European fellowship qualifications',
+                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ multi-disciplinary specialists; MOU partner of Sultan GHC',
                                     'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
 'India Medical e-Visa in 3–5 business days; FESS and sinus procedures can be completed in 5–7 day trip',
                 ].map(pt => (

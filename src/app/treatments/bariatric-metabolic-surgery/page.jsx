@@ -459,7 +459,7 @@ export default function BariatricMetabolicSurgeryPage() {
                   'Saifee Hospital Mumbai — one of India\'s most experienced bariatric centers with dedicated bariatric ICU and multidisciplinary team',
                   'Apollo Bariatric Program — national network with dedicated weight management programs, pre-op dietitian assessment, and psychologist evaluation',
                   'Vikram Hospital Bengaluru — IFSO member; high-volume sleeve gastrectomy, bypass, and SADI-S with published outcomes data',
-                  'Medanta Medicity — advanced bariatric program including revision surgery, SADI-S, and robotic-assisted bariatric for complex cases',
+                  'Medanta Medicity, Gurugram — advanced bariatric program including revision surgery, SADI-S, and robotic-assisted bariatric for complex cases; MOU partner of Sultan GHC',
                   'All programs include: pre-op upper GI endoscopy, sleep study, cardiac clearance, dietitian, psychologist, and 3-week post-op teleconsult',
                   'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',
                   'Bariatric-specific vitamin and supplement packs (Indian equivalents of Celebrate or Bariatric Advantage) available at pharmacies',
