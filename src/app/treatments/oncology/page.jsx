@@ -540,7 +540,8 @@ export default function OncologyPage() {
                   'CAR-T cell therapy available at select centers',
                   'U.S.-trained oncologists with international publications',
                   'Ayurvedic and integrative supportive care available',
-                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; 800+ specialists across all major disciplines',
+                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; dedicated cancer institute with medical, surgical, and radiation oncology; MOU partner of Sultan GHC',
+                  'Rela Institute, Chennai — NABH-accredited multi-specialty hospital; advanced oncosurgery and hemato-oncology program; MOU partner of Sultan GHC',
                 ].map((p) => (
                   <li key={p} className="flex items-start gap-2.5 text-sm text-gray-300">
                     <CheckCircle2 size={14} className="text-primary mt-0.5 shrink-0" />

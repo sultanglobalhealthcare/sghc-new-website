@@ -470,12 +470,12 @@ export default function RoboticMinimallyInvasivePage() {
                 {[
                   'Apollo Hospital Chennai — India\'s highest-volume robotic center (da Vinci Xi); 3,000+ robotic procedures annually across urology, gynecology, and general surgery',
                   'Fortis Memorial Research Institute Gurugram — da Vinci Xi; robotic prostatectomy, hysterectomy, colectomy, and complex revision bariatric',
-                  'Medanta — The Medicity Gurugram — da Vinci Xi; dedicated robotic surgery program with full team credentialing and outcomes tracking',
+                  'Medanta — The Medicity Gurugram — da Vinci Xi; dedicated robotic surgery program with full team credentialing and outcomes tracking; MOU partner of Sultan GHC',
                   'Kokilaben Dhirubhai Ambani Hospital Mumbai — da Vinci Xi; robotic gynecology and urology; NABH-accredited with ISO certification',
                   'Manipal Hospital Bengaluru — da Vinci Si/Xi; robotic prostatectomy and robotic gynecology including radical hysterectomy for cervical cancer',
                   'Narayana Institute of Cardiac Sciences Bengaluru — da Vinci for robotic cardiac and thoracic surgery including robotic CABG and lobectomy',
                   'Tata Memorial Hospital Mumbai — select robotic procedures for oncological head-neck and thoracic surgery via government-run robotic program',
-                  'Rela Institute & Medical Centre Chennai — da Vinci robotic program for hepatobiliary, urological, and general surgery; Asia\'s largest liver transplant program by volume',
+                  'Rela Institute & Medical Centre Chennai — da Vinci robotic program for hepatobiliary, urological, and general surgery; Asia\'s largest liver transplant program by volume; MOU partner of Sultan GHC',
                 ].map(pt => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
                     <CheckCircle2 size={15} className="text-primary shrink-0 mt-0.5" />{pt}

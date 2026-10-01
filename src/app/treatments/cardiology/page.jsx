@@ -606,7 +606,8 @@ export default function CardiologyPage() {
                 {[
                   'Home to some of Asia\'s highest-volume cardiac surgery programs',
                   'Lowest cost for CABG, valve replacement, and heart transplant globally',
-                  'Fortis Escorts, Apollo, Medanta — among the world\'s top heart hospitals',
+                  'Fortis Escorts Heart Institute and Apollo Hospitals — among Asia\'s highest-volume cardiac surgery programs',
+                  'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; dedicated cardiac sciences institute with 100+ cardiologists; MOU partner of Sultan GHC',
                   'U.S.-trained cardiac surgeons performing 10,000+ cases annually',
                   'Most affordable TAVR and complex congenital repairs globally',
                   'Rela Institute, Chennai — NABH-accredited 450-bed multi-specialty hospital; MOU partner of Sultan GHC',

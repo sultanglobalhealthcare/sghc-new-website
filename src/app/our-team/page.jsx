@@ -287,7 +287,38 @@ const TEAM = [
         strip: 'bg-sky-200',
       },
 
-      // ── 10. Dr. Zeba I. Murtaza ──────────────────────────────────────────────
+      // ── 10. Dr. Zafar Nawab ──────────────────────────────────────────────────
+      {
+        name: 'Dr. Zafar Nawab',
+        image: '/team/dr-zafar-nawab.png',
+        credentials: 'MBBS, MS (ENT)',
+        title: 'Senior ENT Consultant',
+        ghcRole: 'Specialist Consultations, Second Opinions & Pre/Post-Treatment ENT Support for International Patients',
+        organization: 'Al Bashair General Hospital, Aseer Region, Saudi Arabia',
+        previousOrg: 'Aligarh Muslim University (AMU), India',
+        country: 'Saudi Arabia',
+        flag: 'sa',
+        degree: 'MBBS, MS (ENT) — Aligarh Muslim University (AMU)',
+        specialty: 'Ear & Hearing Disorders · Sinus & Nasal Conditions · Throat & Voice Disorders',
+        expertise: [
+          'Ear & Hearing Disorders',
+          'Sinus & Nasal Conditions',
+          'Throat & Voice Disorders',
+          'General ENT Care',
+          'ENT Procedures',
+          'Pre & Post-Treatment ENT Support',
+        ],
+        experience: '25+ Years',
+        languages: 'English, Hindi, Urdu',
+        highlight: 'Senior ENT Consultant with over 25 years of clinical experience, based at Al Bashair General Hospital, Saudi Arabia since 2002. AMU alumnus providing comprehensive ENT care and international patient guidance.',
+        accent: 'teal',
+        grad: 'from-teal-50 via-cyan-100 to-teal-100',
+        patternColor: 'bg-teal-200/60',
+        avatarText: 'text-teal-600',
+        strip: 'bg-teal-200',
+      },
+
+      // ── 11. Dr. Zeba I. Murtaza ──────────────────────────────────────────────
       {
         name: 'Dr. Zeba I. Murtaza',
         image: '',

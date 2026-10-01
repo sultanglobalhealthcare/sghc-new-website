@@ -533,7 +533,7 @@ export default function NeurosurgeryPage() {
                   'Endoscopic pituitary surgery with neuroendoscopy units led by fellowship-trained surgeons',
                   'Neurosurgeons with MCh / FRCS credentials and training at UK NHS, Cleveland Clinic, and Mayo Clinic',
                   'Medanta — The Medicity, Gurugram — Newsweek Top 250 World\'s Best Hospitals; dedicated neurosurgery unit with iMRI and neuronavigation; MOU partner of Sultan GHC',
-                  'Rela Institute, Chennai — NABH-accredited multi-organ specialty hospital; 450 beds; advanced neuro-critical care',
+                  'Rela Institute, Chennai — NABH-accredited multi-organ specialty hospital; 450 beds; advanced neuro-critical care; MOU partner of Sultan GHC',
                   'India Medical e-Visa processed in 3–5 business days — valid for up to 6 months',
                 ].map((pt) => (
                   <li key={pt} className="flex items-start gap-2.5 text-sm text-gray-600">
