@@ -98,7 +98,7 @@ const DESIGNATED_AIRPORTS = [
   'Lucknow (CSIA)', 'Jaipur (JAI)', 'Calicut (CCJ)', 'Guwahati (LGB)',
   'Varanasi (VNS)', 'Nagpur (NAG)', 'Coimbatore (CJB)', 'Mangalore (IXE)',
   'Visakhapatnam (VTZ)', 'Chandigarh (IXC)', 'Bhubaneswar (BBI)',
-  'Srinagar (SXR)', 'Trivendrum (TRV)',
+  'Srinagar (SXR)', 'Trivandrum (TRV)',
 ]
 
 const STEPS = [
