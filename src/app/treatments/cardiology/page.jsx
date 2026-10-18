@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
-import {
 import MedicalReviewBadge from '@/components/MedicalReviewBadge'
+import {
   ChevronRight,
   ArrowRight,
   Phone,

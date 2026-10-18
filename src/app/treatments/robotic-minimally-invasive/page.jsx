@@ -1,7 +1,7 @@
 import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection"
 import Link from 'next/link'
-import {
 import MedicalReviewBadge from '@/components/MedicalReviewBadge'
+import {
   ChevronRight, ArrowRight, Phone, MessageCircle,
   CheckCircle2, Activity, Shield, Users, ImageIcon, Star, Zap,
 } from 'lucide-react'

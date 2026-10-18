@@ -1,7 +1,7 @@
 import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 import Link from 'next/link'
-import {
 import MedicalReviewBadge from '@/components/MedicalReviewBadge'
+import {
   ChevronRight, ArrowRight, Phone, MessageCircle,
   CheckCircle2, Activity, AlertCircle,
   DollarSign, Shield, Users, Zap
