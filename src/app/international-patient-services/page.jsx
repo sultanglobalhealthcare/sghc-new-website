@@ -282,14 +282,13 @@ export default function InternationalPatientServicesPage() {
             </div>
 
             <div className="flex-1 w-full max-w-lg">
-              <ImagePlaceholder
-                filename="sultan-ghc-international-patient-services-coordinator-us-patients-india-turkey.jpg"
-                width={1200}
-                height={900}
-                label="Sultan GHC Case Manager helping a U.S. patient plan their international medical journey"
-                aiPrompt="Professional editorial photography: A friendly, professional female healthcare coordinator (30s, business casual attire) sitting across a desk from an American patient couple (60s). She is reviewing a tablet showing hospital options. On the desk are medical folders, a laptop showing hospital images, and a world map with India and Türkiye highlighted. The setting is a clean, bright modern office. Warm, reassuring lighting. Photorealistic, Canon R5, natural light."
-                aspectRatio="4/3"
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/sultan-ghc-international-patient-services-coordinator-us-patients-india-turkey.png"
+                  alt="Sultan GHC Case Manager helping a U.S. patient plan their international medical journey"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -433,14 +432,13 @@ export default function InternationalPatientServicesPage() {
           </div>
 
           <div className="flex-1 w-full max-w-lg">
-            <ImagePlaceholder
-              filename="american-patient-medical-tourism-india-turkey-sultan-ghc-support.jpg"
-              width={1200}
-              height={900}
-              label="American patient benefiting from affordable, high-quality medical care abroad through Sultan GHC"
-              aiPrompt="Warm, optimistic editorial photography: An American man (50s-60s) on a video call on his laptop, smiling with obvious relief. He is in a comfortable living room setting. The laptop screen shows a friendly doctor in a white coat in a modern hospital environment. On the coffee table is a medical folder and a printout of a cost comparison. Natural daylight. Authentic, not stock-photo-staged. Photorealistic, Canon R5."
-              aspectRatio="4/3"
-            />
+            <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+              <img
+                src="/american-patient-medical-tourism-india-turkey-sultan-ghc-support.png"
+                alt="American patient benefiting from affordable, high-quality medical care abroad through Sultan GHC"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
           </div>
         </div>
       </section>

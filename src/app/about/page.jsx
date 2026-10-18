@@ -167,14 +167,13 @@ export default function AboutPage() {
             </div>
 
             <div className="flex-1 w-full max-w-lg">
-              <ImagePlaceholder
-                filename="about-sultan-ghc-healthcare-concierge-team-usa-india-turkey.jpg"
-                width={1200}
-                height={900}
-                label="Sultan GHC team — U.S.-based global healthcare concierge"
-                aiPrompt="Professional corporate photography: A diverse, professional team of 4-5 healthcare coordinators in a modern, bright office setting in the United States. They are gathered around a table with laptops, looking confident and collaborative. The office has a premium, clean aesthetic. Some team members appear to be of South Asian and Middle Eastern heritage, reflecting the company's India and Türkiye network. Natural light, photorealistic, Canon R5."
-                aspectRatio="4/3"
-              />
+              <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+                <img
+                  src="/about-sultan-ghc-healthcare-concierge-team-usa-india-turkey.png"
+                  alt="Sultan GHC team — U.S.-based global healthcare concierge"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -208,14 +207,13 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-20">
         <div className="flex flex-col lg:flex-row gap-14 items-center">
           <div className="flex-1 w-full max-w-lg">
-            <ImagePlaceholder
-              filename="sultan-ghc-story-mission-global-healthcare-access-usa-patients.jpg"
-              width={1200}
-              height={900}
-              label="Sultan GHC mission — making global healthcare accessible for American patients"
-              aiPrompt="Professional concept photography: A warm, empathetic scene of a U.S.-based patient (60s, American appearance) on a video call with a doctor abroad, shown on a laptop screen. The patient looks relieved and hopeful. Clean home office setting, warm lighting. On the desk there is a passport, a medical folder, and a glass of water. Photorealistic, natural, editorial style."
-              aspectRatio="4/3"
-            />
+            <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
+              <img
+                src="/sultan-ghc-story-mission-global-healthcare-access-usa-patients.png"
+                alt="Sultan GHC mission — making global healthcare accessible for American patients"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
           </div>
 
           <div className="flex-1">

@@ -179,7 +179,7 @@ const HOSPITALS = [
     beds: '6,000+ Beds (network)',
     established: '2000',
     mou: false,
-    img: null,
+    img: '/hospitals/narayana-health-bengaluru-india.jpg',
     specialties: ['Cardiac Surgery', 'Robotic Cardiac Surgery', 'Oncology', 'Neurology', 'Kidney Transplant', 'Thoracic Surgery'],
     highlights: [
       'Narayana Institute of Cardiac Sciences performs 30–35 cardiac surgeries per day — among the highest in the world',
@@ -200,7 +200,7 @@ const HOSPITALS = [
     beds: '539+ Beds',
     established: '2006',
     mou: false,
-    img: null,
+    img: '/hospitals/max-super-speciality-hospital-saket-delhi-india.jpg',
     specialties: ['Cardiac Surgery', 'Orthopaedics', 'Neurology', 'Oncology', 'Bariatric Surgery', 'Liver Transplant'],
     highlights: [
       'Max liver transplant program: 2,600+ transplants since 2001 with 95%+ one-year survival rate',
