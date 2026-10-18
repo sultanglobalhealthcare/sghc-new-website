@@ -8,6 +8,13 @@ const nextConfig = {
       { source: '/free-consultation', destination: '/enquiry',         permanent: true },
       { source: '/visa-guide',        destination: '/visa-guide/india', permanent: false },
 
+      // ── Old treatment slugs (homepage cards used wrong URLs) ────────────────
+      { source: '/treatments/organ-transplants',        destination: '/treatments/organ-bone-marrow-transplant',             permanent: true },
+      { source: '/treatments/cosmetic-plastic-surgery', destination: '/treatments/cosmetic-hair-transplant-plastic-surgery', permanent: true },
+      { source: '/treatments/ivf-fertility',            destination: '/treatments/fertility-ivf',                            permanent: true },
+      { source: '/treatments/dental-care',              destination: '/treatments/dental-surgery-implant-dentistry',         permanent: true },
+      { source: '/treatments/wellness',                 destination: '/treatments/wellness-ayurveda',                        permanent: true },
+
       // ── Planned pages (redirect to nearest live equivalent) ─────────────────
       { source: '/blog',                              destination: '/faq',                    permanent: false },
       { source: '/resources/medical-tourism-guide',  destination: '/how-it-works',           permanent: false },
