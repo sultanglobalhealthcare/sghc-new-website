@@ -1,5 +1,5 @@
 // Next.js App Router sitemap — auto-served at /sitemap.xml
-// Covers all 47 public pages on sultanghc.com
+// Covers all 44 public pages on sultanghc.com
 
 const BASE = 'https://www.sultanghc.com'
 
@@ -71,7 +71,6 @@ export default function sitemap() {
     { url: `${BASE}/terms`,          lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE}/cookie-policy`,  lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE}/disclaimer`,     lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${BASE}/accessibility`,  lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
   ]
 
   return [...core, ...treatments, ...destinations, ...legal]
