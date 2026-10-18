@@ -1,68 +1,84 @@
-// Next.js App Router sitemap — auto-served at /sitemap.xml
-// lastModified dates reflect actual last commit date per page
+// ─────────────────────────────────────────────────────────────────────────────
+// Sultan GHC — XML Sitemap
+// Auto-served by Next.js at: https://www.sultanghc.com/sitemap.xml
+//
+// SECTIONS
+//   1. Core Pages          (10 URLs)
+//   2. Treatment Pages     (20 URLs)
+//   3. Hospitals & Network (10 URLs)
+//   4. Legal Pages          (4 URLs)
+//
+// TOTAL: 44 URLs
+//
+// HOW TO UPDATE
+//   When you add or edit a page, update its `lastModified` date below.
+//   Format: 'YYYY-MM-DD'
+// ─────────────────────────────────────────────────────────────────────────────
 
 const BASE = 'https://www.sultanghc.com'
 
+// Shorthand helper
+const page = (path, lastModified, priority, changeFrequency = 'monthly') => ({
+  url: `${BASE}${path}`,
+  lastModified,
+  changeFrequency,
+  priority,
+})
+
 export default function sitemap() {
-  /** Core pages */
-  const core = [
-    { url: `${BASE}/`,                               lastModified: '2026-08-14', changeFrequency: 'weekly',  priority: 1.0 },
-    { url: `${BASE}/treatments`,                     lastModified: '2026-08-22', changeFrequency: 'weekly',  priority: 0.9 },
-    { url: `${BASE}/enquiry`,                        lastModified: '2026-09-11', changeFrequency: 'monthly', priority: 0.95 },
-    { url: `${BASE}/contact`,                        lastModified: '2026-08-14', changeFrequency: 'monthly', priority: 0.9 },
-    { url: `${BASE}/how-it-works`,                   lastModified: '2026-08-20', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/why-sultan-ghc`,                 lastModified: '2026-08-14', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/about`,                          lastModified: '2026-10-18', changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE}/international-patient-services`, lastModified: '2026-10-18', changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE}/our-team`,                       lastModified: '2026-10-05', changeFrequency: 'monthly', priority: 0.75 },
-    { url: `${BASE}/faq`,                            lastModified: '2026-08-14', changeFrequency: 'monthly', priority: 0.8 },
-  ]
+  return [
 
-  /** Treatment pages */
-  const treatments = [
-    { url: `${BASE}/treatments/cardiology`,                           lastModified: '2026-10-01', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/oncology`,                             lastModified: '2026-10-01', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/neurology`,                            lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/neurosurgery`,                         lastModified: '2026-10-01', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/orthopedics`,                          lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/spine-sports-injury`,                  lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/gastroenterology`,                     lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/hepatology-liver-care`,                lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/pulmonology`,                          lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/urology`,                              lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/obstetrics-gynaecology`,               lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/fertility-ivf`,                        lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/ophthalmology`,                        lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/ent-head-neck-surgery`,                lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/bariatric-metabolic-surgery`,          lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/robotic-minimally-invasive`,           lastModified: '2026-10-01', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/organ-bone-marrow-transplant`,         lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/cosmetic-hair-transplant-plastic-surgery`, lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/dental-surgery-implant-dentistry`,     lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/treatments/wellness-ayurveda`,                    lastModified: '2026-09-18', changeFrequency: 'monthly', priority: 0.85 },
-  ]
+    // ── 1. CORE PAGES ─────────────────────────────────────────────────────────
+    page('/',                               '2026-08-14', 1.00, 'weekly'),
+    page('/treatments',                     '2026-08-22', 0.90, 'weekly'),
+    page('/enquiry',                        '2026-09-11', 0.95),
+    page('/contact',                        '2026-08-14', 0.90),
+    page('/how-it-works',                   '2026-08-20', 0.85),
+    page('/why-sultan-ghc',                 '2026-08-14', 0.85),
+    page('/about',                          '2026-10-18', 0.80),
+    page('/international-patient-services', '2026-10-18', 0.80),
+    page('/our-team',                       '2026-10-05', 0.75),
+    page('/faq',                            '2026-08-14', 0.80),
 
-  /** Destination & network pages */
-  const destinations = [
-    { url: `${BASE}/hospitals/india`,                         lastModified: '2026-10-18', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/hospitals/turkey`,                        lastModified: '2026-08-25', changeFrequency: 'monthly', priority: 0.85 },
-    { url: `${BASE}/destinations/india`,                      lastModified: '2026-09-10', changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE}/destinations/india/tourist-attractions`,  lastModified: '2026-09-10', changeFrequency: 'monthly', priority: 0.75 },
-    { url: `${BASE}/destinations/turkey`,                     lastModified: '2026-09-10', changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE}/destinations/turkey/tourist-attractions`, lastModified: '2026-09-10', changeFrequency: 'monthly', priority: 0.75 },
-    { url: `${BASE}/cost-savings/india`,                      lastModified: '2026-08-14', changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE}/cost-savings/turkey`,                     lastModified: '2026-08-14', changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE}/visa-guide/india`,                        lastModified: '2026-10-05', changeFrequency: 'monthly', priority: 0.75 },
-    { url: `${BASE}/visa-guide/turkey`,                       lastModified: '2026-08-14', changeFrequency: 'monthly', priority: 0.75 },
-  ]
+    // ── 2. TREATMENT PAGES ────────────────────────────────────────────────────
+    page('/treatments/cardiology',                            '2026-10-01', 0.85),
+    page('/treatments/oncology',                              '2026-10-01', 0.85),
+    page('/treatments/neurology',                             '2026-09-18', 0.85),
+    page('/treatments/neurosurgery',                          '2026-10-01', 0.85),
+    page('/treatments/orthopedics',                           '2026-09-18', 0.85),
+    page('/treatments/spine-sports-injury',                   '2026-09-18', 0.85),
+    page('/treatments/gastroenterology',                      '2026-09-18', 0.85),
+    page('/treatments/hepatology-liver-care',                 '2026-09-18', 0.85),
+    page('/treatments/pulmonology',                           '2026-09-18', 0.85),
+    page('/treatments/urology',                               '2026-09-18', 0.85),
+    page('/treatments/obstetrics-gynaecology',                '2026-09-18', 0.85),
+    page('/treatments/fertility-ivf',                         '2026-09-18', 0.85),
+    page('/treatments/ophthalmology',                         '2026-09-18', 0.85),
+    page('/treatments/ent-head-neck-surgery',                 '2026-09-18', 0.85),
+    page('/treatments/bariatric-metabolic-surgery',           '2026-09-18', 0.85),
+    page('/treatments/robotic-minimally-invasive',            '2026-10-01', 0.85),
+    page('/treatments/organ-bone-marrow-transplant',          '2026-09-18', 0.85),
+    page('/treatments/cosmetic-hair-transplant-plastic-surgery', '2026-09-18', 0.85),
+    page('/treatments/dental-surgery-implant-dentistry',      '2026-09-18', 0.85),
+    page('/treatments/wellness-ayurveda',                     '2026-09-18', 0.85),
 
-  /** Legal & compliance pages */
-  const legal = [
-    { url: `${BASE}/privacy-policy`, lastModified: '2026-08-14', changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${BASE}/terms`,          lastModified: '2026-08-14', changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${BASE}/cookie-policy`,  lastModified: '2026-08-04', changeFrequency: 'yearly', priority: 0.3 },
-    { url: `${BASE}/disclaimer`,     lastModified: '2026-08-04', changeFrequency: 'yearly', priority: 0.3 },
-  ]
+    // ── 3. HOSPITALS, DESTINATIONS & NETWORK ──────────────────────────────────
+    page('/hospitals/india',                        '2026-10-18', 0.85),
+    page('/hospitals/turkey',                       '2026-08-25', 0.85),
+    page('/destinations/india',                     '2026-09-10', 0.80),
+    page('/destinations/india/tourist-attractions', '2026-09-10', 0.75),
+    page('/destinations/turkey',                    '2026-09-10', 0.80),
+    page('/destinations/turkey/tourist-attractions','2026-09-10', 0.75),
+    page('/cost-savings/india',                     '2026-08-14', 0.80),
+    page('/cost-savings/turkey',                    '2026-08-14', 0.80),
+    page('/visa-guide/india',                       '2026-10-05', 0.75),
+    page('/visa-guide/turkey',                      '2026-08-14', 0.75),
 
-  return [...core, ...treatments, ...destinations, ...legal]
+    // ── 4. LEGAL PAGES ────────────────────────────────────────────────────────
+    page('/privacy-policy', '2026-08-14', 0.30, 'yearly'),
+    page('/terms',          '2026-08-14', 0.30, 'yearly'),
+    page('/cookie-policy',  '2026-08-04', 0.30, 'yearly'),
+    page('/disclaimer',     '2026-08-04', 0.30, 'yearly'),
+
+  ]
 }
