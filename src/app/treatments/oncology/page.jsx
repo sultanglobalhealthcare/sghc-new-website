@@ -95,8 +95,7 @@ const medicalSchema = {
       { '@type': 'MedicalTherapy', name: 'Bone Marrow Transplant' },
       { '@type': 'MedicalTherapy', name: 'Surgical Oncology' },
     ]
-  }
-,
+  },
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

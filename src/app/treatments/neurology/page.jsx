@@ -70,8 +70,7 @@ const medicalSchema = {
     name: 'Neurology',
     alternateName: ['Brain & Nervous System Medicine', 'Clinical Neurology'],
     relevantSpecialty: 'Neurology'
-  }
-,
+  },
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

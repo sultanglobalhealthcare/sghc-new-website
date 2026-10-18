@@ -70,8 +70,7 @@ const medicalSchema = {
     name: 'Hepatology',
     alternateName: ['Liver Medicine', 'Transplant Hepatology', 'Liver Disease'],
     relevantSpecialty: 'Gastroenterology'
-  }
-,
+  },
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

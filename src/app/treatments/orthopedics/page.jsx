@@ -96,8 +96,7 @@ const medicalSchema = {
       { '@type': 'MedicalTherapy', name: 'Hip Resurfacing' },
       { '@type': 'MedicalTherapy', name: 'Arthroscopy' },
     ]
-  }
-,
+  },
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

@@ -69,7 +69,6 @@ const medicalSchema = {
     alternateName: ['Organ Transplant', 'Bone Marrow Transplant', 'Stem Cell Transplant', 'Hematopoietic Stem Cell Transplantation'],
     relevantSpecialty: 'Transplant Medicine',
   },
-,
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

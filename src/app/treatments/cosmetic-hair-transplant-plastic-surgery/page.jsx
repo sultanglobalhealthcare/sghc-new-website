@@ -69,7 +69,6 @@ const medicalSchema = {
     alternateName: ['Cosmetic Surgery', 'Aesthetic Surgery', 'Hair Transplant', 'Reconstructive Surgery'],
     relevantSpecialty: 'Plastic Surgery',
   },
-,
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

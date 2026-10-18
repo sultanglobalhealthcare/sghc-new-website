@@ -60,7 +60,6 @@ const medicalSchema = {
   description: 'Comprehensive eye care including LASIK, cataract surgery, vitreoretinal procedures, corneal transplant, and glaucoma management for U.S. patients at world-renowned hospitals in India and Türkiye.',
   url: 'https://www.sultanghc.com/treatments/ophthalmology',
   about: { '@type': 'MedicalSpecialty', name: 'Ophthalmology', relevantSpecialty: 'Ophthalmology' },
-,
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

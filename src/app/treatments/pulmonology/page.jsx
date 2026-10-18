@@ -69,7 +69,6 @@ const medicalSchema = {
     alternateName: ['Respiratory Medicine', 'Pulmonary Medicine', 'Chest Medicine'],
     relevantSpecialty: 'Pulmonary Medicine',
   },
-,
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

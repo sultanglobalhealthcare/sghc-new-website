@@ -96,8 +96,7 @@ const medicalSchema = {
       { '@type': 'MedicalTherapy', name: 'Scoliosis Correction' },
       { '@type': 'MedicalTherapy', name: 'ACL Reconstruction' },
     ]
-  }
-,
+  },
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

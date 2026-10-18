@@ -59,7 +59,6 @@ const medicalSchema = {
   description: 'da Vinci robotic surgery for U.S. patients at JCI-accredited hospitals in India and Türkiye — RALP, robotic hysterectomy, robotic nephrectomy, robotic colectomy, robotic thyroidectomy, and more — coordinated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/robotic-minimally-invasive',
   about: { '@type': 'MedicalSpecialty', name: 'Robotic Surgery', alternateName: ['Minimally Invasive Surgery', 'da Vinci Surgery', 'Laparoscopic Surgery'], relevantSpecialty: 'General Surgery' },
-,
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

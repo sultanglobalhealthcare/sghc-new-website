@@ -70,7 +70,6 @@ const medicalSchema = {
     alternateName: ['Gynecological Surgery', 'Laparoscopic Gynecology', 'Reproductive Medicine'],
     relevantSpecialty: 'Obstetrics and Gynecology',
   },
-,
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

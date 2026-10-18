@@ -73,7 +73,6 @@ const medicalSchema = {
     alternateName: ['IVF', 'In Vitro Fertilization', 'Assisted Reproductive Technology', 'ART'],
     relevantSpecialty: 'Reproductive Medicine',
   },
-,
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

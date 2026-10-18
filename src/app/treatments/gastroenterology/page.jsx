@@ -70,8 +70,7 @@ const medicalSchema = {
     name: 'Gastroenterology',
     alternateName: ['Digestive Disease Medicine', 'GI Medicine', 'Gastrointestinal Endoscopy'],
     relevantSpecialty: 'Gastroenterology'
-  }
-,
+  },
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

@@ -99,8 +99,7 @@ const medicalSchema = {
       { '@type': 'MedicalTherapy', name: 'TAVR — Transcatheter Aortic Valve Replacement' },
       { '@type': 'MedicalTherapy', name: 'Cardiac Electrophysiology & Ablation' },
     ]
-  }
-,
+  },
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

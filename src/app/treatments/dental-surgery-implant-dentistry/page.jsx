@@ -98,8 +98,7 @@ const medicalSchema = {
       { '@type': 'MedicalTherapy', name: 'Full Mouth Rehabilitation' },
       { '@type': 'MedicalTherapy', name: 'Dental Crowns and Bridges' },
     ]
-  }
-,
+  },
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

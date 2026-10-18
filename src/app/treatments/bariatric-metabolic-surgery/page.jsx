@@ -59,7 +59,6 @@ const medicalSchema = {
   description: 'Sleeve gastrectomy, gastric bypass, mini gastric bypass, SADI-S, and revision bariatric surgery for U.S. patients at accredited bariatric centers in India and Türkiye, coordinated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/bariatric-metabolic-surgery',
   about: { '@type': 'MedicalSpecialty', name: 'Bariatric Surgery', alternateName: ['Weight Loss Surgery', 'Metabolic Surgery', 'Obesity Surgery'], relevantSpecialty: 'General Surgery' },
-,
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

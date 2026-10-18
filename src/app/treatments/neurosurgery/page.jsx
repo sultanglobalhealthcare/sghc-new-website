@@ -70,8 +70,7 @@ const medicalSchema = {
     name: 'Neurosurgery',
     alternateName: ['Brain Surgery', 'Neurological Surgery', 'Spine Neurosurgery'],
     relevantSpecialty: 'Neurosurgery'
-  }
-,
+  },
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

@@ -69,7 +69,6 @@ const medicalSchema = {
     alternateName: ['Urological Surgery', 'Kidney Disease', 'Prostate Surgery'],
     relevantSpecialty: 'Urology',
   },
-,
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',

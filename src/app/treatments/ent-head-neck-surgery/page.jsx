@@ -59,7 +59,6 @@ const medicalSchema = {
   description: 'Cochlear implants, FESS, thyroidectomy, head and neck oncology, sleep apnea surgery, and hearing rehabilitation for U.S. patients at JCI-accredited hospitals in India and Türkiye.',
   url: 'https://www.sultanghc.com/treatments/ent-head-neck-surgery',
   about: { '@type': 'MedicalSpecialty', name: 'Otolaryngology', alternateName: ['ENT', 'Head and Neck Surgery'], relevantSpecialty: 'Otolaryngology' },
-,
   reviewedBy: {
     '@type': 'Person',
     name: 'Dr. Nasar A. Sultan',
