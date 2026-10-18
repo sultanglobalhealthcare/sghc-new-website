@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/landing/Navbar";
 import Footer from "@/landing/Footer";
 import WhatsAppButton from "@/landing/WhatsAppButton";
+import MobileCTA from "@/components/MobileCTA";
 import Script from "next/script";
 
 const montserrat = Montserrat({
@@ -22,18 +23,6 @@ export const metadata = {
   },
   description:
     'Sultan Global Health Care (SGHC) is a United States-based medical tourism concierge connecting U.S. patients with JCI-accredited hospitals and specialist doctors in India and Türkiye. Save 60–80% on world-class medical treatment.',
-  keywords: [
-    'medical tourism USA',
-    'medical tourism India',
-    'medical tourism Türkiye',
-    'affordable healthcare abroad',
-    'JCI accredited hospitals India',
-    'Sultan GHC',
-    'medical concierge United States',
-    'international patient services',
-    'healthcare abroad for Americans',
-    'medical travel company',
-  ],
   authors: [{ name: 'Sultan Global Health Care', url: 'https://www.sultanghc.com' }],
   creator: 'Sultan Global Health Care',
   metadataBase: new URL('https://www.sultanghc.com'),
@@ -72,10 +61,14 @@ export const metadata = {
     },
   },
   icons: {
-    icon: '/favicon.png',
-    shortcut: '/favicon.png',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.png', type: 'image/png' },
+    ],
+    shortcut: '/favicon.ico',
     apple: '/favicon.png',
   },
+  manifest: '/manifest.json',
 };
 
 const organizationSchema = {
@@ -84,13 +77,16 @@ const organizationSchema = {
   '@id': 'https://www.sultanghc.com/#organization',
   name: 'Sultan Global Health Care',
   alternateName: 'Sultan GHC',
+  description:
+    'U.S.-based medical tourism concierge connecting American patients with JCI-accredited hospitals in India and Türkiye. Sultan GHC is a facilitator, not a hospital or clinic.',
   url: 'https://www.sultanghc.com',
   logo: 'https://www.sultanghc.com/sghc-new-logo.png',
-  description:
-    'Sultan Global Health Care (SGHC) is a United States-based medical tourism concierge connecting U.S. patients with JCI-accredited hospitals and specialist doctors in India and Türkiye.',
+  telephone: '+1-610-787-0713',
+  email: 'info@sultanghc.com',
   address: {
     '@type': 'PostalAddress',
     addressCountry: 'US',
+    addressRegion: 'PA',
   },
   contactPoint: [
     {
@@ -101,11 +97,25 @@ const organizationSchema = {
       availableLanguage: 'English',
     },
   ],
+  founder: {
+    '@type': 'Person',
+    name: 'Dr. Nasar A. Sultan',
+    jobTitle: 'Founder & CEO',
+  },
+  foundingDate: '2020',
+  areaServed: 'US',
+  knowsAbout: [
+    'Medical tourism',
+    'Healthcare facilitation',
+    'India hospitals',
+    'Turkey hospitals',
+    'JCI accreditation',
+  ],
   sameAs: [
     'https://www.instagram.com/sultanglobalhealthcare/',
     'https://www.facebook.com/sultanglobalhealthcare/',
+    'https://www.linkedin.com/company/sultan-global-health-care',
   ],
-  areaServed: ['US', 'IN', 'TR'],
   serviceType: 'Medical Tourism Facilitation',
 }
 
@@ -162,9 +172,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
         <Navbar/>
-        {children}
+        <div className="pb-[52px] md:pb-0">
+          {children}
+        </div>
         <Footer/>
         <WhatsAppButton />
+        <MobileCTA />
       </body>
     </html>
   );

@@ -7,6 +7,13 @@ export const metadata = {
     'Cookie policy for Sultan Global Health Care — how we use cookies and tracking technologies on our website, what data is collected, and how to manage your cookie preferences.',
   alternates: { canonical: 'https://www.sultanghc.com/cookie-policy' },
   robots: { index: true, follow: true },
+  openGraph: {
+    title: 'Cookie Policy | Sultan GHC — Sultan Global Health Care',
+    description: 'Cookie policy for Sultan Global Health Care — how we use cookies and tracking technologies on our website.',
+    url: 'https://www.sultanghc.com/cookie-policy',
+    siteName: 'Sultan Global Health Care',
+    type: 'website',
+  },
 }
 
 const LAST_UPDATED = 'August 1, 2025'

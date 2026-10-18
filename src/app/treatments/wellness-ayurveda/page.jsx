@@ -67,7 +67,16 @@ const medicalSchema = {
     jobTitle: 'Medical Director, Sultan GHC',
     url: 'https://www.sultanghc.com/our-team',
   },
-  dateReviewed: '2026-10-02',
+  lastReviewed: '2026-10-01',
+  medicalAudience: {
+    '@type': 'MedicalAudience',
+    audienceType: 'Patient',
+    healthCondition: { '@type': 'MedicalCondition', name: 'General Health' },
+  },
+  mentions: {
+    '@type': 'MedicalProcedure',
+    name: 'Ayurveda & Wellness',
+  },
 }
 
 const faqSchema = {

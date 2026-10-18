@@ -1,0 +1,21 @@
+{
+  "name": "Sultan Global Health Care",
+  "short_name": "Sultan GHC",
+  "description": "U.S.-Based Medical Tourism Concierge — JCI-Accredited Hospitals in India & Türkiye",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#4793F3",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

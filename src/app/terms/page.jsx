@@ -7,6 +7,13 @@ export const metadata = {
     'Terms and conditions governing your use of Sultan Global Health Care services. Sultan GHC is a healthcare facilitation company — not a medical provider. Read these terms carefully before engaging our services.',
   alternates: { canonical: 'https://www.sultanghc.com/terms' },
   robots: { index: true, follow: true },
+  openGraph: {
+    title: 'Terms & Conditions | Sultan GHC — Sultan Global Health Care',
+    description: 'Terms and conditions governing your use of Sultan Global Health Care services. Sultan GHC is a healthcare facilitation company — not a medical provider.',
+    url: 'https://www.sultanghc.com/terms',
+    siteName: 'Sultan Global Health Care',
+    type: 'website',
+  },
 }
 
 const LAST_UPDATED = 'August 1, 2025'

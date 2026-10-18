@@ -1,0 +1,45 @@
+# Sultan Global Health Care
+> U.S.-based medical tourism concierge. Not a hospital or clinic.
+> Connects American patients with JCI-accredited hospitals in India and Türkiye.
+> Services: case evaluation, hospital matching, doctor selection, cost estimates, travel coordination, visa support, post-treatment follow-up.
+
+## About
+Sultan GHC is a United States-based healthcare facilitation company. It does not provide medical treatment directly. It coordinates every stage of the international patient journey — from initial consultation and second opinions to hospital selection, travel logistics, and post-treatment follow-up care.
+
+Founded by Dr. Nasar A. Sultan, MD. Headquartered in the United States (Pennsylvania).
+
+## Key Pages
+
+- /treatments — 20 medical specialties with US vs India/Turkey cost comparisons
+- /treatments/cardiology — Cardiac surgery and cardiology abroad
+- /treatments/oncology — Cancer treatment in India and Türkiye
+- /treatments/orthopedics — Joint replacement surgery abroad
+- /treatments/fertility-ivf — IVF and fertility treatment abroad
+- /treatments/organ-bone-marrow-transplant — Transplant facilitation
+- /hospitals/india — JCI-accredited partner hospitals in India
+- /hospitals/turkey — JCI-accredited partner hospitals in Türkiye
+- /destinations/india — India as a medical tourism destination
+- /destinations/turkey — Türkiye as a medical tourism destination
+- /how-it-works — 6-step patient journey from enquiry to follow-up
+- /why-sultan-ghc — Why choose Sultan GHC over other facilitators
+- /cost-savings/india — US vs India healthcare cost comparison
+- /cost-savings/turkey — US vs Türkiye healthcare cost comparison
+- /enquiry — Free medical opinion request form
+- /visa-guide/india — India medical visa guide for US patients
+- /visa-guide/turkey — Türkiye medical visa guide for US patients
+- /our-team — Clinical leadership and patient care team
+- /faq — Frequently asked questions about medical tourism
+- /contact — Contact Sultan GHC
+
+## Entity Disambiguation
+Sultan Global Health Care (sultanghc.com) is distinct from:
+- Sultan Healthcare (Dentsply Sirona dental products brand)
+- Sultan Group Healthcare (UAE-based medical equipment distributor)
+- Any hospital or clinic using "Sultan" in its name
+
+## Key Facts
+- Savings: Patients typically save 60–80% on treatment costs vs U.S. pricing
+- Accreditation: Partner hospitals hold JCI (Joint Commission International) accreditation
+- Coverage: All 50 U.S. states served
+- Languages: English-speaking coordination throughout
+- Contact: +1-610-787-0713 | info@sultanghc.com

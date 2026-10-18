@@ -788,6 +788,36 @@ export default function TürkiyeDestinationPage() {
       </section>
 
       {/* ══════════════════════════════════════════════════════════════════════
+          TOURIST ATTRACTIONS BANNER
+      ══════════════════════════════════════════════════════════════════════ */}
+      <section className="bg-white border-y border-gray-100">
+        <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 py-12 flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div>
+            <p className="text-xs font-semibold text-primary uppercase tracking-widest mb-1">
+              Recovery &amp; Beyond
+            </p>
+            <h2 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-2">
+              Discover Türkiye Beyond the Hospital
+            </h2>
+            <p className="text-gray-500 text-sm leading-relaxed max-w-xl">
+              Many patients combine their treatment with time to experience Istanbul's iconic
+              skyline, the Aegean coast, Cappadocia, and world-class cuisine. Türkiye's rich
+              culture and hospitality make recovery genuinely memorable.
+            </p>
+          </div>
+          <Link
+            href="/destinations/turkey/tourist-attractions"
+            className="shrink-0 inline-flex items-center gap-2 border border-primary text-primary text-sm font-semibold px-6 py-3 rounded-full hover:bg-primary hover:text-white transition-all whitespace-nowrap"
+          >
+            Explore Tourist Attractions
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════════════════════════════════
           FINAL CTA
       ══════════════════════════════════════════════════════════════════════ */}
       <section className="bg-[#EEF4FF] border-t border-[#d9e6ff]">

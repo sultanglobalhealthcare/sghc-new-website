@@ -7,6 +7,13 @@ export const metadata = {
     'Sultan Global Health Care privacy policy — how we collect, use, store, and protect your personal and health information. Covers HIPAA context, CCPA rights, and international data transfers.',
   alternates: { canonical: 'https://www.sultanghc.com/privacy-policy' },
   robots: { index: true, follow: true },
+  openGraph: {
+    title: 'Privacy Policy | Sultan GHC — Sultan Global Health Care',
+    description: 'Sultan Global Health Care privacy policy — how we collect, use, store, and protect your personal and health information.',
+    url: 'https://www.sultanghc.com/privacy-policy',
+    siteName: 'Sultan Global Health Care',
+    type: 'website',
+  },
 }
 
 const LAST_UPDATED = 'August 1, 2025'

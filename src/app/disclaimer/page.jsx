@@ -7,6 +7,13 @@ export const metadata = {
     'Important disclaimers from Sultan Global Health Care (SGHC). Sultan GHC is a healthcare facilitation company — not a hospital, clinic, or licensed medical provider. Read our full disclaimer before using our services.',
   alternates: { canonical: 'https://www.sultanghc.com/disclaimer' },
   robots: { index: true, follow: true },
+  openGraph: {
+    title: 'Disclaimer | Sultan GHC — Sultan Global Health Care',
+    description: 'Important disclaimers from Sultan Global Health Care. Sultan GHC is a healthcare facilitation company — not a hospital, clinic, or licensed medical provider.',
+    url: 'https://www.sultanghc.com/disclaimer',
+    siteName: 'Sultan Global Health Care',
+    type: 'website',
+  },
 }
 
 const LAST_UPDATED = 'August 1, 2025'
