@@ -1,6 +1,7 @@
 import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection"
 import Link from 'next/link'
 import {
+import MedicalReviewBadge from '@/components/MedicalReviewBadge'
   ChevronRight, ArrowRight, Phone, MessageCircle,
   CheckCircle2, Activity, AlertCircle,
   Shield, Users, ImageIcon,
@@ -68,6 +69,14 @@ const medicalSchema = {
     alternateName: ['Organ Transplant', 'Bone Marrow Transplant', 'Stem Cell Transplant', 'Hematopoietic Stem Cell Transplantation'],
     relevantSpecialty: 'Transplant Medicine',
   },
+,
+  reviewedBy: {
+    '@type': 'Person',
+    name: 'Dr. Nasar A. Sultan',
+    jobTitle: 'Medical Director, Sultan GHC',
+    url: 'https://www.sultanghc.com/our-team',
+  },
+  dateReviewed: '2026-10-02',
 }
 
 const faqSchema = {
@@ -312,6 +321,9 @@ export default function OrganBoneMarrowTransplantPage() {
           </div>
         </div>
       </section>
+      {/* ── Medical Review Badge (E-E-A-T) ── */}
+      <MedicalReviewBadge date="October 2, 2026" />
+
 
       {/* Transplant Types */}
       <section className="bg-white py-16 sm:py-20">

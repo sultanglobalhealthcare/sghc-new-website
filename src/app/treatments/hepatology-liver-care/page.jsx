@@ -1,6 +1,7 @@
 import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 import Link from 'next/link'
 import {
+import MedicalReviewBadge from '@/components/MedicalReviewBadge'
   ChevronRight, ArrowRight, Phone, MessageCircle,
   CheckCircle2, Activity, AlertCircle,
   Shield, Users, TrendingDown
@@ -70,6 +71,14 @@ const medicalSchema = {
     alternateName: ['Liver Medicine', 'Transplant Hepatology', 'Liver Disease'],
     relevantSpecialty: 'Gastroenterology'
   }
+,
+  reviewedBy: {
+    '@type': 'Person',
+    name: 'Dr. Nasar A. Sultan',
+    jobTitle: 'Medical Director, Sultan GHC',
+    url: 'https://www.sultanghc.com/our-team',
+  },
+  dateReviewed: '2026-10-02',
 }
 
 const faqSchema = {
@@ -361,6 +370,9 @@ export default function HepatologyPage() {
           </div>
         </div>
       </section>
+      {/* ── Medical Review Badge (E-E-A-T) ── */}
+      <MedicalReviewBadge date="October 2, 2026" />
+
 
       {/* ── Gastroenterology link ── */}
       <section className="bg-blue-50 border-b border-blue-100">

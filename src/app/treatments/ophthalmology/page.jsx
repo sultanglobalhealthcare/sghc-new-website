@@ -1,6 +1,7 @@
 import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection"
 import Link from 'next/link'
 import {
+import MedicalReviewBadge from '@/components/MedicalReviewBadge'
   ChevronRight, ArrowRight, Phone, MessageCircle,
   CheckCircle2, Activity, Shield, Users, ImageIcon, Star,
 } from 'lucide-react'
@@ -59,6 +60,14 @@ const medicalSchema = {
   description: 'Comprehensive eye care including LASIK, cataract surgery, vitreoretinal procedures, corneal transplant, and glaucoma management for U.S. patients at world-renowned hospitals in India and Türkiye.',
   url: 'https://www.sultanghc.com/treatments/ophthalmology',
   about: { '@type': 'MedicalSpecialty', name: 'Ophthalmology', relevantSpecialty: 'Ophthalmology' },
+,
+  reviewedBy: {
+    '@type': 'Person',
+    name: 'Dr. Nasar A. Sultan',
+    jobTitle: 'Medical Director, Sultan GHC',
+    url: 'https://www.sultanghc.com/our-team',
+  },
+  dateReviewed: '2026-10-02',
 }
 
 const faqSchema = {
@@ -328,6 +337,9 @@ export default function OphthalmologyPage() {
           </div>
         </div>
       </section>
+      {/* ── Medical Review Badge (E-E-A-T) ── */}
+      <MedicalReviewBadge date="October 2, 2026" />
+
 
       {/* Conditions */}
       <section className="bg-gray-50 py-16 sm:py-20">

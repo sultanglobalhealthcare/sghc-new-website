@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 import {
+import MedicalReviewBadge from '@/components/MedicalReviewBadge'
   ChevronRight,
   ArrowRight,
   Phone,
@@ -99,6 +100,14 @@ const medicalSchema = {
       { '@type': 'MedicalTherapy', name: 'Cardiac Electrophysiology & Ablation' },
     ]
   }
+,
+  reviewedBy: {
+    '@type': 'Person',
+    name: 'Dr. Nasar A. Sultan',
+    jobTitle: 'Medical Director, Sultan GHC',
+    url: 'https://www.sultanghc.com/our-team',
+  },
+  dateReviewed: '2026-10-02',
 }
 
 const faqSchema = {
@@ -369,6 +378,9 @@ export default function CardiologyPage() {
           </div>
         </div>
       </section>
+      {/* ── Medical Review Badge (E-E-A-T) ── */}
+      <MedicalReviewBadge date="October 2, 2026" />
+
 
       {/* ── Stats Bar ── */}
       <section className="bg-white border-b border-gray-100" aria-label="Key statistics">

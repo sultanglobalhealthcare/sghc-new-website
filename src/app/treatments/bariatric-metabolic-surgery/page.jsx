@@ -1,6 +1,7 @@
 import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection"
 import Link from 'next/link'
 import {
+import MedicalReviewBadge from '@/components/MedicalReviewBadge'
   ChevronRight, ArrowRight, Phone, MessageCircle,
   CheckCircle2, Activity, AlertCircle, Shield, Users, ImageIcon, Star,
 } from 'lucide-react'
@@ -58,6 +59,14 @@ const medicalSchema = {
   description: 'Sleeve gastrectomy, gastric bypass, mini gastric bypass, SADI-S, and revision bariatric surgery for U.S. patients at accredited bariatric centers in India and Türkiye, coordinated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/bariatric-metabolic-surgery',
   about: { '@type': 'MedicalSpecialty', name: 'Bariatric Surgery', alternateName: ['Weight Loss Surgery', 'Metabolic Surgery', 'Obesity Surgery'], relevantSpecialty: 'General Surgery' },
+,
+  reviewedBy: {
+    '@type': 'Person',
+    name: 'Dr. Nasar A. Sultan',
+    jobTitle: 'Medical Director, Sultan GHC',
+    url: 'https://www.sultanghc.com/our-team',
+  },
+  dateReviewed: '2026-10-02',
 }
 
 const faqSchema = {
@@ -315,6 +324,9 @@ export default function BariatricMetabolicSurgeryPage() {
           </div>
         </div>
       </section>
+      {/* ── Medical Review Badge (E-E-A-T) ── */}
+      <MedicalReviewBadge date="October 2, 2026" />
+
 
       {/* Trust bar */}
       <section className="bg-white py-10 border-b border-gray-100">

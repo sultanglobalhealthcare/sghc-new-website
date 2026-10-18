@@ -1,6 +1,7 @@
 import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 import Link from 'next/link'
 import {
+import MedicalReviewBadge from '@/components/MedicalReviewBadge'
   ChevronRight, ArrowRight, Phone, MessageCircle,
   CheckCircle2, Leaf, Heart, Shield, Star, DollarSign,
   Activity, Clock, Users
@@ -60,6 +61,13 @@ const medicalSchema = {
   name: 'Ayurveda & Holistic Wellness',
   description: 'Traditional Indian system of medicine including Panchakarma detoxification, herbal therapy, yoga, and naturopathy for preventive health and chronic disease management.',
   relevantSpecialty: { '@type': 'MedicalSpecialty', name: 'Integrative Medicine' },
+  reviewedBy: {
+    '@type': 'Person',
+    name: 'Dr. Nasar A. Sultan',
+    jobTitle: 'Medical Director, Sultan GHC',
+    url: 'https://www.sultanghc.com/our-team',
+  },
+  dateReviewed: '2026-10-02',
 }
 
 const faqSchema = {
@@ -316,6 +324,9 @@ export default function WellnessAyurvedaPage() {
           </div>
         </div>
       </section>
+      {/* ── Medical Review Badge (E-E-A-T) ── */}
+      <MedicalReviewBadge date="October 2, 2026" />
+
 
       {/* ── Stats Bar ── */}
       <section className="bg-white border-b border-gray-100">

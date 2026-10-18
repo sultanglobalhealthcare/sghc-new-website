@@ -1,6 +1,7 @@
 import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection"
 import Link from 'next/link'
 import {
+import MedicalReviewBadge from '@/components/MedicalReviewBadge'
   ChevronRight, ArrowRight, Phone, MessageCircle,
   CheckCircle2, Activity, Shield, Users, ImageIcon, Star,
 } from 'lucide-react'
@@ -58,6 +59,14 @@ const medicalSchema = {
   description: 'Cochlear implants, FESS, thyroidectomy, head and neck oncology, sleep apnea surgery, and hearing rehabilitation for U.S. patients at JCI-accredited hospitals in India and Türkiye.',
   url: 'https://www.sultanghc.com/treatments/ent-head-neck-surgery',
   about: { '@type': 'MedicalSpecialty', name: 'Otolaryngology', alternateName: ['ENT', 'Head and Neck Surgery'], relevantSpecialty: 'Otolaryngology' },
+,
+  reviewedBy: {
+    '@type': 'Person',
+    name: 'Dr. Nasar A. Sultan',
+    jobTitle: 'Medical Director, Sultan GHC',
+    url: 'https://www.sultanghc.com/our-team',
+  },
+  dateReviewed: '2026-10-02',
 }
 
 const faqSchema = {
@@ -325,6 +334,9 @@ export default function ENTHeadNeckSurgeryPage() {
           </div>
         </div>
       </section>
+      {/* ── Medical Review Badge (E-E-A-T) ── */}
+      <MedicalReviewBadge date="October 2, 2026" />
+
 
       {/* Conditions */}
       <section className="bg-gray-50 py-16 sm:py-20">

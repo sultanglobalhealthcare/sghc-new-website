@@ -1,6 +1,7 @@
 import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection"
 import Link from 'next/link'
 import {
+import MedicalReviewBadge from '@/components/MedicalReviewBadge'
   ChevronRight, ArrowRight, Phone, MessageCircle,
   CheckCircle2, Activity, Shield, Users, ImageIcon, Star, Zap,
 } from 'lucide-react'
@@ -58,6 +59,14 @@ const medicalSchema = {
   description: 'da Vinci robotic surgery for U.S. patients at JCI-accredited hospitals in India and Türkiye — RALP, robotic hysterectomy, robotic nephrectomy, robotic colectomy, robotic thyroidectomy, and more — coordinated by Sultan GHC.',
   url: 'https://www.sultanghc.com/treatments/robotic-minimally-invasive',
   about: { '@type': 'MedicalSpecialty', name: 'Robotic Surgery', alternateName: ['Minimally Invasive Surgery', 'da Vinci Surgery', 'Laparoscopic Surgery'], relevantSpecialty: 'General Surgery' },
+,
+  reviewedBy: {
+    '@type': 'Person',
+    name: 'Dr. Nasar A. Sultan',
+    jobTitle: 'Medical Director, Sultan GHC',
+    url: 'https://www.sultanghc.com/our-team',
+  },
+  dateReviewed: '2026-10-02',
 }
 
 const faqSchema = {
@@ -314,6 +323,9 @@ export default function RoboticMinimallyInvasivePage() {
           </div>
         </div>
       </section>
+      {/* ── Medical Review Badge (E-E-A-T) ── */}
+      <MedicalReviewBadge date="October 2, 2026" />
+
 
       {/* Trust bar */}
       <section className="bg-white py-10 border-b border-gray-100">

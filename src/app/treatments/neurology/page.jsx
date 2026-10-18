@@ -1,6 +1,7 @@
 import PartnerHospitalsSection from "@/landing/PartnerHospitalsSection";
 import Link from 'next/link'
 import {
+import MedicalReviewBadge from '@/components/MedicalReviewBadge'
   ChevronRight, ArrowRight, Phone, MessageCircle,
   CheckCircle2, Brain, Activity, AlertCircle,
   DollarSign, Shield, Users
@@ -70,6 +71,14 @@ const medicalSchema = {
     alternateName: ['Brain & Nervous System Medicine', 'Clinical Neurology'],
     relevantSpecialty: 'Neurology'
   }
+,
+  reviewedBy: {
+    '@type': 'Person',
+    name: 'Dr. Nasar A. Sultan',
+    jobTitle: 'Medical Director, Sultan GHC',
+    url: 'https://www.sultanghc.com/our-team',
+  },
+  dateReviewed: '2026-10-02',
 }
 
 const faqSchema = {
@@ -340,6 +349,9 @@ export default function NeurologyPage() {
           </div>
         </div>
       </section>
+      {/* ── Medical Review Badge (E-E-A-T) ── */}
+      <MedicalReviewBadge date="October 2, 2026" />
+
 
       {/* ── Neurology vs Neurosurgery callout ── */}
       <section className="bg-blue-50 border-b border-blue-100">
