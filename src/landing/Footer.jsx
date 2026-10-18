@@ -1,7 +1,9 @@
 'use client'
 
 import { useState } from 'react'
+import { pushPhoneCall, pushWhatsAppClick } from '@/lib/gtm'
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   Phone, Mail, MapPin, Clock, MessageCircle,
   Facebook, Instagram, Twitter, Linkedin, Youtube,
@@ -132,9 +134,11 @@ const Footer = () => {
 
           {/* Brand column — wider */}
           <div className="lg:col-span-3 space-y-5">
-            <img
+            <Image
               src="/sghc-new-logo.png"
               alt="Sultan Global Health Care"
+              width={160}
+              height={40}
               className="h-10 w-auto brightness-0 invert"
             />
             <p className="text-sm text-gray-400 leading-relaxed max-w-xs">
@@ -245,7 +249,7 @@ const Footer = () => {
                   <MapPin size={14} className="text-primary mt-0.5 shrink-0" />
                   <span>United States (USA) — serving patients nationwide</span>
                 </div>
-                <a href="tel:+16107870713" className="flex items-center gap-2 hover:text-white transition-colors">
+                <a href="tel:+16107870713" onClick={() => pushPhoneCall({ location: 'footer' })} className="flex items-center gap-2 hover:text-white transition-colors">
                   <Phone size={14} className="text-primary shrink-0" />
                   +1-610-787-0713
                 </a>
@@ -257,6 +261,7 @@ const Footer = () => {
                   href="https://wa.me/16107870713"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => pushWhatsAppClick({ location: 'footer' })}
                   className="flex items-center gap-2 hover:text-white transition-colors"
                 >
                   {/* WhatsApp brand icon */}

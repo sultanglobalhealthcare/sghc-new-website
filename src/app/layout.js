@@ -81,6 +81,7 @@ export const metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalOrganization',
+  '@id': 'https://www.sultanghc.com/#organization',
   name: 'Sultan Global Health Care',
   alternateName: 'Sultan GHC',
   url: 'https://www.sultanghc.com',
@@ -100,7 +101,10 @@ const organizationSchema = {
       availableLanguage: 'English',
     },
   ],
-  sameAs: [],
+  sameAs: [
+    'https://www.instagram.com/sultanglobalhealthcare/',
+    'https://www.facebook.com/sultanglobalhealthcare/',
+  ],
   areaServed: ['US', 'IN', 'TR'],
   serviceType: 'Medical Tourism Facilitation',
 }

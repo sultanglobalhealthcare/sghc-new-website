@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   ChevronRight,
   ArrowRight,
@@ -283,10 +284,12 @@ export default function InternationalPatientServicesPage() {
 
             <div className="flex-1 w-full max-w-lg">
               <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
-                <img
+                <Image
                   src="/sultan-ghc-international-patient-services-coordinator-us-patients-india-turkey.png"
                   alt="Sultan GHC Case Manager helping a U.S. patient plan their international medical journey"
-                  className="w-full h-full object-cover object-center"
+                  fill
+                  className="object-cover object-center"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
             </div>
@@ -433,10 +436,12 @@ export default function InternationalPatientServicesPage() {
 
           <div className="flex-1 w-full max-w-lg">
             <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] relative">
-              <img
+              <Image
                 src="/american-patient-medical-tourism-india-turkey-sultan-ghc-support.png"
                 alt="American patient benefiting from affordable, high-quality medical care abroad through Sultan GHC"
-                className="w-full h-full object-cover object-center"
+                fill
+                className="object-cover object-center"
+                sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>
           </div>

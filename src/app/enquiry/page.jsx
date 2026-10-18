@@ -1,6 +1,7 @@
 'use client'
 
 import axios from 'axios'
+import { pushLeadEvent, pushFileUpload } from '@/lib/gtm'
 import { useForm, Controller } from 'react-hook-form'
 import { useState } from 'react'
 import { PhoneInput } from '@/components/ui/phone-input'
@@ -154,6 +155,10 @@ export default function EnquiryPage() {
 
       setEnquiryId(res.data?.enquiryId || '')
       setSuccess(true)
+      pushLeadEvent({
+        treatment: selectedTreatments.join(', '),
+        destination: destLabel,
+      })
       reset()
       setSelected([])
       setDest('')
@@ -172,6 +177,7 @@ export default function EnquiryPage() {
         const dt = new DataTransfer()
         dt.items.add(file)
         setValue('image', dt.files, { shouldDirty: true, shouldValidate: true })
+        pushFileUpload()
       } catch {
         document.getElementById('image-input')?.click()
       }
@@ -189,7 +195,7 @@ export default function EnquiryPage() {
 
           {/* Logo */}
           <div className="mx-auto mb-6 w-32">
-            <img src="/sghc-new-logo.png" alt="Sultan GHC" className="w-full h-auto object-contain" />
+            <Image src="/sghc-new-logo.png" alt="Sultan GHC" width={128} height={32} className="w-full h-auto object-contain" />
           </div>
 
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">Enquiry received!</h2>

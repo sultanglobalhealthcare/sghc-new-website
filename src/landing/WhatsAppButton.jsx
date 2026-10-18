@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import { X, ChevronRight, ArrowLeft, Send, User } from 'lucide-react'
+import { pushWhatsAppClick } from '@/lib/gtm'
 
 const PHONE = '16107870713'
 
@@ -88,6 +89,7 @@ export default function WhatsAppButton() {
     const trimmed = name.trim()
     const greeting = trimmed ? `Hi, I'm ${trimmed}. ` : 'Hi. '
     const text = encodeURIComponent(`${greeting}${topic.msg}`)
+    pushWhatsAppClick({ location: 'floating_button' })
     window.open(`https://wa.me/${PHONE}?text=${text}`, '_blank', 'noopener,noreferrer')
     setOpen(false)
   }

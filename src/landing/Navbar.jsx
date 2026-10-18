@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ChevronDown, Menu, X, Phone, MessageCircle, Mail } from 'lucide-react'
 
 // ─── Data ───────────────────────────────────────────────────────────────────
@@ -190,9 +191,11 @@ const Navbar = () => {
 
           {/* Logo */}
           <Link href="/" className="shrink-0 flex items-center">
-            <img
+            <Image
               src="/sghc-new-logo.png"
               alt="Sultan Global Health Care"
+              width={160}
+              height={40}
               className="h-10 w-auto"
             />
           </Link>
@@ -414,7 +417,7 @@ const Navbar = () => {
       >
         {/* Drawer header */}
         <div className="flex items-center justify-between px-5 py-4 border-b border-gray-100 shrink-0">
-          <img src="/sghc-new-logo.png" alt="Sultan Global Health Care" className="h-8 w-auto" />
+          <Image src="/sghc-new-logo.png" alt="Sultan Global Health Care" width={128} height={32} className="h-8 w-auto" />
           <button
             aria-label="Close menu"
             onClick={closeMobile}
