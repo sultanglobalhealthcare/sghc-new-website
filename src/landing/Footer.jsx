@@ -44,19 +44,22 @@ const VISA_LINKS = [
 ]
 
 const RESOURCE_LINKS = [
-  { name: 'Blog',                      href: '/blog' },
-  { name: 'Medical Tourism Guide',     href: '/resources/medical-tourism-guide' },
-  { name: 'Treatment Cost Comparison', href: '/resources/cost-comparison' },
-  // { name: 'Patient Stories',        href: '/patient-stories' },  // PLANNED — hidden until content is ready
+  // Blog & Resources — links hidden until pages are live
+  // { name: 'Blog',                      href: '/blog' },
+  // { name: 'Medical Tourism Guide',     href: '/resources/medical-tourism-guide' },
+  // { name: 'Treatment Cost Comparison', href: '/resources/cost-comparison' },
+  // { name: 'Patient Stories',           href: '/patient-stories' },
   { name: 'FAQs',                      href: '/faq' },
+  { name: 'How It Works',              href: '/how-it-works' },
+  { name: 'Why Sultan GHC',            href: '/why-sultan-ghc' },
 ]
 
 const LEGAL_LINKS = [
-  { name: 'Privacy Policy',        href: '/privacy-policy' },
-  { name: 'Terms & Conditions',    href: '/terms' },
-  { name: 'Cookie Policy',         href: '/cookie-policy' },
-  { name: 'Disclaimer',            href: '/disclaimer' },
-  { name: 'Accessibility Statement', href: '/accessibility' },
+  { name: 'Privacy Policy',     href: '/privacy-policy' },
+  { name: 'Terms & Conditions', href: '/terms' },
+  { name: 'Cookie Policy',      href: '/cookie-policy' },
+  { name: 'Disclaimer',         href: '/disclaimer' },
+  // { name: 'Accessibility Statement', href: '/accessibility' }, // PLANNED
 ]
 
 const SOCIAL_LINKS = [

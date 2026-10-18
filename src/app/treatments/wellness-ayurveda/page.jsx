@@ -39,7 +39,7 @@ export const metadata = {
     title: 'Ayurveda & Wellness in India | Sultan GHC',
     description: 'Panchakarma, yoga therapy, and holistic healing in Kerala — guided by Sultan GHC.',
   },
-  alternates: { canonical: 'https://www.sultanglobalhealthcare.com/treatments/wellness-ayurveda' },
+  alternates: { canonical: 'https://www.sultanghc.com/treatments/wellness-ayurveda' },
 }
 
 // ─── Structured Data ──────────────────────────────────────────────────────────
@@ -48,9 +48,9 @@ const breadcrumbSchema = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.sultanglobalhealthcare.com' },
-    { '@type': 'ListItem', position: 2, name: 'Treatments', item: 'https://www.sultanglobalhealthcare.com/treatments' },
-    { '@type': 'ListItem', position: 3, name: 'Wellness & Ayurveda', item: 'https://www.sultanglobalhealthcare.com/treatments/wellness-ayurveda' },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.sultanghc.com' },
+    { '@type': 'ListItem', position: 2, name: 'Treatments', item: 'https://www.sultanghc.com/treatments' },
+    { '@type': 'ListItem', position: 3, name: 'Wellness & Ayurveda', item: 'https://www.sultanghc.com/treatments/wellness-ayurveda' },
   ],
 }
 
@@ -282,7 +282,7 @@ export default function WellnessAyurvedaPage() {
                   Request a Wellness Plan
                 </Link>
                 <a
-                  href="https://wa.me/15551234567"
+                  href="https://wa.me/16107870713"
                   className="inline-flex items-center gap-2 bg-green-600 text-white text-sm font-semibold px-6 py-3 rounded-full hover:bg-green-700 transition-all"
                 >
                   <MessageCircle size={15} />
@@ -636,7 +636,7 @@ export default function WellnessAyurvedaPage() {
               <ArrowRight size={16} />
             </Link>
             <a
-              href="https://wa.me/15551234567"
+              href="https://wa.me/16107870713"
               className="inline-flex items-center gap-2 border border-white/40 text-white text-sm font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition-all"
             >
               <MessageCircle size={15} />

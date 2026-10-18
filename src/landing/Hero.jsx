@@ -58,7 +58,7 @@ const Hero = () => {
                 <span className="inline-flex items-center justify-center w-6 h-6 bg-white/20 rounded-full group-hover:bg-white/30 transition-colors text-sm">→</span>
               </Link>
               <a
-                href="https://wa.me/15551234567"
+                href="https://wa.me/16107870713"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 border border-gray-200 bg-white text-gray-700 font-semibold px-7 py-3.5 rounded-full hover:border-gray-300 hover:shadow-md transition-all"

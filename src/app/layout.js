@@ -18,7 +18,7 @@ const outfit = Outfit({
 export const metadata = {
   title: {
     default: 'Sultan GHC | U.S.-Based Medical Tourism Concierge — India & Türkiye',
-    template: '%s | Sultan GHC',
+    template: '%s',
   },
   description:
     'Sultan Global Health Care (SGHC) is a United States-based medical tourism concierge connecting U.S. patients with JCI-accredited hospitals and specialist doctors in India and Türkiye. Save 60–80% on world-class medical treatment.',

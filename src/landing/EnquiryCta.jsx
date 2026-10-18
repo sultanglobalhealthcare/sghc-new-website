@@ -46,7 +46,7 @@ const EnquiryCta = () => {
                 Request a Free Medical Opinion →
               </Link>
               <a
-                href="https://wa.me/15551234567"
+                href="https://wa.me/16107870713"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-white/15 border border-white/30 text-white font-semibold px-8 py-4 rounded-full hover:bg-white/25 transition-colors"
