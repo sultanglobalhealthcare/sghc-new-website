@@ -5,7 +5,8 @@ const nextConfig = {
   async redirects() {
     return [
       // ── Broken CTA links ────────────────────────────────────────────────────
-      { source: '/free-consultation', destination: '/enquiry', permanent: true },
+      { source: '/free-consultation', destination: '/enquiry',         permanent: true },
+      { source: '/visa-guide',        destination: '/visa-guide/india', permanent: false },
 
       // ── Planned pages (redirect to nearest live equivalent) ─────────────────
       { source: '/blog',                              destination: '/faq',                    permanent: false },
